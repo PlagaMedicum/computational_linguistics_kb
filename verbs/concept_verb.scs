@@ -1,0 +1,105 @@
+concept_verb
+<-sc_node_not_relation;;
+
+
+concept_verb => nrel_main_idtf:
+	[глагол](* <-lang_ru;; *);
+    [verb](* <-lang_en;; *);;
+
+concept_verb <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: глагол] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: verb] (* <- lang_en;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Глагол - разряд слов, которые обозначают действие или состояние предмета как процесс.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Verb - that in syntax conveys an action (bring, read, walk, run, learn), an occurrence (happen, become), or a state of being (be, exist, stand).](*<- lang_en;;*);;
+			*);;
+		*);;
+
+
+concept_verb <- rrel_key_sc_element:...
+		(*
+		=> nrel_main_idtf: [Утверждение: ] (* <- lang_ru;; *);;
+		<- sc_statement;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[В русском языке все возвратные глаголы непереходные.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[In russian language all the reflexive verbs are intransitive.](*<- lang_en;;*);;
+			*);;
+*);;
+
+concept_verb<=nrel_subdividing:
+{
+    concept_reflexive_verb;
+    concept_inreflexive_verb
+};;
+
+concept_verb<=nrel_subdividing:
+{
+    concept_transitive_verb;
+    concept_intransitive_verb
+};;
+
+concept_verb<=nrel_subdividing:
+{
+    concept_1_conjugation;
+    concept_2_conjugation;
+    concept_irregularly_conjugated;
+    concept_mixed_conjugation
+};;
+
+concept_verb<=nrel_subdividing:
+{
+    concept_active_voice;
+    concept_passive_voice;
+    concept_reflexive_voice
+};;
+
+concept_verb<=nrel_subdividing:
+{
+    nrel_past_tense;
+    nrel_present_tense;
+    nrel_future_tense
+};;
+
+concept_verb<=nrel_subdividing:
+{
+    nrel_feminine_gender;
+    nrel_musculine_gender;
+    nrel_neuter_gender
+};;
+
+concept_verb<=nrel_subdividing:
+{
+    nrel_first_person;
+    nrel_second_person;
+    nrel_third_person
+};;
+
+concept_verb<=nrel_subdividing:
+{
+    nrel_optative_mood;
+    nrel_jussive_mood;
+    nrel_hortative_mood;
+    nrel_injunctive_mood;
+    nrel_prohibitive_mood
+};;
+
+concept_verb<=nrel_subdividing:
+{
+    nrel_singular_number;
+    nrel_plural_number
+};;
+
+concept_verb<=nrel_subdividing:
+{
+    nrel_perfective_aspect;
+    nrel_imperfective_aspect
+};;
