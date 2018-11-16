@@ -1,18 +1,16 @@
 verb
 <-sc_node_not_relation;
 <-part_of_speech;;
-
-
 verb => nrel_main_idtf:
 	[глагол](* <-lang_ru;; *);
     [verb](* <-lang_en;; *);;
-
 verb <- rrel_key_sc_element: 
 		... 
 		(*
 		<- sc_definition;;
 		=> nrel_main_idtf: [Определение: глагол] (* <- lang_ru;; *);;
 		=> nrel_main_idtf: [Definition: verb] (* <- lang_en;; *);;
+        <- definition;;
 		<= nrel_sc_text_translation: ...
 			(*
 			-> rrel_example: 
@@ -27,18 +25,22 @@ verb <- rrel_key_sc_element:
                 -> nrel_process_statement_of_object;;
             *);;
 		*);;
-
-
 verb <- rrel_key_sc_element:...
 		(*
-		=> nrel_main_idtf: [Утверждение: ] (* <- lang_ru;; *);;
-		<- sc_statement;;
+        <- explanation;;
+        -> rrel_key_sc_element:
+        {
+            reflexive_verb;
+            intransitive_verb
+        };;
+		=> nrel_main_idtf: 
+            [Утв.(глагол, возвратный глагол, непереходный глагол)] (* <- lang_ru;; *);
+            [Expl.(verb, reflexive verb, intransitive verb)] (* <- lang_eng;; *);;
 		<= nrel_sc_text_translation: ...
 			(*
-			-> rrel_example: 
-				[В русском языке все возвратные глаголы непереходные.](*<- lang_ru;;*);;
-			-> rrel_example: 
-				[In russian language all the reflexive verbs are intransitive.](*<- lang_en;;*);;
+			    -> rrel_example: 
+			    	[В русском языке все возвратные глаголы непереходные.](*<- lang_ru;;*);
+			    	[In russian language all the reflexive verbs are intransitive.](*<- lang_en;;*);;
 			*);;
 *);;
 
@@ -92,11 +94,9 @@ verb<=nrel_subdividing:
 
 verb<=nrel_subdividing:
 {
-    nrel_optative_mood;
-    nrel_jussive_mood;
-    nrel_hortative_mood;
-    nrel_injunctive_mood;
-    nrel_prohibitive_mood
+    nrel_imperative_mood;
+    nrel_indicative_mood;
+    nrel_subjunctive_mood
 };;
 
 verb<=nrel_subdividing:
