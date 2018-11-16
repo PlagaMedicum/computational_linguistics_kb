@@ -9,7 +9,6 @@
 5. [Отправка изменений (с ветки master)](#pushing)
 6. [Получение изменений](#pulling)
 7. [Основные ссылки](#links)
-8. [Краткая информация о содержимом](#content)
 
 ### <a name="instruction"></a> Инструкция по созданию своей копии базы
 - Вилкануть себе репозиторий (вверху есть кнопка Fork)
@@ -83,23 +82,6 @@ git merge main
 
 ### <a name="links"></a> Основные ссылки
 - [Google Tab]
-
-### <a name="content"></a> Краткая информация о содержимом
-- Agents - папка с агентами
-- Concepts - папка с понятиями (все понятия нужно переместить в разделы и удалить)
-- Elements - папка с химическими элементами
-- Sections - декомпозиция базы
-- Additional - папка с понятиями, которые не относятся к основным разделам
-    - Agents - файлы, необходимые для агентов, но неотносящиеся к системе
-	- Parameters - параметры (степени окисления, группы, периоды, числа)
-- menu - элементы меню (вопросы, агенты)
-- Substances - папка с химическими веществами
-- [README.md](PlagaMedicum/computational_linguistics_kb/blob/README.md) - read me файл
-- concepts.scs - абсолютные понятия и идентификаторы, которых нет в базе, но на них есть ссылки
-- nrels.scs - относительные понятия и идентификаторы, которых нет в базе, но на них есть ссылки
-- rrels.scs - ролевые понятия и идентификаторы, которых нет в базе, но на них есть ссылки
-
-[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
 
    [Google Tab]: <https://vk.com/away.php?to=https%3A%2F%2Fdocs.google.com%2Fspreadsheets%2Fd%2F18nNCC-Ydy1ah3_SeUuJ8MQDD3im1HLbOKU62bB0T5bw%2Fedit%3Fusp%3Ddrivesdk&cc_key=>
