@@ -1,7 +1,7 @@
-concept_tense
+tense
 <-sc_node_not_relation;;
 
-concept_tense
+tense
 ->nrel_past_tense;
 ->nrel_present_tense;
 ->nrel_future_tense;;

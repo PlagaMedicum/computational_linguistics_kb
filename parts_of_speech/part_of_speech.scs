@@ -1,0 +1,23 @@
+part_of_speech
+<-sc_node_not_relation;;
+
+part_of_speech => nrel_main_idtf:
+	[часть речи](* <-lang_ru;; *);
+    [part of speech](* <-lang_en;; *);;
+verb <- rrel_key_sc_element:...
+		(*
+		=> nrel_main_idtf: [Утверждение: ] (* <- lang_ru;; *);;
+		<- sc_statement;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Категория слов языка, имеющих схожие грамматичесские свойства.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[A category of words which have similar grammatical properties.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> category_of_words;;
+                -> grammatical_property;;
+            *);;
+*);;
