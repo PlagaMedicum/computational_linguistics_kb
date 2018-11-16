@@ -4,10 +4,14 @@ verb
 verb => nrel_main_idtf:
 	[глагол](* <-lang_ru;; *);
     [verb](* <-lang_en;; *);;
+verb -> rrel_example: ...
+(*
+    => nrel_main_idtf: [перерассредотачиваться](*<- lang_ru;;*);;
+*);;
 verb <- rrel_key_sc_element: 
 		... 
 		(*
-		<- sc_definition;;
+		<- definition;;
 		=> nrel_main_idtf: [Определение: глагол] (* <- lang_ru;; *);;
 		=> nrel_main_idtf: [Definition: verb] (* <- lang_en;; *);;
         <- definition;;
