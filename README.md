@@ -5,8 +5,8 @@
 1. [Инструкция по созданию своей копии базы](#instruction)
 2. [Установка системы](#installing)
 3. [Запуск системы](#start)
-4. [Клонирование базы (ТОЛЬКО НА ПУСТОЙ OSTIS)](#cloning)
-5. [Отправка изменений (с ветки master)](#pushing)
+4. [Клонирование базы](#cloning)
+5. [Отправка изменений](#pushing)
 6. [Получение изменений](#pulling)
 7. [Основные ссылки](#links)
 
@@ -40,36 +40,26 @@ cd ostis/scripts
 localhost:8000
 ```
 
-### <a name="cloning"></a> Клонирование базы (ТОЛЬКО НА ПУСТОЙ OSTIS)
+### <a name="cloning"></a> Клонирование базы
 Открываем терминал
 ```sh
-cd ostis
-```
-ВНИМАНИЕ!!! Следующая команда удалит папку kb (совсем, полностью, без возможности восстановления, но вы и так должны это знать)
+cd ostis/kb
 ```sh
-rm -f -R  kb
-git clone ссылкаНаВашуКопиюРепозитория kb
-cd kb
+git clone ссылкаНаВашуКопиюРепозитория
+cd НазваниеПапкиСВашейКопиейРепы
 git remote add mainRepository https://github.com/PlagaMedicum/computational_linguistics_kb
 git fetch mainRepository
 git checkout -b main mainRepository/master
 git checkout master
-
 ```
 
-### <a name="pushing"></a> Отправка изменений (с ветки master)
+### <a name="pushing"></a> Отправка изменений
 - Закоммитить и залить на свой репозиторий локальные изменения
 ```sh
 git add .
 git commit -m "commit description"
 git push
 ```
-- Рекомендуется ознакомиться с [данной](https://htmlacademy.ru/blog/27-how-to-squash-commits-and-why-it-is-needed) статьёй: много маленьких коммитов это, конечно, хорошо, но склеивайте хотя бы такие коммиты, как:
-> Merge pull request
-> Merge remote-tracking branch 'upstream/master' 
-- Создать пуллреквест c комментарием в формате: 
-> [Имя Фамилия] Комментарий.
-- Отметить в [Google Tab]
 
 ### <a name="pulling"></a> Получение изменений
 - Изменения на ветке master должны быть закомичены и, желательно, приняты мной
@@ -84,6 +74,6 @@ git merge main
 - [Google Tab]
 
 
-   [Google Tab]: <https://vk.com/away.php?to=https%3A%2F%2Fdocs.google.com%2Fspreadsheets%2Fd%2F18nNCC-Ydy1ah3_SeUuJ8MQDD3im1HLbOKU62bB0T5bw%2Fedit%3Fusp%3Ddrivesdk&cc_key=>
+   [Google Tab]: <https://docs.google.com/spreadsheets/d/18nNCC-Ydy1ah3_SeUuJ8MQDD3im1HLbOKU62bB0T5bw/edit?usp=drivesdk>
    [OSTIS]: <https://github.com/ShunkevichDV/ostis>
    [База Знаний IMS]: <https://github.com/ShunkevichDV/ims.ostis.kb>
