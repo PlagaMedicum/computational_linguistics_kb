@@ -1,8 +1,8 @@
-part_of_speech
+section_subjdomain_part_of_speech
 => nrel_main_idtf:
-	[часть речи](* <-lang_ru;; *);
- 	[part of speech](* <-lang_en;; *);
-<-sc_node_not_relation;
+	[Раздел. Часть речи](* <-lang_ru;; *);
+ 	[Section. Part of speech](* <-lang_en;; *);
+<-atomic_section;
 <- rrel_key_sc_element: 
 		... 
 		(*

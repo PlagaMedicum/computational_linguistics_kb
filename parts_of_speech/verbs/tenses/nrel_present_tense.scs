@@ -1,2 +1,5 @@
 nrel_present_tense
+=> nrel_main_idtf:
+	[Настоящее время](* <-lang_ru;; *);
+ 	[Present tense](* <-lang_en;; *);
 <-sc_node_norole_relation;;

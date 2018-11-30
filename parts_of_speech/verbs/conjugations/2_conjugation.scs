@@ -1,2 +1,5 @@
 2_conjugation
+=> nrel_main_idtf:
+	[II-е спряжение](* <-lang_ru;; *);
+    [2-d conjugation](* <-lang_en;; *);
 <- sc_node_not_relation;;

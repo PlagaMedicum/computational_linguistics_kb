@@ -1,115 +1,107 @@
 verb
 <-sc_node_not_relation;
-<-part_of_speech;;
-verb => nrel_main_idtf:
-	[глагол](* <-lang_ru;; *);
-    [verb](* <-lang_en;; *);;
-verb -> rrel_example: ...
+<-section_subjdomain_part_of_speech;
+=> nrel_main_idtf:
+[глагол](* <-lang_ru;; *);
+[verb](* <-lang_en;; *);
+-> rrel_example: ...
 (*
     => nrel_main_idtf: [перерассредотачиваться](*<- lang_ru;;*);;
-*);;
-verb <- rrel_key_sc_element: 
-		... 
-		(*
-		<- definition;;
-		=> nrel_main_idtf: [Определение: глагол] (* <- lang_ru;; *);;
-		=> nrel_main_idtf: [Definition: verb] (* <- lang_en;; *);;
-        <- definition;;
-		<= nrel_sc_text_translation: ...
-			(*
-			-> rrel_example: 
-				[Глагол - разряд слов, которые обозначают действие или состояние предмета как процесс.](*<- lang_ru;;*);;
-			-> rrel_example: 
-				[Verb - that in syntax conveys an action (bring, read, walk, run, learn), an occurrence (happen, become), or a state of being (be, exist, stand).](*<- lang_en;;*);;
-			*);;
-            <= nrel_using_constants: ...
-            (*
-                -> word_rank;;
-                -> nrel_action;;
-                -> nrel_process_statement_of_object;;
-            *);;
-		*);;
-verb <- rrel_key_sc_element:...
-		(*
-        <- explanation;;
-        -> rrel_key_sc_element:
-        {
-            reflexive_verb;
-            intransitive_verb
-        };;
-		=> nrel_main_idtf: 
-            [Утв.(глагол, возвратный глагол, непереходный глагол)] (* <- lang_ru;; *);
-            [Expl.(verb, reflexive verb, intransitive verb)] (* <- lang_eng;; *);;
-		<= nrel_sc_text_translation: ...
-			(*
-			    -> rrel_example: 
-			    	[В русском языке все возвратные глаголы непереходные.](*<- lang_ru;;*);
-			    	[In russian language all the reflexive verbs are intransitive.](*<- lang_en;;*);;
-			*);;
-*);;
+*);
+<- rrel_key_sc_element: definition_verb
+(*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (глагол)] (* <- lang_ru;; *);
+        [Def. (verb)] (* <- lang_en;; *);;
+    <= nrel_sc_text_translation: ...
+    (*
+        -> rrel_example: 
+            [Глагол - разряд слов, которые обозначают действие или состояние предмета как процесс.](*<- lang_ru;;*);
+            [Verb - that in syntax conveys an action (bring, read, walk, run, learn), an occurrence (happen, become), or a state of being (be, exist, stand).](*<- lang_en;;*);;
+    *);;
+    <= nrel_using_constants: ...
+    (*
+        -> category_of_words;;
+        -> nrel_action;;
+        -> nrel_process_statement_of_object;;
+    *);;
+*);
+<- rrel_key_sc_element: ...
+(*
+    <- explanation;;
+    -> rrel_key_sc_element:
+    {
+        reflexive_verb;
+        intransitive_verb
+    };;
+    => nrel_main_idtf: 
+        [Утв.(глагол, возвратный глагол, непереходный глагол)] (* <- lang_ru;; *);
+        [Expl.(verb, reflexive verb, intransitive verb)] (* <- lang_eng;; *);;
+    <= nrel_sc_text_translation: ...
+    (*
+        -> rrel_example: 
+            [В русском языке все возвратные глаголы непереходные.](*<- lang_ru;;*);
+            [In russian language all the reflexive verbs are intransitive.](*<- lang_en;;*);;
+    *);;
+*);
 
-verb<=nrel_subdividing:
-{
-    reflexive_verb;
-    inreflexive_verb
-};;
-
-verb<=nrel_subdividing:
+<=nrel_subdividing:
 {
     transitive_verb;
     intransitive_verb
-};;
+};
 
-verb<=nrel_subdividing:
+<=nrel_subdividing:
 {
     1_conjugation;
     2_conjugation;
     irregularly_conjugated;
     mixed_conjugation
-};;
+};
 
-verb<=nrel_subdividing:
+<=nrel_subdividing:
 {
     active_voice;
     passive_voice;
     reflexive_voice
-};;
+};
 
-verb<=nrel_subdividing:
+<=nrel_subdividing:
 {
     nrel_past_tense;
     nrel_present_tense;
     nrel_future_tense
-};;
+};
 
-verb<=nrel_subdividing:
+<=nrel_subdividing:
 {
     nrel_feminine_gender;
     nrel_musculine_gender;
     nrel_neuter_gender
-};;
+};
 
-verb<=nrel_subdividing:
+<=nrel_subdividing:
 {
     nrel_first_person;
     nrel_second_person;
     nrel_third_person
-};;
+};
 
-verb<=nrel_subdividing:
+<=nrel_subdividing:
 {
     nrel_imperative_mood;
     nrel_indicative_mood;
     nrel_subjunctive_mood
-};;
+};
 
-verb<=nrel_subdividing:
+<=nrel_subdividing:
 {
     nrel_singular_number;
     nrel_plural_number
-};;
+};
 
-verb<=nrel_subdividing:
+<=nrel_subdividing:
 {
     nrel_perfective_aspect;
     nrel_imperfective_aspect

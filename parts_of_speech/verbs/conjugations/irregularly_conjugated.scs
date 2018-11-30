@@ -1,2 +1,5 @@
 irregularly_conjugated
+=> nrel_main_idtf:
+	[разноспрягаемое](* <-lang_ru;; *);
+    [irregularly conjugated](* <-lang_en;; *);
 <- sc_node_not_relation;;

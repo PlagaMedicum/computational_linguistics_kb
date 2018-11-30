@@ -1,2 +1,27 @@
 nrel_perfective_aspect
+=> nrel_main_idtf:
+	[Совершенный вид](* <-lang_ru;; *);
+ 	[Perfective aspect](* <-lang_en;; *);
+=> nrel_idtf:
+	[Aoristic aspect](* <-lang_en;; *);
+    [Перфективный вид](* <-lang_ru;; *);
+    [Аористический вид](* <-lang_ru;; *);
+<- rrel_key_sc_element: definition_reflexive_voice
+(*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (средневозвратный залог)](*<- lang_ru;;*);
+        [Def. (passive voice)](*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...
+    (*
+        -> rrel_example:
+            [Пассивный залог — форма перехоного глагола, субъект которого испытывает на себе определённое действие.](*<- lang_ru;;*);
+            [Passive voice — the form of a transitive verb in which its subject receives the action. ](*<- lang_en;;*);;
+    *);;
+/*	<= nrel_using_constants:...
+    (*
+        -> ;;
+        -> ;;
+    *);;*/
+*);
 <-sc_node_norole_relation;;

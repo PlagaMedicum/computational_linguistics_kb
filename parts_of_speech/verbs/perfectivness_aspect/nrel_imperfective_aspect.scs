@@ -1,2 +1,5 @@
 nrel_imperfective_aspect
+=> nrel_main_idtf:
+	[Несовершенный вид](* <-lang_ru;; *);
+ 	[Imperfective aspect](* <-lang_en;; *);
 <-sc_node_norole_relation;;
