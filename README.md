@@ -25,14 +25,14 @@ sudo apt-get install git
 ```sh
 git clone https://github.com/ShunkevichDV/ostis
 ```
-## Для Ubuntu 16.04
+#### Для Ubuntu 16.04
 ```sh
 cd ostis/scripts
 ./prepare.sh
 ```
 Везде пишем "y", вводим пароль от кредитной карточки, ждём подтверждения.
 
-## Для Ubuntu 18.04
+#### Для Ubuntu 18.04
 Скачиваем архивы по ссылке:
 https://drive.google.com/open?id=1aF7rNgOWykf3TnyDlgnkeQ_sDGRZ2UAM
 
@@ -63,7 +63,7 @@ chmod ugo+x ПутьКФайлу
 ```sh
 cd ostis/scripts
 ```
-## Для Ubuntu 16.04
+#### Для Ubuntu 16.04
 ```sh
 ./restart_sctp.sh
 ```
@@ -75,5 +75,5 @@ cd ostis/scripts
 ```sh
 localhost:8000
 ```
-## Для Ubuntu 18.04 
+#### Для Ubuntu 18.04 
 Делаем то же самое, но дописываем sudo в командах.
