@@ -1,0 +1,21 @@
+noun_preposition
+<- sc_node_not_relation;;
+
+noun_preposition=>nrel_main_idtf:
+    [отымённый предлог](* <-lang_ru;; *);
+    [noun preposition](* <-lang_en;; *);;
+    
+
+noun_preposition <- rrel_key_sc_element: 
+		... 
+        (*
+             <- sc_definition;;
+            => nrel_main_idtf: [Определение: отымённый предлог] (* <- lang_ru;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [отымённый  предлог - предлог,образованный от  .](*<- lang_ru;;*);;
+            *);;
+        *);;
+

@@ -1,0 +1,22 @@
+defining_preposition
+<- sc_node_not_relation;;
+
+defining_preposition => nrel_main_idtf:
+    [определительный предлог](* <-lang_ru;; *);
+    [defining preposition](* <-lang_en;; *);;
+
+defining_preposition <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_idtf: [Определение: определительный предлог] (* <- lang_ru;; *);;
+            => nrel_idtf: [Definition: defining preposition] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [определительный предлог - .](*<- lang_ru;;*);;
+                -> rrel_example:
+                [defining prepositions - .](*<- lang_en;;*);;
+            *);;
+        *);;

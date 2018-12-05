@@ -1,0 +1,22 @@
+accompanyaing_preposition 
+<- sc_node_not_relation;;
+
+accompanyaing_preposition => nrel_main_idtf:
+    [сопроводительный предлог](* <-lang_ru;; *);
+    [accompanyaing preposition](* <-lang_en;; *);;
+
+accompanyaing_preposition <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_idtf: [Определение: сопроводительный предлог] (* <- lang_ru;; *);;
+            => nrel_idtf: [Definition: accompanyaing preposition] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [сопроводительный предлог - .](*<- lang_ru;;*);;
+                -> rrel_example:
+                [accompanyaing prepositions - .](*<- lang_en;;*);;
+            *);;
+        *);;

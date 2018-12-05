@@ -1,0 +1,22 @@
+object_preposition
+<- sc_node_not_relation;;
+
+object_preposition => nrel_main_idtf:
+    [объектный предлог](* <-lang_ru;; *);
+    [object prepositions](* <-lang_en;; *);;
+
+object_preposition <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_idtf: [Определение: объектный предлог] (* <- lang_ru;; *);;
+            => nrel_idtf: [Definition: object prepositions] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [объектный предлог - .](*<- lang_ru;;*);;
+                -> rrel_example:
+                [object prepositions - .](*<- lang_en;;*);;
+            *);;
+        *);;

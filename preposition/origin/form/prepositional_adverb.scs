@@ -1,0 +1,20 @@
+prepositional_adverb
+<- sc_node_not_relation;;
+
+prepositional_adverb=>nrel_main_idtf:
+    [наречный предлог](* <-lang_ru;; *);
+    [prepositional adverb](* <-lang_en;; *);;
+
+prepositional_adverb <- rrel_key_sc_element: 
+		... 
+        (*
+             <- sc_definition;;
+            => nrel_main_idtf: [Определение: наречный предлог] (* <- lang_ru;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [наречный предлог - предлог,образованный от наречий .](*<- lang_ru;;*);;
+            *);;
+        *);;
+
