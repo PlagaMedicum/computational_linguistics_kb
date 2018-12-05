@@ -1,0 +1,20 @@
+verb_preposition
+<- sc_node_not_relation;;
+
+verb_preposition=>nrel_main_idtf:
+    [глагольный предлог](* <-lang_ru;; *);
+    [verb preposition](* <-lang_en;; *);;
+
+verb_preposition <- rrel_key_sc_element: 
+		... 
+        (*
+             <- sc_definition;;
+            => nrel_main_idtf: [Определение: глагольный предлог] (* <- lang_ru;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [глагольный предлог - предлог,образованный от глагола или глагольных форм .](*<- lang_ru;;*);;
+            *);;
+        *);;
+

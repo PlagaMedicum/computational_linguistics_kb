@@ -1,0 +1,60 @@
+preposition
+<-sc_node_not_relation;
+<-part_of_speech;;
+preposition=>nrel_main_idtf:
+    [предлог](* <-lang_ru;; *);
+    [preposition](* <-lang_en;; *);;
+preposition <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: предлог] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: prepositions] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [предлог - служебная часть речи, выражающая синтаксическую зависимость имен существительных, местоимений, числительных от других слов в 
+                словосочетаниях и предложениях. Предлоги, как и все служебные слова, не могут употребляться самостоятельно, они всегда относятся к 
+                какому-нибудь существительному (или слову, употребляемому в функции существительного .](*<- lang_ru;;*);;
+                -> rrel_example:
+                [prepositions - auxilary part of speech???.](*<- lang_en;;*);;
+            *);;
+            <= nrel_using_constants: ...
+            (*
+                ->category_of_words;;
+            *);;
+        *);;
+
+ preposition <= nrel_subdividing:
+{
+    involuntary_preposition;
+    voluntary_preposition
+};;
+
+ preposition <= nrel_subdividing:
+{
+    simple_preposition;
+    compound_preposition;
+    composite_preposition
+};;
+
+ preposition <= nrel_subdividing:
+{
+    preposition_with_one_grammatical_case;
+    preposition_with_two_grammatical_cases;
+    preposition_with_three_grammatical_cases
+};;
+
+ preposition <= nrel_subdividing:
+{
+   preposition_of_place;
+   preposition_of_time;
+   Causal_preposition;
+   target_preposition;
+   object_preposition;
+   preposition_of_comparison;
+   defining_preposition;
+   preposition_of_concession;
+   accompanyaing_preposition 
+};;

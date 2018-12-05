@@ -1,0 +1,22 @@
+composite_preposition
+<-sc_node_norole_relation;;
+
+composite_preposition=>nrel_main_idtf:
+    [составной предлог](* <-lang_ru;; *);
+    [composite preposition](* <-lang_en;; *);;
+
+composite_preposition <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_idtf: [Определение: составной предлог] (* <- lang_ru;; *);;
+            => nrel_idtf: [Definition: composite prepositions] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [составной предлог - это предлог,который состоит из двух или более слов](*<- lang_ru;;*);;
+                -> rrel_example:
+                [composite prepositions - .](*<- lang_en;;*);;
+            *);;
+        *);;
