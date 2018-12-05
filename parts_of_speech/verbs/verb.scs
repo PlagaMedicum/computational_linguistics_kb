@@ -18,7 +18,7 @@ verb
     (*
         -> rrel_example: 
             [Глагол - разряд слов, которые обозначают действие или состояние предмета как процесс.](*<- lang_ru;;*);
-            [Verb - that in syntax conveys an action (bring, read, walk, run, learn), an occurrence (happen, become), or a state of being (be, exist, stand).](*<- lang_en;;*);;
+            [Verb - that in syntax conveys an action, an occurrence, or a state of being.](*<- lang_en;;*);;
     *);;
     <= nrel_using_constants: ...
     (*
@@ -42,7 +42,7 @@ verb
     (*
         -> rrel_example: 
             [В русском языке все возвратные глаголы непереходные.](*<- lang_ru;;*);
-            [In russian language all the reflexive verbs are intransitive.](*<- lang_en;;*);;
+            [In russian language all reflexive verbs are intransitive.](*<- lang_en;;*);;
     *);;
 *);
 

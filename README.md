@@ -2,33 +2,69 @@
 База знаний проекта компьютерная лингвистика
 
 ### Содержание
-1. [Инструкция по созданию своей копии базы](#instruction)
-2. [Установка системы](#installing)
-3. [Запуск системы](#start)
-4. [Клонирование базы](#cloning)
-5. [Отправка изменений](#pushing)
-6. [Получение изменений](#pulling)
-7. [Основные ссылки](#links)
+1. [Начало](#intro)
+2. [Установка OSTIS](#installation)
+3. [Запуск OSTIS](#start)
 
-### <a name="instruction"></a> Инструкция по созданию своей копии базы
-- Вилкануть себе репозиторий (вверху есть кнопка Fork)
+### <a name="intro"></a> Начало
+- Делаем себе копию базы(форкаем).
+- Список понятий на формализацию храним на [Google Tab]: <https://docs.google.com/spreadsheets/d/18nNCC-Ydy1ah3_SeUuJ8MQDD3im1HLbOKU62bB0T5bw/edit?usp=drivesdk>
 
-### <a name="installing"></a> Установка системы
-Установка осуществляется с системы ubuntu через терминал
+### <a name="installation"></a> Установка OSTIS
+Рекомендуется ставить систему на Ubuntu версии 16.04, но установка на 18.04 здесь также рассматривается.
+Открываем терминал.
+Загружаем последние обновления системы
 ```sh
-git clone https://github.com/ShunkevichDV/ostis здесьМожноВвестиСвоеНазваниеДляПапкиСистемы
+sudo apt-get update
 ```
-Если не ввести название папки, то она будет называться ostis
+Загружаем гит
+```sh
+sudo apt-get install git
+```
+Клонируем репозиторий с OSTIS'ом.
+```sh
+git clone https://github.com/ShunkevichDV/ostis
+```
+## Для Ubuntu 16.04
 ```sh
 cd ostis/scripts
 ./prepare.sh
 ```
-Если что-то спросит, то соглашаемся, вводим пароль, когда запросит и т.д.
+Везде пишем "y", вводим пароль от кредитной карточки, ждём подтверждения.
 
-### <a name="start"></a> Запуск системы
+## Для Ubuntu 18.04
+Скачиваем архивы по ссылке:
+https://drive.google.com/open?id=1aF7rNgOWykf3TnyDlgnkeQ_sDGRZ2UAM
+
+Распаковываем их в отдельные папки.
+Заходим в папку libs и открываем в ней терминал и пишем:
+```sh
+sudo cp -R * /usr/lib
+```
+Заходим в папку bin и в ней выполняем команду:
+```sh
+sudo cp -R * ~/ostis/sc-machine/bin
+```
+Заходим в папку ostis/scripts и выполняем:
+```sh
+sudo ./prepare.sh
+```
+Соглашаемся на все предложения продатьдушу мэил.ру.
+
+Если пишет, что не имеет прав доступа к каким-то файлам, прописываем:
+```sh
+chmod ugo+x ПутьКФайлу
+```
+
+Надеемся, что при запуске всё будет в норме...
+
+### <a name="start"></a> Запуск OSTIS
 Открываем терминал
 ```sh
 cd ostis/scripts
+```
+## Для Ubuntu 16.04
+```sh
 ./restart_sctp.sh
 ```
 Открываем новую вкладку (CTRL + SHIFT + T)
@@ -39,41 +75,5 @@ cd ostis/scripts
 ```sh
 localhost:8000
 ```
-
-### <a name="cloning"></a> Клонирование базы
-Открываем терминал
-```sh
-cd ostis/kb
-```sh
-git clone ссылкаНаВашуКопиюРепозитория
-cd НазваниеПапкиСВашейКопиейРепы
-git remote add mainRepository https://github.com/PlagaMedicum/computational_linguistics_kb
-git fetch mainRepository
-git checkout -b main mainRepository/master
-git checkout master
-```
-
-### <a name="pushing"></a> Отправка изменений
-- Закоммитить и залить на свой репозиторий локальные изменения
-```sh
-git add .
-git commit -m "commit description"
-git push
-```
-
-### <a name="pulling"></a> Получение изменений
-- Изменения на ветке master должны быть закомичены и, желательно, приняты мной
-```sh
-git checkout main
-git pull
-git checkout master
-git merge main
-```
-
-### <a name="links"></a> Основные ссылки
-- [Google Tab]
-
-
-   [Google Tab]: <https://docs.google.com/spreadsheets/d/18nNCC-Ydy1ah3_SeUuJ8MQDD3im1HLbOKU62bB0T5bw/edit?usp=drivesdk>
-   [OSTIS]: <https://github.com/ShunkevichDV/ostis>
-   [База Знаний IMS]: <https://github.com/ShunkevichDV/ims.ostis.kb>
+## Для Ubuntu 18.04 
+Делаем то же самое, но дописываем sudo в командах.
