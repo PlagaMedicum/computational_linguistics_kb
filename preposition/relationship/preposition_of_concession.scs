@@ -1,0 +1,22 @@
+preposition_of_concession
+<- sc_node_not_relation;;
+
+preposition_of_concession => nrel_main_idtf:
+    [предлог уступки](* <-lang_ru;; *);
+    [preposition of concession](* <-lang_en;; *);;
+
+preposition_of_concession <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_idtf: [Определение: предлог уступки] (* <- lang_ru;; *);;
+            => nrel_idtf: [Definition: preposition of concession] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [предлог уступки - .](*<- lang_ru;;*);;
+                -> rrel_example:
+                [preposition of concession - .](*<- lang_en;;*);;
+            *);;
+        *);;

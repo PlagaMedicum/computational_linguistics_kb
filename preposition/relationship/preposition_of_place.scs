@@ -1,0 +1,22 @@
+preposition_of_place
+<- sc_node_not_relation;;
+
+preposition_of_place => nrel_main_idtf:
+    [пространственный предлог](* <-lang_ru;; *);
+    [preposition of place](* <-lang_en;; *);;
+
+preposition_of_place <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_idtf: [Определение: пространственный предлог] (* <- lang_ru;; *);;
+            => nrel_idtf: [Definition: preposition of place] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [пространственный предлог - .](*<- lang_ru;;*);;
+                -> rrel_example:
+                [preposition of place - .](*<- lang_en;;*);;
+            *);;
+        *);;

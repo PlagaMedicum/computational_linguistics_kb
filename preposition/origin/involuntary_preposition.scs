@@ -1,0 +1,23 @@
+involuntary_preposition
+<- sc_node_not_relation;;
+involuntary_preposition=>nrel_main_idtf:
+    [непроизводный предлог](* <-lang_ru;; *);
+    [involuntary preposition](* <-lang_en;; *);;
+
+
+involuntary_preposition <- rrel_key_sc_element: 
+	... 
+        (*
+             <- sc_definition;;
+            => nrel_main_idtf: [Определение: непроизводный предлог] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: involuntary preposition] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [непроизводный предлог - это предлог, который нельзя связать с образованием от какой-либо части речи](*<- lang_ru;;*);;
+                ->rrel_example;
+                [involuntary preposition - ](*<- lang_en;;*);;
+            *);;
+        *);;
+

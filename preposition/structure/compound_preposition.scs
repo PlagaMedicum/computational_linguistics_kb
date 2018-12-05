@@ -1,0 +1,22 @@
+compound_preposition
+<-sc_node_norole_relation;;
+
+compound_preposition=>nrel_main_idtf:
+    [сложный предлог](* <-lang_ru;; *);
+    [compound preposition](* <-lang_en;; *);;
+
+compound_preposition <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_idtf: [Определение: сложный предлог] (* <- lang_ru;; *);;
+            => nrel_idtf: [Definition: compound prepositions] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [сложный предлог - предлог,который состоит из одного слова,но имеет два слова и пишется через дефис ](*<- lang_ru;;*);;
+                -> rrel_example:
+                [compound prepositions - .](*<- lang_en;;*);;
+            *);;
+        *);;

@@ -1,0 +1,22 @@
+preposition_of_comparison
+<- sc_node_not_relation;;
+
+preposition_of_comparison => nrel_main_idtf:
+    [сравнительно-сопоставительный предлог](* <-lang_ru;; *);
+    [Preposition of Comparison](* <-lang_en;; *);;
+
+preposition_of_comparison <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_idtf: [Определение: сравнительно-сопоставительный предлог] (* <- lang_ru;; *);;
+            => nrel_idtf: [Definition: Preposition of Comparison] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [сравнительно-сопоставительный предлог - .](*<- lang_ru;;*);;
+                -> rrel_example:
+                [Preposition of Comparison - .](*<- lang_en;;*);;
+            *);;
+        *);;
