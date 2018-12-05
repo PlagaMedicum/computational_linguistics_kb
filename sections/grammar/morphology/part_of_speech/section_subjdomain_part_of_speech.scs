@@ -1,0 +1,5 @@
+section_subjdomain_part_of_speech
+=> nrel_main_idtf:
+	[Раздел. Предметня область частей речи](* <-lang_ru;; *);
+ 	[Section. Subject domain of parts of speech](* <-lang_en;; *);
+<-atomic_section;;
