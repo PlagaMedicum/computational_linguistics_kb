@@ -1,0 +1,22 @@
+preposition_of_time
+<- sc_node_not_relation;;
+
+preposition_of_time => nrel_main_idtf:
+    [временной предлог](* <-lang_ru;; *);
+    [preposition of time](* <-lang_en;; *);;
+
+preposition_of_time <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_idtf: [Определение: временной предлог] (* <- lang_ru;; *);;
+            => nrel_idtf: [Definition: preposition of time] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [временной предлог - .](*<- lang_ru;;*);;
+                -> rrel_example:
+                [preposition of time - .](*<- lang_en;;*);;
+            *);;
+        *);;

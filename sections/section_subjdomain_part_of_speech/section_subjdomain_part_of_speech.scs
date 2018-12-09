@@ -1,5 +1,0 @@
-section_subjdomain_part_of_speech
-=> nrel_main_idtf:
-	[Раздел. Часть речи](* <-lang_ru;; *);
- 	[Section. Part of speech](* <-lang_en;; *);
-<-atomic_section;;

@@ -1,0 +1,21 @@
+simple_preposition
+<-sc_node_norole_relation;;
+simple_preposition=>nrel_main_idtf:
+    [простой предлог](* <-lang_ru;; *);
+    [simple preposition](* <-lang_en;; *);;
+
+simple_preposition <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_idtf: [Определение: простой предлог] (* <- lang_ru;; *);;
+            => nrel_idtf: [Definition: simple prepositions] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [простой предлог - предлог, который состоит из одного слова и который имеет одну основу: ](*<- lang_ru;;*);;
+                -> rrel_example:
+                [simple prepositions - .](*<- lang_en;;*);;
+            *);;
+        *);;

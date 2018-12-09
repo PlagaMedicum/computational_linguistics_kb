@@ -1,0 +1,22 @@
+ target_preposition
+ <- sc_node_not_relation;;
+
+  target_preposition => nrel_main_idtf:
+    [целевой предлог](* <-lang_ru;; *);
+    [target preposition](* <-lang_en;; *);;
+
+target_preposition <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_idtf: [Определение: целевой предлог] (* <- lang_ru;; *);;
+            => nrel_idtf: [Definition: target preposition] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [целевой предлог - .](*<- lang_ru;;*);;
+                -> rrel_example:
+                [target preposition - .](*<- lang_en;;*);;
+            *);;
+        *);;

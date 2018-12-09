@@ -1,0 +1,22 @@
+Causal_preposition
+<- sc_node_not_relation;;
+
+Causal_preposition => nrel_main_idtf:
+    [причинный предлог](* <-lang_ru;; *);
+    [Causal preposition](* <-lang_en;; *);;
+
+Causal_preposition <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_idtf: [Определение: причинный предлог] (* <- lang_ru;; *);;
+            => nrel_idtf: [Definition: Causal preposition] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [причинный предлог - .](*<- lang_ru;;*);;
+                -> rrel_example:
+                [Causal prepositions - .](*<- lang_en;;*);;
+            *);;
+        *);;
