@@ -1,0 +1,32 @@
+emotional_interjection
+<-sc_node_norole_relation;;
+
+emotional_interjection=>nrel_main_idtf:
+    [эмоциональное междометие](* <-lang_ru;; *);
+    [emotional interjection](* <-lang_en;; *);;
+
+emotional_interjection<- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_idtf: [Определение: эмоциональное междометие] (* <- lang_ru;; *);;
+            => nrel_idtf: [Definition: emotional interjection] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [эмоциональное междометие - это междометие, которое выражает все многообразие положительных и отрицательных эмоций говорящего субъекта](*<- lang_ru;;*);;
+                -> rrel_example:
+                [emotional interjection - .](*<- lang_en;;*);;
+            *);;
+        *);;
+
+
+emotional_interjection<= nrel_subdividing:
+{
+    positive_interjection;
+    sad_interjection;
+    surprise_interjection;
+    negative_interjection
+
+};;

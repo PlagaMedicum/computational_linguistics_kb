@@ -1,0 +1,22 @@
+composite_interjection
+<-sc_node_norole_relation;;
+
+composite_interjection=>nrel_main_idtf:
+    [составное междометие](* <-lang_ru;; *);
+    [composite interjection](* <-lang_en;; *);;
+
+composite_interjection<- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_idtf: [Определение: составное междометие] (* <- lang_ru;; *);;
+            => nrel_idtf: [Definition: composite interjection] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [составное междометие - это междометие, состоящие из двух и более слов](*<- lang_ru;;*);;
+                -> rrel_example:
+                [composite interjection - .](*<- lang_en;;*);;
+            *);;
+        *);;

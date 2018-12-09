@@ -1,0 +1,22 @@
+etiquette_interjection
+<-sc_node_norole_relation;;
+
+etiquette_interjection=>nrel_main_idtf:
+    [этикетное междометие](* <-lang_ru;; *);
+    [etiquette interjection](* <-lang_en;; *);;
+
+etiquette_interjection<- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_idtf: [Определение: этикетное междометие] (* <- lang_ru;; *);;
+            => nrel_idtf: [Definition: etiquette interjection] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [этикетное междометие - это междометие, которое является формулой речевого этикета](*<- lang_ru;;*);;
+                -> rrel_example:
+                [etiquette interjection - .](*<- lang_en;;*);;
+            *);;
+        *);;

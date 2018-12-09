@@ -1,0 +1,5 @@
+negative_interjection
+<-sc_node_norole_relation;;
+
+negative_interjection=>nrel_main_idtf:
+    [неудовольствие, злость, ирония, презрение, от­вращение ](* <-lang_ru;; *);;

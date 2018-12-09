@@ -1,0 +1,22 @@
+compound_interjection
+<-sc_node_norole_relation;;
+
+compound_interjection=>nrel_main_idtf:
+    [сложное междометие](* <-lang_ru;; *);
+    [compound interjection](* <-lang_en;; *);;
+
+compound_interjection<- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_idtf: [Определение: сложное междометие] (* <- lang_ru;; *);;
+            => nrel_idtf: [Definition: compound interjection] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [сложное междометие - это междометие, состоящие из двух и более основ](*<- lang_ru;;*);;
+                -> rrel_example:
+                [compound interjection - .](*<- lang_en;;*);;
+            *);;
+        *);;

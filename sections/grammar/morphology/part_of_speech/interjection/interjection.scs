@@ -1,0 +1,45 @@
+interjection 
+<-sc_node_not_relation;
+<-part_of_speech;;
+interjection=>nrel_main_idtf:
+    [междометие](* <-lang_ru;; *);
+    [interjection](* <-lang_en;; *);;
+interjection <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: междометие] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: interjection] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [междометие - неизменяемое слово, выражающее какое-нибудь непосредственное чувство.](*<- lang_ru;;*);;
+                -> rrel_example:
+                [interjection - .](*<- lang_en;;*);;
+            *);;
+            <= nrel_using_constants: ...
+            (*
+                ->category_of_words;;
+            *);;
+        *);;
+
+interjection  <= nrel_subdividing:
+{
+    involuntary_interjection ;
+    voluntary_interjection 
+};;
+
+interjection <= nrel_subdividing:
+{
+    simple_interjection;
+    compound_interjection;
+    composite_interjection
+};;
+
+interjection <= nrel_subdividing:
+{
+    motivational_interjection;
+    emotional_interjection;
+    etiquette_interjection
+};;

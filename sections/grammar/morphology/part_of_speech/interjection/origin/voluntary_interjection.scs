@@ -1,0 +1,28 @@
+voluntary_interjection
+<- sc_node_not_relation;;
+
+voluntary_interjection=>nrel_main_idtf:
+    [производное междометие](* <-lang_ru;; *);
+    [voluntary interjection](* <-lang_en;; *);;
+
+
+voluntary_interjection=>nrel_main_idtf:
+    [производное междометие](* <-lang_ru;; *);
+    [voluntary interjection](* <-lang_en;; *);;
+
+    voluntary_interjection <- rrel_key_sc_element: 
+	... 
+        (*
+             <- sc_definition;;
+            => nrel_main_idtf: [Определение: производное междометие] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: voluntary preposition] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [производное междометие - междометие,образованное от слова другой части речи](*<- lang_ru;;*);;
+                ->rrel_example;
+                [voluntary interjection - ](*<- lang_en;;*);;
+            *);;
+        *);;
+

@@ -1,0 +1,28 @@
+motivational_interjection
+<-sc_node_norole_relation;;
+
+motivational_interjection=>nrel_main_idtf:
+    [побудительное междометие](* <-lang_ru;; *);
+    [motivational interjection](* <-lang_en;; *);;
+
+motivational_interjection<- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_idtf: [Определение: побудительное междометие] (* <- lang_ru;; *);;
+            => nrel_idtf: [Definition: motivational interjection] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [побудительное междометие - это междометие, которое выражает побуждение, призыв к действию](*<- lang_ru;;*);;
+                -> rrel_example:
+                [motivational interjection - .](*<- lang_en;;*);;
+            *);;
+        *);;
+
+motivational_interjection<= nrel_subdividing:
+{
+command_interjection;
+call_to_respond_interjection
+};;

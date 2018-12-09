@@ -1,0 +1,23 @@
+involuntary_interjection
+<- sc_node_not_relation;;
+
+involuntary_interjection=>nrel_main_idtf:
+    [непроизводное междометие](* <-lang_ru;; *);
+    [involuntary interjection](* <-lang_en;; *);;
+
+    involuntary_interjection <- rrel_key_sc_element: 
+	... 
+        (*
+             <- sc_definition;;
+            => nrel_main_idtf: [Определение: непроизводное междометие] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: involuntary preposition] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [непроизводное междометие - междометие, которое первоначально образовалось при выражении чувств, эмоций, оно не имеет связи с другими частями речи ](*<- lang_ru;;*);;
+                ->rrel_example;
+                [involuntary interjection - ](*<- lang_en;;*);;
+            *);;
+        *);;
+

@@ -1,0 +1,5 @@
+positive_interjection
+<-sc_node_norole_relation;;
+
+positive_interjection=>nrel_main_idtf:
+    [радость, восхищение, одобрение, восторг ](* <-lang_ru;; *);;

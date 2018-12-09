@@ -1,0 +1,5 @@
+surprise_interjection
+<-sc_node_norole_relation;;
+
+surprise_interjection=>nrel_main_idtf:
+    [удивление, недоумение, испуг, изумление ](* <-lang_ru;; *);;

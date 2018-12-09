@@ -1,0 +1,5 @@
+command_interjection
+<-sc_node_norole_relation;;
+
+command_interjection=>nrel_main_idtf:
+    [приказ, повеление ](* <-lang_ru;; *);;
