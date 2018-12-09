@@ -1,0 +1,22 @@
+simple_interjection
+<-sc_node_norole_relation;;
+
+simple_interjection=>nrel_main_idtf:
+    [простое междометие](* <-lang_ru;; *);
+    [simple interjection](* <-lang_en;; *);;
+
+simple_interjection<- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_idtf: [Определение: простое междометие] (* <- lang_ru;; *);;
+            => nrel_idtf: [Definition: simple interjection] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [простое междометие - это междометие, состоящие из одного слова](*<- lang_ru;;*);;
+                -> rrel_example:
+                [simple interjection - .](*<- lang_en;;*);;
+            *);;
+        *);;
