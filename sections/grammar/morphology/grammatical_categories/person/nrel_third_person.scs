@@ -1,5 +1,0 @@
-nrel_third_person
-=> nrel_main_idtf:
-	[Третье лицо](* <-lang_ru;; *);
- 	[Third person](* <-lang_en;; *);
-<-sc_node_norole_relation;;

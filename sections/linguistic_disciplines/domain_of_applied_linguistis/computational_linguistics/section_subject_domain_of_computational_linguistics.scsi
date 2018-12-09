@@ -1,0 +1,12 @@
+subject_domain_of_computational_linguistics
+<- subject_domain;
+<- not_enough_formed_structure;
+
+=> nrel_main_idtf: 
+	[Предметная область компьютерной лингистики]
+	(* <- lang_ru;;*);
+	[Subject domain of comptational linguistics]
+	(* <- lang_en;; *);
+
+-> rrel_maximum_studied_object_class: 
+	computational_linguistics;;

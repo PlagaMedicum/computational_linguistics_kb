@@ -1,0 +1,105 @@
+verb
+    <-sc_node_not_relation;
+    //<-section_subjdomain_part_of_speech;
+
+    => nrel_main_idtf:
+        [глагол](* <-lang_ru;; *);
+        [verb](* <-lang_en;; *);
+
+    -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [перерассредотачиваться](*<- lang_ru;;*);
+            [to redistribute](*<- lang_en;;*);;
+    *);
+
+    <- rrel_key_sc_element: definition_verb
+    (*
+        <- definition;;
+        => nrel_main_idtf: 
+            [Опр. (глагол)] (* <- lang_ru;; *);
+            [Def. (verb)] (* <- lang_en;; *);;
+        <= nrel_sc_text_translation: ...
+        (*
+            -> rrel_example: 
+                [Глагол - разряд слов, которые обозначают действие или состояние предмета как процесс.](*<- lang_ru;;*);
+                [Verb - that in syntax conveys an action, an occurrence, or a state of being.](*<- lang_en;;*);;
+        *);;
+        <= nrel_using_constants: ...
+        (*
+            ->category_of_words;;
+            ->nrel_action;;
+            ->nrel_process_statement_of_object;;
+        *);;
+    *);
+
+    <- rrel_key_sc_element: ...
+    (*
+        <- explanation;;
+        <- reflexive_verb;;
+        <- intransitive_verb;;
+        => nrel_main_idtf: 
+            [Утв.(глагол, возвратный глагол, непереходный глагол)] (* <- lang_ru;; *);
+            [Expl.(verb, reflexive verb, intransitive verb)] (* <- lang_eng;; *);;
+        <= nrel_sc_text_translation: ...
+        (*
+            -> rrel_example: 
+                [В русском языке все возвратные глаголы непереходные.](*<- lang_ru;;*);
+                [In russian language all reflexive verbs are intransitive.](*<- lang_en;;*);;
+        *);;
+    *);
+
+    <=nrel_subdividing:
+    {
+        transitive_verb;
+        intransitive_verb
+    };
+
+    <=nrel_subdividing:
+    {
+        1_conjugation;
+        2_conjugation;
+        irregularly_conjugated;
+        mixed_conjugation
+    };
+
+    <=nrel_subdividing:
+    {
+        active_voice;
+        passive_voice;
+        reflexive_voice
+    };
+
+    <=nrel_subdividing:
+    {
+        nrel_past_tense;
+        nrel_present_tense;
+        nrel_future_tense
+    };
+
+    <=nrel_subdividing:
+    {
+        nrel_feminine_gender;
+        nrel_musculine_gender;
+        nrel_neuter_gender
+    };
+
+    <=nrel_subdividing:
+    {
+        nrel_first_person;
+        nrel_second_person;
+        nrel_third_person
+    };
+
+    <=nrel_subdividing:
+    {
+        nrel_imperative_mood;
+        nrel_indicative_mood;
+        nrel_subjunctive_mood
+    };
+
+    <=nrel_subdividing:
+    {
+        nrel_perfective_aspect;
+        nrel_imperfective_aspect
+    };;
