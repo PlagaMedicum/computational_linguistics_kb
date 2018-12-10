@@ -21,3 +21,15 @@ applied_linguistics
 => nrel_main_idtf:
 	[прикладная лингвистика](* <-lang_ru;; *);
     [applied linguistics](* <-lang_en;; *);;
+
+language
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[язык](* <-lang_ru;; *);
+    [language](* <-lang_en;; *);;
+
+action
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[действие](* <-lang_ru;; *);
+    [action](* <-lang_en;; *);;

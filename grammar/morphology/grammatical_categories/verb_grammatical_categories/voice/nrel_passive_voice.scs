@@ -1,10 +1,12 @@
-passive_voice
+nrel_passive_voice
+<-sc_node_norole_relation;
 => nrel_main_idtf:
-	[Пассивный залог](* <-lang_ru;; *);
- 	[Passive voice](* <-lang_en;; *);
+	[пассивный залог*](* <-lang_ru;; *);
+ 	[passive voice*](* <-lang_en;; *);
 => nrel_idtf:
-	[Страдательный залог](* <-lang_ru;; *);
-	[Пассив](* <-lang_ru;; *);
+	[страдательный залог*](* <-lang_ru;; *);
+	[пассив*](* <-lang_ru;; *);
+	[passive*](* <-lang_en;; *);
 <- rrel_key_sc_element:
 definition_passive_voice
 (*
@@ -18,5 +20,4 @@ definition_passive_voice
 			[Пассивный залог — форма перехоного глагола, выражающего действие, субъект которого испытывает на себе действие со стороны.](*<- lang_ru;;*);
 			[Passive voice — the form of a transitive verb in which its subject receives the action.](*<- lang_en;;*);;
 	*);;
-*);
-<-sc_node_not_relation;;
+*);;

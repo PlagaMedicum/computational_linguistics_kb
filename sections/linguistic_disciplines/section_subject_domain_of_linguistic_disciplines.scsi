@@ -1,4 +1,4 @@
-subject_domain_of_applied_linguistics
+subject_domain_of_linguistic_disciplines
 <- subject_domain;
 <- not_enough_formed_structure;
 
@@ -11,7 +11,7 @@ subject_domain_of_applied_linguistics
 /*<= nrel_sc_text_translation:
 		...
 		(* 
-		-> rrel_example: "file://html/applied_linguistics.html" (* <-lang_ru;; *);;
+		-> rrel_example: "file://html/linguistic_disciplines_ru.html" (* <-lang_ru;; *);;
 		*);
 */
 

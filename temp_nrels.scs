@@ -2,14 +2,8 @@
 Временное хранилище для идентификаторов неописанных отношенй
 */
 
-nrel_action
-<-sc_node_norole_relation;
-=> nrel_main_idtf:
-	[действие](* <-lang_ru;; *);
-    [action](* <-lang_en;; *);;
-
 nrel_process_statement_of_object
 <-sc_node_norole_relation;
 => nrel_main_idtf:
-	[состояние объекта](* <-lang_ru;; *);
-    [statement of object](* <-lang_en;; *);;
+	[состояние объекта*](* <-lang_ru;; *);
+    [statement of object*](* <-lang_en;; *);;

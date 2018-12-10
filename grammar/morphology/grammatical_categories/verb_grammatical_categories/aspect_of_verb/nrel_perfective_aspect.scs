@@ -1,11 +1,11 @@
 nrel_perfective_aspect
 => nrel_main_idtf:
-	[совершенный вид](* <-lang_ru;; *);
- 	[perfective aspect](* <-lang_en;; *);
+	[совершенный вид*](* <-lang_ru;; *);
+ 	[perfective aspect*](* <-lang_en;; *);
 => nrel_idtf:
-	[aoristic aspect](* <-lang_en;; *);
-    [перфективный вид](* <-lang_ru;; *);
-    [аористический вид](* <-lang_ru;; *);
+	[aoristic aspect*](* <-lang_en;; *);
+    [перфективный вид*](* <-lang_ru;; *);
+    [аористический вид*](* <-lang_ru;; *);
 <- rrel_key_sc_element: definition_reflexive_voice
 (*
     <- definition;;

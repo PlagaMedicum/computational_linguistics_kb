@@ -1,5 +1,26 @@
 nrel_imperfective_aspect
+<-sc_node_norole_relation;
+
 => nrel_main_idtf:
-	[несовершенный вид](* <-lang_ru;; *);
- 	[imperfective aspect](* <-lang_en;; *);
-<-sc_node_norole_relation;;
+	[несовершенный вид*](* <-lang_ru;; *);
+ 	[imperfective aspect*](* <-lang_en;; *);
+
+<- rrel_key_sc_element: definition_active_voice
+(*
+	<- definition;;
+	=> nrel_main_idtf: 
+		[Опр. (несовершенный вид*)](*<- lang_ru;;*);
+		[Def. (imperfective aspect*)](*<- lang_en;;*);;
+	
+	<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example:
+			"file://html/nrel_imperfective_aspect_ru.html"(*<- lang_ru;;*);
+			"file://html/nrel_imperfective_aspect_en.html"(*<- lang_en;;*);;
+	*);;
+	<= nrel_using_constants: ...
+	(*
+		->transitive_verb;;
+		->action;;
+	*);;
+*);;

@@ -1,5 +1,5 @@
 nrel_feminine_gender
 => nrel_main_idtf:
-	[женский род](* <-lang_ru;; *);
- 	[feminine gender](* <-lang_en;; *);
+	[женский род*](* <-lang_ru;; *);
+ 	[feminine gender*](* <-lang_en;; *);
 <-sc_node_norole_relation;;

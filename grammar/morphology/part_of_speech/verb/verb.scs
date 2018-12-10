@@ -28,7 +28,7 @@ verb
         <= nrel_using_constants: ...
         (*
             ->part_of_speech;;
-            ->nrel_action;;
+            ->action;;
             ->nrel_process_statement_of_object;;
         *);;
     *);
@@ -40,7 +40,7 @@ verb
         <- intransitive_verb;;
         => nrel_main_idtf: 
             [Утв.(глагол, возвратный глагол, непереходный глагол)] (* <- lang_ru;; *);
-            [Expl.(verb, reflexive verb, intransitive verb)] (* <- lang_eng;; *);;
+            [Expl.(verb, reflexive verb, intransitive verb)] (* <- lang_en;; *);;
         <= nrel_sc_text_translation: ...
         (*
             -> rrel_example: 
@@ -59,7 +59,7 @@ verb
             2_conjugation;
             irregularly_conjugated;
             mixed_conjugation;;
-    *);;
+    *);
 
     <= nrel_subdividing: ...
     (*
@@ -69,7 +69,7 @@ verb
             [Subdividing based on trasitivness](*<-lang_en;; *);;
         ->  transitive_verb;
             intransitive_verb;;
-    *);;
+    *);
 
     <= nrel_subdividing: ...
     (*
@@ -77,12 +77,12 @@ verb
         => nrel_main_idtf:
             [Разбиение по грамматическому залогу](*<-lang_ru;; *);
             [Subdividing based on grammatical voice](*<-lang_en;; *);;
-        ->  active_voice;
-            passive_voice;
-            reflexive_voice;;
-    *);;
+        ->  nrel_active_voice;
+            nrel_passive_voice;
+            nrel_reflective_voice;;
+    *);
 
-    <=nrel_subdividing:
+    <=nrel_subdividing: ...
     (*
         <- explanation;;
         => nrel_main_idtf:
@@ -93,7 +93,7 @@ verb
             nrel_future_tense;;
     *);
 
-    <=nrel_subdividing:
+    <=nrel_subdividing: ...
     (*
         <- explanation;;
         => nrel_main_idtf:
@@ -104,7 +104,7 @@ verb
             nrel_neuter_gender;;
     *);
 
-    <=nrel_subdividing:
+    <=nrel_subdividing: ...
     (*
         <- explanation;;
         => nrel_main_idtf:
@@ -115,7 +115,7 @@ verb
             nrel_third_person;;
     *);
 
-    <=nrel_subdividing:
+    <=nrel_subdividing: ...
     (*
         <- explanation;;
         => nrel_main_idtf:
@@ -125,7 +125,7 @@ verb
             nrel_imperfective_aspect;;
     *);
 
-    <=nrel_subdividing:
+    <=nrel_subdividing: ...
     (*
         <- explanation;;
         => nrel_main_idtf:

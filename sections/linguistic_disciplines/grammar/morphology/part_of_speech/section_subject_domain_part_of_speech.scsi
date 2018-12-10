@@ -8,6 +8,7 @@ section_subject_domain_part_of_speech
 
 -> rrel_maximum_studied_object_class: 
 	part_of_speech;
+
 -> rrel_not_maximum_studied_class:
 	verb;
 	noun;
