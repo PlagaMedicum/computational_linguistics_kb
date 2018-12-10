@@ -1,0 +1,22 @@
+twin
+<- sc_node_not_relation;;
+twin=>nrel_main_idtf:
+    [двойной союз](* <-lang_ru;; *);
+    [twin conjunction](* <-lang_en;; *);;
+
+
+twin <- rrel_key_sc_element: 
+	... 
+        (*
+             <- sc_definition;;
+            => nrel_main_idtf: [Определение: двойной союз] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: twin conjunction] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [двойной союз - это союзы, компоненты которых взаимно связаны по употреблению.](*<- lang_ru;;*);;
+                ->rrel_example;
+                [twin conjunction - these are conjunctiones which components are mutually related](*<- lang_en;;*);;
+            *);;
+        *);;

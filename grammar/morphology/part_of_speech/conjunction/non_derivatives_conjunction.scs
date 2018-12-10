@@ -1,0 +1,22 @@
+non_derivatives
+<- sc_node_not_relation;;
+non_derivatives=>nrel_main_idtf:
+    [непроизводный союз](* <-lang_ru;; *);
+    [non-derivatives conjunction](* <-lang_en;; *);;
+
+
+non_derivatives <- rrel_key_sc_element: 
+	... 
+        (*
+             <- sc_definition;;
+            => nrel_main_idtf: [Определение: непроизводный союз] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: non-derivatives conjunction] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [непроизводный союз - это союзы, которые не образованы от других частей речи.](*<- lang_ru;;*);;
+                ->rrel_example;
+                [non-derivatives conjunction - these are conjunctiones that are not formed from other parts of speech](*<- lang_en;;*);;
+            *);;
+        *);;

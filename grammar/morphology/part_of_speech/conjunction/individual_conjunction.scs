@@ -1,0 +1,22 @@
+individual
+<- sc_node_not_relation;;
+individual=>nrel_main_idtf:
+    [одиночный союз](* <-lang_ru;; *);
+    [individual conjunction](* <-lang_en;; *);;
+
+
+individual <- rrel_key_sc_element: 
+	... 
+        (*
+             <- sc_definition;;
+            => nrel_main_idtf: [Определение: одиночный союз] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: individual conjunction] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [одиночный союз - это союз, который употребляется один раз.](*<- lang_ru;;*);;
+                ->rrel_example;
+                [individual conjunction - it is conjunction which is once consumed](*<- lang_en;;*);;
+            *);;
+        *);;
