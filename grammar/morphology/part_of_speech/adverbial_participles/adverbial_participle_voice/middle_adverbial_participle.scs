@@ -1,0 +1,40 @@
+middle_adverbial_participle
+<-sc_node_not_relation;
+<-adverbial_participle;;
+middle_adverbial_participle => nrel_main_idtf:
+	[средневозвратное деепричастие](* <-lang_ru;; *);
+    [middle adverbial participle](* <-lang_en;; *);;
+middle_adverbial_participle <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: средневозвратное деепричастие] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: middle adverbial participle] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Средневозвратное деепричастие – деепричастие, выражающее действие субъекта, не переходящее на прямой объект, а как бы возвращающееся к самому субъекту, сосредоточенное в нем.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Middle adverbial participle — the adverbial participle expressing the action of the subject which is not passing to a direct object, it's a kind of returning to the subject, concentrating in it.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> adverbial_participle;;
+            *);;
+		*);;
+middle_adverbial_participle <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: middle_adverbial_participle; suffix;;
+		=> nrel_main_idtf: 
+            [Утв.(средневозвратное деепричастие, суффикс)] (* <- lang_ru;; *);
+            [Expl.(middle adverbial participle, suffix)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Средневозвратные деепричастия имеют суффикс -сь.](*<- lang_ru;;*);
+			    	[Middle adverbial participles have suffixes -сь.](*<- lang_en;;*);;
+			*);;
+*);;
+

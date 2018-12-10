@@ -1,0 +1,40 @@
+participle_clause
+<-sc_node_not_relation;
+<-part_of_speech;;
+participle_clause => nrel_main_idtf:
+	[причастный оборот](* <-lang_ru;; *);
+    [participle clause](* <-lang_en;; *);;
+participle_clause <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: причастный  оборот] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: participle clause] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Причастный оборот — это причастие с зависимыми от него словоформами.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Participle clause — a participle with word forms, dependent on it.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> participle;;
+                -> word_forms;;
+            *);;
+		*);;
+participle_clause <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: participle; defined_word;;
+		=> nrel_main_idtf: 
+            [Утв.(причастный оборот, определяемое слово)] (* <- lang_ru;; *);
+            [Expl.(participle, defined word)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Причастный оборот может стоять в предложении перед определяемым словом и после него.](*<- lang_ru;;*);
+			    	[Participle clause can be before the defined word and after it.](*<- lang_en;;*);;
+			*);;
+*);;

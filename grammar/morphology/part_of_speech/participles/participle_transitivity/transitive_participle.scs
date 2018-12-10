@@ -1,0 +1,39 @@
+transitive_participle
+<-sc_node_not_relation;
+<-participle;;
+transitive_participle => nrel_main_idtf:
+	[переходное причастие](* <-lang_ru;; *);
+    [transitive participle](* <-lang_en;; *);;
+transitive_participle <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: переходное причастие] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: transitive participle] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Переходное причастие - причастие, которое сочетается с прямым дополнением, то есть, обладает свойством транзитивности.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Transitive participle - a participle which is combined with a direct object (has property of transitivity).](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> participle; direct_object;;
+            *);;
+		*);;
+transitive_participle  <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: transitive_participle; active_participle;;
+		=> nrel_main_idtf: 
+            [Утв.(переходное причастие, действительное причастие)] (* <- lang_ru;; *);
+            [Expl.(transitive participle, active participle)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Переходными могут быть только действительные причастия.](*<- lang_ru;;*);
+			    	[Only active participles can be transitive.](*<- lang_en;;*);;
+			*);;
+*);;

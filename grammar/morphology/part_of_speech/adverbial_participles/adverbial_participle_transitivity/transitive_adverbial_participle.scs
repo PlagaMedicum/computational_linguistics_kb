@@ -1,0 +1,40 @@
+transitive_adverbial_participle
+<-sc_node_not_relation;
+<-adverbial_participle;;
+transitive_adverbial_participle => nrel_main_idtf:
+	[переходное деепричастие](* <-lang_ru;; *);
+    [transitive adverbial participle](* <-lang_en;; *);;
+transitive_adverbial_participle <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: переходное деепричастие] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: transitive adverbial participle] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Переходное деепричастие - деепричастие, которое сочетается с прямым дополнением, то есть, обладает свойством транзитивности.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Transitive adverbial participle — an adverbial participle which is combined with a direct object (has property of transitivity).](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> adverbial_participle; direct_object;;
+            *);;
+		*);;
+transitive_adverbial_participle <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: transitive_adverbial_participle; accusative_case; preposition; noun; pronoun;;
+		=> nrel_main_idtf: 
+            [Утв.(переходное деепричастие, винительный падеж, существительное, местоимение, предлог)] (* <- lang_ru;; *);
+            [Expl.(transitive adverbial participle, accusative case, preposition, noun, pronoun)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Переходные деепричастия могут иметь при себе имя существительное или местоимение в винительном падеже без предлога.](*<- lang_ru;;*);
+			    	[Transitive adverbial participles can have at themselves a noun or a pronoun in an accusative case without preposition.](*<- lang_en;;*);;
+			*);;
+*);;
+

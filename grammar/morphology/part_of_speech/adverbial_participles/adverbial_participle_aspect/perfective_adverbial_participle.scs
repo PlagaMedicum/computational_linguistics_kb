@@ -1,0 +1,40 @@
+perfective_adverbial_participle
+<-sc_node_not_relation;
+<-adverbial_participle;;
+perfective_adverbial_participle => nrel_main_idtf:
+	[деепричастие совершенного вида](* <-lang_ru;; *);
+    [perfective adverbial participle](* <-lang_en;; *);;
+perfective_adverbial_participle <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: деепричастие совершенного вида] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: perfective adverbial participle] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Деепричастие совершенного вида - деепричастие, обозначающее законченное добавочное действие, которое предшествует другому действию или следует за ним.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Perfective adverbial participle — the adverbial participle designating the finished additional action which precedes other action or follows it.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> adverbial_participle;;
+            *);;
+		*);;
+perfective_adverbial_participle <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: perfective_adverbial_participle;;
+		=> nrel_main_idtf: 
+            [Утв.(деепричастие совершенного вида)] (* <- lang_ru;; *);
+            [Expl.(perfective adverbial participle)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Деепричастие совершенного вида обозначает прошедшее время, отвечает на вопрос «что сделав?». ](*<- lang_ru;;*);
+			    	[Perfective adverbial participle designates past tense, answers the question "what having made?".](*<- lang_en;;*);;
+			*);;
+*);;
+
