@@ -1,0 +1,25 @@
+compound_sentence
+<-sc_node_not_relation;
+<-sentence;;
+compound_sentence => nrel_main_idtf:
+	[сложное предложение](* <-lang_ru;; *);
+    [compound sentence](* <-lang_en;; *);;
+compound_sentence <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: сложное предложение] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: compound sentence] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Сложное предложение – это предложение, которое состоит из двух или более простых предложений, объединенных друг с другом смысловой и синтаксической связью.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The compound sentence is a sentence which consists of two or more simple sentences or grammatical bases united with each other by a semantic and syntactic link.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sentence; grammatical_basis;;
+            *);;
+		*);;

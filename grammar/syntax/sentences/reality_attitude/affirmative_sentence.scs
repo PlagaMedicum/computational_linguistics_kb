@@ -1,0 +1,25 @@
+affirmative_sentence
+<-sc_node_not_relation;
+<-sentence;;
+affirmative_sentence => nrel_main_idtf:
+	[утвердительное предложение](* <-lang_ru;; *);
+    [affirmative sentence](* <-lang_en;; *);;
+affirmative_sentence <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: утвердительное предложение] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: affirmative sentence] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Утвердительное предложение – это предложение в котором передается наличие связи между предметами и их признаками в реальной действительности.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The affirmative sentence is a sentence in which existence of communication between objects and their signs in reality is submitted.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sentence;;
+            *);;
+		*);;

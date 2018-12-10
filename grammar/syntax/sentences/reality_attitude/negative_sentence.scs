@@ -1,0 +1,25 @@
+negative_sentence
+<-sc_node_not_relation;
+<-sentence;;
+negative_sentence => nrel_main_idtf:
+	[отрицательное предложение](* <-lang_ru;; *);
+    [negative sentence](* <-lang_en;; *);;
+negative_sentence <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: отрицательное предложение] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: negative sentence] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Отрицательное предложение – это предложение, в котором связь между какими либо членами отмечается как реально не существующая.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The negative sentence is a sentence in which communication between any members is noted as really not existing.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sentence;;
+            *);;
+		*);;

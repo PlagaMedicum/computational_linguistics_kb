@@ -1,0 +1,25 @@
+not_partition_sentence
+<-sc_node_not_relation;
+<-sentence;;
+not_partition_sentence => nrel_main_idtf:
+	[нечленимое предложение](* <-lang_ru;; *);
+    [not partition sentence](* <-lang_en;; *);;
+not_partition_sentence <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: нечленимое предложение] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: not partition sentence] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Нечленимое предложение – это предложение лишенное способности выделить в своем составе члены предложения.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Not partition sentence is a sentence which is deprived of ability to allocate sentence parts in the structure.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sentence; rrel_sentence_part;;
+            *);;
+		*);;
