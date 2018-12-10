@@ -1,0 +1,25 @@
+question_sentence
+<-sc_node_not_relation;
+<-sentence;;
+question_sentence => nrel_main_idtf:
+	[вопросительное предложение](* <-lang_ru;; *);
+    [question](* <-lang_en;; *);;
+question_sentence <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: вопросительное предложение] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: question] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Вопросительное предложение – это предложение, имеющее своей целью побудить собеседника высказать мысль, интересующую говорящего, т.е. цель его познавательная.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The question is a sentence aiming to induce the interlocutor to introduce the idea interesting speaking i.e. the purpose his informative.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sentence;;
+            *);;
+		*);;
