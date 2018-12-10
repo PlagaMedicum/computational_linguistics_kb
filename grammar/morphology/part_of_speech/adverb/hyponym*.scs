@@ -28,18 +28,18 @@ binary_relation
 
 
 sc_node_not_relaton
- -> concept_word (*=> nrel_main_idtf: [слово] (* <- lang_ru;; *);;*);
- -> concept_combination_of_words (*=> nrel_main_idtf: [словосочетание] (* <- lang_ru;; *);;*);;
+ -> word (*=> nrel_main_idtf: [слово] (* <- lang_ru;; *);;*);
+ -> phrase (*=> nrel_main_idtf: [словосочетание] (* <- lang_ru;; *);;*);;
 
 
 
 nrel_hyponym 
-=> nrel_definitional_domain: ...(*=> nrel_combination:... (*->concept_word;;
-  -> concept_combination_of_words;;*);;*);
-=> nrel_first_domain: ...(*=> nrel_combination:... (*->concept_word;;
-  -> concept_combination_of_words;;*);;*);
-=> nrel_second_domain:...(*=> nrel_combination:... (*->concept_word;;
-  -> concept_combination_of_words;;*);;*);;
+=> nrel_definitional_domain: ...(*=> nrel_combination:... (*->word;;
+  -> phrase;;*);;*);
+=> nrel_first_domain: ...(*=> nrel_combination:... (*->word;;
+  -> phrase ;;*);;*);
+=> nrel_second_domain:...(*=> nrel_combination:... (*->word;;
+  -> phrase;;*);;*);;
 
 
 
@@ -93,7 +93,7 @@ definition -> ...
 *);;
 
 
-concept_word
+word
  -> necklace;
  -> jewelery;;
 nrel_hyponym -> rrel_example: (jewelery=>necklace);;

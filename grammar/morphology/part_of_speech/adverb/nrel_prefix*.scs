@@ -19,9 +19,9 @@ nrel_prefix <- binary_relation
 	*);;
 
 nrel_prefix
-=> nrel_definitional_domain: concept_word;
-=> nrel_first_domain:concept_word;
-=> nrel_second_domain:concept_word;;
+=> nrel_definitional_domain: word;
+=> nrel_first_domain:word;
+=> nrel_second_domain:word;;
 
 
 nrel_prefix
@@ -68,7 +68,7 @@ definition -> ...
 
 
 
-concept_word
+word
  ->regular;
  ->irregular;;
  nrel_prefix -> rrel_example: (regular=>irregular);;

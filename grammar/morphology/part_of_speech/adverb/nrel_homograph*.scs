@@ -26,9 +26,9 @@ binary_relation
 
 
 nrel_homograph
-=> nrel_definitional_domain: concept_word;
-=> nrel_first_domain:concept_word;
-=> nrel_second_domain:concept_word;;
+=> nrel_definitional_domain: word;
+=> nrel_first_domain:word;
+=> nrel_second_domain:word;;
 
 nrel_homograph
  <- oriented_relation;
@@ -61,7 +61,7 @@ definition -> ...
 				-> nrel_different_in_meaning;;
 				->nrel_match_writing;;
 				-> nrel_match_sound;;
-                                -> concept_word;;
+                                -> word;;
 			      *);;
 *);;
 

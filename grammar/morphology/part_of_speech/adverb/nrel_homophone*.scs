@@ -26,12 +26,12 @@ binary_relation
 
 
 nrel_homophone
-=> nrel_definitional_domain: ...(*=> nrel_combination:... (*->concept_word;;
-  -> concept_combination_of_words;;*);;*);
-=> nrel_first_domain: ...(*=> nrel_combination:... (*->concept_word;;
-  -> concept_combination_of_words;;*);;*);
-=> nrel_second_domain:...(*=> nrel_combination:... (*->concept_word;;
-  -> concept_combination_of_words;;*);;*);;
+=> nrel_definitional_domain: ...(*=> nrel_combination:... (*->word;;
+  -> phrase;;*);;*);
+=> nrel_first_domain: ...(*=> nrel_combination:... (*->word;;
+  -> phrase;;*);;*);
+=> nrel_second_domain:...(*=> nrel_combination:... (*->word;;
+  -> phrase;;*);;*);;
 
 nrel_homophone
  <- oriented_relation;
@@ -63,8 +63,8 @@ definition -> ...
 				->nrel_different_in_writing;;
 				-> nrel_different_in_meaning;;
 				-> nrel_match_sound;;
-                                -> concept_word;;
-				->concept_combination_of_words;;
+                                -> word;;
+				->phrase;;
 			      *);;
 *);;
 
