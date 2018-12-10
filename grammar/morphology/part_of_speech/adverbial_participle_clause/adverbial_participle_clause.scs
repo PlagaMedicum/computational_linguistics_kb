@@ -27,7 +27,7 @@ adverbial_participle_clause <- rrel_key_sc_element:
 adverbial_participle_clause <- rrel_key_sc_element:...
 		(*
         <- explanation;;
-        -> rrel_key_sc_element: participle; adverb;;
+        -> rrel_key_sc_element: participle; concept_adverb;;
 		=> nrel_main_idtf: 
             [Утв.(деепричастный оборот, обстоятельство)] (* <- lang_ru;; *);
             [Expl.(adverbial participle, adverb)] (* <- lang_eng;; *);;

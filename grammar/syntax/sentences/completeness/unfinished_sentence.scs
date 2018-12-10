@@ -1,0 +1,25 @@
+unfinished_sentence
+<-sc_node_not_relation;
+<-sentence;;
+unfinished_sentence => nrel_main_idtf:
+	[незаконченное предложение](* <-lang_ru;; *);
+    [unfinished sentence](* <-lang_en;; *);;
+unfinished_sentence <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: незаконченное предложение] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: unfinished sentence] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Незаконченное предложение – это предложение, в котором мысль говорящего выражена не полностью.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The unfinished sentence is a sentence in which the thought speaking is expressed not completely.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sentence;;
+            *);;
+		*);;

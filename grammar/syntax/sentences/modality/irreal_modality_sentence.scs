@@ -1,0 +1,25 @@
+irreal_modality_sentence
+<-sc_node_not_relation;
+<-sentence;;
+irreal_modality_sentence => nrel_main_idtf:
+	[предложение ирреальной модальности](* <-lang_ru;; *);
+    [irreal modality sentence](* <-lang_en;; *);;
+irreal_modality_sentence <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: предложение ирреальной модальности] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: irreal modality sentence] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Предложение ирреальной модальности – это предложение в котором сообщаемое представляется как возможное, желаемое, должное или требуемое, т.е. реально не существующее.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The sentence of an irreal modality is a sentence in which reported it is represented as possible, desirable, due or demanded, i.e. really not existing.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sentence; tense;;
+            *);;
+		*);;

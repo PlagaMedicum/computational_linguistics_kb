@@ -1,0 +1,25 @@
+complete_sentence
+<-sc_node_not_relation;
+<-sentence;;
+complete_sentence => nrel_main_idtf:
+	[полное предложение](* <-lang_ru;; *);
+    [complete sentence](* <-lang_en;; *);;
+complete_sentence <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: полное предложение] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: complete sentence] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Полное предложение – это предложение, в котором словесно представлены все необходимые формальные звенья данной структуры.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The complete sentence is a sentence in which all necessary formal links of this structure are verbally presented.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sentence;;
+            *);;
+		*);;
