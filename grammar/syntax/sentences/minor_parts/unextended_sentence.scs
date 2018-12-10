@@ -1,0 +1,25 @@
+unextended_sentence
+<-sc_node_not_relation;
+<-sentence;;
+unextended_sentence => nrel_main_idtf:
+	[не распространенное предложение](* <-lang_ru;; *);
+    [unextended sentence](* <-lang_en;; *);;
+unextended_sentence <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: не распространенное предложение] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: unextended sentence] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Нераспространенное предложение – это предложение, имеющее только позиции главных членов.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The unextended sentence is a sentence having only positions of the main members.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sentence; rrel_sentence_part; rrel_sentence_main_part;;
+            *);;
+		*);;

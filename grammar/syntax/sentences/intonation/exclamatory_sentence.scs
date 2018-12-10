@@ -1,0 +1,25 @@
+exclamatory_sentence
+<-sc_node_not_relation;
+<-sentence;;
+exclamatory_sentence => nrel_main_idtf:
+	[восклицательное предложение](* <-lang_ru;; *);
+    [exclamatory sentence](* <-lang_en;; *);;
+exclamatory_sentence <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: восклицательное предложение] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: exclamatory sentence] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Восклицательное предложение – это предложение, эмоционально окрашенное, что передается специальной восклицательной интонацией.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The exclamatory sentence is a sentence, emotionally charged that is transferred by special exclamatory intonation.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sentence;;
+            *);;
+		*);;

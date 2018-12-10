@@ -1,5 +1,5 @@
 
-sc_node_norole_relation
+sc_node_not_relation
  -> concept_part_of_speech;;
 
 concept_part_of_speech
@@ -8,20 +8,17 @@ concept_part_of_speech
  => nrel_idtf: [множество частей речи] (* <- lang_ru;; *);
  => nrel_main_idtf: [часть речи] (* <- lang_ru;; *);;
 
-sc_node_not_relation
- -> concept_function_part_of_speech (*=> nrel_main_idtf: [служебная часть речи] (* <- lang_ru;; *);;*);
--> concept_open_part_of_speech;
- -> concept_interjection(*=> nrel_main_idtf: [междометие] (* <- lang_ru;; *);;*);
- ->soung_reflecting_word(*=> nrel_main_idtf: [звукоподражающее слово] (* <- lang_ru;; *);;*);;
+
+ 
 
 concept_part_of_speech
 <= nrel_subdividing: ...
 (*
   -> concept_open_part_of_speech;;
   -> concept_function_part_of_speech;;
- -> concept_interjection;;
- ->soung_reflecting_word;;
-;;*);;
+ -> interjection;;
+ -> soung_reflecting_word;;
+*);;
 
 
 sc_node_not_relation

@@ -1,0 +1,121 @@
+sentence
+<-sc_node_not_relation;;
+sentence => nrel_main_idtf:
+	[предложение](* <-lang_ru;; *);
+    [sentence](* <-lang_en;; *);;
+sentence <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: предложение] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: sentence] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Предложение – это минимальная единица языка, состоящая из слов и словосочетаний, связанных грамматической связью, обладающая смысловой и интонационной законченностью.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[A sentence is a textual unit consisting of one or more words that are grammatically linked.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> word_form;;
+                -> phrase;;
+            *);;
+		*);;
+sentence <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: sentence; grammatical_basis; rrel_sentence_main_part; rrel_sentence_part; rrel_subject; rrel_predicate;;
+		=> nrel_main_idtf: 
+            [Утв.(предложение, грамматическая основа, главный член предложения*, член предложения*, подлежащее*, сказуемое*)] (* <- lang_ru;; *);
+            [Expl.(sentence, grammatical basis, sentence main part*, sentence part*, subject*, predicate*)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Предложение имеет грамматическую основу, которая состоит из главных членов — подлежащего и сказуемого или одного из них.](*<- lang_ru;;*);
+			    	[A sentence has a grammatical basis which consists of the main parts — a subject and a predicate or one of them.](*<- lang_en;;*);;
+			*);;
+*);;
+
+sentence <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку характера объективной модальности:](*<-lang_ru;; *);
+		[Subdividing based on the nature of an objective modality:](*<-lang_en;; *);;
+	-> real_modality_sentence; irreal_modality_sentence;;
+*);
+<= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку характера их образующих частей:](*<-lang_ru;; *);
+		[Subdividing based on character their forming parts:](*<-lang_en;; *);;
+	-> simple_sentence;
+         compound_sentence;;
+*);
+<= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку цели высказывания:](*<-lang_ru;; *);
+		[Subdividing based on statement purpose:](*<-lang_en;; *);;
+	-> narrative_sentence;
+         question_sentence;
+         hortatory_sentence;;
+*);
+ <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку интонации:](*<-lang_ru;; *);
+		[Subdividing based on intonation:](*<-lang_en;; *);;
+	-> exclamatory_sentence;
+         not_exclamatory_sentence;;
+*);
+ <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку выражаемого в них отношения к действительности:](*<-lang_ru;; *);
+		[Subdividing based on the attitude towards reality expressed in them:](*<-lang_en;; *);;
+	-> affirmative_sentence; negative_sentence;;
+*);
+ <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку наличия или частичного отсутствия всех необходимых членов данной структуры предложения:](*<-lang_ru;; *);
+		[Subdividing based on existence or partial absence of all necessary parts of this sentence structure:](*<-lang_en;; *);;
+	-> complete_sentence;
+         incomplete_sentence;
+         elliptic_sentence;;
+*);
+ <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку наличия или отсутствия возможности членения предложения:](*<-lang_ru;; *);
+		[Subdividing based on existence or lack of a possibility of partitioning of the sentence:](*<-lang_en;; *);;
+	-> partition_sentence;
+         not_partition_sentence;;
+*);
+ <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку наличия второстепенных членов:](*<-lang_ru;; *);
+		[Subdividing based on existence of minor parts:](*<-lang_en;; *);;
+	-> extended_sentence;
+         unextended_sentence;;
+*);
+ <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку законченности:](*<-lang_ru;; *);
+		[Subdividing based on completeness:](*<-lang_en;; *);;
+	-> finished_sentence;
+         unfinished_sentence;;
+*);;
