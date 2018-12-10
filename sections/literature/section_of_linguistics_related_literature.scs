@@ -1,0 +1,9 @@
+section_of_linguistics_related_literature
+<- not_enough_formed_structure;
+<- atomic_section;
+
+=> nrel_main_idtf: 
+	[Раздел. Связанная с лингвистикой литература]
+	(* <- lang_ru;;*);
+	[Section. Linguistics related literature]
+	(* <- lang_en;; *);;

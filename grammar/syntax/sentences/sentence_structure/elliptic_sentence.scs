@@ -1,0 +1,25 @@
+elliptic_sentence
+<-sc_node_not_relation;
+<-sentence;;
+elliptic_sentence => nrel_main_idtf:
+	[эллиптическое предложение](* <-lang_ru;; *);
+    [elliptic sentence](* <-lang_en;; *);;
+elliptic_sentence <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: эллиптическое предложение] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: elliptic sentence] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Эллиптическое предложение – это самостоятельно употребляемые предложение особого типа, спецификой структуры которых является отсутствие глагольного сказуемого, причем сказуемого, не упомянутого в контексте, т.е. в смысловом отношении не являющегося необходимым для передачи данного сообщения.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The elliptic sentence is independently used sentence of special type which specifics of structure is the lack of a verbal predicate, and the predicate which is not mentioned in a context, i.e. in the semantic relation not being necessary for transfer of this message.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sentence; rrel_predicate;;
+            *);;
+		*);;

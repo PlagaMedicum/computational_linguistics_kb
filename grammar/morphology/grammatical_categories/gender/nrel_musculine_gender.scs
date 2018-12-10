@@ -1,0 +1,5 @@
+nrel_musculine_gender
+=> nrel_main_idtf:
+	[мужской род*](* <-lang_ru;; *);
+ 	[musculine gender*](* <-lang_en;; *);
+<-sc_node_norole_relation;;

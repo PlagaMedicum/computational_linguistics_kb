@@ -1,0 +1,39 @@
+perfective_participle
+<-sc_node_not_relation;
+<-participle;;
+perfective_participle => nrel_main_idtf:
+	[причастие совершенного вида](* <-lang_ru;; *);
+    [perfective participle](* <-lang_en;; *);;
+perfective_participle <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: причастие совершенного вида] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: perfective participle] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Причастие совершенного вида - причастие, обозначающее законченное действие.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Perfective participle - a participle, which means the finished action.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> participle;;
+            *);;
+		*);;
+perfective_participle <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: perfective_participle; perfective_verb;;
+		=> nrel_main_idtf: 
+            [Утв.(причастие совершенного вида, глагол совершенного вида)] (* <- lang_ru;; *);
+            [Expl.(perfective participle, perfective verb)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Причастия совершенного вида образуются от глаголов совершенного вида.](*<- lang_ru;;*);
+			    	[Prefective participles are formed from verbs of perfective aspect.](*<- lang_en;;*);;
+			*);;
+*);;

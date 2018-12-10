@@ -1,7 +1,0 @@
-category_of_words
-<-sc_node_not_relation;
-=> nrel_main_idtf:
-	[категория слов](* <-lang_ru;; *);
-    [category o words](* <-lang_en;; *);
-=> nrel_idtf:
-	[разряд слов](* <- lang_ru;; *);;

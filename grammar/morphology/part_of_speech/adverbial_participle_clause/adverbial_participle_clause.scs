@@ -1,0 +1,40 @@
+adverbial_participle_clause
+<-sc_node_not_relation;
+<-part_of_speech;;
+adverbial_participle_clause => nrel_main_idtf:
+	[деепричастный оборот](* <-lang_ru;; *);
+    [adverbial participle clause](* <-lang_en;; *);;
+adverbial_participle_clause <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: деепричастный  оборот] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: adverbial participle clause] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Деепричастный оборот — это деепричастие с зависимыми от него словоформами.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Adverbial articiple clause — an adverbial participle with word forms, dependent on it.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> adverbial_participle;;
+                -> word_forms;;
+            *);;
+		*);;
+adverbial_participle_clause <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: participle; concept_adverb;;
+		=> nrel_main_idtf: 
+            [Утв.(деепричастный оборот, обстоятельство)] (* <- lang_ru;; *);
+            [Expl.(adverbial participle, adverb)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[В предложении деепричастный оборот всегда выполняет функцию обстоятельства.](*<- lang_ru;;*);
+			    	[In sentence adverbial participle clause always performs function of an adverb.](*<- lang_en;;*);;
+			*);;
+*);;

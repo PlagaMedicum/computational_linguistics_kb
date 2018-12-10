@@ -1,0 +1,73 @@
+conjunction
+<-sc_node_not_relation;
+<-section_subjdomain_part_of_speech;
+=> nrel_main_idtf:
+[союз](* <-lang_ru;; *);
+[conjunction](* <-lang_en;; *);
+-> rrel_example: ...
+(*
+    => nrel_main_idtf: [и](*<- lang_ru;;*);;
+*);
+<- rrel_key_sc_element: definition_conjunction
+(*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (союз)] (* <- lang_ru;; *);
+        [Def. (conjunction)] (* <- lang_en;; *);;
+    <= nrel_sc_text_translation: ...
+    (*
+        -> rrel_example: 
+            [Союз - служебная часть речи, с помощью которой связывают между собой простые предложения в составе сложного или однородные члены предложения.](*<- lang_ru;;*);
+            [Conjunction - the official part of speech, through which bind together simple sentences as part of a complex or homogeneous sentence members.](*<- lang_en;;*);;
+    *);;
+    <= nrel_using_constants: ...
+    (*
+        -> category_of_words;;
+        -> nrel_action;;
+        -> nrel_process_statement_of_object;;
+    *);;
+*);
+<- rrel_key_sc_element: ...
+(*
+    <- explanation;;
+    -> rrel_key_sc_element:
+    {
+        conjugation;
+		declension;
+        part_of_sentence
+    };;
+    => nrel_main_idtf: 
+        [Утв.(союз, склонение, спряжение, член предложения)] (* <- lang_ru;; *);
+        [Expl.(conjunction, declension, conjugation, part of sentence)] (* <- lang_eng;; *);;
+    <= nrel_sc_text_translation: ...
+    (*
+        -> rrel_example: 
+            [Союз не склоняется, не спрягается и не является членом предложения.](*<- lang_ru;;*);
+            [Conjunction is not declensioned, not conjugated and not a part of the sentence.](*<- lang_en;;*);;
+    *);;
+*);
+
+<=nrel_subdividing:
+{
+    derivatives;
+    non_derivatives
+};
+
+<=nrel_subdividing:
+{
+    individual;
+	twin;
+    repeating
+};
+
+<=nrel_subdividing:
+{
+    simple; 
+    compound
+};
+
+<=nrel_subdividing:
+{
+	coordinating;
+    subordinating
+};;

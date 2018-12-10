@@ -1,0 +1,40 @@
+ureflexive_adverbial_participle
+<-sc_node_not_relation;
+<-adverbial_participle;;
+unreflexive_adverbial_participle => nrel_main_idtf:
+	[невозвратное деепричастие](* <-lang_ru;; *);
+    [unreflexive adverbial participle](* <-lang_en;; *);;
+unreflexive_adverbial_participle <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: невозвратное деепричастие] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: unreflexive adverbial participle] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Невозвратное деепричастие – деепричастие, образованное от невозвратных глаголов.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Unreflexive adverbial participle — the adverbial participle formed from unreflexive verbs.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> adverbial_participle; unreflexive_verb;;
+            *);;
+		*);;
+unreflexive_adverbial_participle <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: unreflexive_adverbial_participle; suffix;;
+		=> nrel_main_idtf: 
+            [Утв.(невозвратное деепричастие, суффикс)] (* <- lang_ru;; *);
+            [Expl.(unreflexive adverbial participle, suffix)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Невозвратные деепричастия имеют суффиксы -я, -в.](*<- lang_ru;;*);
+			    	[Unreflexive adverbial participles have suffixes -я, -в.](*<- lang_en;;*);;
+			*);;
+*);;
+

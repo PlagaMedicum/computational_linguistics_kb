@@ -1,0 +1,13 @@
+section_subject_domain_of_applied_linguistics
+<- non_atomic_section;
+<- not_enough_formed_structure;
+
+=> nrel_main_idtf: 
+	[Раздел. Предметная область прикладной лингвистики]
+	(* <- lang_ru;;*);
+	[Section. Subject domain of applied linguistics]
+	(* <- lang_en;; *);
+
+-> rrel_key_sc_element: subject_domain_of_applied_linguistics;;
+
+section_subject_domain_of_applied_linguistics = [*^"file://section_subject_domain_of_applied_linguistics.scsi"*];;

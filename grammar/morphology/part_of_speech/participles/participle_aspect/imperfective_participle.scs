@@ -1,0 +1,39 @@
+imperfective_participle
+<-sc_node_not_relation;
+<-participle;;
+imperfective_participle => nrel_main_idtf:
+	[причастие несовершенного вида](* <-lang_ru;; *);
+    [imperfective participle](* <-lang_en;; *);;
+imperfective_participle <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: причастие несовершенного вида] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: imperfective participle] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Причастие несовершенного вида - причастие, обозначающее незаконченное действие.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Imperfective participle - a participle, which means unfinished action.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> participle;;
+            *);;
+		*);;
+imperfective_participle <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: imperfective_participle; imperfective_verb;;
+		=> nrel_main_idtf: 
+            [Утв.(причастие несовершенного вида, глагол несовершенного вида)] (* <- lang_ru;; *);
+            [Expl.(imperfective participle, imperfective verb)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Причастия совершенного вида образуются от глаголов несовершенного вида.](*<- lang_ru;;*);
+			    	[Imrefective participles are formed from verbs of imperfective aspect.](*<- lang_en;;*);;
+			*);;
+*);;

@@ -1,0 +1,25 @@
+real_modality_sentence
+<-sc_node_not_relation;
+<-sentence;;
+real_modality_sentence => nrel_main_idtf:
+	[предложение реальной модальности](* <-lang_ru;; *);
+    [real modality sentence](* <-lang_en;; *);;
+real_modality_sentence <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: предложение реальной модальности] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: real modality sentence] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Предложение реальной модальности – это предложение которые позволяет представить сообщаемое в нем как осуществляемое в реальном времени - в настоящем, прошедшем и будущем.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The sentence of a real modality is a sentence which allows to present reported in it as carried out in real time - in real, last and future](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sentence; tense;;
+            *);;
+		*);;

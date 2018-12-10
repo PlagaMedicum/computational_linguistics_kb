@@ -1,0 +1,25 @@
+not_exclamatory_sentence
+<-sc_node_not_relation;
+<-sentence;;
+not_exclamatory_sentence => nrel_main_idtf:
+	[не восклицательное предложение](* <-lang_ru;; *);
+    [not exclamatory sentence](* <-lang_en;; *);;
+not_exclamatory_sentence <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: не восклицательное предложение] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: not exclamatory sentence] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Не восклицательное предложение – это предложение, эмоционально не окрашенное.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Not exclamatory sentence is a sentence which is emotionally not painted.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sentence;;
+            *);;
+		*);;

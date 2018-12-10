@@ -1,0 +1,25 @@
+simple_sentence
+<-sc_node_not_relation;
+<-sentence;;
+simple_sentence => nrel_main_idtf:
+	[простое предложение](* <-lang_ru;; *);
+    [simple sentence](* <-lang_en;; *);;
+simple_sentence <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: простое предложение] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: simple sentence] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Простое предложение – это предложение с одной грамматической основой.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The simple sentence is a sentence with one grammatical basis.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+               -> sentence; grammatical_basis;;
+            *);;
+		*);;

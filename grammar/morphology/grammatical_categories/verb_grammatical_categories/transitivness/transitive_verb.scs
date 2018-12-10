@@ -1,0 +1,5 @@
+transitive_verb
+=> nrel_main_idtf:
+	[переходный глагол](* <-lang_ru;; *);
+ 	[transitive verb](* <-lang_en;; *);
+<- sc_node_not_relation;;

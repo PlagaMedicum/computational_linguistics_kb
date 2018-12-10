@@ -1,0 +1,22 @@
+simple
+<- sc_node_not_relation;;
+simple=>nrel_main_idtf:
+    [простой союз](* <-lang_ru;; *);
+    [simple conjunction](* <-lang_en;; *);;
+
+
+simple <- rrel_key_sc_element: 
+	... 
+        (*
+             <- sc_definition;;
+            => nrel_main_idtf: [Определение: простой союз] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: simple conjunction] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [Простой союз - это союз, состоящий из одного компонента.](*<- lang_ru;;*);;
+                ->rrel_example;
+                [Simple conjunction - it is conjunction which consists of one component.](*<- lang_en;;*);;
+            *);;
+        *);;
