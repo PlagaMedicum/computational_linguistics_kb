@@ -1,0 +1,53 @@
+1)concept_adverb -  наречие
+2)concept_adverb_aggregate - наречие совокупности
+3)concept_adverb_correlative_to_a_noun - наречие,соотносительное с сущ
+4)concept_adverb_correlative_to_a_numeral - наречие, соотносительное с числит
+5)concept_adverb_correlative_to_a_pronoun - наречие, соотносительное с местоимен
+6)concept_adverb_correlative_to_a_verb - наречие, соотносительное с глаголом
+7)concept_adverb_correlative_to_a_adjective - наречие, соотносительное с прил
+8)concept_adverb_goal - наречие цели
+9)concept_adverbial_adverb - обстоятельственное наречие
+10)concept_adverb_of_mode_of_action - наречие способа и образа действия
+11)concept_adverb_reason - наречие причины
+12)concept_adverb_time -наречие времени
+13)concept_comparison_adverb - наречие сравнения и уподобления
+14)concept_qualitative_adverb - качественное наречие
+15)concept_attributive_adverb - определительное наречие
+16)concept_quantitative_adverb - количественное наречие
+17)concept_local_adverb - наречие места
+ ----------------------------
+18)concept_analytical_grammar_word_form - аналитическая грамматическая форма слова
+19)complete_paradigm - полная парадигма
+20)concept_analytical_grammar_agent - аналитическое грамматическое средство
+21)concept_function_part_of_speech - служебная часть речи
+22)concept_grammar_agent - грамматическое средство
+23)concept_lexeme - лексема
+24)concept_open_part_of_speech - самостоятельная часть речи
+25)concept_synthetic_grammar_agent - синтетическое грамматическое средство
+26)concept_part_of_speech - часть речи
+27)concept_grammar_category - грамматическая категория
+28)concept_grammar_word_form - грамматическая форма слова
+29)incomplete_paradigm-неполная парадигма
+30)intersecting_paradigm - перекрещивающаяся парадигма
+31)paradigm - парадигма
+32)sound_reflecting_word - звукоподражательные слова
+33)surplus_paradigm - избыточная парадигма
+34)concept_synthetic_grammar_word_form - синтетическая грамматическая форма слова
+35)wordform - словоформа
+36)concept_binary_grammar_category-бинарная грамматическая категория
+---------------------------
+37)nrel_affixation - аффиксация
+38)nrel_homonym - омоним
+39)nrel_hyperonym - гипероним
+40)nrel_complete_homonym - полный омоним
+41)nrel_homograph - омограф
+42)nrel_homophone - омофон
+43)nrel_omoform - омоформа
+44)nrel_omomorpheme - омоморфема
+45)nrel_partial_homonym - частичный омоним
+46)nrel_prefix -перфиксация
+47)nrel_reduplication -редупликация
+48)nrel_suffixation - суффиксация
+49)nrel_supplevism - супплетивизм
+50)nrel_hyponym -гипоним
+

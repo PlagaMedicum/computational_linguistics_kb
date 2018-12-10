@@ -74,12 +74,6 @@ concept_attributive_adverb
 
 
 
-sc_node_not_relation
-
- -> concept_sign_of_subject (*=> nrel_main_idtf: [признак предмета] (* <- lang_ru;; *);;*);
- -> concept_sign_of_action(*=> nrel_main_idtf: [признак действия] (* <- lang_ru;; *);;*);
- -> concept_sign_of_sign(*=> nrel_main_idtf: [признак признака] (* <- lang_ru;; *);;*);;
-
 definition -> ...   
  (*
      -> rrel_key_sc_element: concept_adverb;;

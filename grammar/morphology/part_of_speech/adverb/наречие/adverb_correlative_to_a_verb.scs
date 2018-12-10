@@ -9,9 +9,6 @@ concept_adverb_correlative_to_a_verb
 
 
 
-sc_node_norole_relation
-->nrel_constitute_from;;
-
 definition -> ...   
  (*
      -> rrel_key_sc_element: concept_adverb_correlative_to_a_verb;;
@@ -20,7 +17,7 @@ definition -> ...
      <= nrel_using_constants: ...
 	(*
  -> concept_adverb;;
- -> nrel_constitute_from(*=> nrel_main_idtf: [образоваться от*] (* <- lang_ru;; *);;*);;
+ -> nrel_constitute_from;;
  -> verb;;
 
 	*);;

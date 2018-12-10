@@ -11,15 +11,6 @@ concept_attributive_adverb
 
 
 
-sc_node_not_relation
- -> concept_quality_sign;
- -> concept_quantity_sign;
- -> concept_sign_of_action;
- -> concept_sign_of_subject;
- -> concept_sign_of_sign;;
-
-
-
 definition -> ...   
  (*
      -> rrel_key_sc_element: concept_attributive_adverb;;
@@ -29,8 +20,8 @@ definition -> ...
 	(*
 	
  -> concept_adverb;;
- -> concept_quality_sign(*=> nrel_main_idtf: [качественный признак] (* <- lang_ru;; *);;*);;
- -> concept_quantity_sign(*=> nrel_main_idtf: [количественный признак] (* <- lang_ru;; *);;*);;
+ -> concept_quality_sign;;
+ -> concept_quantity_sign;;
  -> concept_sign_of_action;;
  -> concept_sign_of_subject;;
  -> concept_sign_of_sign;;

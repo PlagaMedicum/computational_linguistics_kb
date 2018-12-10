@@ -21,7 +21,7 @@ definition -> ...
 	(*
  -> concept_adverb;;
 -> concept_action;;
- -> rrel_place_of_making(*=> nrel_main_idtf: [место совершения'] (* <- lang_ru;; *);;*);;
+ -> rrel_place_of_making;;
  -> nrel_denote;;
 
 	*);;
