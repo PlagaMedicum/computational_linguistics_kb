@@ -1,5 +1,0 @@
-nrel_plural_number
-=> nrel_main_idtf:
-	[Множественное число](* <-lang_ru;; *);
- 	[Plural number](* <-lang_en;; *);
-<-sc_node_norole_relation;;

@@ -1,0 +1,25 @@
+present_tense_participle
+<-sc_node_not_relation;
+<-participle;;
+present_tense_participle => nrel_main_idtf:
+	[причастие настоящего времени](* <-lang_ru;; *);
+    [present tense participle](* <-lang_en;; *);;
+present_tense_participle <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение:  причастие настоящего времени] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: present tense participle] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Причастия настоящего времени выражают одновременность действий, обозначенных причастием и глаголом-сказуемым.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Present tense participles express simultaneity of the actions designated by a participle and a verb predicate.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> participle;;
+            *);;
+		*);;

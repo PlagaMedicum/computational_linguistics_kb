@@ -1,0 +1,47 @@
+
+sc_node_not_relation
+ -> concept_adverb_aggregate;;
+
+
+concept_adverb_aggregate
+ => nrel_main_idtf: [наречие совокупности](* <- lang_ru;; *);
+ => nrel_idtf: [множество наречий совокупности](* <- lang_ru;; *);
+ => nrel_idtf: [adverb aggregate](* <- lang_en;; *);;
+
+sc_node_not_relation
+ -> concept_amount;;
+
+
+sc_node_norole_relation
+-> nrel_characterize_according_to;;
+
+definition -> ...   
+ (*
+     -> rrel_key_sc_element: concept_adverb_aggregate;;
+
+     => nrel_main_idtf: [Опр. (наречие совокупности)](* <- lang_ru;; *);;
+     <= nrel_using_constants: ...
+	(*
+ -> concept_adverb;;
+-> concept_action;;
+ ->  concept_amount(*=> nrel_main_idtf: [количество] (* <- lang_ru;; *);;*);;
+ -> nrel_characterize_according_to (*=> nrel_main_idtf: [характеризовать согласно чему-либо*] (* <- lang_ru;; *);;*);;
+
+
+	*);;
+     <= nrel_sc_text_translation: ... (* -> [Наречие совокупности - наречие, характеризующее действие согласно количеству совершающих его лиц.](* <- lang_ru;; *);;*);;
+     *);;
+
+
+concept_adverb_aggregate
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [Сообща](*<-lang_ru;;*);
+[Teamwise](*<-lang_en;;*);;
+
+*);;
+
+
+ 
+
+

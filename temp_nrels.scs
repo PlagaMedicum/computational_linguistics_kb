@@ -1,0 +1,9 @@
+/*
+Временное хранилище для идентификаторов неописанных отношенй
+*/
+
+nrel_process_statement_of_object
+<-sc_node_norole_relation;
+=> nrel_main_idtf:
+	[состояние объекта*](* <-lang_ru;; *);
+    [statement of object*](* <-lang_en;; *);;

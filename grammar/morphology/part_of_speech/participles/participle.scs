@@ -1,0 +1,86 @@
+participle
+<-sc_node_not_relation;
+<-part_of_speech;;
+participle => nrel_main_idtf:
+	[причастие](* <-lang_ru;; *);
+    [participle](* <-lang_en;; *);;
+participle <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: причастие] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: participle] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Причастие - самостоятельная часть речи, совмещающая в себе грамматические свойства глагола и имени прилагательного.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[A participle - an independent part of speech which combines grammatical properties of a verb and adjective.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> independent_part_of_speech;;
+                -> verb;;
+                -> adjective;;
+            *);;
+		*);;
+participle <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: participle; verb; transitivity; aspect; voice; reflexivity;;
+		=> nrel_main_idtf: 
+            [Утв.(причастие, глагол, переходность,вид,залог,возвратность)] (* <- lang_ru;; *);
+            [Expl.(participle, verb, transitivity, aspect, voice, reflexivity)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Причастия,  как  и  глаголы,  сохраняют переходность, вид, залог, возвратность.](*<- lang_ru;;*);
+			    	[Participles, as well as verbs, keep transitivity, aspect, voice, reflexivity.](*<- lang_en;;*);;
+			*);;
+*);;
+
+participle <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку залога](*<-lang_ru;; *);
+		[Subdividing based on voice](*<-lang_en;; *);;
+	-> passive_voice_participle; active_participle;;
+*);
+<= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку вида](*<-lang_ru;; *);
+		[Subdividing based on aspect](*<-lang_en;; *);;
+	-> perfective_participle;
+         imperfective_participle;;
+*);
+<= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку переходности](*<-lang_ru;; *);
+		[Subdividing based on transitivity](*<-lang_en;; *);;
+	-> transitive_participle;
+         intransitive_participle;;
+*);
+ <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку возвратности](*<-lang_ru;; *);
+		[Subdividing based on reflexivity](*<-lang_en;; *);;
+	-> reflexive_participle;
+         unreflexive_participle;;
+*);
+ <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку времени](*<-lang_ru;; *);
+		[Subdividing based on tense](*<-lang_en;; *);;
+	-> past_tense_participle;
+         present_tense_participle;;
+*);;

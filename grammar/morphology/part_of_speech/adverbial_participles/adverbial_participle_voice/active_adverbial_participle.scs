@@ -1,0 +1,40 @@
+active_adverbial_participle
+<-sc_node_not_relation;
+<-adverbial_participle;;
+active_adverbial_participle => nrel_main_idtf:
+	[действительное деепричастие](* <-lang_ru;; *);
+    [active adverbial participle](* <-lang_en;; *);;
+active_adverbial_participle <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: действительное деепричастие] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: active adverbial participle] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Действительное деепричастие – деепричастие, обозначающее действие, производимое субъектом и активно направленное на объект.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Active adverbial participle — the adverbial participle designating the action made by the subject and which is actively directed to an object.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> adverbial_participle ;;
+            *);;
+		*);;
+active_adverbial_participle <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: active_adverbial_participle; suffix;;
+		=> nrel_main_idtf: 
+            [Утв.(действительное деепричастие, суффикс)] (* <- lang_ru;; *);
+            [Expl.(active adverbial participle, suffix)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Действительные деепричастия имеют суффиксы -я, -в.](*<- lang_ru;;*);
+			    	[Active adverbial participles have suffixes -я, -в.](*<- lang_en;;*);;
+			*);;
+*);;
+

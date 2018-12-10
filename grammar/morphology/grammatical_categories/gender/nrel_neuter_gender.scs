@@ -1,0 +1,5 @@
+nrel_neuter_gender
+=> nrel_main_idtf:
+	[средний род*](* <-lang_ru;; *);
+ 	[neuter gender*](* <-lang_en;; *);
+<-sc_node_norole_relation;;

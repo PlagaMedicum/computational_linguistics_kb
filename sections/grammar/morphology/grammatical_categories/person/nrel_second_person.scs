@@ -1,5 +1,0 @@
-nrel_second_person
-=> nrel_main_idtf:
-	[Второе лицо](* <-lang_ru;; *);
- 	[Second person](* <-lang_en;; *);
-<-sc_node_norole_relation;;

@@ -1,0 +1,35 @@
+/*
+Временное хранилище для идентификаторов неописанных классов
+*/
+
+category_of_words
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[категория слов](* <-lang_ru;; *);
+    [category o words](* <-lang_en;; *);
+=> nrel_idtf:
+	[разряд слов](* <- lang_ru;; *);;
+
+computational_linguistics
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[компьютерная лингвистика](* <-lang_ru;; *);
+    [computational linguistics](* <-lang_en;; *);;
+
+applied_linguistics
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[прикладная лингвистика](* <-lang_ru;; *);
+    [applied linguistics](* <-lang_en;; *);;
+
+language
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[язык](* <-lang_ru;; *);
+    [language](* <-lang_en;; *);;
+
+action
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[действие](* <-lang_ru;; *);
+    [action](* <-lang_en;; *);;

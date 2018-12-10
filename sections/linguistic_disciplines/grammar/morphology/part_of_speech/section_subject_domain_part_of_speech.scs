@@ -1,0 +1,11 @@
+section_subject_domain_part_of_speech
+<- not_enough_formed_structure;
+<- atomic_section;
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область частей речи](* <-lang_ru;; *);
+ 	[Section. Subject domain of parts of speech](* <-lang_en;; *);
+
+-> rrel_key_sc_element: subject_domain_part_of_speech;;
+
+section_subject_domain_part_of_speech = [*^"file://section_subject_domain_part_of_speech.scsi"*];;

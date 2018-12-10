@@ -1,0 +1,40 @@
+reflexive_adverbial_participle
+<-sc_node_not_relation;
+<-adverbial_participle;;
+reflexive_adverbial_participle => nrel_main_idtf:
+	[возвратное деепричастие](* <-lang_ru;; *);
+    [reflexive adverbial participle](* <-lang_en;; *);;
+reflexive_adverbial_participle <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: возвратное деепричастие] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: reflexive adverbial participle] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Возвратное деепричастие – деепричастие, образованное от возвратных глаголов.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Reflexive adverbial participle — the adverbial participle formed from reflexive verbs.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> adverbial_participle; reflexive_verb;;
+            *);;
+		*);;
+reflexive_adverbial_participle <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: reflexive_adverbial_participle; suffix;;
+		=> nrel_main_idtf: 
+            [Утв.(возвратное деепричастие, суффикс)] (* <- lang_ru;; *);
+            [Expl.(reflexive adverbial participle, suffix)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Возвратные деепричастия имеют суффикс -сь.](*<- lang_ru;;*);
+			    	[Reflexive adverbial participles have suffix -ся.](*<- lang_en;;*);;
+			*);;
+*);;
+

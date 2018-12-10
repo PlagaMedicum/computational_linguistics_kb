@@ -1,0 +1,39 @@
+reflexive_participle
+<-sc_node_not_relation;
+<-participle;;
+reflexive_participle => nrel_main_idtf:
+	[возвратное причастие](* <-lang_ru;; *);
+    [reflexive participle](* <-lang_en;; *);;
+reflexive_participle <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: возвратное причастие] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: reflexive participle] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Возвратные причастия – причастия, образованные от возвратных глаголов (глаголов, оканчивающихся на постфикс -ся/-сь).](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Reflexive participles – paticiples, which are formed from reflexive verbs (verb, which ends in -ся/-сь).](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> participle; reflexive_verb; verb;;
+            *);;
+		*);;
+reflexive_participle <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: intransitive_participle; reflexive_participle; active_participle;;
+		=> nrel_main_idtf: 
+            [Утв.(возвратное причастие, непереходное причастие, действительное причастие)] (* <- lang_ru;; *);
+            [Expl.(intransitive participle, reflexive participle, active participle)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Возвратными могут быть только действительные непереходные причастия.](*<- lang_ru;;*);
+			    	[Only active intransitive participles can be reflexive.](*<- lang_en;;*);;
+			*);;
+*);;

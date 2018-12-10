@@ -1,5 +1,0 @@
-nrel_first_person
-=> nrel_main_idtf:
-	[Первое лицо](* <-lang_ru;; *);
- 	[First person](* <-lang_en;; *);
-<-sc_node_norole_relation;;
