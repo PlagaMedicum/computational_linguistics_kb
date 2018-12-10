@@ -1,0 +1,26 @@
+archaism
+<-sc_node_not_relation;
+<-word;;
+archaism => nrel_main_idtf:
+	[архаизм](* <-lang_ru;; *);
+    [archaism](* <-lang_en;; *);;
+archaism <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: архаизм] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: archaism] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Архаизм - устаревшее слово, которое в современной речи заменено синонимом.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Archaism - an obsolete word which in the modern speech is replaced with a synonym.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> word;;
+                -> rrel_synonym;;
+            *);;
+              *);;

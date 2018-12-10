@@ -1,0 +1,42 @@
+independent_word
+<-sc_node_not_relation;
+<-word;;
+independent_word => nrel_main_idtf:
+	[знаменательное слово](* <-lang_ru;; *);
+    [independent word](* <-lang_en;; *);;
+independent_word <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: знаменательное слово] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: independent word] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Знаменательные слова — слова, которые характеризуются номинативным значением, то есть называют предметы, признаки, свойства, действия и т. д., и способны функционировать в качестве членов предложения.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Independent words — words which are characterized by nominative value, that is call objects, signs, properties, actions, etc., and are capable to function as sentence parts.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> word;;
+                -> rrel_sentence_part;;
+            *);;
+		*);;
+independent_word <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: word; independent_word; independent_part_of_speech; part_of_speech;;
+		=> nrel_main_idtf: 
+            [Утв.(слово, знаменательное слово, самостоятельная часть речи,часть речи)] (* <- lang_ru;; *);
+            [Expl.(word, independent word, independent part of speech, part of speech)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[В основном знаменательные слова являются самостоятельными частями речи.](*<- lang_ru;;*);
+			    	[Generally independent words are independent parts of speech.](*<- lang_en;;*);;
+			*);;
+*);;
+
+

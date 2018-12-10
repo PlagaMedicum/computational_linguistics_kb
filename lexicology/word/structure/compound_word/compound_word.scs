@@ -1,0 +1,49 @@
+compound_word
+<-sc_node_not_relation;
+<-word;;
+compound_word => nrel_main_idtf:
+	[сложное слово](* <-lang_ru;; *);
+    [compound word](* <-lang_en;; *);;
+compound_word <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: сложное слово] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: compound word] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Сложное слово — слово, имеющее в своём составе два (и более) корня.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Compound word — the word incorporating two (and more) roots.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> word;;
+                -> root;;
+            *);;
+		*);;
+compound_word <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: word; compound_word; independent_part_of_speech; part_of_speech;;
+		=> nrel_main_idtf: 
+            [Утв.(слово, сложное слово, самостоятельная часть речи,часть речи)] (* <- lang_ru;; *);
+            [Expl.(word, compound word, independent part of speech, part of speech)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Сложные слова образуются, как правило, от самостоятельных частей речи, сохраняя в своём составе целиком слово или его часть. ](*<- lang_ru;;*);
+			    	[Compound words are formed, as rule, from independent parts of speech, keeping in the structure entirely a word or its part.](*<- lang_en;;*);;
+			*);;
+*);;
+
+compound_word <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку способа написания:](*<-lang_ru;; *);
+		[Subdividing based on way of writing:](*<-lang_en;; *);;
+	-> conjoint_compound_word; compostie_compound_word;;
+*);;

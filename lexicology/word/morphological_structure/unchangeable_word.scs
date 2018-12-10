@@ -1,0 +1,27 @@
+unchangeable_word
+<-sc_node_not_relation;
+<-word;;
+unchangeable_word => nrel_main_idtf:
+	[неизменяемое слово](* <-lang_ru;; *);
+    [unchangeable word](* <-lang_en;; *);;
+unchangeable_word <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: неизменяемое слово] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: unchangeable word] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Неизменяемое слово — слово, находящееся всегда в одной и той же грамматической форме.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Unchangeable word — the word which is always in the same grammatical form.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> word;;
+                -> grammatical_form;;
+            *);;
+		*);;
+

@@ -1,0 +1,41 @@
+lexeme
+<-sc_node_not_relation;
+<-word;;
+lexeme => nrel_main_idtf:
+	[лексема](* <-lang_ru;; *);
+    [lexeme](* <-lang_en;; *);;
+lexeme <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: лексема] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: lexeme] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Лексема —  слово как абстрактная единица морфологического анализа.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Lexeme — word as abstract unit of the morphological analysis.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> word;;
+            *);;
+		*);;
+lexeme <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: word; lexeme; word_form;;
+		=> nrel_main_idtf: 
+            [Утв.(слово, лексема, словоформа)] (* <- lang_ru;; *);
+            [Expl.(word, lexeme, word form)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[В одну лексему объединяются разные парадигматические формы (словоформы) одного слова.](*<- lang_ru;;*);
+			    	[In one lexeme different paradigmatic forms (word forms) of one word unite.](*<- lang_en;;*);;
+			*);;
+*);;
+
+
