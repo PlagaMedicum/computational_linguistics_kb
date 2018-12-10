@@ -1,0 +1,26 @@
+term
+<-sc_node_not_relation;
+<-word;;
+term => nrel_main_idtf:
+	[термин](* <-lang_ru;; *);
+    [term](* <-lang_en;; *);;
+term <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: термин] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: term] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Термин - слово или словосочетание, являющееся названием некоторого понятия какой-нибудь области науки, техники, искусства и т.д.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The term - the word or a phrase which is the name of some concept of some field of science, the equipment, art, etc.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> word;;
+                -> phrase;;
+            *);;
+              *);;

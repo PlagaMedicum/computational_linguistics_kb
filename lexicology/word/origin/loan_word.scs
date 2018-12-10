@@ -1,0 +1,25 @@
+loan_word
+<-sc_node_not_relation;
+<-word;;
+loan_word => nrel_main_idtf:
+	[заимствованное слово](* <-lang_ru;; *);
+    [loan word](* <-lang_en;; *);;
+loan_word <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: заимствованное слово] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: loan word] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Заимствованное слово - слово/значение, заимствованное из другого языка.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Loan word - the word/meaning borrowed from other language.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> word;;
+            *);;
+		*);;

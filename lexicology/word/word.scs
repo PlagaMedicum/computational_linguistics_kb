@@ -1,0 +1,78 @@
+word
+<-sc_node_not_relation;;
+word => nrel_main_idtf:
+	[слово](* <-lang_ru;; *);
+    [word](* <-lang_en;; *);;
+word <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: слово] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: word] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Слово - основная структурная лексическая и грамматическая единица языка, которая служит для наименования и сообщения о предметах, процессах, явлениях, признаках и отношениях.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Word - the main structural lexical and grammatical unit of language which serves for the name and the message about objects, processes, the phenomena, signs and the relations.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> section_subject_domain_of_grammar;;
+            *);;
+		*);;
+word <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку происхождения:](*<-lang_ru;; *);
+		[Subdividing based of origin:](*<-lang_en;; *);;
+	-> aboriginal_word; loan_word;;
+*);
+<= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку состава:](*<-lang_ru;; *);
+		[Subdividing based on structure:](*<-lang_en;; *);;
+	-> simple_word;;
+        -> compound_word;;
+*);
+<= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку употребления:](*<-lang_ru;; *);
+		[Subdividing based on using:](*<-lang_en;; *);;
+	-> neologism;;
+        -> archaism;;
+        -> historicism;;
+        -> term;;
+*);
+ <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку морфологической структуры:](*<-lang_ru;; *);
+		[Subdividing based on morphological structure:](*<-lang_en;; *);;
+	-> changeable_word;
+         unchangeable_word;;
+*);
+ <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку количества значений:](*<-lang_ru;; *);
+		[Subdividing based on amounts of values:](*<-lang_en;; *);;
+	-> unambiguous_word; ambiguous_word;;
+*);
+ <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку значения:](*<-lang_ru;; *);
+		[Subdividing based on meaning:](*<-lang_en;; *);;
+	-> independent_word;
+         function_word;;
+*);;
