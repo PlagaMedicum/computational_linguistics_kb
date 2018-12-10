@@ -10,7 +10,7 @@ concept_adverb
 
 
 sc_node_not_relation
- -> concept_open_part_of_speech (*=> nrel_main_idtf: [самостоятельная часть речи] (* <- lang_ru;; *);;*);
+ -> concept_open_part_of_speech;
  -> concept_attributive_adverb;
  -> concept_comparison_adverb ;
  -> concept_qualitative_adverb ;
