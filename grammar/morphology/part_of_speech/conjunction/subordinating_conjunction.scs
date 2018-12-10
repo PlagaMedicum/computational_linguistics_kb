@@ -1,0 +1,22 @@
+subordinating
+<- sc_node_not_relation;;
+subordinating=>nrel_main_idtf:
+    [подчинительный союз](* <-lang_ru;; *);
+    [subordinating conjunction](* <-lang_en;; *);;
+
+
+subordinating <- rrel_key_sc_element: 
+	... 
+        (*
+             <- sc_definition;;
+            => nrel_main_idtf: [Понятие: подчинительный союз] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: subordinating conjunction] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [Подчинительный союз соединяет придаточное предложение с основным от которого оно зависит по смыслу, образуя сложноподчиненное предложение.](*<- lang_ru;;*);;
+                ->rrel_example;
+                [Subordinating conjunction connect the subordinate clause with the principal, on which it depends on the meaning, forming a complex sentence](*<- lang_en;;*);;
+            *);;
+        *);;

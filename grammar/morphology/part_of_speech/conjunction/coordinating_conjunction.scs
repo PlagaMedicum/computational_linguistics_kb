@@ -1,0 +1,22 @@
+coordinating
+<- sc_node_not_relation;;
+coordinating=>nrel_main_idtf:
+    [сочинительный союз](* <-lang_ru;; *);
+    [coordinating conjunction](* <-lang_en;; *);;
+
+
+coordinating <- rrel_key_sc_element: 
+	... 
+        (*
+             <- sc_definition;;
+            => nrel_main_idtf: [Понятие: сочинительный союз] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: coordinating conjunction] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [Сочинительный союз соединяет одинаковые по значимости слова, фразы, однородные члены предложения или независимые предложения в одно сложносочиненное предложение.](*<- lang_ru;;*);;
+                ->rrel_example;
+                [Coordinating conjunction combines the same significant words, phrases, homogeneous members of a sentence, or independent sentences into one complex sentence.](*<-lang_en;;*);;
+            *);;
+        *);;

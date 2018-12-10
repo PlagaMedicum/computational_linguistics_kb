@@ -1,0 +1,22 @@
+derivatives
+<- sc_node_not_relation;;
+derivatives=>nrel_main_idtf:
+    [производный союз](* <-lang_ru;; *);
+    [derivatives conjunction](* <-lang_en;; *);;
+
+
+derivatives <- rrel_key_sc_element: 
+	... 
+        (*
+             <- sc_definition;;
+            => nrel_main_idtf: [Определение: производный союз] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: derivatives conjunction] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [производный союз - это союзы, которые образованы от других частей речи.](*<- lang_ru;;*);;
+                ->rrel_example;
+                [derivatives conjunction - these are conjunctiones that are formed from other parts of speech](*<- lang_en;;*);;
+            *);;
+        *);;

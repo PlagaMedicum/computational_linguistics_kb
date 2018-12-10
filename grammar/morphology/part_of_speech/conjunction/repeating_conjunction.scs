@@ -1,0 +1,22 @@
+repeating
+<- sc_node_not_relation;;
+repeating=>nrel_main_idtf:
+    [повторяющийся союз](* <-lang_ru;; *);
+    [repeating conjunction](* <-lang_en;; *);;
+
+
+repeating <- rrel_key_sc_element: 
+	... 
+        (*
+             <- sc_definition;;
+            => nrel_main_idtf: [Определение: повторяющийся союз] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: repeating conjunction] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [повторяющийся союз - это союзы, которые употребляются два раза.](*<- lang_ru;;*);;
+                ->rrel_example;
+                [repeating conjunction - these are conjunctiones which are twice consumed](*<- lang_en;;*);;
+            *);;
+        *);;

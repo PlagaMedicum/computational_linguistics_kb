@@ -1,0 +1,22 @@
+compound
+<- sc_node_not_relation;;
+compound=>nrel_main_idtf:
+    [составной союз](* <-lang_ru;; *);
+    [compound conjunction](* <-lang_en;; *);;
+
+
+compound <- rrel_key_sc_element: 
+	... 
+        (*
+             <- sc_definition;;
+            => nrel_main_idtf: [Понятие: составной союз] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: compound conjunction] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [Составной союз - союз, состоящий из двух и более слов.](*<- lang_ru;;*);;
+                ->rrel_example;
+                [Compound conjunction - it is a conjunction which consists of two or more words](*<- lang_en;;*);;
+            *);;
+        *);;
