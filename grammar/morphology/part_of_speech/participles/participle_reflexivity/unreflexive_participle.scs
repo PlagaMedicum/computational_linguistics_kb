@@ -1,0 +1,39 @@
+unreflexive_participle
+<-sc_node_not_relation;
+<-participle;;
+unreflexive_participle => nrel_main_idtf:
+	[невозвратное причастие](* <-lang_ru;; *);
+    [unreflexive participle](* <-lang_en;; *);;
+unreflexive_participle <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: невозвратное причастие] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: unreflexive participle] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Невозвратное причастие – причастие, образованное от невозвратных глаголов и не имеющее в своем составе постфикс -ся.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Unreflexive participle – paticiple, which is formed from unreflexive verbs and which has no postfix -ся.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> participle; unreflexive_verb; verb;;
+            *);;
+		*);;
+unreflexive_participle <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: intransitive_participle; unreflexive_participle; transitive_participle;;
+		=> nrel_main_idtf: 
+            [Утв.(невозвратное причастие, непереходное причастие, переходное причастие)] (* <- lang_ru;; *);
+            [Expl.(intransitive participle, unreflexive participle, transitive participle)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Невозвратные причастия могут быть переходными и непереходными.](*<- lang_ru;;*);
+			    	[Unreflexive participles can be transitive/intransitive.](*<- lang_en;;*);;
+			*);;
+*);;

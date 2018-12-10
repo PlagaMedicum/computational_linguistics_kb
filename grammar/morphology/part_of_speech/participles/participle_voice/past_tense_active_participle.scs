@@ -1,0 +1,39 @@
+past_tense_active_participle
+<-sc_node_not_relation;
+<-active_participle;;
+past_tense_active_participle => nrel_main_idtf:
+	[действительное причастие прошедшего времени](* <-lang_ru;; *);
+    [active participle of the past tense](* <-lang_en;; *);;
+past_tense_active_participle <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: действительное причастие прошедшего времени] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: active participle of the past tense] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Действительные причастия прошедшего времени – группа действительных причастий, обозначающих действие, которое происходит в прошедшем времени.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Active participle of the past tense - a group of active participles, which mean action which occurs in past.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> active_participle;;
+            *);;
+		*);;
+past_tense_active_participle <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: active_participle; transitive_verb; intransitive_verb; imperfective_verb; perfective_verb;;
+		=> nrel_main_idtf: 
+            [Утв.(страдательное причастие, переходный глагол,непереходный глагол, глагол несовершенного вида, глагол совершенного вида)] (* <- lang_ru;; *);
+            [Expl.(active participle, transitive verb, intransitive verb, imperfective aspect, perfective aspect)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Действительные причастия прошедшего времени образуются от переходных и непереходных глаголов совершенного и несовершенного вида с помощью формообразовательных суффиксов.](*<- lang_ru;;*);
+			    	[Active participles of the past tense are formed from a transitive/intransitive perfective/imperfective verbs by word formative suffixes.](*<- lang_en;;*);;
+			*);;
+*);;

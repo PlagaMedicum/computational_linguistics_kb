@@ -1,0 +1,48 @@
+active_participle
+<-sc_node_not_relation;
+<-participle;;
+active_participle => nrel_main_idtf:
+	[действительное причастие](* <-lang_ru;; *);
+    [active participle](* <-lang_en;; *);;
+active_participle <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: действительное причастие] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: active participle] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Действительное причастие - причастие, обозначающее признак предмета, который сам производит действие.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Active participle - a participle, which means sign of a subject which makes action.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> participle;;
+            *);;
+		*);;
+active_participle <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: active_participle; participle; tense; present_tense_participle; past_tense_participle;;
+		=> nrel_main_idtf: 
+            [Утв.(действительное причастие, причастие, время, причастие настоящего времени, причастие прошедшего времени)] (* <- lang_ru;; *);
+            [Expl.(active participle, participle, tense, present tense participle, past tense participle)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Действительные причастия  имеют  две формы  времени  –  настоящее  и  прошедшее.](*<- lang_ru;;*);
+			    	[Active participles have two forms of time – the present and the past.](*<- lang_en;;*);;
+			*);;
+*);;
+active_participle<= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку времени](*<-lang_ru;; *);
+		[Subdividing based on tense](*<-lang_en;; *);;
+	-> past_tense_active_participle;
+         present_tense_active_participle;;
+*);;
