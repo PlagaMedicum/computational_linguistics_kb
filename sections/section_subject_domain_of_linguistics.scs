@@ -1,27 +1,27 @@
 section_subject_domain_of_linguistics
-<- not_enough_formed_structure;
-<- non_atomic_section;
-<- ui_start_sc_element;
+	<- not_enough_formed_structure;
+	<- non_atomic_section;
+	<- ui_start_sc_element;
 
-=> nrel_main_idtf: 
-	[Раздел. Предметная область лингвистики](*<- lang_ru;;*);
-	[Section. Subject domain of linguistics](*<- lang_en;;*);
+	=> nrel_main_idtf: 
+		[Раздел. Предметная область лингвистики](*<- lang_ru;;*);
+		[Section. Subject domain of linguistics](*<- lang_en;;*);
 
-<= nrel_section_decomposition:
-{
-	section_subject_domain_of_linguistic_disciplines
-	(*
-		=> nrel_section_base_order:
-			section_subject_domain_of_languages;;
-	*);
-	section_subject_domain_of_languages
-	(*
-		=> nrel_section_base_order:
-			section_of_linguistics_related_literature;;
-	*);
-	section_of_linguistics_related_literature
-};
+	<= nrel_section_decomposition:
+	{
+		section_subject_domain_of_linguistic_disciplines
+		(*
+			=> nrel_section_base_order:
+				section_subject_domain_of_languages;;
+		*);
+		section_subject_domain_of_languages
+		(*
+			=> nrel_section_base_order:
+				section_of_linguistics_related_literature;;
+		*);
+		section_of_linguistics_related_literature
+	};
 
--> rrel_key_sc_element: subject_domain_of_linguistics;;
+	-> rrel_key_sc_element: subject_domain_of_linguistics;;
 
-section_subject_domain_of_linguistics = [*^"file://section_subject_domain_of_linguistics.scsi"*];;
+	section_subject_domain_of_linguistics = [*^"file://section_subject_domain_of_linguistics.scsi"*];;

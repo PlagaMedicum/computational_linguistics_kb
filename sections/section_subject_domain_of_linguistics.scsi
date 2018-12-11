@@ -1,12 +1,16 @@
 subject_domain_of_linguistics
-<- subject_domain;
-<- not_enough_formed_structure;
+	<- subject_domain;
+	<- not_enough_formed_structure;
 
-=> nrel_main_idtf:
-	[Предметная область лингвистики]
-	(* <- lang_ru;; *);
-	[Subject domain of linguistics]
-	(* <- lang_en;; *);
+	=> nrel_main_idtf:
+		[Предметная область лингвистики]
+		(* <- lang_ru;; *);
+		[Subject domain of linguistics]
+		(* <- lang_en;; *);
 
--> rrel_maximum_studied_object_class: 
-	linguistics;;
+	-> rrel_maximum_studied_object_class: 
+		linguistics;
+	
+	-> rrel_not_maximum_studied_class:
+		language;
+		linguistic_discipline;;

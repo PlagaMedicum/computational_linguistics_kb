@@ -2,19 +2,19 @@
     -> complex_numeral;;
 
     complex_numeral
-    => nrel_main_idtf: [сложное числительное](* <- lang_ru;; *);;
-    => nrel_idtf: [множество сложных числительных](* <- lang_ru;; *);;
+    => nrel_main_idtf: [сложное числительное](* <- lang_ru;; *);
+    => nrel_idtf: [множество сложных числительных](* <- lang_ru;; *);
     => nrel_idtf: [complex numeral](* <- lang_en;; *);;
 
     definition ->
     ... (*
-    -> rrel_key_sc_element: complex_numeral;;
-    => nrel_main_idtf: [Опр. (сложное числительное)](* <- lang_ru;; *);;
+    -> rrel_key_sc_element: complex_numeral;
+    => nrel_main_idtf: [Опр. (сложное числительное)](* <- lang_ru;; *);
     <= nrel_using_constants: ...
     (*
-    -> suffix (* => nrel_main_idtf: [суффикс](* <- lang_ru;; *);;
-    -> base (* => nrel_main_idtf: [основа](* <- lang_ru;; *);;
-    -> simple_numeral;;
+    -> suffix (* => nrel_main_idtf: [суффикс](* <- lang_ru;; *);
+    -> base (* => nrel_main_idtf: [основа](* <- lang_ru;; *);
+    -> simple_numeral;
     -> numeral;;
 
     *);;
@@ -23,8 +23,8 @@
 
     statement ->
     ... (*
-    -> rrel_key_sc_element: complex_numeral;;
-    => nrel_main_idtf: [Утв.(простое числительное, сложное числительное](* <- lang_ru;; *);;
+    -> rrel_key_sc_element: complex_numeral;
+    => nrel_main_idtf: [Утв.(простое числительное, сложное числительное](* <- lang_ru;; *);
     <= nrel_sc_text_translation: ... (*
     -> [Сложные числительные возникли путем сращения сочетаний простых числительных или простого числительного и суффикса.](* <- lang_ru;; *);;
     *);;

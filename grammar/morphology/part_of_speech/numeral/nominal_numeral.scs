@@ -2,18 +2,18 @@
     -> nominal_numeral;;
 
     nominal_numeral
-    => nrel_main_idtf: [собирательное числительное](* <- lang_ru;; *);;
-    => nrel_idtf: [множество собирательных числительных](* <- lang_ru;; *);;
+    => nrel_main_idtf: [собирательное числительное](* <- lang_ru;; *);
+    => nrel_idtf: [множество собирательных числительных](* <- lang_ru;; *);
     => nrel_idtf: [nominal numeral](* <- lang_en;; *);;
 
     definition ->
     ... (*
-    -> rrel_key_sc_element: nominal_numeral;;
-    => nrel_main_idtf: [Опр. (собирательное числительное)](* <- lang_ru;; *);;
+    -> rrel_key_sc_element: nominal_numeral;
+    => nrel_main_idtf: [Опр. (собирательное числительное)](* <- lang_ru;; *);
     <= nrel_using_constants: ...
     (*
-    -> numeral;;
-    -> generalize (* => nrel_main_idtf: [обобщать](* <- lang_ru;; *);;
+    -> numeral;
+    -> generalize (* => nrel_main_idtf: [обобщать](* <- lang_ru;; *);
     -> subject;;
     *);;
     <= nrel_sc_text_translation: ... (* -> [Собирательное числительное - это числительное, обобщающее значение нескольких предметов в одно целое.](* <- lang_ru;; *);;*);;
@@ -21,8 +21,8 @@
 
     statement ->
     ... (*
-    -> rrel_key_sc_element: nominal_numeral;;
-    => nrel_main_idtf: [Утв.(собирательное числительное, существительное)](* <- lang_ru;; *);;
+    -> rrel_key_sc_element: nominal_numeral;
+    => nrel_main_idtf: [Утв.(собирательное числительное, существительное)](* <- lang_ru;; *);
     <= nrel_sc_text_translation: ... (*
     -> [Собирательные числительные всегда препозитивны, т.е. употребляются перед существительными.](* <- lang_ru;; *);;
     *);;

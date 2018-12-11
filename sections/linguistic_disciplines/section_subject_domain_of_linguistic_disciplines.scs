@@ -1,13 +1,23 @@
 section_subject_domain_of_linguistic_disciplines
-<- not_enough_formed_structure;
-<- non_atomic_section;
+	<- not_enough_formed_structure;
+	<- non_atomic_section;
 
-=> nrel_main_idtf: 
-	[Раздел. Предметная область лингвистических дисциплин]
-	(* <- lang_ru;; *);
-	[Section. Subject domain of linguistic disciplines]
-	(* <- lang_en;; *);
+	=> nrel_main_idtf: 
+		[Раздел. Предметная область лингвистических дисциплин]
+		(* <- lang_ru;; *);
+		[Section. Subject domain of linguistic disciplines]
+		(* <- lang_en;; *);
 
--> rrel_key_sc_element: subject_domain_of_linguistic_disciplines;;
+	<= nrel_section_decomposition:
+	{
+		section_subject_domain_of_applied_linguistics
+		(*
+			=> nrel_section_base_order:
+				section_subject_domain_of_grammar;;
+		*);
+		section_subject_domain_of_grammar
+	};
 
-section_subject_domain_of_linguistic_disciplines = [*^"file://section_subject_domain_of_linguistic_disciplines.scsi"*];;
+	-> rrel_key_sc_element: subject_domain_of_linguistic_disciplines;;
+
+	section_subject_domain_of_linguistic_disciplines = [*^"file://section_subject_domain_of_linguistic_disciplines.scsi"*];;

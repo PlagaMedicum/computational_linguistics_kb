@@ -1,17 +1,22 @@
-section_subject_domain_part_of_speech
-<- subject_domain;
-<- not_enough_formed_structure;
+subject_domain_part_of_speech
+	<- subject_domain;
+	<- not_enough_formed_structure;
 
-=> nrel_main_idtf:
-	[Предметня область частей речи](* <-lang_ru;; *);
- 	[Subject domain of parts of speech](* <-lang_en;; *);
+	=> nrel_main_idtf:
+		[Предметня область частей речи](* <-lang_ru;; *);
+		[Subject domain of parts of speech](* <-lang_en;; *);
 
--> rrel_maximum_studied_object_class: 
-	part_of_speech;
+	-> rrel_maximum_studied_object_class: 
+		part_of_speech;
 
--> rrel_not_maximum_studied_class:
-	verb;
-	noun;
-	pronoun;
-	interjection;
-	preposition;;
+	-> rrel_not_maximum_studied_class:
+		verb;
+		noun;
+		pronoun;
+		interjection;
+		preposition;
+		adverb;
+		adverbial_participles;
+		conjunction;
+		participles;
+		numeral;;

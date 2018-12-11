@@ -2,18 +2,18 @@ sc_node_not_relation
 -> indefinitely-ordinal_numeral;;
 
 indefinitely-ordinal_numeral
-=> nrel_main_idtf: [неопределенно-количественное числительное](* <- lang_ru;; *);;
-=> nrel_idtf: [множество неопределенно-количественных числительных](* <- lang_ru;; *);;
+=> nrel_main_idtf: [неопределенно-количественное числительное](* <- lang_ru;; *);
+=> nrel_idtf: [множество неопределенно-количественных числительных](* <- lang_ru;; *);
 => nrel_idtf: [indfinitely-ordinal numeral](* <- lang_en;; *);;
 
 definition ->
 ... (*
--> rrel_key_sc_element: indefinitely-ordinal_numeral;;
-=> nrel_main_idtf: [Опр. (неопределенно-количественное числительное)](* <- lang_ru;; *);;
+-> rrel_key_sc_element: indefinitely-ordinal_numeral;
+=> nrel_main_idtf: [Опр. (неопределенно-количественное числительное)](* <- lang_ru;; *);
 <= nrel_using_constants: ...
 (*
--> numeral;;
--> word;;
+-> numeral;
+-> word;
 -> number_of_subject;;
 *);;
 <= nrel_sc_text_translation: ... (* -> [Неопределенно-количественое числительное - группа слов со значением неопределенного количества предметов (большого или малого).](* <- lang_ru;; *);;*);;
@@ -21,8 +21,8 @@ definition ->
 
 statement ->
 ... (*
--> rrel_key_sc_element: indefinitely-ordinal_numeral;;
-=> nrel_main_idtf: [Утв.(семантика, неопределенно-количественное числительное, наречие)](* <- lang_ru;; *);;
+-> rrel_key_sc_element: indefinitely-ordinal_numeral;
+=> nrel_main_idtf: [Утв.(семантика, неопределенно-количественное числительное, наречие)](* <- lang_ru;; *);
 <= nrel_sc_text_translation: ... (*
 -> [Семантика и грамматические особенности неопределенно-количественных числительных сближают их с наречиями.](* <- lang_ru;; *);;
 *);;
@@ -30,8 +30,8 @@ statement ->
 
 statement ->
 ... (*
--> rrel_key_sc_element: indefinitely-ordinal_numeral;;
-=> nrel_main_idtf: [Утв.(неопределенно-количественное числительное, нумерализованное существительное)](* <- lang_ru;; *);;
+-> rrel_key_sc_element: indefinitely-ordinal_numeral;
+=> nrel_main_idtf: [Утв.(неопределенно-количественное числительное, нумерализованное существительное)](* <- lang_ru;; *);
 <= nrel_sc_text_translation: ... (*
 -> [В функции неопределенно-количественных слов выступают также нумерализованные существительные.](* <- lang_ru;; *);;
 *);;

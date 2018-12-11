@@ -2,14 +2,14 @@
     -> composite_numeral;;
 
     composite_numeral
-    => nrel_main_idtf: [составное числительное](* <- lang_ru;; *);;
-    => nrel_idtf: [множество составных числительных](* <- lang_ru;; *);;
+    => nrel_main_idtf: [составное числительное](* <- lang_ru;; *);
+    => nrel_idtf: [множество составных числительных](* <- lang_ru;; *);
     => nrel_idtf: [composite numeral](* <- lang_en;; *);;
 
     definition ->
     ... (*
-    -> rrel_key_sc_element: composite_numeral;;
-    => nrel_main_idtf: [Опр. (составное числительное)](* <- lang_ru;; *);;
+    -> rrel_key_sc_element: composite_numeral;
+    => nrel_main_idtf: [Опр. (составное числительное)](* <- lang_ru;; *);
     <= nrel_using_constants: numeral;;
 
     <= nrel_sc_text_translation: ... (* -> [Составное числительное - сочетание нескольких числительных.](* <- lang_ru;; *);;*);;
@@ -17,8 +17,8 @@
 
     statement ->
     ... (*
-    -> rrel_key_sc_element: composite_numeral;;
-    => nrel_main_idtf: [Утв.(простое числительное, составное числительное, количественное числительное, сложное числительное](* <- lang_ru;; *);;
+    -> rrel_key_sc_element: composite_numeral;
+    => nrel_main_idtf: [Утв.(простое числительное, составное числительное, количественное числительное, сложное числительное](* <- lang_ru;; *);
     <= nrel_sc_text_translation: ... (*
     -> [Составные количественные числительные образуются из сочетания простых и сложныхчислительных, следующих в определенном порядке.](* <- lang_ru;; *);;
     *);;

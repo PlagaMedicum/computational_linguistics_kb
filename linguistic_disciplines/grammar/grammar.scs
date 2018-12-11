@@ -1,0 +1,5 @@
+grammar
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[грамматика](* <-lang_ru;; *);
+    [grammar](* <-lang_en;; *);;

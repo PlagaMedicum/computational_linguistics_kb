@@ -1,0 +1,5 @@
+syntax
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[синтаксис](* <-lang_ru;; *);
+    [syntax](* <-lang_en;; *);;

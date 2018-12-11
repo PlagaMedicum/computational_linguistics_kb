@@ -2,14 +2,14 @@
     -> cardinal_numeral;;
 
     cardinal_numeral
-    => nrel_main_idtf: [порядковое числительное](* <- lang_ru;; *);;
-    => nrel_idtf: [множество проядковых числительных](* <- lang_ru;; *);;
+    => nrel_main_idtf: [порядковое числительное](* <- lang_ru;; *);
+    => nrel_idtf: [множество проядковых числительных](* <- lang_ru;; *);
     => nrel_idtf: [cardinal numeral](* <- lang_en;; *);;
 
     definition ->
     ... (*
-    -> rrel_key_sc_element: cardinal_numeral;;
-    => nrel_main_idtf: [Опр. (порядковое числительное)](* <- lang_ru;; *);;
+    -> rrel_key_sc_element: cardinal_numeral;
+    => nrel_main_idtf: [Опр. (порядковое числительное)](* <- lang_ru;; *);
     <= nrel_using_constants: ...
     (*
     -> numeral;;
@@ -20,8 +20,8 @@
 
     statement ->
     ... (*
-    -> rrel_key_sc_element: cardinal_numeral;;
-    => nrel_main_idtf: [Утв.(порядковое числительное, прилагательное, существительное, определение*, род*, число*, падеж*)](* <- lang_ru;; *);;
+    -> rrel_key_sc_element: cardinal_numeral;
+    => nrel_main_idtf: [Утв.(порядковое числительное, прилагательное, существительное, определение*, род*, число*, падеж*)](* <- lang_ru;; *);
     <= nrel_sc_text_translation: ... (*
     -> [Порядковые числительные, подобно прилагательным, выступают в качестве определения существительных и согласуются с ними в роде, числе и падеже.](* <- lang_ru;; *);;
     *);;
@@ -29,8 +29,8 @@
 
     statement ->
     ... (*
-    -> rrel_key_sc_element: cardinal_numeral;;
-    => nrel_main_idtf: [Утв.(порядковое числительное, количественное числительное, числительное)](* <- lang_ru;; *);;
+    -> rrel_key_sc_element: cardinal_numeral;
+    => nrel_main_idtf: [Утв.(порядковое числительное, количественное числительное, числительное)](* <- lang_ru;; *);
     <= nrel_sc_text_translation: ... (*
     -> [Включение порядковых числительных в разряд числительных является традиционным и опирается исключительно на тесную словообразовательную и семантическую связь порядковых числительных с количественными.](* <- lang_ru;; *);;
     *);;

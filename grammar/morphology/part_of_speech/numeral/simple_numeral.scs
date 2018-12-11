@@ -3,17 +3,17 @@ sc_node_not_relation
 
 simple_numeral
 => nrel_main_idtf: [простое числительное](* <- lang_ru;; *);
-=> nrel_idtf: [множество простых числительных](* <- lang_ru;; *);;
+=> nrel_idtf: [множество простых числительных](* <- lang_ru;; *);
 => nrel_idtf: [simple numeral](* <- lang_en;; *);;
 
 definition ->
 ... (*
--> rrel_key_sc_element: simple_numeral;;
-=> nrel_main_idtf: [Опр. (простое числительное)](* <- lang_ru;; *);;
+-> rrel_key_sc_element: simple_numeral;
+=> nrel_main_idtf: [Опр. (простое числительное)](* <- lang_ru;; *);
 <= nrel_using_constants: ...
 (*
--> root (* => nrel_main_idtf: [корень](* <- lang_ru;; *);;
--> base (* => nrel_main_idtf: [основа](* <- lang_ru;; *);;
+-> root (* => nrel_main_idtf: [корень](* <- lang_ru;; *);
+-> base (* => nrel_main_idtf: [основа](* <- lang_ru;; *);
 -> numeral;;
 
 *);;
@@ -22,15 +22,14 @@ definition ->
 
 statement ->
 ... (*
--> rrel_key_sc_element: simple_numeral;;
-=> nrel_main_idtf: [Утв.(простое числительное, числительное](* <- lang_ru;; *);;
+-> rrel_key_sc_element: simple_numeral;
+=> nrel_main_idtf: [Утв.(простое числительное, числительное](* <- lang_ru;; *);
 <= nrel_sc_text_translation: ... (*
 -> [Простые числительные представляют исторически устойчивый, основной лексический фонд числительных, являющихся словообразовательной базой для всех остальных числительных.](* <- lang_ru;; *);;
 *);;
 *);;
 
-simple_numeral
--> rrel_example: ...
+simple_numeral-> rrel_example: ...
 (*
 =>nrel_main_idtf: [Пять](*<-lang_ru;;*);
 [five](*<-lang_en;;*);;

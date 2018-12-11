@@ -1,15 +1,15 @@
 subject_domain_of_linguistic_disciplines
-<- subject_domain;
-<- not_enough_formed_structure;
+	<- subject_domain;
+	<- not_enough_formed_structure;
 
-=> nrel_main_idtf: 
-	[Предметная область лингвистических дисциплин]
-	(* <- lang_ru;;*);
-	[Subject domain of linguistic disciplines]
-	(* <- lang_en;; *);
-	
--> rrel_maximum_studied_object_class: 
-	linguistic_discipline;
+	=> nrel_main_idtf: 
+		[Предметная область лингвистических дисциплин]
+		(* <- lang_ru;;*);
+		[Subject domain of linguistic disciplines]
+		(* <- lang_en;; *);
+		
+	-> rrel_maximum_studied_object_class: 
+		linguistic_discipline;
 
--> rrel_not_maximum_studied_class:
-	applied_linguistics;;
+	-> rrel_not_maximum_studied_class:
+		applied_linguistics;;
