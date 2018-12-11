@@ -32,11 +32,11 @@ definition -> ...
      <= nrel_using_constants: ...
 	(*
 
-->concept_grammar_word_form;;
+->concept_wordform;;
 ->concept_aggregate(*=> nrel_main_idtf: [совокупность] (* <- lang_ru;; *);;*);;
 
 	*);;
-     <= nrel_sc_text_translation: ... (* -> [Парадигма — системная совокупность грамматических форм слова.](* <- lang_ru;; *);;*);;
+     <= nrel_sc_text_translation: ... (* -> [Парадигма — системная совокупность словоформ.](* <- lang_ru;; *);;*);;
      *);;
 
 statement -> ...
