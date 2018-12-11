@@ -1,0 +1,59 @@
+adjective
+    <-sc_node_not_relation;
+    //<-section_subjdomain_part_of_speech;
+
+    => nrel_main_idtf:
+        [прилагательное](* <-lang_ru;; *);
+        [adjective](* <-lang_en;; *);
+
+    -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [умный](*<- lang_ru;;*);
+            [clever](*<- lang_en;;*);;
+    *);
+
+    <- rrel_key_sc_element: definition_adjective
+    (*
+        <- definition;;
+        => nrel_main_idtf: 
+            [Опр. (прилагательное)] (* <- lang_ru;; *);
+            [Def. (adjective)] (* <- lang_en;; *);;
+        <= nrel_sc_text_translation: ...
+        (*
+            -> rrel_example: 
+                [Имя прилагательное - самостоятельная часть речи, обозначающая непроцессуальный признак предмета. ](*<- lang_ru;;*);
+                [An adjective is an independent part of speech, denoting a non-procedural characteristic of an object.](*<- lang_en;;*);;
+        *);;
+        <= nrel_using_constants: ...
+        (*
+            ->category_of_words;;
+            ->nrel_action;;
+            ->nrel_process_statement_of_object;;
+        *);;
+    *);
+
+    <- rrel_key_sc_element: ...
+    (*
+        <- explanation;;
+        <- genus;;
+        <- case;;
+        <- number;;
+        => nrel_main_idtf: 
+            [Утв.(прилагательное, род*, падеж*, число*)] (* <- lang_ru;; *);
+            [Expl.(adjective, genus*, case*, number*)] (* <- lang_eng;; *);;
+        <= nrel_sc_text_translation: ...
+        (*
+            -> rrel_example: 
+                [В русском языке прилагательное изменяется по родам, числам и падежам.](*<- lang_ru;;*);
+                [In Russian, adjectives vary by genus, case, and number.](*<- lang_en;;*);;
+        *);;
+    *);
+
+    <=nrel_subdividing:
+    {
+        quality_adjective;
+        relative_adjective;
+        possessive_adjective
+    };;
+
