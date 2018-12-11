@@ -1,0 +1,81 @@
+sc_node_norole_relation
+ -> nrel_contiguity;;
+
+nrel_contiguity
+ => nrel_idtf: [contiguity*] (* <- lang_en;; *);;
+ => nrel_idtf: [быть примыканием*] (* <- lang_ru;; *);;
+ => nrel_main_idtf: [примыкание*] (* <- lang_ru;; *);;
+
+
+
+number
+ -> 2;;
+
+parameter
+ -> arity;;
+
+arity
+ -> binary_relation;;
+
+binary_relation
+ -> nrel_contiguity;;
+
+binary_relation
+ -> nrel_measurement: 2;;
+
+
+
+nrel_contiguity
+ => rrel_first_domain: part_of_speech;;
+ => rrel_second_domain: part_of_speech;;
+ => rrel_definitional_domain: part_of_speech;;
+
+
+
+nrel_contiguity
+ <- non_oriented_relation;
+ <- norole_relation;
+ <- transitive_relation;
+ <- antireflexive_relation;
+ <- symmetric_relation;;
+
+relation
+ => nrel_inclusion: binary_relation;;
+ => nrel_inclusion: non_oriented_relation;;	
+
+binary_relation
+ => nrel_inclusion: transitive_relation;;
+ => nrel_inclusion: antireflexive_relation;;
+ => nrel_inclusion: symmetric_relation;;
+
+
+
+definition ->
+... (*
+      -> rrel_sc_key_element: nrel_contiguity;; 
+      => nrel_main_idt: [ќпр.(ѕримыкание*)] (* <- lang_ru;; *);;
+      <= nrel_sc_text_translation: [ѕримыкание - вид св€зи, при котором зависимое слово согласуетс€ с главным лексически, пор€дком слов и интонацией, без применени€ служебных слов или морфологического изменени€.] (* <- lang_ru;; *);;
+      <= nrel_using_constants: 
+			      (*
+				-> rrel_minor_word;
+				-> rrel_main_word;;
+			      };;
+
+
+
+statement... (*
+      -> rrel_sc_key_element: nrel_contiguity;;
+      => nrel_main_idtf: [”тв.(ѕримыкание*, зависимое слово', прилагательное, деепричастие, прит€жательное местоимение, наречие, инфинитив)] (* <-lang_ru;; *);;
+      <= nrel_sc_text_translation: ... (* -> [¬ качестве зависимых при примыкании выступают слова неизмен€емых частей речи и формы слов: наречие, инфинитив, деепричастие, неизмен€емое прилагательное, прилагательное в простой сравнительной степени, прит€жательное местоимение третьего лица.] (* <- lang_ru;; *);; *);;
+
+
+
+
+
+phrase
+ -> speak loudly (*=> nrel_main_idtf: [говорить громко](*<-lang_ru;;*);;
+word
+ -> speak (* => nrel_main_idtf:[говорить](* <- lang_ru;; *);;*);
+ -> loudly (* => nrel_main_idtf:[громко](* <- lang_ru;; *);;*);
+speak
+ = nrel_contiguity: loudly;;
