@@ -1,0 +1,21 @@
+interrogative_particle
+<-sc_node_not_relation;;
+
+interrogative_particle=>nrel_main_idtf:
+    [вопросительная частица](* <-lang_ru;; *);
+    [interrogative particle](* <-lang_en;; *);;
+
+interrogative_particle <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: вопросительная частица] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: interrogative particle] (* <- lang_en;; *);;
+            <- definition;;
+             <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [вопросительная частица- частица, ](*<- lang_ru;;*);;
+              
+            *);;
+        *);;

@@ -1,0 +1,22 @@
+undivided_particle
+<-sc_node_not_relation;;
+
+undivided_particle=>nrel_main_idtf:
+    [нерасчленённая частица](* <-lang_ru;; *);
+    [undivided particle](* <-lang_en;; *);;
+
+undivided_particle <- rrel_key_sc_element: 
+    ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: нерасчленённая частица] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: undivided particle] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [нерасчленённая частица - частица,компоненты которой в предложении не могут быть разделены другими словами.](*<- lang_ru;;*);;
+                -> rrel_example:
+                [undivided particle- .](*<- lang_en;;*);;
+            *);;
+        *);;

@@ -1,0 +1,23 @@
+  amplifying_particle
+ <-sc_node_not_relation;;
+
+      amplifying_particle=>nrel_main_idtf:
+    [усилительная частица](* <-lang_ru;; *);
+    [amplifying particle](* <-lang_en;; *);;
+
+    exclamation_particle <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: усилительная частица] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: amplifying particle] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example:
+                [усилительная частица - частица, которые усиливают сказанное, выражает удивление, недоумение, сомнение](*<- lang_ru;;*);;
+                -> rrel_example:
+                [amplifying particle - .](*<- lang_en;;*);;
+            *);;
+           
+        *);;

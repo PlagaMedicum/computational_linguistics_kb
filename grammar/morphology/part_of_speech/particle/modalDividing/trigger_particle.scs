@@ -1,0 +1,16 @@
+trigger_particle
+<-sc_node_not_relation;;
+
+    trigger_particle=>nrel_main_idtf:
+    [побудительная частица ](* <-lang_ru;; *);
+    [trigger particle](* <-lang_en;; *);;
+
+     trigger_particle <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: побудительная частица ] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition:  trigger particle] (* <- lang_en;; *);;
+            <- definition;;
+           
+        *);;

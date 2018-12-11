@@ -1,0 +1,16 @@
+mitigation_requirement
+ <-sc_node_not_relation;;
+
+      mitigation_requirement=>nrel_main_idtf:
+    [смягчение требования](* <-lang_ru;; *);
+    [mitigation requirement](* <-lang_en;; *);;
+
+    mitigation_requirement <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: смягчение требования] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: mitigation requirement] (* <- lang_en;; *);;
+            <- definition;;
+           
+        *);;

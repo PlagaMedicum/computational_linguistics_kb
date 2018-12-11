@@ -1,0 +1,25 @@
+clarifying_particle
+<-sc_node_not_relation;;
+
+clarifying_particle=>nrel_main_idtf:
+    [уточняющая частица](* <-lang_ru;; *);
+    [clarifying particle](* <-lang_en;; *);;
+
+clarifying_particle <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: уточняющая частица] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: clarifying particle] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example:
+                [именно](*<- lang_ru;;*);;
+                ->rrel_example:
+                [как раз](*<- lang_ru;;*);;
+                ->rrel_example:
+                [прямо](*<- lang_ru;;*);;
+            *);;
+           
+        *);;

@@ -1,0 +1,22 @@
+divided_particle
+<-sc_node_not_relation;;
+
+divided_particle=>nrel_main_idtf:
+    [расчленённая частица](* <-lang_ru;; *);
+    [divided particle](* <-lang_en;; *);;
+
+divided_particle <- rrel_key_sc_element: 
+    ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: расчленённая частица] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: divided particle] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [расчленённая частица - частица,компоненты которой в предложении могут быть разделены другими словами.](*<- lang_ru;;*);;
+                -> rrel_example:
+                [divided particle- .](*<- lang_en;;*);;
+            *);;
+        *);;

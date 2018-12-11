@@ -1,0 +1,16 @@
+    exclamation_particle
+ <-sc_node_not_relation;;
+
+    exclamation_particle=>nrel_main_idtf:
+    [восклицательная частица](* <-lang_ru;; *);
+    [exclamation particle](* <-lang_en;; *);;
+
+    exclamation_particle <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: восклицательные частицы] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: exclamation particle] (* <- lang_en;; *);;
+            <- definition;;
+           
+        *);;

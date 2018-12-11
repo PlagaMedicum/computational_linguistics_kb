@@ -1,0 +1,25 @@
+pointing_particle
+<-sc_node_not_relation;;
+
+pointing_particle=>nrel_main_idtf:
+    [указательная частица](* <-lang_ru;; *);
+    [pointing particle](* <-lang_en;; *);;
+
+
+pointing_particle <- rrel_key_sc_element: 
+		... 
+        (*
+             <- sc_definition;;
+            => nrel_main_idtf: [Определение: указательная частица] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: pointing particle] (* <- lang_en;; *);;
+              <- definition;;
+             
+             <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [указательная частица- частицы, которые указывают на предметы, действия и явления окружающей действительности, а также связывают и указательно подчеркивают 
+            слова.](*<- lang_ru;;*);;
+              
+            *);;
+            
+        *);;

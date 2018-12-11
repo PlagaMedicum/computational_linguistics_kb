@@ -1,0 +1,22 @@
+particle_phraseological_unit
+<-sc_node_not_relation;;
+
+particle_phraseological_unit=>nrel_main_idtf:
+    [частица-фразеологизм](* <-lang_ru;; *);
+    [particle phraseological unit](* <-lang_en;; *);;
+
+particle_phraseological_unit <- rrel_key_sc_element: 
+    ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: частица-фразеологизм] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: particle phraseological unit] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [частица-фразеологизм -  слившиеся воедино несколько служебных слов, живые отношения между которыми в современном языке отсутствуют .](*<- lang_ru;;*);;
+                -> rrel_example:
+                [particle phraseological unit- .](*<- lang_en;;*);;
+            *);;
+        *);;
