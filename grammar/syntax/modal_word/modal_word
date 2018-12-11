@@ -1,0 +1,75 @@
+sc_node_not_relation
+-> modal_word;;
+
+modal_word
+=> nrel_main_idtf: [модальное слово](* <- lang_ru;; *);;
+=> nrel_idtf: [множество модальных слов](* <- lang_ru;; *);;
+=> nrel_idtf: [modal word](* <- lang_en;; *);;
+
+sc_node_not_relation
+-> part_of_speech;
+-> verbal_modal_word;
+-> adverbial_modal_word;
+-> nounal_modal_word;
+-> modal_word_of_certainty;
+-> modal_word_of_uncertainty;;
+
+modal_word
+<= nrel_subdividing: ...
+(*
+-> modal_word_of_certainty;;
+-> modal_word_of_uncertainty;;
+
+=> nrel_main_idtf: [Разбиение модальных слов по значению](* <-lang_ru;; *);;
+*);;
+
+modal_word
+<= nrel_subdividing: ...
+(*
+-> verbal_modal_word;
+-> adverbial_modal_word;
+-> nounal_modal_word;
+
+=> nrel_main_idtf: [Разбиение модальных слов по происхождению](* <-lang_ru;; *);;
+*);;
+
+definition -> ... (*
+-> rrel_key_sc_element: modal_word;;
+=> nrel_main_idtf: [Опр. (модальное слово)](* <- lang_ru;; *);;
+<= nrel_using_constants: word;;
+<= nrel_sc_text_translation: ... (* -> [Модальные слова - это слова, посредством которых говорящий оценивает свое высказывание в целом или отдельные его части с точки зрения отношения их к объективной действительности.](* <- lang_ru;; *);;*);;
+*);;
+
+statement ->
+... (*
+-> rrel_key_sc_element: modal_word;;
+=> nrel_main_idtf: [Утв.(модальное слово, слово-предложение)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation: ... (*
+-> [Модальные слова употребляются в значении слова-предложения, чаще в диалогической речи.](* <- lang_ru;; *);;
+*);;
+*);;
+
+statement ->
+... (*
+-> rrel_key_sc_element: modal_word;;
+=> nrel_main_idtf: [Утв.(модальное слово, вводное слово)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation: ... (*
+-> [Модальные слова употребляются в качестве вводных слов.](* <- lang_ru;; *);;
+*);;
+*);;
+
+statement ->
+... (*
+-> rrel_key_sc_element: modal_word;;
+=> nrel_main_idtf: [Утв.(модальное слово, модальная частица, наречие)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation: ... (*
+-> [Модальные слова употребляются в качестве утвердительных слов в значении, близком к модальным частицам и наречиям;.](* <- lang_ru;; *);;
+*);;
+*);;
+
+modal_word
+-> rrel_example: ...
+(*
+=> nrel_main_idtf: [Как говорится](*<-lang_ru;;*);
+[As the saying goes](*<-lang_en;;*);;
+*);;
