@@ -1,0 +1,6 @@
+grammatical_category
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	[грамматическая категория](* <-lang_ru;; *);
+ 	[grammatical category](* <-lang_en;; *);;

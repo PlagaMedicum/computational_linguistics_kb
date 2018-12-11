@@ -79,7 +79,7 @@ verb
             [Subdividing based on grammatical voice](*<-lang_en;; *);;
         ->  nrel_active_voice;
             nrel_passive_voice;
-            nrel_reflective_voice;;
+            nrel_reflexive_voice;;
     *);
 
     <=nrel_subdividing: ...

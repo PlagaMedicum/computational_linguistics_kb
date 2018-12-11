@@ -33,3 +33,27 @@ action
 => nrel_main_idtf:
 	[действие](* <-lang_ru;; *);
     [action](* <-lang_en;; *);;
+
+event
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[событие](* <-lang_ru;; *);
+    [event](* <-lang_en;; *);;
+
+object
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[объект](* <-lang_ru;; *);
+    [object](* <-lang_en;; *);;
+
+subject
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[субъект](* <-lang_ru;; *);
+    [subject](* <-lang_en;; *);;
+
+state
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[состояние](* <-lang_ru;; *);
+    [state](* <-lang_en;; *);;

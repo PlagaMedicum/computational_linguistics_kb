@@ -1,0 +1,5 @@
+grammatical_mood
+    <- sc_node_not_relation;
+    => nrel_main_idtf:
+        [грамматическое наклонение](* <-lang_ru;; *);
+        [grammatical mood](* <-lang_en;; *);;
