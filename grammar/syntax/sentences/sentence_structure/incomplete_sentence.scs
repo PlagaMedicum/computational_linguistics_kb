@@ -1,0 +1,25 @@
+incomplete_sentence
+<-sc_node_not_relation;
+<-sentence;;
+incomplete_sentence => nrel_main_idtf:
+	[неполное предложение](* <-lang_ru;; *);
+    [incomplete sentence](* <-lang_en;; *);;
+incomplete_sentence <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: неполное предложение] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: incomplete sentence] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Неполное предложение – это предложение, в которых отсутствуют какие-либо структурно необходимые члены, главные или второстепенные.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The incomplete sentence is a sentence in which there are no structurally necessary parts, main or minor.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sentence; rrel_sentence_main_part; rrel_sentence_minor_part;;
+            *);;
+		*);;

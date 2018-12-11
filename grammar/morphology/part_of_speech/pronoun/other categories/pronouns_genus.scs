@@ -1,0 +1,29 @@
+pronouns_genus=> nrel_main_idtf:
+	[имеющие род местоимения](* <-lang_ru;; *);
+    [pronouns genus](* <-lang_en;; *);
+
+
+<-rrel_key_sc_element:...
+(*
+=>nrel_idtf:[Определение (имеющие род местоимения)] (* <- lang_ru;; *);;
+=>nrel_idtf:[Definition (pronouns genus)] (* <- lang_en;; *);;
+<- definition;;
+<=nrel_using_constants: 
+{
+grammatical_gender;
+pronoun
+};;
+<=nrel_sc_text_translation: ...
+(*
+->[Местоимения с родом-местоимения, имеющие род.] (* <- lang_ru;; *);;
+->[Pronouns with gender-pronouns having gender.] (* <- lang_en;; *);;
+*);;
+*);
+
+->rrel_example:...
+(*
+=>[Он] (* <- lang_ru;; *);;
+=>[Она] (* <- lang_ru;; *);;
+=>[He] (* <- lang_en;; *);;
+=>[She] (* <- lang_en;; *);;
+*);; 

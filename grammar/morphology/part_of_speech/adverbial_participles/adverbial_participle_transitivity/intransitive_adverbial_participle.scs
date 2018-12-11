@@ -1,0 +1,25 @@
+intransitive_adverbial_participle
+<-sc_node_not_relation;
+<-adverbial_participle;;
+intransitive_adverbial_participle => nrel_main_idtf:
+	[непереходное деепричастие](* <-lang_ru;; *);
+    [intransitive adverbial participle](* <-lang_en;; *);;
+intransitive_adverbial_participle <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: непереходное деепричастие] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: intransitive adverbial participle] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Непереходное деепричастие - деепричастие, которое не сочетается с прямым дополнением, то есть, не обладает свойством транзитивности.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Intrasitive adverbial participle — an adverbial participle which is not combined with a direct object (has no property of transitivity).](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> adverbial_participle; direct_object;;
+            *);;
+		*);;

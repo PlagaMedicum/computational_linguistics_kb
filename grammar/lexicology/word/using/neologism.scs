@@ -1,0 +1,26 @@
+neologism
+<-sc_node_not_relation;
+<-word;;
+neologism => nrel_main_idtf:
+	[неологизм](* <-lang_ru;; *);
+    [neologism](* <-lang_en;; *);;
+neologism <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: неологизм] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: neologism] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Неологизм - слово, значение слова или словосочетание, недавно появившееся в языке (новообразованное, отсутствовавшее ранее).](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Neologism - the word, a word meaning or a phrase which recently appeared in language (neogenic, being absent earlier).](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> word;;
+                -> phrase;;
+            *);;
+              *);;

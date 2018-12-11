@@ -1,0 +1,25 @@
+hortatory_sentence
+<-sc_node_not_relation;
+<-sentence;;
+hortatory_sentence => nrel_main_idtf:
+	[побудительное предложение](* <-lang_ru;; *);
+    [hortatory sentence](* <-lang_en;; *);;
+hortatory_sentence <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: побудительное предложение] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: hortatory sentence] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Побудительное предложение – это предложение, выражающее волеизъявление говорящего, его цель - побуждение к действию.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The hortatory sentence is a sentence expressing will speaking, its purpose - motivation to action.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sentence;;
+            *);;
+		*);;

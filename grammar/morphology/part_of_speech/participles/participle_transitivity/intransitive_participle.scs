@@ -1,0 +1,39 @@
+intransitive_participle
+<-sc_node_not_relation;
+<-participle;;
+intransitive_participle => nrel_main_idtf:
+	[непереходное причастие](* <-lang_ru;; *);
+    [intransitive participle](* <-lang_en;; *);;
+intransitive_participle <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: непереходное причастие] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: intransitive participle] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Непереходное причастие - причастие, которое не способно сочетаться с прямым дополнением, то есть, не обладает свойством транзитивности.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Intransitive participle - a participle which is not combined with a direct object (has no property of transitivity).](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> participle; direct_object;;
+            *);;
+		*);;
+intransitive_participle  <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: intransitive_participle; reflexive_participle;;
+		=> nrel_main_idtf: 
+            [Утв.(непереходное причастие, возвратное причастие)] (* <- lang_ru;; *);
+            [Expl.(intransitive participle, reflexive participle)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Все возвратные причастия являются непереходными.](*<- lang_ru;;*);
+			    	[All reflexive participles are intransitive.](*<- lang_en;;*);;
+			*);;
+*);;

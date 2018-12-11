@@ -1,0 +1,25 @@
+narrative_sentence
+<-sc_node_not_relation;
+<-sentence;;
+narrative_sentence => nrel_main_idtf:
+	[повествовательное предложение](* <-lang_ru;; *);
+    [narrative sentence](* <-lang_en;; *);;
+narrative_sentence <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: повествовательное предложение] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: narrative sentence] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Повествовательное предложение – это предложение, заключающие в себе сообщение о каком-либо факте действительности, явлении, событии и т.д. (утверждаемом или отрицаемом).](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The narrative sentence is a sentence comprising the message about any fact of reality, the phenomenon, an event, etc. (approved or denied).](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sentence;;
+            *);;
+		*);;

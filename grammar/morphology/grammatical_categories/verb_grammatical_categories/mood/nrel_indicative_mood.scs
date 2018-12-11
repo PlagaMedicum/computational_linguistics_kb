@@ -1,9 +1,0 @@
-nrel_indicative_mood
-=> nrel_main_idtf:
-	[повелительное наклонение](* <-lang_ru;; *);
- 	[indicative mood](* <-lang_en;; *);
-=> nrel_idtf:
-	[индикатив](* <-lang_ru;; *);
-    [realis mood](* <-lang_en;; *);
- 	[indicative](* <-lang_en;; *);
-<-sc_node_norole_relation;;

@@ -1,0 +1,39 @@
+present_tense_active_participle
+<-sc_node_not_relation;
+<-active_participle;;
+present_tense_active_participle => nrel_main_idtf:
+	[действительное причастие настоящего времени](* <-lang_ru;; *);
+    [active participle of the present tense](* <-lang_en;; *);;
+present_tense_active_participle <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: действительное причастие настоящего времени] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: active participle of the present tense] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Действительные причастия настоящего времени – группа действительных причастий, обозначающих действие, которое происходит в настоящем времени.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Active participle of the present tense - a group of active participles, which mean action which occurs in present.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> active_participle;;
+            *);;
+		*);;
+present_tense_active_participle <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: active_participle; imperfective_verb;;
+		=> nrel_main_idtf: 
+            [Утв.(страдательное причастие, глагол несовершенного вида)] (* <- lang_ru;; *);
+            [Expl.(active participle, imperfective aspect)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Действительные причастия настоящего времени образуются от глаголов несовершенного вида с помощью формообразовательных суффиксов.](*<- lang_ru;;*);
+			    	[Active participles of the present tense are formed from an imperfective verbs by word formative suffixes.](*<- lang_en;;*);;
+			*);;
+*);;

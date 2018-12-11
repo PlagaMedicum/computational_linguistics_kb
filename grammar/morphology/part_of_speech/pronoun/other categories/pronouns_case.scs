@@ -1,0 +1,27 @@
+pronouns_case=> nrel_main_idtf:
+	[имеющие падеж местоимения](* <-lang_ru;; *);
+    [pronouns case](* <-lang_en;; *);
+
+
+<-rrel_key_sc_element:...
+(*
+=>nrel_idtf:[Определение (имеющие падеж местоимения)] (* <- lang_ru;; *);;
+=>nrel_idtf:[Definition (pronouns case)] (* <- lang_en;; *);;
+<- definition;;
+<=nrel_using_constants: 
+{
+grammatical_case;
+pronoun
+};;
+<=nrel_sc_text_translation: ...
+(*
+->[Падежные-местоимения,имеющие падеж.] (* <- lang_ru;; *);;
+->[Case pronouns - pronouns with a case..] (* <- lang_en;; *);;
+*);;
+*);
+
+->rrel_example:...
+(*
+=>[Я] (* <- lang_ru;; *);;
+=>[I] (* <- lang_en;; *);;
+*);; 

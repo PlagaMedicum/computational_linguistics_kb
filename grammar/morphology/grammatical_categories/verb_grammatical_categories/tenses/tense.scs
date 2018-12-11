@@ -1,8 +1,0 @@
-tense
-<-sc_node_not_relation;
-=> nrel_main_idtf:
-	[грамматическое время](* <-lang_ru;; *);
- 	[grammatical tense](* <-lang_en;; *);
-->nrel_past_tense;
-->nrel_present_tense;
-->nrel_future_tense;;

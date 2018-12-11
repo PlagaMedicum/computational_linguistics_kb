@@ -1,0 +1,25 @@
+finished_sentence
+<-sc_node_not_relation;
+<-sentence;;
+finished_sentence => nrel_main_idtf:
+	[законченное предложение](* <-lang_ru;; *);
+    [finished sentence](* <-lang_en;; *);;
+finished_sentence <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: законченное предложение] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: finished sentence] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Законченное предложение – это предложение, обладающее смысловой и интонационной законченностью. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The finished sentence is a sentence which having semantic and intonational completeness.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sentence; rrel_sentence_part;;
+            *);;
+		*);;

@@ -8,6 +8,6 @@ section_subject_domain_of_linguistic_disciplines
 	[Section. Subject domain of linguistic disciplines]
 	(* <- lang_en;; *);
 
--> rrel_key_sc_element: subject_domain_of_applied_linguistics;;
+-> rrel_key_sc_element: subject_domain_of_linguistic_disciplines;;
 
 section_subject_domain_of_linguistic_disciplines = [*^"file://section_subject_domain_of_linguistic_disciplines.scsi"*];;

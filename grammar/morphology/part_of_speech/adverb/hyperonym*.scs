@@ -1,0 +1,93 @@
+
+sc_node_norole_relation
+ -> nrel_hyperonym;;
+
+nrel_hyperonym
+
+ => nrel_idtf: [hyperonym*] (* <- lang_en;; *);
+ => nrel_idtf: [быть гиперонимом*] (* <- lang_ru;; *);
+ => nrel_main_idtf: [гипероним*] (* <- lang_ru;; *);;
+
+sc_node_norole_relation
+ -> nrel_hyperonym;;
+
+number
+ -> 2;;
+
+parameter
+ ->arity;;
+
+arity
+ ->binary_relation;;
+
+binary_relation
+ -> nrel_hyperonym;;
+
+binary_relation
+ => nrel_measurement: 2;;
+
+
+
+
+
+nrel_hyperonym
+=> nrel_definitional_domain: ...(*=> nrel_combination:... (*->concept_word;;
+  -> concept_combination_of_words;;*);;*);
+=> nrel_first_domain: ...(*=> nrel_combination:... (*->concept_word;;
+  -> concept_combination_of_words;;*);;*);
+=> nrel_second_domain:...(*=> nrel_combination:... (*->concept_word;;
+  -> concept_combination_of_words;;*);;*);;
+
+
+
+
+nrel_hyperonym
+ <- oriented_relation;
+ <- norole_relation;
+ <- transitive_relation;
+ <- antireflexive_relation;
+ <- antisymmetric_relation;;
+
+relation
+ => nrel_inclusion: binary_relation;
+ => nrel_inclusion: oriented_relation;;	
+
+binary_relation
+ => nrel_inclusion: transitive_relation;
+ => nrel_inclusion: antireflexive_relation;
+ => nrel_inclusion: antisymmetric_relation;;
+
+
+
+sc_node_norole_relation
+ -> nrel_more_general_entity (*=> nrel_main_idtf: [более общая сущность*] (* <- lang_ru;; *);;*);;
+
+definition -> ...
+(* 
+      -> rrel_key_sc_element: nrel_hyperonym;;
+      => nrel_main_idtf: [Опр.(гипероним*)] (* <- lang_ru;; *);;
+      <= nrel_sc_text_translation: ...(* ->[Гиперо́ним — понятие в отношении к другому понятию, выражающее более общую сущность.] (* <- lang_ru;; *);;*);;
+      <= nrel_using_constants: ...
+			      (*
+				 -> concept;;
+                                 -> relation;;
+                                -> nrel_more_general_entity;;
+			      *);;
+*);;
+
+
+
+  statement -> ... 
+(*
+      -> rrel_key_sc_element: nrel_hyperonym;;
+      => nrel_main_idtf: [Утв.(гипероним*,гипоним*,предложение)] (* <-lang_ru;; *);;
+      <= nrel_sc_text_translation: ... (* -> [Гипероним гипонимом в предложении заменить нельзя. Гипероним всегда может быть употреблен вместо гипонима.] (* <- lang_ru;; *);; *);;
+*);;
+
+
+concept_word
+ -> necklace;
+ -> jewelery;;
+nrel_hyperonym-> rrel_example: (jewelery<=necklace);;
+
+

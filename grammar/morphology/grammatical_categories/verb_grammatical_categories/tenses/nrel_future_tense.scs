@@ -1,5 +1,0 @@
-nrel_future_tense
-=> nrel_main_idtf:
-	[будущее время](* <-lang_ru;; *);
- 	[future tense](* <-lang_en;; *);
-<-sc_node_norole_relation;;

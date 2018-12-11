@@ -1,0 +1,39 @@
+present_tense_passive_participle
+<-sc_node_not_relation;
+<-passive_participle;;
+present_tense_passive_participle => nrel_main_idtf:
+	[страдательное причастие настоящего времени](* <-lang_ru;; *);
+    [passive participle of the present tense](* <-lang_en;; *);;
+present_tense_passive_participle <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: страдательное причастие настоящего времени] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: passive participle of the present tense] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Страдательные причастия настоящего времени – группа страдательных причастий, обозначающих признак по действию, которое направлено на определяемый предмет и происходит одновременно с основным действием в предложении (т. е. в настоящем времени).](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Passive participle of the present tense - a group of passive participles, which mean action sign which is directed to the defined subject and occurs along with the main action in the offer (in present).](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> passive_participle;;
+            *);;
+		*);;
+present_tense_passive_participle <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: passive_participle; transitive_verb; imperfective_verb;;
+		=> nrel_main_idtf: 
+            [Утв.(страдательное причастие, переходный глагол, глагол несовершенного вида)] (* <- lang_ru;; *);
+            [Expl.(passive participle, transitive verb, imperfective aspect)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Страдательные причастия настоящего времени образуются от переходных глаголов несовершенного вида с помощью формообразовательных суффиксов.](*<- lang_ru;;*);
+			    	[Passive participles of the present tense are formed from a transitive imperfective verbs by word formative suffixes.](*<- lang_en;;*);;
+			*);;
+*);;

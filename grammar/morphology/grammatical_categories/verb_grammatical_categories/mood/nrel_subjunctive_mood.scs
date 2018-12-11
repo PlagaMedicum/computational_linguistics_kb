@@ -1,9 +1,0 @@
-nrel_subjunctive_mood
-=> nrel_main_idtf:
-	[сослагательное наклонение](* <-lang_ru;; *);
- 	[subjunctive mood](* <-lang_en;; *);
-=> nrel_idtf:
-	[субъюнктив](* <-lang_ru;; *);
-    [конъюнктив](* <-lang_ru;; *);
-    [subjunctive](* <-lang_en;; *);
-<-sc_node_norole_relation;;

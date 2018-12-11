@@ -1,0 +1,48 @@
+passive_voice_participle
+<-sc_node_not_relation;
+<-participle;;
+passive_voice_participle => nrel_main_idtf:
+	[страдательное причастие](* <-lang_ru;; *);
+    [passive participle](* <-lang_en;; *);;
+passive_voice_participle <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: страдательное причастие] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: passive participle] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Страдательное причастие - причастие, обозначающее признак предмета, над которым произведено или производится  действие.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Passive participle - a participle, which means sign of a subject over which it is made or is made action.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> participle;;
+            *);;
+		*);;
+passive_voice_participle <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: passive_voice_participle; participle; tense; present_tense_participle; past_tense_participle;;
+		=> nrel_main_idtf: 
+            [Утв.(страдательное причастие, причастие, время, причастие настоящего времени, причастие прошедшего времени)] (* <- lang_ru;; *);
+            [Expl.(passive participle, participle, tense, present tense participle, past tense participle)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Страдательные причастия  имеют  две формы  времени  –  настоящее  и  прошедшее.](*<- lang_ru;;*);
+			    	[Passive participles have two forms of time – the present and the past.](*<- lang_en;;*);;
+			*);;
+*);;
+passive_voice_participle<= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку времени](*<-lang_ru;; *);
+		[Subdividing based on tense](*<-lang_en;; *);;
+	-> past_tense_passive_participle;
+         present_tense_passive_participle;;
+*);;

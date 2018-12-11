@@ -1,0 +1,27 @@
+pronouns_reflexive=> nrel_main_idtf:
+	[возвратные местоимения](* <-lang_ru;; *);
+    [pronouns reflexive](* <-lang_en;; *);
+
+
+<-rrel_key_sc_element:...
+(*
+=>nrel_idtf:[Определение (возвратные местоимения)] (* <- lang_ru;; *);;
+=>nrel_idtf:[Definition (pronouns reflexive)] (* <- lang_en;; *);;
+<- definition;;
+<=nrel_using_constants: 
+{
+person;
+pronoun
+};;
+<=nrel_sc_text_translation: ...
+(*
+->[Возвратное местоимение- местоимение, указывающее на то лицо, о котором говорят.] (* <- lang_ru;; *);;
+->[A reflexive pronoun is a pronoun indicating the person being spoken of.] (* <- lang_en;; *);;
+*);;
+*);
+
+->rrel_example:...
+(*
+=>[Себя] (* <- lang_ru;; *);;
+=>[Myself] (* <- lang_en;; *);;
+*);; 

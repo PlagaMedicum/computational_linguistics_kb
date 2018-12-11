@@ -1,0 +1,30 @@
+pronouns_nouns=> nrel_main_idtf:
+	[местоимения-существительные](* <-lang_ru;; *);
+    [pronouns-nouns](* <-lang_en;; *);
+
+
+<-rrel_key_sc_element:...
+(*
+=>nrel_idtf:[Определение (местоимения-существительные)] (* <- lang_ru;; *);;
+=>nrel_idtf:[Definition (pronouns nouns)] (* <- lang_en;; *);;
+<- definition;;
+<=nrel_using_constants: 
+{
+noun;
+class;
+pronoun
+};;
+<=nrel_sc_text_translation: ...
+(*
+->["Местоимения-существительные"- тематический класс местоимений, объединяемый общностью главных синтаксических функций с именем существительным.] (* <- lang_ru;; *);;
+->["Pronouns-nouns" - a thematic class of pronouns, united by a common syntax of main functions with a noun.] (* <- lang_en;; *);;
+*);;
+*);
+
+->rrel_example:...
+(*
+=>[Ты] (* <- lang_ru;; *);;
+=>[Себя] (* <- lang_ru;; *);;
+=>[You] (* <- lang_en;; *);;
+=>[Mine] (* <- lang_en;; *);;
+*);; 

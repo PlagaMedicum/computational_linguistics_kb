@@ -1,8 +1,0 @@
-nrel_imperative_mood
-=> nrel_main_idtf:
-	[повелительное наклонение](* <-lang_ru;; *);
- 	[imperative mood](* <-lang_en;; *);
-=> nrel_idtf:
-	[императив](* <-lang_ru;; *);
- 	[imperative](* <-lang_en;; *);
-<-sc_node_norole_relation;;

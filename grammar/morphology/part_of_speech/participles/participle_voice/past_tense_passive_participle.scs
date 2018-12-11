@@ -1,0 +1,39 @@
+past_tense_passive_participle
+<-sc_node_not_relation;
+<-passive_participle;;
+past_tense_passive_participle => nrel_main_idtf:
+	[страдательное причастие прошедшего времени](* <-lang_ru;; *);
+    [passive participle of the past tense](* <-lang_en;; *);;
+past_tense_passive_participle <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: страдательное причастие прошедшего времени] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: passive participle of the past tense] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Страдательные причастия прошедшего времени – группа страдательных причастий, обозначающих признак по действию, которое направлено на определяемый предмет и происходит в прошедшем времени.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Passive participle of the past tense - a group of passive participles, which mean action sign which is directed to the defined subject and occurs in past.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> passive_participle;;
+            *);;
+		*);;
+past_tense_passive_participle <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: passive_participle; transitive_verb; imperfective_verb; perfective_verb;;
+		=> nrel_main_idtf: 
+            [Утв.(страдательное причастие, переходный глагол, глагол несовершенного вида, глагол совершенного вида)] (* <- lang_ru;; *);
+            [Expl.(passive participle, transitive verb, imperfective aspect, perfective aspect)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Страдательные причастия прошедшего времени образуются от переходных глаголов совершенного и несовершенного вида с помощью формообразовательных суффиксов.](*<- lang_ru;;*);
+			    	[Passive participles of the past tense are formed from a transitive perfective/imperfective verbs by word formative suffixes.](*<- lang_en;;*);;
+			*);;
+*);;

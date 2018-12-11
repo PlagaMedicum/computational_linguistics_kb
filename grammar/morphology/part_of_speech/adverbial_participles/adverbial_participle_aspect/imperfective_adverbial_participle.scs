@@ -1,0 +1,40 @@
+imperfective_adverbial_participle
+<-sc_node_not_relation;
+<-adverbial_participle;;
+imperfective_adverbial_participle => nrel_main_idtf:
+	[деепричастие несовершенного вида](* <-lang_ru;; *);
+    [imperfective adverbial participle](* <-lang_en;; *);;
+imperfective_adverbial_participle <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: деепричастие несовершенного вида] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: imperfective adverbial participle] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Деепричастие несовершенного вида - деепричастие, обозначающее действие, одновременное с другим действием.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Imperfective adverbial participle — the adverbial participle designating the action simultaneous with other action.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> adverbial_participle;;
+            *);;
+		*);;
+imperfective_adverbial_participle <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: imperfective_adverbial_participle; imperfective_verb; suffix;;
+		=> nrel_main_idtf: 
+            [Утв.(деепричастие несовершенного вида, суффикс, глагол несовершенного вида)] (* <- lang_ru;; *);
+            [Expl.(imperfective adverbial participle, suffix, imperfective verb)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Деепричастие несовершенного вида образуется от глаголов несовершенного вида с помощью суффиксов -а (-я) и отвечает на вопрос «что делая?».](*<- lang_ru;;*);
+			    	[Imperfective adverbial participle is formed from imperfective verbs with suffixes -а (-я) and answers the question "what doing?".](*<- lang_en;;*);;
+			*);;
+*);;
+

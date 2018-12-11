@@ -1,5 +1,5 @@
 nrel_singular_number
 => nrel_main_idtf:
-	[единственное число](* <-lang_ru;; *);
- 	[singular number](* <-lang_en;; *);
+	[единственное число*](* <-lang_ru;; *);
+ 	[singular number*](* <-lang_en;; *);
 <-sc_node_norole_relation;;

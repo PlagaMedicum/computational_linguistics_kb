@@ -1,0 +1,63 @@
+grammatical_number
+<- sc_node_not_relation;
+ => nrel_main_idtf:
+	[число](* <-lang_ru;; *);
+    [grammatical number](* <-lang_en;; *);
+
+<- rrel_key_sc_element: ...
+ (*
+    =>nrel_idtf:[Опр. (число)] (* <- lang_ru;; *);;
+    =>nrel_idtf:[Def. (grammatical number)] (* <- lang_en;; *);;
+    <- definition;;
+    <=nrel_using_constants:
+    {
+    grammatical_category;
+    object;
+    person
+    };;
+    <= nrel_sc_text_translation: ...
+    (*
+             
+    -> rrel_example:[Число - грамматический разряд, показывающий, что речь идёт об одном или нескольких предметах, персонах.](*<- lang_ru;;*);;
+    -> rrel_example:[Grammatical number - grammatical category, indicating that we are talking about one or more objects, persons.] (* <- lang_en;; *);;
+    *);;
+       
+    *);
+
+<=nrel_subdividing:
+{
+nrel_plural_number;
+nrel_singular_number
+};
+
+
+<-rrel_key_sc_element:...
+(*
+<-explanation;;
+<=nrel_sc_text_translation: ...
+(*
+->[В некоторых языках имеются также двойственное число, тройственное число или паукальное число.] (* <- lang_ru;; *);;
+->[Some languages ​​also have a dual number, a triple number or a spider number.] (* <- lang_en;; *);;
+*);;
+=>nrel_idtf:[Утв.(язык,двойственное число,тройственное число,паукальное число)] (* <- lang_ru;; *);;
+=>nrel_idtf:[Expl. (language,dual number,triple number,triple number)] (* <- lang_en;; *);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+<-explanation;;
+<=nrel_sc_text_translation: ...
+(*
+->[Языки, не имеющие грамматической категории числа, тем не менее обладают всеми возможностями для передачи смысла количества.] (* <- lang_ru;; *);;
+->[Languages ​​that do not have the grammatical category of a number, nevertheless, have all the possibilities for conveying the meaning of a quantity.] (* <- lang_en;; *);;
+*);;
+=>nrel_idtf:[Утв.(язык,смысл,грамматическая категория числа)] (* <- lang_ru;; *);;
+=>nrel_idtf:[Expl. (language,grammatical category of a number, meaning)] (* <- lang_en;; *);;
+*);
+
+
+->rrel_example:...
+(*
+=>nrel_main_idtf:[Единственное число] (* <- lang_ru;; *);;
+=>nrel_main_idtf:[Singular number] (* <- lang_en;; *);;
+*);;

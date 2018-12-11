@@ -1,0 +1,25 @@
+past_tense_participle
+<-sc_node_not_relation;
+<-participle;;
+past_tense_participle => nrel_main_idtf:
+	[причастие прошедшего времени](* <-lang_ru;; *);
+    [past tense participle](* <-lang_en;; *);;
+past_tense_participle <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение:  причастие прошедшего времени] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: past tense participle] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Причастия прошедшего времени выражают действие, предшествовавшее действию, выраженному глаголом-сказуемым.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Past tense participles express the action preceding the action expressed by a verb predicate.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> participle;;
+            *);;
+		*);;

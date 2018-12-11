@@ -1,0 +1,25 @@
+extended_sentence
+<-sc_node_not_relation;
+<-sentence;;
+extended_sentence => nrel_main_idtf:
+	[распространенное предложение](* <-lang_ru;; *);
+    [extended sentence](* <-lang_en;; *);;
+extended_sentence <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: распространенное предложение] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: extended sentence] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Распространенное предложение – это предложение, имеющее наряду с главными, позиции второстепенных членов.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The extended sentence is a sentence having along with main, positions of minor parts.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sentence; rrel_sentence_part; rrel_sentence_minor_part; rrel_sentence_main_part;;
+            *);;
+		*);;

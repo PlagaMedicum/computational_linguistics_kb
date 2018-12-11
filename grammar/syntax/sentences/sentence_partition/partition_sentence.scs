@@ -1,0 +1,25 @@
+partition_sentence
+<-sc_node_not_relation;
+<-sentence;;
+partition_sentence => nrel_main_idtf:
+	[членимое предложение](* <-lang_ru;; *);
+    [partition sentence](* <-lang_en;; *);;
+partition_sentence <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: членимое предложение] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: partition sentence] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Членимое предложение – это предложение, в котором можно выделить члены предложения.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The partition sentence is a sentence in which it is possible to allocate sentence parts.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sentence; rrel_sentence_part;;
+            *);;
+		*);;
