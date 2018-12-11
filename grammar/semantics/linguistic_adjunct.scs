@@ -1,0 +1,5 @@
+linguistic_adjunct
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[сирконстант](* <-lang_ru;; *);
+    [linguistic adjunct](* <-lang_en;; *);;

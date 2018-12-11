@@ -1,0 +1,27 @@
+ambiguous_word
+<-sc_node_not_relation;
+<-word;;
+ambiguous_word => nrel_main_idtf:
+	[многозначеное слово](* <-lang_ru;; *);
+    [ambiguous word](* <-lang_en;; *);;
+ambiguous_word <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: многозначное слово] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: ambiguous word] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Многозначные слова — слова, имеющие несколько лексическое значение. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Ambiguous words — the words having several lexical meanings.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> word;;
+                -> grammatical_form;;
+            *);;
+		*);;
+

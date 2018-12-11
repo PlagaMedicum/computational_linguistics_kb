@@ -1,0 +1,62 @@
+nrel_antonym
+<- sc_node_norole_relation;
+ => nrel_main_idtf:
+	[антоним*](* <-lang_ru;; *);
+    [antonym*](* <-lang_en;; *);
+
+	<- antireflexive_relation;
+    <- symmetric_relation;
+	<- non_oriented_relation;
+    <- antitransitive_relation;
+	<- binary_relation;
+    => nrel_first_domain: word;
+    => nrel_second_domain: word;
+
+
+
+
+<- rrel_key_sc_element: ...
+    (*
+        =>nrel_idtf:[Опр. (антоним)] (* <- lang_ru;; *);;
+        =>nrel_idtf:[Def. (antonym)] (* <- lang_en;; *);;
+        <- definition;;
+        /*
+        <= nrel_using_constants: ...
+        (*
+            -> word;;
+            -> sound;;
+            -> different;;
+            -> opposite_meaning;;
+        *);;
+        */
+        <=nrel_using_constants:
+        {
+         word;
+         sound;
+         different;
+         opposite_meaning
+        };;
+        <= nrel_sc_text_translation: ...
+        (*
+             
+        -> rrel_example:[Антонимы - это слова, различные по звучанию, имеющие прямо противоположные значения.](*<- lang_ru;;*);;
+        -> rrel_example:[Antonyms are words that are different in sound and have opposite meanings.] (* <- lang_en;; *);;
+        *);;
+       
+    *);
+   
+
+=> nrel_definitional_domain:...;;
+  /*  
+  (*
+        <= nrel_combination: ...
+        (* 
+            -> word;;
+        *);;
+    *);;
+    */
+
+rrel_example->(nrel_antonym->(kind<=>angry));;
+    
+
+//*/

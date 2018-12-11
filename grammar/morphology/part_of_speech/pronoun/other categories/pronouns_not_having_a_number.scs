@@ -1,0 +1,27 @@
+pronouns_not_having_a_number=> nrel_main_idtf:
+	[не имеющие число местоимения](* <-lang_ru;; *);
+    [pronouns not having a number](* <-lang_en;; *);
+
+
+<-rrel_key_sc_element:...
+(*
+=>nrel_idtf:[Определение (не имеющие число местоимения)] (* <- lang_ru;; *);;
+=>nrel_idtf:[Definition (pronouns not having a number)] (* <- lang_en;; *);;
+<- definition;;
+<=nrel_using_constants: 
+{
+grammatical_number;
+pronoun
+};;
+<=nrel_sc_text_translation: ...
+(*
+->[Местоимения без числа-местоимения, не имеющие число.] (* <- lang_ru;; *);;
+->[Pronouns without number, not having a number.] (* <- lang_en;; *);;
+*);;
+*);
+
+->rrel_example:...
+(*
+=>[Там] (* <- lang_ru;; *);;
+=>[There] (* <- lang_en;; *);;
+*);; 

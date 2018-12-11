@@ -1,0 +1,29 @@
+
+pronouns_interrogative=> nrel_main_idtf:
+	[вопросительные местоимения](* <-lang_ru;; *);
+    [pronouns_interrogative](* <-lang_en;; *);
+
+<-rrel_key_sc_element:...
+(*
+=>nrel_idtf:[Определение (вопросительные местоимения)] (* <- lang_ru;; *);;
+=>nrel_idtf:[Definition (pronouns_interrogative)] (* <- lang_en;; *);;
+<- definition;;
+<=nrel_using_constants: 
+{
+question;
+pronoun
+};;
+<=nrel_sc_text_translation: ...
+(*
+->[Вопросительные местоимения- местоимения, служащие для выражения вопроса.] (* <- lang_ru;; *);;
+->[Interrogative pronouns are pronouns that express a question.] (* <- lang_en;; *);;
+*);;
+*);
+
+->rrel_example:...
+(*
+=>[Кто] (* <- lang_ru;; *);;
+=>[Что] (* <- lang_ru;; *);;
+=>[Who] (* <- lang_en;; *);;
+=>[What] (* <- lang_en;; *);;
+*);; 

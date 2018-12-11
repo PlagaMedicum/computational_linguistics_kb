@@ -1,0 +1,26 @@
+word_form
+<-sc_node_not_relation;
+<-word;;
+word_form => nrel_main_idtf:
+	[служебное слово](* <-lang_ru;; *);
+    [function word](* <-lang_en;; *);;
+word_form <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: словоформа] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: word form] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Словоформа — слово в узком смысле, то есть обладающая признаками слова цепочка фонем, формально отличающаяся от другой.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Word form — a word in narrow sense, that is the chain of phonemes having signs of a word formally differing from another.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> word;;
+            *);;
+		*);;
+

@@ -1,0 +1,29 @@
+pronouns_indefinte=> nrel_main_idtf:
+	[неопределенные местоимения](* <-lang_ru;; *);
+    [pronouns indefinte](* <-lang_en;; *);
+
+
+<-rrel_key_sc_element:...
+(*
+=>nrel_idtf:[Определение (неопределенные местоимения)] (* <- lang_ru;; *);;
+=>nrel_idtf:[Definition (pronouns indefinte)] (* <- lang_en;; *);;
+<- definition;;
+<=nrel_using_constants: 
+{
+person;
+object;
+quality;
+pronoun
+};;
+<=nrel_sc_text_translation: ...
+(*
+->[Неопределённые местоимения- местоимения,указывающие на неопределённые предметы, признаки, количество.] (* <- lang_ru;; *);;
+->[Indefinite pronouns are pronouns indicating indefinite objects, signs, numbers..] (* <- lang_en;; *);;
+*);;
+*);
+
+->rrel_example:...
+(*
+=>[Некто] (* <- lang_ru;; *);;
+=>[Someone] (* <- lang_en;; *);;
+*);; 

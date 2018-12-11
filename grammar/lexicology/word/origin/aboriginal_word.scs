@@ -1,0 +1,25 @@
+aboriginal_word
+<-sc_node_not_relation;
+<-word;;
+aboriginal_word => nrel_main_idtf:
+	[исконное слово](* <-lang_ru;; *);
+    [aboriginal word](* <-lang_en;; *);;
+aboriginal_word <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: исконное слово] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: aboriginal word] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Исконное слово - основное слово данного языка, вошедшее в его первоначальный словарный состав или образовавшееся впоследствии из лексического материала этого языка.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Aboriginal - the main word of this language which was its initial dictionary part or formed subsequently of lexical material of this language.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> word;;
+            *);;
+		*);;
