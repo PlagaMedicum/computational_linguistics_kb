@@ -1,0 +1,5 @@
+nrel_nominative_case
+=> nrel_main_idtf:
+	[именительный падеж](* <-lang_ru;; *);
+ 	[nominative case](* <-lang_en;; *);
+<-sc_node_norole_relation;;

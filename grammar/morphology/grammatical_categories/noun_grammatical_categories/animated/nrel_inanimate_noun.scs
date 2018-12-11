@@ -1,0 +1,5 @@
+nrel_inanimate_noun
+=> nrel_main_idtf:
+	[неодушевленное](* <-lang_ru;; *);
+ 	[inanimate](* <-lang_en;; *);
+<-sc_node_norole_relation;;

@@ -1,0 +1,96 @@
+noun
+    <-sc_node_not_relation;
+    //<-section_subjdomain_part_of_speech;
+   
+    => nrel_main_idtf:
+        [существительное](* <-lang_ru;; *);
+        [noun](* <-lang_en;; *);
+
+        -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [дом](*<- lang_ru;;*);
+            [home](*<- lang_en;;*);;
+    *);
+
+    <- rrel_key_sc_element: definition_noun
+    (*
+        <- definition;;
+        => nrel_main_idtf: 
+            [Опр. (существительное)] (* <- lang_ru;; *);
+            [Def. (noun)] (* <- lang_en;; *);;
+        <= nrel_sc_text_translation: ...
+        (*
+            -> rrel_example: 
+                [Существительное - самостоятельная часть речи, обозначающая предмет или лицо.](*<- lang_ru;;*);
+                [Noun - that in an independent part of speech, denoting an object or person.](*<- lang_en;;*);;
+        *);;
+        <= nrel_using_constants: ...
+        (*
+            ->category_of_words;;
+            ->nrel_action;;
+            ->nrel_process_statement_of_object;;
+        *);;
+    *);
+
+    <- rrel_key_sc_element: ...
+    (*
+        <- explanation;;
+        <- reflexive_noun;;
+        <- intransitive_verb;;
+        => nrel_main_idtf: 
+            [Утв.(русский язык, существительное, морфологический признак)] (* <- lang_ru;; *);
+            [Expl.(russian language, noun, morphological signs)] (* <- lang_eng;; *);;
+        <= nrel_sc_text_translation: ...
+        (*
+            -> rrel_example: 
+                [В русском языке все существительные имеют определенный морфологические признаки.](*<- lang_ru;;*);
+                [In russian language all nouns have defined morphological signs.](*<- lang_en;;*);;
+        *);;
+    *);
+
+      <=nrel_subdividing:
+    {
+        nrel_first_declension;
+        nrel_second_declension;
+        nrel_third_declension
+    };
+
+    <=nrel_subdividing:
+    {
+        nrel_feminine_gender;
+        nrel_musculine_gender;
+        nrel_neuter_gender
+    };
+
+     <=nrel_subdividing:
+    {
+        nrel_animated_noun;
+        nrel_inanimate_noun
+    };
+
+     <=nrel_subdividing:
+    {
+       nrel_own_noun;
+       nrel_nominal_noun
+    };
+
+    <=nrel_subdividing:
+    {
+       nrel_nominative_case;
+       nrel_genitive_case;
+       nrel_dative_case;
+       nrel_accusative_case;
+       nrel_instrumental_case;
+       nrel_prepositional_case
+    };
+
+    <=nrel_subdividing:
+    {
+        nrel_singular_noun;
+        nrel_plural_noun
+    };;
+
+
+
+

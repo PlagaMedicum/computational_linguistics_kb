@@ -1,0 +1,5 @@
+nrel_dative_case
+=> nrel_main_idtf:
+	[дательный падеж](* <-lang_ru;; *);
+ 	[dative case](* <-lang_en;; *);
+<-sc_node_norole_relation;;
