@@ -1,0 +1,5 @@
+nrel_prepositional_case
+=> nrel_main_idtf:
+	[предложный падеж](* <-lang_ru;; *);
+ 	[prepositional case](* <-lang_en;; *);
+<-sc_node_norole_relation;;

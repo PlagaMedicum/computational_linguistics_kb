@@ -39,19 +39,7 @@ event
 => nrel_main_idtf:
 	[событие](* <-lang_ru;; *);
     [event](* <-lang_en;; *);;
-
-object
-<-sc_node_not_relation;
-=> nrel_main_idtf:
-	[объект](* <-lang_ru;; *);
-    [object](* <-lang_en;; *);;
-
-subject
-<-sc_node_not_relation;
-=> nrel_main_idtf:
-	[субъект](* <-lang_ru;; *);
-    [subject](* <-lang_en;; *);;
-
+    
 state
 <-sc_node_not_relation;
 => nrel_main_idtf:
@@ -117,14 +105,32 @@ grammatical_category
 	[грамматический разряд](* <-lang_ru;; *);
     [grammatical category](* <-lang_en;; *);;
 
-sex
+gender
 <-sc_node_not_relation;
 => nrel_main_idtf:
 	[пол](* <-lang_ru;; *);
-    [sex](* <-lang_en;; *);;
+    [gender](* <-lang_en;; *);;
 
 conversation
 <-sc_node_not_relation;
 => nrel_main_idtf:
 	[разговор](* <-lang_ru;; *);
     [conversation](* <-lang_en;; *);;
+
+request
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[просьба](* <-lang_ru;; *);
+    [request](* <-lang_en;; *);;
+
+comand
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[приказ](* <-lang_ru;; *);
+    [comand](* <-lang_en;; *);;
+
+advice
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[совет](* <-lang_ru;; *);
+    [advice](* <-lang_en;; *);;

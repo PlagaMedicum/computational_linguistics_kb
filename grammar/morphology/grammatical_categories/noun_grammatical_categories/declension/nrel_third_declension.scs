@@ -1,0 +1,5 @@
+nrel_third_declension
+=> nrel_main_idtf:
+	[3-е склонение](* <-lang_ru;; *);
+ 	[3-st declension](* <-lang_en;; *);
+<-sc_node_norole_relation;;

@@ -1,0 +1,7 @@
+grammatical_conjugation
+    <-sc_node_not_relation;
+    <- grammatical_category;
+
+    => nrel_main_idtf:
+        [грамматическое спряжение](* <-lang_ru;; *);
+        [grammatical conjugation](* <-lang_en;; *);;

@@ -1,0 +1,5 @@
+nrel_second_declension
+=> nrel_main_idtf:
+	[2-е склонение](* <-lang_ru;; *);
+ 	[2-st declension](* <-lang_en;; *);
+<-sc_node_norole_relation;;

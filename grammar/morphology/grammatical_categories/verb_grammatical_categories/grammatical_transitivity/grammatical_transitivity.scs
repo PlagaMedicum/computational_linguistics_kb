@@ -1,5 +1,7 @@
 grammatical_transitivity
     <-sc_node_not_relation;
+    <- grammatical_category;
+
     => nrel_main_idtf:
         [грамматическая переходность](* <-lang_ru;; *);
         [grammatical transitivity](* <-lang_en;; *);
