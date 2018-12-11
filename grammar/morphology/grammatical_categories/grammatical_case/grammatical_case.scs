@@ -19,16 +19,8 @@ grammatical_case
     (*       
     -> rrel_example:[Падеж — это форма имени, указывающая на отношение слова к другим словам в предложении.](*<- lang_ru;;*);;
     -> rrel_example:[Case - a form of a name indicating the relation of a word to other words in a sentence..] (* <- lang_en;; *);;
-    *);;
-       
-    *);
-
-<=nrel_subdividing:
-{
-nrel_x;
-nrel_y
-};;
-
+    *);; 
+*);
 
 <-rrel_key_sc_element:...
 (*

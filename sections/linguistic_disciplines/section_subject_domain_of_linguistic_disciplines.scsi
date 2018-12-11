@@ -7,16 +7,9 @@ subject_domain_of_linguistic_disciplines
 	(* <- lang_ru;;*);
 	[Subject domain of linguistic disciplines]
 	(* <- lang_en;; *);
-
-/*<= nrel_sc_text_translation:
-		...
-		(* 
-		-> rrel_example: "file://html/linguistic_disciplines_ru.html" (* <-lang_ru;; *);;
-		*);
-*/
-
+	
 -> rrel_maximum_studied_object_class: 
-	linguistic_disciplines;
+	linguistic_discipline;
 
 -> rrel_not_maximum_studied_class:
 	applied_linguistics;;
