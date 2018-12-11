@@ -1,0 +1,27 @@
+pronouns_non_genus=> nrel_main_idtf:
+	[не имеющие род местоимения](* <-lang_ru;; *);
+    [pronouns non genus](* <-lang_en;; *);
+
+
+<-rrel_key_sc_element:...
+(*
+=>nrel_idtf:[Определение (не имеющие род местоимения)] (* <- lang_ru;; *);;
+=>nrel_idtf:[Definition (pronouns non genus)] (* <- lang_en;; *);;
+<- definition;;
+<=nrel_using_constants: 
+{
+grammatical_gender;
+pronoun
+};;
+<=nrel_sc_text_translation: ...
+(*
+->[Местоимения без рода-местоимения,не имеющие род.] (* <- lang_ru;; *);;
+->[Pronouns without gender-pronouns that have no gender.] (* <- lang_en;; *);;
+*);;
+*);
+
+->rrel_example:...
+(*
+=>[Там] (* <- lang_ru;; *);;
+=>[There] (* <- lang_en;; *);;
+*);; 

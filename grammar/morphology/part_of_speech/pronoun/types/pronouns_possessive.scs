@@ -1,0 +1,29 @@
+pronouns_possessive=> nrel_main_idtf:
+	[притяжательные местоимения](* <-lang_ru;; *);
+    [pronouns possessive](* <-lang_en;; *);
+
+<-rrel_key_sc_element:...
+(*
+=>nrel_idtf:[Определение (притяжательные местоимения)] (* <- lang_ru;; *);;
+=>nrel_idtf:[Definition (pronouns possessive)] (* <- lang_en;; *);;
+<- definition;;
+<=nrel_using_constants: 
+{
+object;
+person;
+pronoun
+};;
+<=nrel_sc_text_translation: ...
+(*
+->[Притяжательные местоимения-местоимения,указывающие какому лицу принадлежит предмет.] (* <- lang_ru;; *);;
+->[Possessive pronouns-pronouns, indicating which person belongs to the subject.] (* <- lang_en;; *);;
+*);;
+*);
+
+->rrel_example:...
+(*
+=>[Мой] (* <- lang_ru;; *);;
+=>[Твой] (* <- lang_ru;; *);;
+=>[Mine] (* <- lang_en;; *);;
+=>[Yours] (* <- lang_en;; *);;
+*);; 

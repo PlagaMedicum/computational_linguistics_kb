@@ -1,0 +1,29 @@
+pronouns_relative=> nrel_main_idtf:
+	[относительные местоимения](* <-lang_ru;; *);
+    [pronouns relative](* <-lang_en;; *);
+
+
+<-rrel_key_sc_element:...
+(*
+=>nrel_idtf:[Определение (относительные местоимения)] (* <- lang_ru;; *);;
+=>nrel_idtf:[Definition (pronouns relative)] (* <- lang_en;; *);;
+<- definition;;
+<=nrel_using_constants: 
+{
+difficult_sentence;
+pronoun
+};;
+<=nrel_sc_text_translation: ...
+(*
+->[Относительные местоимения-местоимения,служащие для связи частей сложного предложения.] (* <- lang_ru;; *);;
+->[Relative pronouns- pronouns, serving to link parts of a complex sentence.] (* <- lang_en;; *);;
+*);;
+*);
+
+->rrel_example:...
+(*
+=>[Кто] (* <- lang_ru;; *);;
+=>[Что] (* <- lang_ru;; *);;
+=>[Who] (* <- lang_en;; *);;
+=>[What] (* <- lang_en;; *);;
+*);; 

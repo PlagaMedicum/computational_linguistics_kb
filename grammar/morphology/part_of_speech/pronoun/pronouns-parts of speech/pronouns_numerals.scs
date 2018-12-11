@@ -1,0 +1,28 @@
+pronouns_numerals=> nrel_main_idtf:
+	[местоимения-числительные](* <-lang_ru;; *);
+    [pronouns-numerals](* <-lang_en;; *);
+
+
+<-rrel_key_sc_element:...
+(*
+=>nrel_idtf:[Определение (местоимения-числительные)] (* <- lang_ru;; *);;
+=>nrel_idtf:[Definition (pronouns numerals)] (* <- lang_en;; *);;
+<- definition;;
+<=nrel_using_constants: 
+{
+object;
+amount;
+pronoun
+};;
+<=nrel_sc_text_translation: ...
+(*
+->["Местоимения-числительные" - местоимения,указывающие на количество предметов.] (* <- lang_ru;; *);;
+->["Pronouns-numerals" - pronouns that indicate the number of items.] (* <- lang_en;; *);;
+*);;
+*);
+
+->rrel_example:...
+(*
+=>[Сколько-нибудь] (* <- lang_ru;; *);;
+=>[Any] (* <- lang_en;; *);;
+*);; 

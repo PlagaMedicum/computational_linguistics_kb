@@ -1,0 +1,31 @@
+pronouns_adjectives=> nrel_main_idtf:
+	[местоимения-прилагательные](* <-lang_ru;; *);
+    [pronouns-adjectives](* <-lang_en;; *);
+
+
+<-rrel_key_sc_element:...
+(*
+=>nrel_idtf:[Определение (местоимения-прилагательные)] (* <- lang_ru;; *);;
+=>nrel_idtf:[Definition (pronouns-adjectives)] (* <- lang_en;; *);;
+<- definition;;
+<=nrel_using_constants: 
+{
+difficult_sentence;
+adjectives;
+feature;
+pronoun
+};;
+<=nrel_sc_text_translation: ...
+(*
+->[Местоимения прилагательные – это разряд местоимений, которые имеют лексические, грамматические и синтаксические признаки прилагательных.] (* <- lang_ru;; *);;
+->[Pronouns adjectives - this discharge pronouns, which have the lexical, grammatical and syntactic signs of adjectives.] (* <- lang_en;; *);;
+*);;
+*);
+
+->rrel_example:...
+(*
+=>[Этот] (* <- lang_ru;; *);;
+=>[Свой] (* <- lang_ru;; *);;
+=>[My] (* <- lang_en;; *);;
+=>[This] (* <- lang_en;; *);;
+*);; 
