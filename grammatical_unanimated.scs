@@ -1,0 +1,35 @@
+grammatical_unanimamed
+<- sc_node_not_relation;
+ => nrel_main_idtf:
+	[неодушевленное](* <-lang_ru;; *);
+    [grammatical unanimamed](* <-lang_en;; *);
+
+<- rrel_key_sc_element: ...
+ (*
+    =>nrel_idtf:[Опр. (неодушевленное)] (* <- lang_ru;; *);;
+    =>nrel_idtf:[Def. (grammatical unanimamed)] (* <- lang_en;; *);;
+    <- definition;;
+    <=nrel_using_constants:
+    {
+    object;
+    question;
+    floral_world;
+    word
+    };;
+    <= nrel_sc_text_translation: ...
+    (*       
+    -> rrel_example:[Неодушевлённые слова - слова,служащие названиями неживых предметов, а также предметов растительного мира и отвечают на вопрос что?.](*<- lang_ru;;*);;
+    -> rrel_example:[Inanimate words are words that serve as the names of non-living objects, as well as objects of flora and answer the question what?.] (* <- lang_en;; *);;
+    *);;
+       
+    *);
+
+<-grammatical_animateness;
+
+
+
+->rrel_example:...
+(*
+=>nrel_main_idtf:[Яблоко] (* <- lang_ru;; *);;
+=>nrel_main_idtf:[Apple] (* <- lang_en;; *);;
+*);;

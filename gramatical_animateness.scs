@@ -1,0 +1,33 @@
+grammatical_animateness
+<- sc_node_not_relation;
+ => nrel_main_idtf:
+	[одушевленность](* <-lang_ru;; *);
+    [grammatical animateness](* <-lang_en;; *);
+
+<- rrel_key_sc_element: ...
+ (*
+    =>nrel_idtf:[Опр. (одушевленность)] (* <- lang_ru;; *);;
+    =>nrel_idtf:[Def. (grammatical animateness)] (* <- lang_en;; *);;
+    <- definition;;
+    <=nrel_using_constants:
+    {
+    noun;
+    pronoun;
+    classification;
+    part_of_speech
+    };;
+    <= nrel_sc_text_translation: ...
+    (*       
+    -> rrel_example:[Одушевлённость — семантический категориальный признак части речи, базирующийся на наивном знании о классификации существительных и местоимений по типу референта.](*<- lang_ru;;*);;
+    -> rrel_example:[Grammatical animateness - semantic categorical feature of the name, based on the naive knowledge of the classification of nouns and pronouns by type of referent.] (* <- lang_en;; *);;
+    *);;
+       
+    *);
+
+
+
+->rrel_example:...
+(*
+=>nrel_main_idtf:[Одушевленное] (* <- lang_ru;; *);;
+=>nrel_main_idtf:[Animated] (* <- lang_en;; *);;
+*);;

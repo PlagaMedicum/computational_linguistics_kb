@@ -1,0 +1,35 @@
+grammatical_animated
+<- sc_node_not_relation;
+ => nrel_main_idtf:
+	[одушевленное](* <-lang_ru;; *);
+    [grammatical animated](* <-lang_en;; *);
+
+<- rrel_key_sc_element: ...
+ (*
+    =>nrel_idtf:[Опр. (одушевленное)] (* <- lang_ru;; *);;
+    =>nrel_idtf:[Def. (grammatical animated)] (* <- lang_en;; *);;
+    <- definition;;
+    <=nrel_using_constants:
+    {
+   word;
+   people;
+   question;
+   animals
+    };;
+    <= nrel_sc_text_translation: ...
+    (*       
+    -> rrel_example:[Одушевлённые слова - слова, называющие людей, животных и отвечают на вопрос кто?.](*<- lang_ru;;*);;
+    -> rrel_example:[Animated words - words that call people, animals and answer the question who?.] (* <- lang_en;; *);;
+    *);;
+       
+    *);
+
+<-grammatical_animateness;
+
+
+
+->rrel_example:...
+(*
+=>nrel_main_idtf:[Собака] (* <- lang_ru;; *);;
+=>nrel_main_idtf:[Dog] (* <- lang_en;; *);;
+*);;

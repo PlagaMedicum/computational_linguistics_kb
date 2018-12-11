@@ -134,3 +134,28 @@ advice
 => nrel_main_idtf:
 	[совет](* <-lang_ru;; *);
     [advice](* <-lang_en;; *);;
+
+    classification
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[классификация](* <-lang_ru;; *);
+    [classification](* <-lang_en;; *);;
+
+animals
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[животные](* <-lang_ru;; *);
+    [animals](* <-lang_en;; *);;
+
+people
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[люди](* <-lang_ru;; *);
+    [people](* <-lang_en;; *);;
+
+
+floral_world
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[растительный мир](* <-lang_ru;; *);
+    [floral world](* <-lang_en;; *);;
