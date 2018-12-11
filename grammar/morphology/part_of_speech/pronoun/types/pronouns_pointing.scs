@@ -1,0 +1,29 @@
+pronouns_pointing=> nrel_main_idtf:
+	[указательные местоимения](* <-lang_ru;; *);
+    [pronouns pointing](* <-lang_en;; *);
+
+
+<-rrel_key_sc_element:...
+(*
+=>nrel_idtf:[Определение (указательные местоимения)] (* <- lang_ru;; *);;
+=>nrel_idtf:[Definition (pronouns pointing)] (* <- lang_en;; *);;
+<- definition;;
+<=nrel_using_constants: 
+{
+object;
+quality;
+feature;
+pronoun
+};;
+<=nrel_sc_text_translation: ...
+(*
+->[Указательные местоимения - местоимения,служащие для выделения среди других какого-либо определённого предмета, признака, количества.] (* <- lang_ru;; *);;
+->[Demonstrative pronouns are pronouns that are used to distinguish among others any particular subject, trait, or quantity.] (* <- lang_en;; *);;
+*);;
+*);
+
+->rrel_example:...
+(*
+=>[Тот] (* <- lang_ru;; *);;
+=>[That] (* <- lang_en;; *);;
+*);; 

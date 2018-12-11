@@ -1,0 +1,33 @@
+
+pronouns_personal
+=> nrel_main_idtf:
+	[личные местоимения](* <-lang_ru;; *);
+    [pronouns personal](* <-lang_en;; *);
+
+
+ 
+<-rrel_key_sc_element:...
+(*
+=>nrel_idtf:[Определение (личные местоимения)] (* <- lang_ru;; *);;
+=>nrel_idtf:[Definition (pronouns personal)] (* <- lang_en;; *);;
+<- definition;;
+<=nrel_using_constants: 
+{
+object;
+person;
+pronoun
+};;
+<=nrel_sc_text_translation: ...
+(*
+->[Личные местоимения - местоимения,указывающие на участников речи,на предмет, о котором говорится, говорилось или будет говориться,на говорящего или его собеседника вместе с другими лицами.] (* <- lang_ru;; *);;
+->[Personal pronouns - pronouns that indicate the participants of the speech, the subject of which is spoken, said or will be said, the speaker or his interlocutor along with other persons.] (* <- lang_en;; *);;
+*);;
+*);
+
+->rrel_example:...
+(*
+=>[Я] (* <- lang_ru;; *);;
+=>[Он] (* <- lang_ru;; *);;
+=>[I] (* <- lang_en;; *);;
+=>[He] (* <- lang_en;; *);;
+*);; 
