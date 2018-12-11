@@ -1,0 +1,97 @@
+sc_node_not_relation
+-> phrase;;
+
+modal_word
+=> nrel_main_idtf: [словосочетание](* <- lang_ru;; *);
+=> nrel_idtf: [множество словосочетаний](* <- lang_ru;; *);
+=> nrel_idtf: [phrase](* <- lang_en;; *);;
+
+sc_node_not_relation
+-> verbal_phrase;
+-> adverbial_phrase;
+-> nounal_phrase;
+-> simple_phrase;
+-> complex_phrase;
+-> definitive_phrase;
+-> circumpositional_phrase;
+-> object_phrase;;
+
+sc_node_norole_relation
+-> nrel_agreement;
+-> nrel_government;
+-> nrel_contiguity;;
+
+sc_node_role_relation
+-> rrel_main_word;
+-> rrel_minor_word;
+
+phrase
+<= nrel_subdividing: ...
+(*
+-> verbal_phrase;
+-> adverbial_phrase;
+-> nounal_phrase;;
+
+=> nrel_main_idtf: [Разбиение словосочетаний по виду главного слова](* <-lang_ru;; *);;
+*);;
+
+phrase
+<= nrel_subdividing: ...
+(*
+-> simple_phrase;
+-> complex_phrase;;
+
+=> nrel_main_idtf: [Разбиение словосочетаний по количеству слов](* <-lang_ru;; *);;
+*);;
+
+phrase
+<= nrel_subdividing: ...
+(*
+-> definitive_phrase;
+-> circumpositional_phrase;
+-> object_phrase;;
+
+=> nrel_main_idtf: [Разбиение словосочетаний по вопросу](* <-lang_ru;; *);;
+*);;
+
+phrase
+<= nrel_subdividing: ...
+(*
+-> nrel_agreement;
+-> nrel_government;
+-> nrel_contiguity;;
+
+=> nrel_main_idtf: [Виды связи в словосочетании](* <-lang_ru;; *);;
+*);;
+
+phrase
+<= nrel_subdividing: ...
+(*
+-> rrel_main_word;
+-> rrel_minor_word;;
+
+=> nrel_main_idtf: [Роли слов в словосочетании](* <-lang_ru;; *);;
+*);;
+
+definition -> ... (*
+-> rrel_key_sc_element: phrase;;
+=> nrel_main_idtf: [Опр. (словосочетание)](* <- lang_ru;; *);;
+<= nrel_using_constants: word;;
+<= nrel_sc_text_translation: ... (* -> [Словосочетание - это соединение двух или нескольких самостоятельных слов, связанных по смыслу и грамматически, служащее для расчленённого обозначения единого понятия.](* <- lang_ru;; *);;*);;
+*);;
+
+statement ->
+... (*
+-> rrel_key_sc_element: phrase;;
+=> nrel_main_idtf: [Утв.(словосочетание, подчинительная связь*, слово, предложение)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation: ... (*
+-> [К словосочетаниям не относятся такие сочетания, у которых связь не подчинительная, одно из слов не является знаменательным или связь возникает только в определённой позиции в предложении у определённой формы.](* <- lang_ru;; *);;
+*);;
+*);;
+
+phrase
+-> rrel_example: ...
+(*
+=> nrel_main_idtf: [Высокий дом](*<-lang_ru;;*);
+[High house](*<-lang_en;;*);;
+*);;

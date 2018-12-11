@@ -1,0 +1,69 @@
+sc_node_norole_relation
+-> nrel_ideographic_synonym;;
+
+nrel_ideographic_synonym
+=> nrel_idtf: [ideographic synonym*] (* <- lang_en;; *);;
+=> nrel_idtf: [быть идеографическим синонимом*] (* <- lang_ru;; *);;
+=> nrel_main_idtf: [идеографический синоним*] (* <- lang_ru;; *);;
+
+number
+-> 2;;
+
+parameter
+-> arity;;
+
+arity
+-> binary_relation;;
+
+binary_relation
+-> nrel_ideographic_synonym;;
+
+binary_relation
+-> nrel_measurement: 2;;
+
+nrel_ideographic_synonym
+=> nrel_first_domain: part_of_speech;;
+=> nrel_second_domain: part_of_speech;;
+=> nrel_definitional_domain: part_of_speech;;
+
+nrel_ideographic_synonym
+<- non_oriented_relation;
+<- norole_relation;
+<- transitive_relation;
+<- antireflexive_relation;
+<- symmetric_relation;;
+
+relation
+=> nrel_inclusion: binary_relation;;
+=> nrel_inclusion: non_oriented_relation;;
+
+binary_relation
+=> nrel_inclusion: transitive_relation;;
+=> nrel_inclusion: antireflexive_relation;;
+=> nrel_inclusion: symmetric_relation;;
+
+sc_node_norole_relation
+-> meaning (* => nrel_main_idtf:[значение](* <- lang_ru;; *);;*);;
+
+definition ->
+... (*
+-> rrel_sc_key_element: nrel_ideographic_synonym;;
+=> nrel_main_idt: [Опр.(идеографический синоним*)] (* <- lang_ru;; *);;
+<= nrel_sc_text_translation: [Идеографические синонимы - синонимы, которые различаются оттенком значения.] (* <- lang_ru;; *);;
+<= nrel_using_constants:
+(*
+-> nrel_synonym;;
+-> nrel_meaning;;
+*);;
+
+statement... (*
+-> rrel_sc_key_element: nrel_ideographic_synonym;;
+=> nrel_main_idtf: [Утв.(Идеографический синоним*, понятие)] (* <-lang_ru;; *);;
+<= nrel_sc_text_translation: ... (* -> [Идеографические синонимы пpинaдлeжaт к oднoй чacти peчи и paзличaютcя пo пpизнaкaм интeнcивнocти пpoявлeния пpизнaкa, кaчecтвa, динaмике дeйcтвия, внyтpeнним paзличиям явлeний, иx цeли или пpичине.] (* <- lang_ru;; *);; *);;
+
+word
+-> juvenility (* => nrel_main_idtf:[Юность](* <- lang_ru;; *);;;*);
+-> youth (* => nrel_main_idtf:[Молодость](* <- lang_ru;; *);;*);;
+
+juvenility
+= nrel_ideographic_synonym: youth;;

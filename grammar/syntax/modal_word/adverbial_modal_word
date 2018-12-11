@@ -1,0 +1,36 @@
+    sc_node_not_relation
+    -> adverbial_modal_word;;
+
+    adverbial_modal_word
+    => nrel_main_idtf: [наречное модальное слово](* <- lang_ru;; *);;
+    => nrel_idtf: [множество наречных модальных слов](* <- lang_ru;; *);;
+    => nrel_idtf: [adverbial modal word](* <- lang_en;; *);;
+
+    definition ->
+    ... (*
+    -> rrel_key_sc_element: adverbial_modal_word;;
+    => nrel_main_idtf: [Опр. (Наречное модальное слово)](* <- lang_ru;; *);;
+    <= nrel_using_constants: ...
+    (*
+    -> modal_word;
+    -> adverb;
+    -> affix;;
+    *);;
+    <= nrel_sc_text_translation: ... (* -> [Наречное модальное слово - это модальное слово, образованное от наречия с помощью аффиксов.](* <- lang_ru;; *);;*);;
+    *);;
+
+    statement ->
+    ... (*
+    -> rrel_key_sc_element: adverbial_modal_word;;
+    => nrel_main_idtf: [Утв.(наречное модальное слово, аффикс)](* <- lang_ru;; *);;
+    <= nrel_sc_text_translation: ... (*
+    -> [Наречные модальные слова могут образовываться при помощи как одного, так и нескольких аффиксов.](* <- lang_ru;; *);;
+    *);;
+    *);;
+
+    adverbial_modal_word
+    -> rrel_example: ...
+    (*
+    =>nrel_main_idtf: [Решительно](*<-lang_ru;;*);
+    [Resolutely](*<-lang_en;;*);;
+    *);;

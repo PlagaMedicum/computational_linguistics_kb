@@ -1,0 +1,37 @@
+sc_node_not_relation
+-> object_phrase;;
+
+object_phrase
+=> nrel_main_idtf: [объектное словосочетание](* <- lang_ru;; *);
+=> nrel_idtf: [множество объектных словосочетаний](* <- lang_ru;; *);
+=> nrel_idtf: [object phrase](* <- lang_en;; *);;
+
+definition -> ... (*
+-> rrel_key_sc_element: object_phrase;;
+=> nrel_main_idtf: [Опр. (Объектное словосочетание)](* <- lang_ru;; *);;
+<= nrel_using_constants: ...
+(*
+-> subject;
+-> sign;
+-> act;
+-> word;
+-> phrase;;
+*);;
+<= nrel_sc_text_translation: ... (* -> [Объектное словосочетание - это словосочетания, которые называют предметы, действия, признаки и т.д., но более точно, более конкретно, чем слова.](* <- lang_ru;; *);;*);;
+*);;
+
+statement ->
+... (*
+-> rrel_key_sc_element: object_phrase;;
+=> nrel_main_idtf: [Утв.(объектное словосочетание, глагол, прилагательное, существительное, причастие, главное слово*)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation: ... (*
+-> [Главными словами в объектных словосочетаниях бывают глаголы, существительные, прилагательные и причастия.](* <- lang_ru;; *);;
+*);;
+*);;
+
+object_phrase
+-> rrel_example: ...
+(*
+=> nrel_main_idtf: [Читать вслух](*<-lang_ru;;*);
+[Read aloud](*<-lang_en;;*);;
+*);;

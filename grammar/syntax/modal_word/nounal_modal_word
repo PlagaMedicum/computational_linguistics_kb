@@ -1,0 +1,36 @@
+sc_node_not_relation
+-> nounal_modal_word;;
+
+nounal_modal_word
+=> nrel_main_idtf: [отыменное модальное слово](* <- lang_ru;; *);;
+=> nrel_idtf: [множество отыменных модальных слов](* <- lang_ru;; *);;
+=> nrel_idtf: [nounal modal word](* <- lang_en;; *);;
+
+definition ->
+... (*
+-> rrel_key_sc_element: nounal_modal_word;;
+=> nrel_main_idtf: [Опр. (Отыменное модальное слово)](* <- lang_ru;; *);;
+<= nrel_using_constants: ...
+(*
+-> modal_word;;
+-> noun;;
+-> affix (* => nrel_main_idtf: [аффикс](* <- lang_ru;; *);; *);;
+*);;
+<= nrel_sc_text_translation: ... (* -> [Отыменное модальное слово - это модальное слово, образованное от существительного с помощью словообразовательных или формообразовательных аффиксов.](* <- lang_ru;; *);;*);;
+*);;
+
+statement ->
+... (*
+-> rrel_key_sc_element: nounal_modal_word;;
+=> nrel_main_idtf: [Утв.(отыменное модальное слово, аффикс)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation: ... (*
+-> [Отыменные модальные слова могут образовываться при помощи как одного, так и нескольких аффиксов.](* <- lang_ru;; *);;
+*);;
+*);;
+
+nounal_modal_word
+-> rrel_example: ...
+(*
+=>nrel_main_idtf: [Словом](*<-lang_ru;;*);
+[By word](*<-lang_en;;*);;
+*);;

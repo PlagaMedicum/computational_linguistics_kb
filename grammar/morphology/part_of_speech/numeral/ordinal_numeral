@@ -1,0 +1,35 @@
+sc_node_not_relation
+ -> ordinal_numeral;;
+
+ordinal_numeral
+ => nrel_main_idtf: [количественное числительное](* <- lang_ru;; *);
+ => nrel_idtf: [множество количественных числительных](* <- lang_ru;; *);;
+ => nrel_idtf: [ordinal numeral](* <- lang_en;; *);;
+
+definition ->
+... (*
+ -> rrel_key_sc_element: ordinal_numeral;;
+ => nrel_main_idtf: [Опр. (количественное числительное)](* <- lang_ru;; *);;
+ <= nrel_using_constants: ...
+(*
+ -> numeral;;
+ -> number_of_subject;;
+ *);;
+ <= nrel_sc_text_translation: ... (* -> [Количественое числительное - это класс имён числительных, которое обозначает количество предметов.](* <- lang_ru;; *);;*);;
+*);;
+
+statement ->
+... (*
+-> rrel_key_sc_element: ordinal_numeral;;
+=> nrel_main_idtf: [Утв.(количественное числительное, число*, род*)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation: ... (*
+-> [Количественным числительным не свойственна категория числа, так как они лексически выражают значение числа; отсутствует у количественных числительных и категория рода, так как они лишены предметного значения.](* <- lang_ru;; *);;
+*);;
+*);;
+
+ordinal_numeral
+-> rrel_example: ...
+(*
+=>nrel_main_idtf: [Два](*<-lang_ru;;*);
+[Two](*<-lang_en;;*);;
+*);;

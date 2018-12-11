@@ -1,0 +1,37 @@
+    sc_node_not_relation
+    -> simple_phrase;;
+
+    simple_phrase
+    => nrel_main_idtf: [простое словосочетание](* <- lang_ru;; *);
+    => nrel_idtf: [множество простых словосочетаний](* <- lang_ru;; *);
+    => nrel_idtf: [simple phrase](* <- lang_en;; *);;
+
+    definition -> ... (*
+    -> rrel_key_sc_element: simple_phrase;;
+    => nrel_main_idtf: [Опр. (простое словосочетание)](* <- lang_ru;; *);;
+    <= nrel_using_constants: ...
+    (*
+    -> phrase;
+    -> word;;
+    *);;
+    <= nrel_sc_text_translation: ... (* -> [Простое словосочетание - это словосочетание, которое состоит, как правило, из двух знаменательных слов.](* <- lang_ru;; *);;*);;
+    *);;
+
+    statement ->
+    ... (*
+    -> rrel_key_sc_element: simple_phrase;;
+    => nrel_main_idtf: [Утв.(сложное словосочетание, простое словосочетание, вид связи*)](* <- lang_ru;; *);;
+    <= nrel_sc_text_translation: ... (*
+    -> [Пpи кpитepиях клaccификaции пpocтыx и cлoжныx cлoвocoчeтaний вce внимaниe нaпpaвлeнo нa вид cвязи.](* <- lang_ru;; *);;
+    *);;
+    *);;
+
+    simple_phrase
+    -> rrel_example: ...
+    (*
+    => nrel_main_idtf: [Новый дом](*<-lang_ru;;*);
+    [New house](*<-lang_en;;*);;
+    *);;
+
+Ещё
+

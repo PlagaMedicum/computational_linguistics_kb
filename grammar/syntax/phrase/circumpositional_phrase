@@ -1,0 +1,38 @@
+sc_node_not_relation
+-> circumpositional_phrase;;
+
+circumpositional_phrase
+=> nrel_main_idtf: [обстоятельственное словосочетание](* <- lang_ru;; *);
+=> nrel_idtf: [множество обстоятельственных словосочетаний](* <- lang_ru;; *);;
+=> nrel_idtf: [circumpositional phrase](* <- lang_en;; *);;
+
+sc_node_norole_relation
+-> sign_of_act (*=> nrel_main_idtf: [признак действия](* <- lang_ru;; *);;
+
+definition -> ... (*
+-> rrel_key_sc_element: circumpositional_phrase;;
+=> nrel_main_idtf: [Опр. (Обстоятельственное словосочетание)](* <- lang_ru;; *);;
+<= nrel_using_constants: ...
+(*
+-> sign_of_act;;
+-> word;;
+-> phrase;;
+*);;
+<= nrel_sc_text_translation: ... (* -> [Обстоятельственное словосочетание - это словосочетания, указывают на действие и его признак.](* <- lang_ru;; *);;*);;
+*);;
+
+statement ->
+... (*
+-> rrel_key_sc_element: circumpositional_phrase;;
+=> nrel_main_idtf: [Утв.(обстоятельственное словосочетание, глагол, прилагательное, причастие, наречие, предлог, косвенный падеж*, существительное, деепричастие, главное слово*)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation: ... (*
+-> [В качестве главных слов в обстоятельственных словосочетаниях обычно оказываются глаголы, прилагательные или причастия, а зависят от них, как правило, наречия, существительные в косвенных падежах с предлогами или без предлогов, деепричастия.](* <- lang_ru;; *);;
+*);;
+*);;
+
+circumpositional_phrase
+-> rrel_example: ...
+(*
+=> nrel_main_idtf: [Говорить громко](*<-lang_ru;;*);
+[Speak loudly](*<-lang_en;;*);;
+*);;

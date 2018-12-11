@@ -1,0 +1,36 @@
+    sc_node_not_relation
+    -> verbal_phrase;;
+
+    verbal_phrase
+    => nrel_main_idtf: [глагольное словосочетание](* <- lang_ru;; *);
+    => nrel_idtf: [множество глагольных словосочетаний](* <- lang_ru;; *);
+    => nrel_idtf: [verbal phrase](* <- lang_en;; *);;
+
+    definition -> ... (*
+    -> rrel_key_sc_element: verbal_phrase;;
+    => nrel_main_idtf: [Опр. (Глагольное словосочетание)](* <- lang_ru;; *);;
+    <= nrel_using_constants: ...
+    (*
+    -> phrase;
+    -> verb;;
+    *);;
+    <= nrel_sc_text_translation: ... (* -> [Глагольное словосочетание - это словосочетание, в котором в роли главного слова выступает глагол.](* <- lang_ru;; *);;*);;
+    *);;
+
+    statement ->
+    ... (*
+    -> rrel_key_sc_element: verbal_phrase;;
+    => nrel_main_idtf: [Утв.(глагол, зависимое слово*, косвенный падеж*, существительное, местоимение)](* <- lang_ru;; *);;
+    <= nrel_sc_text_translation: ... (*
+    -> [Глагол может предопределять выбор формы зависимого слова, требовать определенного косвенного падежа существительного, местоимения, то есть управляет ими.](* <- lang_ru;; *);;
+    *);;
+    *);;
+
+    verbal_phrase
+    -> rrel_example: ...
+    (*
+    => nrel_main_idtf: [Составить план](*<-lang_ru;;*);
+    [Make a plan](*<-lang_en;;*);;
+    *);;
+
+
