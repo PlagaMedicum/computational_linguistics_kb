@@ -6,7 +6,9 @@ conjunction
 [conjunction](* <-lang_en;; *);
 -> rrel_example: ...
 (*
-    => nrel_main_idtf: [и](*<- lang_ru;;*);;
+    => nrel_main_idtf: 
+	[и](*<- lang_ru;;*);
+	[and](*<-lang_en;;*);;
 *);
 <- rrel_key_sc_element: definition_conjunction
 (*
@@ -17,7 +19,8 @@ conjunction
     <= nrel_sc_text_translation: ...
     (*
         -> rrel_example: 
-            [Союз - служебная часть речи, с помощью которой связывают между собой простые предложения в составе сложного или однородные члены предложения.](*<- lang_ru;;*);
+            [Союз - служебная часть речи, с помощью которой связывают между собой простые предложения в составе сложного или однородные члены предложения.](*<- lang_ru;;*);;
+	-> rrel_example:
             [Conjunction - the official part of speech, through which bind together simple sentences as part of a complex or homogeneous sentence members.](*<- lang_en;;*);;
     *);;
     <= nrel_using_constants: ...
@@ -62,12 +65,12 @@ conjunction
 
 <=nrel_subdividing:
 {
-    simple; 
+     simple; 
     compound
 };
 
 <=nrel_subdividing:
 {
-	coordinating;
+    coordinating;
     subordinating
 };;

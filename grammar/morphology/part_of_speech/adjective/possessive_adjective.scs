@@ -1,0 +1,22 @@
+ possessive_adjective
+<- sc_node_not_relation;;
+possessive_adjective=>nrel_main_idtf:
+    [Притяжательное прилагательное](* <-lang_ru;; *);
+    [possessive_adjective](* <-lang_en;; *);;
+
+
+possessive_adjective <- rrel_key_sc_element: 
+	... 
+        (*
+             <- sc_definition;;
+            => nrel_main_idtf: [Понятие: Притяжательное прилагательное] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: possessive adjective] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [Притяжательное прилагательное - это прилагательное, которое обозначает принадлежность предмета живому существу или лицу.](*<- lang_ru;;*);;
+                ->rrel_example;
+                [The possessive adjective is an adjective that denotes that an object belongs to a living being or person.](*<- lang_en;;*);;
+            *);;
+        *);;

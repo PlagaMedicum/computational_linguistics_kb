@@ -5,7 +5,7 @@ coordinating=>nrel_main_idtf:
     [coordinating conjunction](* <-lang_en;; *);;
 
 
-coordinating <- rrel_key_sc_element: 
+coordinating<- rrel_key_sc_element: 
 	... 
         (*
              <- sc_definition;;
