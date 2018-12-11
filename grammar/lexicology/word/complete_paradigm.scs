@@ -1,0 +1,57 @@
+
+sc_node_not_relation
+ -> complete_paradigm;;
+
+complete_paradigm
+ => nrel_idtf: [complete paradigm] (* <- lang_en;; *);
+ => nrel_idtf: [множество полных парадигм] (* <- lang_ru;; *);
+ => nrel_main_idtf: [полная парадигма] (* <- lang_ru;; *);;
+
+
+complete_paradigm
+<= nrel_subdividing: ...
+(*
+ ->intersecting_paradigm;;
+*);;
+
+
+sc_node_not_relation
+->paradigm;
+->category;
+->inflection_form;
+->intersecting_paradigm;
+->part_of_speech;;
+
+
+definition -> ...   
+ (*
+     -> rrel_key_sc_element: complete_paradigm;;
+
+     => nrel_main_idtf: [Опр. (полная парадигма)](* <- lang_ru;; *);;
+     <= nrel_using_constants: ...
+	(*
+->paradigm;;
+->category;;
+->inflection_form(*=> nrel_main_idtf: [форма словоизменения] (* <- lang_ru;; *);;*);;
+->part_of_speech;;
+
+
+	*);;
+     <= nrel_sc_text_translation: ... (* -> [Полная парадигма — это парадигма, имеющая полный набор форм словоизменения по той или иной категории, свойственной данной части речи.](* <- lang_ru;; *);;*);;
+     *);;
+
+statement -> ...
+(* 
+     
+      -> rrel_key_sc_element: complete_paradigm;;
+      => nrel_main_idtf: [Утв.(парадигма, слово, словоизменение, часть речи)](* <- lang_ru;; *);;
+      <= nrel_sc_text_translation: ... (*
+				 	 -> [Полная парадигма отражает регулярные и частотные словоизмнения частей речи, является нормой словоизменительной системы слова определенной части речи. ](* <- lang_ru;; *);;
+					*);;
+*);;
+
+
+
+
+
+

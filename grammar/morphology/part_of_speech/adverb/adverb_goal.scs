@@ -1,0 +1,41 @@
+
+sc_node_not_relation
+ -> adverb_goal;;
+
+adverb_goal
+ => nrel_main_idtf: [наречие цели](* <- lang_ru;; *);
+ => nrel_idtf: [множество наречий цели](* <- lang_ru;; *);
+ => nrel_idtf: [adverb goal](* <- lang_en;; *);;
+
+
+
+
+definition -> ...   
+ (*
+     -> rrel_key_sc_element: adverb_goal;;
+
+     => nrel_main_idtf: [Опр. (наречие цели)](* <- lang_ru;; *);;
+     <= nrel_using_constants: ...
+	(*
+ -> adverb;;
+-> action;;
+ -> rrel_goal_of_making;;
+ -> nrel_denote;;
+
+	*);;
+     <= nrel_sc_text_translation: ... (* -> [Наречие цели - наречие, обозначающее цель совершения действия.](* <- lang_ru;; *);;*);;
+     *);;
+
+
+adverb_goal
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [Нарочно](*<-lang_ru;;*);
+[Purposely](*<-lang_en;;*);;
+
+*);;
+
+
+ 
+
+

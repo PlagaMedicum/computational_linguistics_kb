@@ -1,0 +1,59 @@
+
+sc_node_not_relation
+ -> grammar_word_form;;
+
+grammar_word_form
+ => nrel_idtf: [grammar word form] (* <- lang_en;; *);
+ => nrel_idtf: [множество грамматических форм слова] (* <- lang_ru;; *);
+ => nrel_main_idtf: [грамматическая форма слова] (* <- lang_ru;; *);;
+
+sc_node_not_relation
+->analytical_grammar_word_form;
+->synthetic_grammar_word_form;;
+
+grammar_word_form
+<= nrel_subdividing: ...
+(*
+ ->analytical_grammar_word_form;;
+->synthetic_grammar_word_form;;
+
+
+*);;
+
+sc_node_norole_relation
+->nrel_grammar_meaning_change(*=> nrel_main_idtf: [изменение грамматического значения*] (* <- lang_ru;; *);;*);;
+
+sc_node_not_relation
+->lexeme (*=> nrel_main_idtf: [лексема] (* <- lang_ru;; *);;*);;
+
+
+definition -> ...   
+ (*
+     -> rrel_key_sc_element: grammar_word_form;;
+
+     => nrel_main_idtf: [Опр. (грамматическая форма слова)](* <- lang_ru;; *);;
+     <= nrel_using_constants: ...
+	(*
+
+->lexeme;;
+->nrel_grammar_meaning_change;;
+
+	*);;
+     <= nrel_sc_text_translation: ... (* -> [Грамматическая форма слова — вариант лексемы, в котором изменено только грамматическое значение.](* <- lang_ru;; *);;*);;
+     *);;
+
+statement -> ...
+(* 
+     
+      -> rrel_key_sc_element: grammar_word_form;;
+      => nrel_main_idtf: [Утв.(грамматическая форма слова, словоформа, сочетание словоформ)](* <- lang_ru;; *);;
+      <= nrel_sc_text_translation: ... (*
+				 	 -> [Грамматическая форма слова представляется одной словоформой или сочетанием двух словоформ.](* <- lang_ru;; *);;
+					*);;
+*);;
+
+
+
+
+
+

@@ -1,0 +1,52 @@
+
+sc_node_not_relation
+ -> analytical_grammar_agent;;
+
+analytical_grammar_agent
+
+ => nrel_idtf: [analytical grammar agent] (* <- lang_en;; *);
+ => nrel_idtf: [множество аналитических грамматических средств] (* <- lang_ru;; *);
+ => nrel_main_idtf: [аналитическое грамматическое средство] (* <- lang_ru;; *);;
+
+sc_node_norole_relation
+->nrel_significant_word_add;
+->nrel_auxiliary_word_add;
+->nrel_word_order_change;
+->nrel_preposition_add;
+->nrel_particle_add;
+->nrel_intonation_change;;
+
+analytical_grammar_agent
+<= nrel_subdividing: ...
+(*
+  ->nrel_significant_word_add(*=> nrel_main_idtf: [добавление вспомогательного слова*] (* <- lang_ru;; *);;*);;
+->nrel_word_order_change(*=> nrel_main_idtf: [изменение порядка слов*] (* <- lang_ru;; *);;*);;
+->nrel_preposition_add(*=> nrel_main_idtf: [добавление предлога*] (* <- lang_ru;; *);;*);;
+->nrel_particle_add(*=> nrel_main_idtf: [добавление частицы*] (* <- lang_ru;; *);;*);;
+ ->independent_word(*=> nrel_main_idtf: [добавление знаменательного слова*] (* <- lang_ru;; *);;*);;
+-> intonation(*=> nrel_main_idtf: [изменение интонации*] (* <- lang_ru;; *);;*);;
+
+*);;
+
+
+definition -> ...   
+ (*
+     -> rrel_key_sc_element: analytical_grammar_agent;;
+
+     => nrel_main_idtf: [Опр. (аналитическое грамматическое средство)](* <- lang_ru;; *);;
+     <= nrel_using_constants: ...
+	(*
+	
+
+->grammar_meaning;;
+->word;;
+
+
+	*);;
+     <= nrel_sc_text_translation: ... (* -> [Аналитическое грамматическое средство - это средство выражения грамматического значения, находящееся вне слова.](* <- lang_ru;; *);;*);;
+     *);;
+
+
+
+
+

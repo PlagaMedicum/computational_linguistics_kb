@@ -1,0 +1,40 @@
+
+sc_node_not_relation
+ -> adverb_reason;;
+
+adverb_reason
+ => nrel_main_idtf: [наречие причины](* <- lang_ru;; *);
+ => nrel_idtf: [множество наречий причины](* <- lang_ru;; *);
+ => nrel_idtf: [adverb reason](* <- lang_en;; *);;
+
+
+
+definition -> ...   
+ (*
+     -> rrel_key_sc_element: adverb_reason;;
+
+     => nrel_main_idtf: [Опр. (наречие причины)](* <- lang_ru;; *);;
+     <= nrel_using_constants: ...
+	(*
+ -> adverb;;
+-> action;;
+ -> rrel_reason_of_making;;
+ -> nrel_denote;;
+
+	*);;
+     <= nrel_sc_text_translation: ... (* -> [Наречие причины - наречие, обозначающее причину совершения действия.](* <- lang_ru;; *);;*);;
+     *);;
+
+
+adverb_reason
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [Поневоле](*<-lang_ru;;*);
+[Constrainedly](*<-lang_en;;*);;
+
+*);;
+
+
+ 
+
+

@@ -1,0 +1,50 @@
+
+sc_node_not_relation
+ -> adverbial_adverb;;
+
+
+adverbial_adverb 
+ => nrel_main_idtf: [обстоятельственное наречие](* <- lang_ru;; *);
+ => nrel_idtf: [множество обстоятельственных наречий](* <- lang_ru;; *);
+ => nrel_idtf: [adverbial adverb](* <- lang_en;; *);;
+
+
+
+definition -> ...   
+ (*
+     -> rrel_key_sc_element: adverbial_adverb;;
+
+     => nrel_main_idtf: [Опр. (обстоятельственное наречие)](* <- lang_ru;; *);;
+     <= nrel_using_constants: ...
+	(*
+	
+ -> adverb;;
+  -> circumstance;;
+ -> action;;
+-> nrel_denote_in_relation_to;;
+
+	*);;
+     <= nrel_sc_text_translation: ... (* -> [Обстоятельственное наречие — наречие, обозначающее внешнее по отношению к действию обстоятельство.](* <- lang_ru;; *);;*);;
+     *);;
+
+
+
+adverbial_adverb
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [Вчера](*<-lang_ru;;*);
+[Yesterday](*<-lang_en;;*);;
+
+*);;
+
+ 
+   statement -> ...
+(*
+      -> rrel_key_sc_element: adverbial_adverb;;
+      => nrel_main_idtf: [Утв.(обстоятельственное наречие, наречие, глагол, примыкать*, пространственное отношение*, временное отношение*, причинное отношение*, целевое отношение*)](* <- lang_ru;; *);;
+      <= nrel_sc_text_translation: ... (*
+					 -> [Обстоятельственные наречия служат показателями пространственных, временных, причинных и целевых отношений. Они примыкают к глаголу. ](* <- lang_ru;; *);;
+					*);;
+*);;
+   
+

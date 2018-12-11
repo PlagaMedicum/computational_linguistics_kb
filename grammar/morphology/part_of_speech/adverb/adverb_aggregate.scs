@@ -1,0 +1,42 @@
+
+sc_node_not_relation
+ -> adverb_aggregate;;
+
+
+adverb_aggregate
+ => nrel_main_idtf: [наречие совокупности](* <- lang_ru;; *);
+ => nrel_idtf: [множество наречий совокупности](* <- lang_ru;; *);
+ => nrel_idtf: [adverb aggregate](* <- lang_en;; *);;
+
+
+
+definition -> ...   
+ (*
+     -> rrel_key_sc_element: adverb_aggregate;;
+
+     => nrel_main_idtf: [Опр. (наречие совокупности)](* <- lang_ru;; *);;
+     <= nrel_using_constants: ...
+	(*
+ -> adverb;;
+-> action;;
+ ->  amount;;
+ -> nrel_characterize_according_to;;
+
+
+	*);;
+     <= nrel_sc_text_translation: ... (* -> [Наречие совокупности - наречие, характеризующее действие согласно количеству совершающих его лиц.](* <- lang_ru;; *);;*);;
+     *);;
+
+
+adverb_aggregate
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [Сообща](*<-lang_ru;;*);
+[Teamwise](*<-lang_en;;*);;
+
+*);;
+
+
+ 
+
+

@@ -1,0 +1,47 @@
+
+sc_node_not_relation
+ -> quantitative_adverb;;
+
+quantitative_adverb
+ => nrel_main_idtf: [количественное наречие](* <- lang_ru;; *);
+ => nrel_idtf: [множество количественных наречий](* <- lang_ru;; *);
+ => nrel_idtf: [quantitative adverb](* <- lang_en;; *);;
+
+
+sc_node_not_relation
+->sign;;
+sc_node_role_relation
+->rrel_grade_of_demonstration;
+->rrel_measure_of_demonstration;;
+
+definition -> ...   
+ (*
+     -> rrel_key_sc_element: quantitative_adverb;;
+
+     => nrel_main_idtf: [Опр. (количественное наречие)](* <- lang_ru;; *);;
+     <= nrel_using_constants: ...
+	(*
+ -> adverb;;
+-> action;;
+->sign (*=> nrel_main_idtf: [признак] (* <- lang_ru;; *);;*);;
+ -> rrel_grade_of_demonstration(*=> nrel_main_idtf: [степень проявления'] (* <- lang_ru;; *);;*);;
+ -> rrel_measure_of_demonstration(*=> nrel_main_idtf: [мера проявления'] (* <- lang_ru;; *);;*);;
+ -> nrel_denote;;
+
+	*);;
+     <= nrel_sc_text_translation: ... (* -> [Количественное наречие - наречие, обозначающее степень или меру проявления действия или признака.](* <- lang_ru;; *);;*);;
+     *);;
+
+
+quantitative_adverb
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [Немного](*<-lang_ru;;*);
+[Slightly](*<-lang_en;;*);;
+
+*);;
+
+
+ 
+
+

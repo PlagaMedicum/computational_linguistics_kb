@@ -8,11 +8,6 @@ nrel_process_statement_of_object
 	[состояние объекта*](* <-lang_ru;; *);
     [statement of object*](* <-lang_en;; *);;
 
-word
-=> nrel_main_idtf:
-    [слово*](* <-lang_ru;; *);
-    [word*](* <-lang_en;; *);;
-
 angry
  => nrel_main_idtf:
     [злой*](* <-lang_ru;; *);
