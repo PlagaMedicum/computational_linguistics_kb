@@ -26,17 +26,6 @@ grammatical_unanimamed
 
 <-grammatical_animateness;
 
-// <-rrel_key_sc_element:...
-// (*
-// <-explanation;;
-// <=nrel_sc_text_translation: ...
-// (*
-// ->[Падеж является грамматической категорией выполняющей двоякие функции в языке: падежные формы всегда выступают в роли маркеров,указывают на семантическую роль.] (* <- lang_ru;; *);;
-// ->[A case is a grammatical category that performs dual functions in a language: case forms always act as markers, indicate a semantic role.] (* <- lang_en;; *);;
-// *);;
-// =>nrel_idtf:[Утв.(падеж,грамматическая категория,функции,падежные формы,маркер,язык,сематническая роль)] (* <- lang_ru;; *);;
-// =>nrel_idtf:[Expl. (case,grammatical category,function,language,case forms,marker,semantic role)] (* <- lang_en;; *);;
-// *);
 
 
 ->rrel_example:...
