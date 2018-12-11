@@ -20,9 +20,9 @@ nrel_suffixation <- binary_relation
 
 
 nrel_suffixation
-=> nrel_definitional_domain:concept_word;
-=> nrel_first_domain:concept_word;
-=> nrel_second_domain:concept_word;;
+=> nrel_definitional_domain:word;
+=> nrel_first_domain:word;
+=> nrel_second_domain:word;;
 
 
 nrel_suffixation
@@ -69,7 +69,7 @@ definition -> ...
 
 
 
-concept_word
+word
  ->absorb;
  ->absorbent;;
 nrel_suffixation -> rrel_example: (absorb=>absorbent);;

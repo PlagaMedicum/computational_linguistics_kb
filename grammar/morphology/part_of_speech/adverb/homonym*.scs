@@ -31,9 +31,9 @@ binary_relation
 
 
 nrel_homonym
-=> nrel_definitional_domain: concept_word;
-=> nrel_first_domain:concept_word;
-=> nrel_second_domain:concept_word;;
+=> nrel_definitional_domain: word;
+=> nrel_first_domain:word;
+=> nrel_second_domain:word;;
 
 
 
@@ -69,7 +69,7 @@ definition -> ...
       <= nrel_sc_text_translation: ...(* ->[Омонимы — слова, совпадающие одновременно по звучанию и по написанию, но различные по значению.] (* <- lang_ru;; *);;*);;
       <= nrel_using_constants: ...
 			      (*
-				 -> concept_word;;
+				 -> word;;
 				-> nrel_match_writing;;
 				-> nrel_match_sound;;
                                 -> nrel_different_in_meaning;;

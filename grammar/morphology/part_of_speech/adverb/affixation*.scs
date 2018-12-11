@@ -20,9 +20,9 @@ nrel_affixation <- binary_relation
 
 
 nrel_affixation
-=> nrel_definitional_domain: concept_word;
-=> nrel_first_domain:concept_word;
-=> nrel_second_domain:concept_word;;
+=> nrel_definitional_domain: word;
+=> nrel_first_domain:word;
+=> nrel_second_domain:word;;
 
 
 nrel_affixation
@@ -58,7 +58,7 @@ definition -> ...
 				 ->concept_affix;;
                                  -> concept_root;;
 				->concept_foundation;;
-				->concept_word;;
+				->word;;
 				->nrel_joining;;
 
 			      *);;
@@ -68,7 +68,7 @@ definition -> ...
 
 
 
-concept_word
+word
  -> happy;
  -> unhappiness;;
 nrel_affixation -> rrel_example: (happy=>unhappiness);;

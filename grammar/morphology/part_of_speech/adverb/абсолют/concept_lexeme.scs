@@ -3,14 +3,15 @@ sc_node_not_relation
  -> concept_lexeme;;
 
 
-wordform
+concept_lexeme
  => nrel_main_idtf: [лексема](* <- lang_ru;; *);
  => nrel_idtf: [множество лексем](* <- lang_ru;; *);
  => nrel_idtf: [lexeme](* <- lang_en;; *);;
 
 
 sc_node_not_relation
- ->concept_language_unit(*=> nrel_main_idtf: [единица языка] (* <- lang_ru;; *);;
+ ->concept_language_unit(*=> nrel_main_idtf: [единица языка] (* <- lang_ru;; *);;*);;
+
 definition -> ...   
  (*
      -> rrel_key_sc_element: concept_lexeme;;

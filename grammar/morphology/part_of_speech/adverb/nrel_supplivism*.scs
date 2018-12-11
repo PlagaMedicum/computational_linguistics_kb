@@ -22,9 +22,9 @@ nrel_supplivism <- binary_relation
 
 
 nrel_supplivism
-=> nrel_definitional_domain: concept_word;
-=> nrel_first_domain:concept_word;
-=> nrel_second_domain:concept_word;;
+=> nrel_definitional_domain: word;
+=> nrel_first_domain:word;
+=> nrel_second_domain:word;;
 
 
 nrel_supplivism
@@ -59,7 +59,7 @@ definition -> ...
 			      (*
 				 ->concept_root;;
                                  -> concept_grammar_word_form;;
-				->concept_word;;
+				->word;;
 			      *);;
 *);;
 
@@ -73,7 +73,7 @@ definition -> ...
 *);;
 
 
-concept_word
+word
  -> human;
  -> people;;
 nrel_supplivism -> rrel_example: (human=>people);;

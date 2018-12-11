@@ -9,8 +9,6 @@ concept_mode_of_action_adverb
  => nrel_idtf: [mode of action adverb](* <- lang_en;; *);;
 
 
-sc_node_role_relation
-->rrel_method_of_making;;
 
 definition -> ...   
  (*
@@ -21,7 +19,7 @@ definition -> ...
 	(*
  -> concept_adverb;;
 -> concept_action;;
- -> rrel_method_of_making(*=> nrel_main_idtf: [способ совершения'] (* <- lang_ru;; *);;*);;
+ -> rrel_method_of_making;;
  -> nrel_characterize_according_to;;
 
 	*);;

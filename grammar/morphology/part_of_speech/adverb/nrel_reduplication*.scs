@@ -66,7 +66,7 @@ definition -> ...
                                  -> concept_phonomorphological_phenomenon;;
 				 -> concept_syllable;;
                                 -> concept_foundation;;
-				->concept_word;;
+				->word;;
 			      *);;
 *);;
 
@@ -80,7 +80,7 @@ definition -> ...
 *);;
 
 
-concept_word
+word
  -> very;
  -> very_very;;
 nrel_reduplication -> rrel_example: (very=>very_very);;

@@ -9,8 +9,6 @@ concept_adverb_goal
 
 
 
-sc_node_role_relation
-->rrel_goal_of_making;;
 
 definition -> ...   
  (*
@@ -21,7 +19,7 @@ definition -> ...
 	(*
  -> concept_adverb;;
 -> concept_action;;
- -> rrel_goal_of_making(*=> nrel_main_idtf: [цель совершения'] (* <- lang_ru;; *);;*);;
+ -> rrel_goal_of_making;;
  -> nrel_denote;;
 
 	*);;
