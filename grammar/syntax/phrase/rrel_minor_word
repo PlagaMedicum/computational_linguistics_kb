@@ -1,0 +1,67 @@
+sc_node_role_relation
+-> rrel_minor_word;;
+
+rrel_minor_word
+=> nrel_idtf: [minor word'] (* <- lang_en;; *);;
+=> nrel_idtf: [быть зависимым словом'] (* <- lang_ru;; *);;
+=> nrel_main_idtf: [зависимое слово'] (* <- lang_ru;; *);;
+
+number
+-> 2;;
+
+parameter
+-> arity;;
+
+arity
+-> binary_relation;;
+
+binary_relation
+-> rrel_minor_word;;
+
+binary_relation
+-> nrel_measurement: 2;;
+
+rrel_minor_word
+=> rrel_first_domain: part_of_speech;;
+=> rrel_second_domain: part_of_speech;;
+=> rrel_definitional_domain: part_of_speech;;
+
+rrel_minor_word
+<- oriented_relation;
+<- role_relation;
+<- antitransitive_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;;
+
+relation
+=> nrel_inclusion: binary_relation;;
+=> nrel_inclusion: oriented_relation;;
+
+binary_relation
+=> nrel_inclusion: antitransitive_relation;;
+=> nrel_inclusion: antireflexive_relation;;
+=> nrel_inclusion: antisymmetric_relation;;
+
+definition ->
+... (*
+-> rrel_sc_key_element: rrel_minor_word;;
+=> nrel_main_idt: [Опр.(Зависимое слово*)] (* <- lang_ru;; *);;
+<= nrel_sc_text_translation: [Зависимое слово - этo cлoвo, которое связано с другим словом подчинительной связью.] (* <- lang_ru;; *);;
+<= nrel_using_constants:
+(*
+-> word;
+-> phrase;;
+};;
+
+statement... (*
+-> rrel_sc_key_element: rrel_minor_word;;
+=> nrel_main_idtf: [Утв.(Главное слово', зависимое слово')] (* <-lang_ru;; *);;
+<= nrel_sc_text_translation: ... (* -> [От главного слова к зависимому можно задать вопрос.] (* <- lang_ru;; *);; *);;
+
+phrase
+-> High house (*=> nrel_main_idtf: [Высокий дом](*<-lang_ru;;*);;
+word
+-> high (* => nrel_main_idtf:[высокий](* <- lang_ru;; *);;*);
+-> house (* => nrel_main_idtf:[дом](* <- lang_ru;; *);;*);
+high
+<= rrel_minor_word: house;;

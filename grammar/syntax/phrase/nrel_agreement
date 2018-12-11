@@ -1,0 +1,71 @@
+sc_node_norole_relation
+-> nrel_agreement;;
+
+nrel_agreement
+=> nrel_idtf: [agreement*] (* <- lang_en;; *);;
+=> nrel_idtf: [быть согласованием*] (* <- lang_ru;; *);;
+=> nrel_main_idtf: [согласование*] (* <- lang_ru;; *);;
+
+number
+-> 2;;
+
+parameter
+-> arity;;
+
+arity
+-> binary_relation;;
+
+binary_relation
+-> nrel_agreement
+
+binary_relation
+-> nrel_measurement: 2;;
+
+nrel_agreement
+=> rrel_first_domain: part_of_speech;;
+=> rrel_second_domain: part_of_speech;;
+=> rrel_definitional_domain: part_of_speech;;
+
+nrel_agreement
+<- non_oriented_relation;
+<- norole_relation;
+<- transitive_relation;
+<- antireflexive_relation;
+<- symmetric_relation;;
+
+relation
+=> nrel_inclusion: binary_relation;;
+=> nrel_inclusion: non_oriented_relation;;
+
+binary_relation
+=> nrel_inclusion: transitive_relation;;
+=> nrel_inclusion: antireflexive_relation;;
+=> nrel_inclusion: symmetric_relation;;
+
+definition ->
+... (*
+-> rrel_sc_key_element: nrel_agreement;;
+=> nrel_main_idt: [Опр.(Согласование*)] (* <- lang_ru;; *);;
+<= nrel_sc_text_translation: [Согласование - вид связи, при котором зависимое слово согласуется с главным в роде, числе, падеже.] (* <- lang_ru;; *);;
+<= nrel_using_constants:
+(*
+-> rrel_minor_word;;
+-> rrel_main_word;;
+-> grammatical_case;;
+-> grammatical_gender;;
+-> grammatical_number;;
+-> phrase;;
+*);;
+
+statement... (*
+-> rrel_sc_key_element: nrel_agreement;;
+=> nrel_main_idtf: [Утв.(Главное слово', зависимое слово', прилагательное, причастие, местоимение, числительное)] (* <-lang_ru;; *);;
+<= nrel_sc_text_translation: ... (* -> [Главное слово всегда существительное; зависимое может являться: прилагательным, причастием, местоимением или числительным.] (* <- lang_ru;; *);; *);;
+
+phrase
+-> High house (*=> nrel_main_idtf: [Высокий дом](*<-lang_ru;;*);;
+word
+-> high (* => nrel_main_idtf:[высокий](* <- lang_ru;; *);;*);
+-> house (* => nrel_main_idtf:[дом](* <- lang_ru;; *);;*);;
+high
+= nrel_agreement: house;;

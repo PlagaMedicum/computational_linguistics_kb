@@ -1,0 +1,82 @@
+sc_node_norole_relation
+-> nrel_synonym;;
+
+nrel_synonym
+=> nrel_idtf: [synonym*] (* <- lang_en;; *);;
+=> nrel_idtf: [быть синонимом*] (* <- lang_ru;; *);;
+=> nrel_main_idtf: [синоним*] (* <- lang_ru;; *);;
+
+number
+-> 2;;
+
+parameter
+-> arity;;
+
+arity
+-> binary_relation;;
+
+binary_relation
+-> nrel_synonym;;
+
+binary_relation
+-> nrel_measurement: 2;;
+
+nrel_synonym
+=> nrel_first_domain: part_of_speech;;
+=> nrel_second_domain: part_of_speech;;
+=> nrel_definitional_domain: part_of_speech;;
+
+nrel_synonym
+<- non_oriented_relation;
+<- norole_relation;
+<- transitive_relation;
+<- antireflexive_relation;
+<- symmetric_relation;;
+
+relation
+=> nrel_inclusion: binary_relation;;
+=> nrel_inclusion: non_oriented_relation;;
+
+binary_relation
+=> nrel_inclusion: transitive_relation;;
+=> nrel_inclusion: antireflexive_relation;;
+=> nrel_inclusion: symmetric_relation;;
+
+nrel_synonym
+<= nrel_subdividing: ...
+(*
+-> nrel_ideographic_synonym;;
+-> nrel_stylistic_synonym;;
+-> nrel_semantic-stylistic_synonym;;
+-> nrel_absolute_synonym;;
+*);;
+
+sc_node_norole_relation
+-> pronunciation (* => nrel_main_idtf:[произношение](* <- lang_ru;; *);;*);
+-> writing (* => nrel_main_idtf:[написание](* <- lang_ru;; *);;*);
+-> lexical_meaning (* => nrel_main_idtf:[лексическое значение](* <- lang_ru;; *);;*);;
+
+definition ->
+... (*
+-> rrel_sc_key_element: nrel_synonym;;
+=> nrel_main_idt: [Опр.(синоним*)] (* <- lang_ru;; *);;
+<= nrel_sc_text_translation: [Синонимы - слова одного и того же языка, принадлежащие, как правило, к одной и той же части речи, различные по произношению и написанию, но имеющие похожее лексическое значение.] (* <- lang_ru;; *);;
+<= nrel_using_constants:
+(*
+-> part_of_speech;;
+-> word;;
+-> pronunciation;;
+-> writing;;
+-> lexical_meaning;;
+*);;
+
+statement... (*
+-> rrel_sc_key_element: nrel_synonym;;
+=> nrel_main_idtf: [Утв.(Синоним*, стилистически нейтральное слово, доминанта, синонимический ряд)] (* <-lang_ru;; *);;
+<= nrel_sc_text_translation: ... (* -> [Доминанта - это стилистически нейтральное слово, входящее в состав синонимического ряда.] (* <- lang_ru;; *);; *);;
+
+word
+-> cavalry (* => nrel_main_idtf:[Кавалерия](* <- lang_ru;; *);;;*);
+-> cavalry (* => nrel_main_idtf:[Конница](* <- lang_ru;; *);;*);;
+cavalry
+= nrel_synonym: cavalry;;

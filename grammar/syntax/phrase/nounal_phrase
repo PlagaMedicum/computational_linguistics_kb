@@ -1,0 +1,40 @@
+    c_node_not_relation
+    -> nounal_phrase;;
+
+    nounal_phrase
+    => nrel_main_idtf: [именное словосочетание](* <- lang_ru;; *);
+    => nrel_idtf: [множество именных словосочетаний](* <- lang_ru;; *);
+    => nrel_idtf: [nounal phrase](* <- lang_en;; *);;
+
+    definition -> ... (*
+    -> rrel_key_sc_element: nounal_phrase;;
+    => nrel_main_idtf: [Опр. (Именное словосочетание)](* <- lang_ru;; *);;
+    <= nrel_using_constants: ...
+    (*
+    -> phrase;
+    -> noun;
+    -> adjective;
+    -> numeral;
+    -> pronoun;;
+    *);;
+    <= nrel_sc_text_translation: ... (* -> [Именное словосочетание - это словосочетание, в котором в роли главного слова выступают существительные, прилагательные, числительные и местоимения.](* <- lang_ru;; *);;*);;
+    *);;
+
+    statement ->
+    ... (*
+    -> rrel_key_sc_element: nounal_phrase;;
+    => nrel_main_idtf: [Утв.(именное словосочетание, вид связи*)](* <- lang_ru;; *);;
+    <= nrel_sc_text_translation: ... (*
+    -> [В именных словосочетаниях встречаются все три вида связи.](* <- lang_ru;; *);;
+    *);;
+    *);;
+
+    nounal_phrase
+    -> rrel_example: ...
+    (*
+    => nrel_main_idtf: [Разбитая ваза](*<-lang_ru;;*);
+    [Broken vase](*<-lang_en;;*);;
+    *);;
+
+Ещё
+

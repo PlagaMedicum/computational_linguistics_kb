@@ -1,0 +1,35 @@
+sc_node_not_relation
+-> verbal_modal_word;;
+
+verbal_modal_word
+=> nrel_main_idtf: [отглагольное модальное слово](* <- lang_ru;; *);;
+=> nrel_idtf: [множество отглагольных модальных слов](* <- lang_ru;; *);;
+=> nrel_idtf: [verbal modal word](* <- lang_en;; *);;
+
+definition ->
+... (*
+-> rrel_key_sc_element: verbal_modal_word;;
+=> nrel_main_idtf: [Опр. (Отглагольное модальное слово)](* <- lang_ru;; *);;
+<= nrel_using_constants: ...
+(*
+-> modal_word;
+-> verb;;
+*);;
+<= nrel_sc_text_translation: ... (* -> [Отглагольное модальное слово - это модальное слово, образованное формой глагола.](* <- lang_ru;; *);;*);;
+*);;
+
+statement ->
+... (*
+-> rrel_key_sc_element: verbal_modal_word;;
+=> nrel_main_idtf: [Утв.(отглагольное модальное слово, частица)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation: ... (*
+-> [Отглагольные модальные слова могут образовываться при помощи частиц.](* <- lang_ru;; *);;
+*);;
+*);;
+
+verbal_modal_word
+-> rrel_example: ...
+(*
+=>nrel_main_idtf: [Кажется](*<-lang_ru;;*);
+[It seems](*<-lang_en;;*);;
+*);;
