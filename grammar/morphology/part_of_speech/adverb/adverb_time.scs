@@ -1,0 +1,40 @@
+
+sc_node_not_relation
+ -> adverb_time;;
+
+adverb_time
+ => nrel_main_idtf: [наречие времени](* <- lang_ru;; *);
+ => nrel_idtf: [множество наречий времени](* <- lang_ru;; *);
+ => nrel_idtf: [adverb time](* <- lang_en;; *);;
+
+
+
+definition -> ...   
+ (*
+     -> rrel_key_sc_element: adverb_time;;
+
+     => nrel_main_idtf: [Опр. (наречие времени)](* <- lang_ru;; *);;
+     <= nrel_using_constants: ...
+	(*
+ -> adverb;;
+-> action;;
+ -> rrel_time_of_making;;
+ -> nrel_denote;;
+
+	*);;
+     <= nrel_sc_text_translation: ... (* -> [Наречие времени - наречие, обозначающее время совершения действия.](* <- lang_ru;; *);;*);;
+     *);;
+
+
+adverb_time
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [Ночью](*<-lang_ru;;*);
+[At night](*<-lang_en;;*);;
+
+*);;
+
+
+ 
+
+

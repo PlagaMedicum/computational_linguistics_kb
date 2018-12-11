@@ -1,0 +1,51 @@
+
+sc_node_not_relation
+ -> adverb_correlative_to_a_pronoun;;
+
+adverb_correlative_to_a_pronoun
+ => nrel_main_idtf: [наречие, соотносительное с местоимением](* <- lang_ru;; *);
+ => nrel_idtf: [множество наречий, соотносительные с местоимениями](* <- lang_ru;; *);
+ => nrel_idtf: [adverb correlative to a pronoun](* <- lang_en;; *);;
+
+
+
+
+definition -> ...   
+ (*
+     -> rrel_key_sc_element: adverb_correlative_to_a_pronoun;;
+
+     => nrel_main_idtf: [Опр. (наречие, соотносительное с местоимением)](* <- lang_ru;; *);;
+     <= nrel_using_constants: ...
+	(*
+ -> adverb;;
+ -> nrel_constitute_from;;
+ -> pronoun;;
+
+	*);;
+     <= nrel_sc_text_translation: ... (* -> [Наречие, соотносительное с местоимением - наречие, образованное от местоимения.](* <- lang_ru;; *);;*);;
+     *);;
+
+
+adverb_correlative_to_a_pronoun
+ -> rrel_example:...
+
+(*
+=>nrel_main_idtf: [Там](*<-lang_ru;;*);
+[There](*<-lang_en;;*);;
+
+*);;
+
+
+statement -> ...
+(* 
+     
+      -> rrel_key_sc_element: adverb_correlative_to_a_pronoun;;
+      => nrel_main_idtf: [Утв.(наречие,соотносительное с местоимением, признак, местоимение, неизменяемое слово)](* <- lang_ru;; *);;
+      <= nrel_sc_text_translation: ... (*
+				 	 -> [Наречие, соотносительное с местоимением, не называет признак, а лишь указывает на него, однако, в отличие от местоимения, является неизменяемым словом.](* <- lang_ru;; *);;
+					*);;
+*);;
+
+ 
+
+

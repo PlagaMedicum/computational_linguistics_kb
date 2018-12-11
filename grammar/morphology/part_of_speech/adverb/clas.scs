@@ -1,0 +1,24 @@
+sc_node_not_relation
+ -> sign_of_subject (*=> nrel_main_idtf: [признак предмета] (* <- lang_ru;; *);;*);
+ -> sign_of_action(*=> nrel_main_idtf: [признак действия] (* <- lang_ru;; *);;*);
+ -> sign_of_sign(*=> nrel_main_idtf: [признак признака] (* <- lang_ru;; *);;*);
+->amount(*=> nrel_main_idtf: [количество] (* <- lang_ru;; *);;*);
+ -> circumstance(*=> nrel_main_idtf: [обстоятельство] (* <- lang_ru;; *);;*);
+ -> action(*=> nrel_main_idtf: [действие] (* <- lang_ru;; *);;*);
+-> quality_sign(*=> nrel_main_idtf: [качественный признак] (* <- lang_ru;; *);;*);
+ -> quantity_sign(*=> nrel_main_idtf: [количественный признак] (* <- lang_ru;; *);;*);
+-> comparative_characteristics(*=> nrel_main_idtf: [сравнительная характеристика] (* <- lang_ru;; *);;*);;
+
+sc_node_norole_relation
+-> nrel_characterize_according_to (*=> nrel_main_idtf: [характеризовать согласно чему-либо*] (* <- lang_ru;; *);;*);
+->nrel_constitute_from(*=> nrel_main_idtf: [образоваться от*] (* <- lang_ru;; *);;*);
+-> nrel_denote_in_relation_to(*=> nrel_main_idtf: [обозначать по отношению к*] (* <- lang_ru;; *);;*);;
+
+
+sc_node_role_relation
+->rrel_goal_of_making(*=> nrel_main_idtf: [цель совершения'] (* <- lang_ru;; *);;*);
+-> rrel_method_of_making(*=> nrel_main_idtf: [способ совершения'] (* <- lang_ru;; *);;*);
+-> rrel_reason_of_making(*=> nrel_main_idtf: [причина совершения'] (* <- lang_ru;; *);;*);
+-> rrel_time_of_making(*=> nrel_main_idtf: [время совершения'] (* <- lang_ru;; *);;*);
+-> rrel_place_of_making(*=> nrel_main_idtf: [место совершения'] (* <- lang_ru;; *);;*);;
+

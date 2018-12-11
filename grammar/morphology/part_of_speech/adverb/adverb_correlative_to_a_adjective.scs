@@ -1,0 +1,41 @@
+
+sc_node_not_relation
+ -> adverb_correlative_to_a_adjective;;
+
+adverb_correlative_to_a_adjective
+ => nrel_main_idtf: [наречие, соотносительное с именем прилагательным](* <- lang_ru;; *);
+ => nrel_idtf: [множество наречий, соотносительные с именами прилагательными](* <- lang_ru;; *);
+ => nrel_idtf: [adverb correlative to a adjective](* <- lang_en;; *);;
+
+
+
+
+definition -> ...   
+ (*
+     -> rrel_key_sc_element: adverb_correlative_to_a_adjective;;
+
+     => nrel_main_idtf: [Опр. (наречие, соотносительное с именем прилагательным)](* <- lang_ru;; *);;
+     <= nrel_using_constants: ...
+	(*
+ -> adverb;;
+ -> nrel_constitute_from;;
+ -> adjective;;
+
+	*);;
+     <= nrel_sc_text_translation: ... (* -> [Наречие, соотносительное с именем прилагательным - наречие, образованное от имени прилагательного.](* <- lang_ru;; *);;*);;
+     *);;
+
+
+adverb_correlative_to_a_adjective
+ -> rrel_example:...
+
+(*
+=>nrel_main_idtf: [Тепло](*<-lang_ru;;*);
+[Warmly](*<-lang_en;;*);;
+
+*);;
+
+
+ 
+
+

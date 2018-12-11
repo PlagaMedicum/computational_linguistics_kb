@@ -12,7 +12,7 @@ definition -> ... (*
 <= nrel_using_constants: ...
 (*
 -> phrase;;
--> concept_adverb;;
+-> adverb;;
 *);;
 <= nrel_sc_text_translation: ... (* -> [Наречное словосочетание - это словосочетание, в котором в роли главного слова выступает наречие.](* <- lang_ru;; *);;*);;
 *);;

@@ -1,0 +1,77 @@
+sc_node_not_relation
+ -> numeral;;
+
+numeral
+ => nrel_main_idtf: [числительное](* <- lang_ru;; *);
+ => nrel_idtf: [множество числительных](* <- lang_ru;; *);
+ => nrel_idtf: [numeral](* <- lang_en;; *);;
+
+sc_node_not_relation
+ -> independent_part_of_speech;
+ -> ordinal_numeral;
+ -> cardinal_numeral;
+ -> nominal_numeral;
+ -> fractional_numeral;;
+ -> indefinitely_ordinal_numeral;;
+ -> simple_numeral;
+ -> complex_numeral;
+ -> composite_numeral;;
+
+independent_part_of_speech
+=> nrel_inclusion: numeral;;
+
+numeral
+ <= nrel_subdividing: ...
+  (*
+    -> ordinal_numeral;;
+    -> cardinal_numeral;;
+    -> nominal_numeral;;
+    -> fractional_numeral;;
+    -> indefinitely_ordinal_numeral;;
+
+    => nrel_main_idtf: [Разбиение числительных по значению](* <-lang_ru;; *);;
+  *);;
+
+numeral
+ <= nrel_subdividing: ...
+  (*
+    -> simple_numeral;;
+    -> complex_numeral;;
+    -> composite_numeral;;
+
+    => nrel_main_idtf: [Разбиение числительных по составу](* <-lang_ru;; *);;
+  *);;
+
+sc_node_not_relation
+ -> number_of_subject (*=> nrel_main_idtf: [количество предмета] (* <- lang_ru;; *);;*);
+ -> order_of_subject (*=> nrel_main_idtf: [порядок предмета] (* <- lang_ru;; *);;*);
+
+definition -> ... (*
+ -> rrel_key_sc_element: numeral;;
+ => nrel_main_idtf: [Опр. (числительное)](* <- lang_ru;; *);;
+ <= nrel_using_constants: ...
+  (*
+    -> independent_part_of_speech;;
+    -> number_of_subject;;
+    -> order_of_subject;;
+    -> nrel_denote;;
+  *);;
+<= nrel_sc_text_translation: ... (* -> [Числительным называется самостоятельная часть речи, которая обозначает количество и порядок предмета.](* <- lang_ru;; *);;*);;
+*);;
+
+
+statement ->
+... (*
+     -> rrel_key_sc_element: numeral;;
+     => nrel_main_idtf: [Утв.(числительное, число)](* <- lang_ru;; *);;
+     <= nrel_sc_text_translation: ... (*
+      -> [Имя числительное является названием отвлеченного числа, не осложненным какими-либо иными значениями.](* <- lang_ru;; *);;
+*);;
+*);;
+
+numeral
+ -> rrel_example: ...
+   (*
+     => nrel_main_idtf: [Десять](*<-lang_ru;;*);
+    [Ten](*<-lang_en;;*);;
+*);

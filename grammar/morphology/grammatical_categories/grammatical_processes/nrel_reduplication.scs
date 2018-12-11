@@ -1,0 +1,88 @@
+
+sc_node_norole_relation
+ -> nrel_reduplication;;
+
+nrel_reduplication
+ => nrel_idtf: [reduplication*] (* <- lang_en;; *);
+ => nrel_main_idtf: [редупликация*] (* <- lang_ru;; *);;
+
+nrel_reduplication <- binary_relation 
+	(*
+		=> nrel_measurement: 2 
+			(*
+				<- number;;
+			*);;
+		<- arity
+			(*
+				<- parameter;;
+			*);;
+	*);;
+
+
+
+
+nrel_reduplication 
+=> nrel_definitional_domain: word;
+=> nrel_first_domain:word;
+=> nrel_second_domain:word;;
+
+
+nrel_reduplication
+ <- oriented_relation;
+ <- norole_relation;
+ <- transitive_relation;
+ <- antireflexive_relation;
+ <- antisymmetric_relation;;
+
+relation
+ => nrel_inclusion: binary_relation;
+ => nrel_inclusion: oriented_relation;;	
+
+binary_relation
+ => nrel_inclusion: transitive_relation;
+ => nrel_inclusion: antireflexive_relation;
+ => nrel_inclusion: antisymmetric_relation;;
+
+
+
+sc_node_not_relation
+ -> phonomorphological_phenomenon(*=> nrel_main_idtf: [фономорфологическое явление] (* <- lang_ru;; *);;*);
+-> syllable(*=> nrel_main_idtf: [слог] (* <- lang_ru;; *);;*);
+ -> foundation(*=> nrel_main_idtf: [основа] (* <- lang_ru;; *);;*);;
+
+sc_node_norole_relation
+  -> nrel_doubling (*=> nrel_main_idtf: [удвоение*] (* <- lang_ru;; *);;*);;
+
+
+
+definition -> ...
+(* 
+      -> rrel_key_sc_element: nrel_reduplication;;
+      => nrel_main_idtf: [Опр.(редупликация*)] (* <- lang_ru;; *);;
+      <= nrel_sc_text_translation: ...(* ->[Редупликация - фономорфологическое явление, состоящее в удвоении какого-либо слога, основы или всего слова.] (* <- lang_ru;; *);;*);;
+      <= nrel_using_constants: ...
+			      (*
+				 -> nrel_doubling;;
+                                 -> phonomorphological_phenomenon;;
+				 -> syllable;;
+                                -> foundation;;
+				->word;;
+			      *);;
+*);;
+
+
+
+  statement -> ... 
+(*
+      -> rrel_key_sc_element: nrel_reduplication;;
+      => nrel_main_idtf: [Утв.(редупликация*, основа слова, падеж*,приставка, предлог, суффикс)] (* <-lang_ru;; *);;
+      <= nrel_sc_text_translation: ... (* -> [При редупликации может повторятся основа слова в другом падеже, или с добавлением приставки, предлога или суффикса.] (* <- lang_ru;; *);; *);;
+*);;
+
+
+word
+ -> very;
+ -> very_very;;
+nrel_reduplication -> rrel_example: (very=>very_very);;
+
+

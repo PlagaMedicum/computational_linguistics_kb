@@ -1,0 +1,56 @@
+
+sc_node_not_relation
+ -> qualitative_adverb;;
+
+
+qualitative_adverb
+ => nrel_main_idtf: [качественное наречие](* <- lang_ru;; *);
+ => nrel_idtf: [множество качественных наречий](* <- lang_ru;; *);
+ => nrel_idtf: [qualitative adverb](* <- lang_en;; *);;
+
+sc_node_not_relation
+ -> quality_of_action;
+ -> quality_of_sign;;
+
+sc_node_norole_relation
+-> nrel_denote;;
+
+definition -> ...   
+ (*
+     -> rrel_key_sc_element: qualitative_adverb;;
+
+     => nrel_main_idtf: [Опр. (качественное наречие)](* <- lang_ru;; *);;
+     <= nrel_using_constants: ...
+	(*
+ -> adverb;;
+ ->  quality_of_action(*=> nrel_main_idtf: [качество действия] (* <- lang_ru;; *);;*);;
+ ->  quality_of_sign(*=> nrel_main_idtf: [качество признака] (* <- lang_ru;; *);;*);;
+ ->nrel_denote (*=> nrel_main_idtf: [обозначать*] (* <- lang_ru;; *);;*);;
+
+	*);;
+     <= nrel_sc_text_translation: ... (* -> [Качественное наречие - наречие, обозначающее качество действия или признака.](* <- lang_ru;; *);;*);;
+     *);;
+
+statement -> ...
+(* 
+     
+      -> rrel_key_sc_element: qualitative_adverb;;
+      => nrel_main_idtf: [Утв.(качественное наречие, качественное прилагательное, степень сравнения*)](* <- lang_ru;; *);;
+      <= nrel_sc_text_translation: ... (*
+				 	 -> [В русском языке качественные наречия, образованные от качественных прилагательных, имеют степени сравнения.](* <- lang_ru;; *);;
+					*);;
+*);;
+
+
+qualitative_adverb
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [Красиво](*<-lang_ru;;*);
+[Goodly](*<-lang_en;;*);;
+
+*);;
+
+
+ 
+
+

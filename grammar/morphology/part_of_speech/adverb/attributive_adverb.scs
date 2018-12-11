@@ -1,0 +1,53 @@
+
+sc_node_not_relation
+ -> attributive_adverb;;
+
+
+attributive_adverb 
+ => nrel_main_idtf: [определительное наречие](* <- lang_ru;; *);
+ => nrel_idtf: [множество определительных наречий](* <- lang_ru;; *);
+ => nrel_idtf: [attributive adverb](* <- lang_en;; *);;
+
+
+
+
+definition -> ...   
+ (*
+     -> rrel_key_sc_element: attributive_adverb;;
+
+     => nrel_main_idtf: [Опр. (определительное наречие)](* <- lang_ru;; *);;
+     <= nrel_using_constants: ...
+	(*
+	
+ -> adverb;;
+ -> quality_sign;;
+ -> quantity_sign;;
+ -> sign_of_action;;
+ -> sign_of_subject;;
+ -> sign_of_sign;;
+ ->nrel_denote;;
+	*);;
+     <= nrel_sc_text_translation: ... (* -> [Определительное наречие — наречие, обозначающее качественный или количественный признак действия, предмета или признака.](* <- lang_ru;; *);;*);;
+     *);;
+
+
+
+attributive_adverb
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [Быстро](*<-lang_ru;;*);
+[Quickly](*<-lang_en;;*);;
+
+*);;
+
+ 
+   statement -> ...
+(*
+      -> rrel_key_sc_element: attributive_adverb;;
+      => nrel_main_idtf: [Утв.(определительное наречие, прилагательное, наречие, глагол, существительное, примыкать*)](* <- lang_ru;; *);;
+      <= nrel_sc_text_translation: ... (*
+					 -> [Определительные наречия примыкают к глаголам, существительным, прилагательным или наречиям. ](* <- lang_ru;; *);;
+					*);;
+*);;
+   
+

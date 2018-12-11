@@ -1,0 +1,41 @@
+
+sc_node_not_relation
+ -> adverb_correlative_to_a_noun;;
+
+adverb_correlative_to_a_noun
+ => nrel_main_idtf: [наречие, соотносительное с именем существительным](* <- lang_ru;; *);
+ => nrel_idtf: [множество наречий, соотносительные с именами существительными](* <- lang_ru;; *);
+ => nrel_idtf: [adverb correlative to a noun](* <- lang_en;; *);;
+
+
+
+
+definition -> ...   
+ (*
+     -> rrel_key_sc_element: adverb_correlative_to_a_noun;;
+
+     => nrel_main_idtf: [Опр. (наречие, соотносительное с именем существительным)](* <- lang_ru;; *);;
+     <= nrel_using_constants: ...
+	(*
+ -> adverb;;
+ -> nrel_constitute_from;;
+ -> noun;;
+
+	*);;
+     <= nrel_sc_text_translation: ... (* -> [Наречие, соотносительное с именем существительным - наречие, образованное от имени существительного.](* <- lang_ru;; *);;*);;
+     *);;
+
+
+adverb_correlative_to_a_noun
+ -> rrel_example:...
+
+(*
+=>nrel_main_idtf: [Дома](*<-lang_ru;;*);
+[At home](*<-lang_en;;*);;
+
+*);;
+
+
+ 
+
+

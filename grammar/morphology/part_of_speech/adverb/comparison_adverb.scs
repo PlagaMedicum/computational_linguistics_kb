@@ -1,0 +1,44 @@
+
+sc_node_not_relation
+ -> comparison_adverb;;
+
+
+
+comparison_adverb
+ => nrel_main_idtf: [наречие сравнения и уподобления](* <- lang_ru;; *);
+ => nrel_idtf: [множество наречий сравнения и уподобления](* <- lang_ru;; *);
+ => nrel_idtf: [comparison adverb](* <- lang_en;; *);;
+
+sc_node_not_relation
+ -> comparative_characteristics;
+ -> action;;
+
+definition -> ...   
+ (*
+     -> rrel_key_sc_element: comparison_adverb;;
+
+     => nrel_main_idtf: [Опр. (наречие сравнения и уподобления)](* <- lang_ru;; *);;
+     <= nrel_using_constants: ...
+	(*
+ -> adverb;;
+ -> comparative_characteristics;;
+ -> action;;
+ ->nrel_denote;;
+	*);;
+     <= nrel_sc_text_translation: ... (* -> [Наречие сравнения и уподобления — наречие, обозначающее сравнительную характеристику действия](* <- lang_ru;; *);;*);;
+     *);;
+
+
+
+comparison_adverb
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [По-человечески](*<-lang_ru;;*);
+[Humanly](*<-lang_en;;*);;
+
+*);;
+
+
+ 
+
+

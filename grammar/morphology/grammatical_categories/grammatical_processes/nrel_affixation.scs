@@ -1,0 +1,76 @@
+
+sc_node_norole_relation
+ -> nrel_affixation;;
+
+nrel_affixation
+ => nrel_idtf: [affixation*] (* <- lang_en;; *);
+ => nrel_main_idtf: [аффиксация*] (* <- lang_ru;; *);;
+
+nrel_affixation <- binary_relation 
+	(*
+		=> nrel_measurement: 2 
+			(*
+				<- number;;
+			*);;
+		<- arity
+			(*
+				<- parameter;;
+			*);;
+	*);;
+
+
+nrel_affixation
+=> nrel_definitional_domain: word;
+=> nrel_first_domain:word;
+=> nrel_second_domain:word;;
+
+
+nrel_affixation
+ <- oriented_relation;
+ <- norole_relation;
+ <- transitive_relation;
+ <- antireflexive_relation;
+ <- antisymmetric_relation;;
+
+relation
+ => nrel_inclusion: binary_relation;
+ => nrel_inclusion: oriented_relation;;	
+
+binary_relation
+ => nrel_inclusion: transitive_relation;
+ => nrel_inclusion: antireflexive_relation;
+ => nrel_inclusion: antisymmetric_relation;;
+
+
+
+sc_node_norole_relation
+ ->nrel_joining(*=> nrel_main_idtf: [присоединение*] (* <- lang_ru;; *);;*);;
+
+
+
+definition -> ...
+(* 
+      -> rrel_key_sc_element: nrel_affixation;;
+      => nrel_main_idtf: [Опр.(аффиксация*)] (* <- lang_ru;; *);;
+      <= nrel_sc_text_translation: ...(* ->[Аффиксация - это присоединение аффиксов к корне или основе слова.] (* <- lang_ru;; *);;*);;
+      <= nrel_using_constants: ...
+			      (*
+				 ->affix;;
+                                 -> root;;
+				->foundation;;
+				->word;;
+				->nrel_joining;;
+
+			      *);;
+*);;
+
+
+
+
+
+word
+ -> happy;
+ -> unhappiness;;
+nrel_affixation -> rrel_example: (happy=>unhappiness);;
+
+

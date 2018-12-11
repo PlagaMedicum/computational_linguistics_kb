@@ -1,0 +1,70 @@
+sc_node_norole_relation
+-> nrel_semantic-stylistic_synonym;;
+
+nrel_semantic-stylistic_synonym
+=> nrel_idtf: [semantic-stylistic synonym*] (* <- lang_en;; *);;
+=> nrel_idtf: [быть семантико-стилиcтичecким синонимом*] (* <- lang_ru;; *);;
+=> nrel_main_idtf: [семантико-стилиcтичecкий синоним*] (* <- lang_ru;; *);;
+
+number
+-> 2;;
+
+parameter
+-> arity;;
+
+arity
+-> binary_relation;;
+
+binary_relation
+-> nrel_semantic-stylistic_synonym;;
+
+binary_relation
+-> nrel_measurement: 2;;
+
+nrel_semantic-stylistic_synonym
+=> nrel_first_domain: part_of_speech;;
+=> nrel_second_domain: part_of_speech;;
+=> nrel_definitional_domain: part_of_speech;;
+
+nrel_semantic-stylistic_synonym
+<- non_oriented_relation;
+<- norole_relation;
+<- transitive_relation;
+<- antireflexive_relation;
+<- symmetric_relation;;
+
+relation
+=> nrel_inclusion: binary_relation;;
+=> nrel_inclusion: non_oriented_relation;;
+
+binary_relation
+=> nrel_inclusion: transitive_relation;;
+=> nrel_inclusion: antireflexive_relation;;
+=> nrel_inclusion: symmetric_relation;;
+
+sc_node_norole_relation
+-> stylistic_coloring (* => nrel_main_idtf:[стилистическая окраска](* <- lang_ru;; *);;*);;
+
+definition ->
+... (*
+-> rrel_sc_key_element: nrel_semantic-stylistic_synonym;;
+=> nrel_main_idt: [Опр.(семантико-стилиcтичecкий синоним*)] (* <- lang_ru;; *);;
+<= nrel_sc_text_translation: [Семантико-стилиcтичecкиe синонимы - синонимы, которые различаются лексическими значениями и стилистической окраской.] (* <- lang_ru;; *);;
+<= nrel_using_constants:
+(*
+-> nrel_synonym;;
+-> lexical_meaning;;
+-> stylistic_coloring;;
+*);;
+
+statement... (*
+-> rrel_sc_key_element: nrel_semantic-stylistic_synonym;;
+=> nrel_main_idtf: [Утв.(Семантико-стилиcтичecкий синоним*, собственно-стилистический синоним*)] (* <- lang_ru;; *);;
+<= nrel_sc_text_translation: ... (* -> [Стилиcтичecкиe и семантико-стилистические синонимы обычно тесно между собой связаны.] (* <- lang_ru;; *);; *);;
+
+word
+-> be_angry (* => nrel_main_idtf:[Сердиться](* <- lang_ru;; *);;*);
+-> get_angry (* => nrel_main_idtf:[Злиться](* <- lang_ru;; *);;*);;
+
+be_angry
+= nrel_semantic-stylistic_synonym: get_angry;;

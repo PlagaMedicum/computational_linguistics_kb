@@ -1,0 +1,43 @@
+
+sc_node_not_relation
+ -> incomplete_paradigm;;
+
+incomplete_paradigm
+ => nrel_idtf: [incomplete paradigm] (* <- lang_en;; *);
+ => nrel_idtf: [множество неполных парадигм] (* <- lang_ru;; *);
+ => nrel_main_idtf: [неполная парадигма] (* <- lang_ru;; *);;
+
+
+
+definition -> ...   
+ (*
+     -> rrel_key_sc_element: incomplete_paradigm;;
+
+     => nrel_main_idtf: [Опр. (неполная парадигма)](* <- lang_ru;; *);;
+     <= nrel_using_constants: ...
+	(*
+
+->category;;
+->inflection_form;;
+->word;;
+
+
+	*);;
+     <= nrel_sc_text_translation: ... (* -> [Неполная парадигма — неполный набор форм словоизменения конкретного слова в той или иной категории.](* <- lang_ru;; *);;*);;
+     *);;
+
+statement -> ...
+(* 
+     
+      -> rrel_key_sc_element: incomplete_paradigm;;
+      => nrel_main_idtf: [Утв.(парадигма, набор форм, сопоставление*, полная парадигма, словоизменение)](* <- lang_ru;; *);;
+      <= nrel_sc_text_translation: ... (*
+				 	 -> [Неполнота набора форм устанавливается путем сопоставления с полной парадигмой того же словоизменения.](* <- lang_ru;; *);;
+					*);;
+*);;
+
+
+
+
+
+

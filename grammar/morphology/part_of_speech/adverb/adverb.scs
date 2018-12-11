@@ -1,0 +1,134 @@
+
+sc_node_not_relation
+ -> adverb;;
+
+
+adverb 
+ => nrel_main_idtf: [наречие](* <- lang_ru;; *);
+ => nrel_idtf: [множество наречий](* <- lang_ru;; *);
+ => nrel_idtf: [adverb](* <- lang_en;; *);;
+
+
+sc_node_not_relation
+ -> independent_part_of_speech;
+ -> attributive_adverb;
+ -> comparison_adverb ;
+ -> qualitative_adverb ;
+ -> adverb_aggregate;
+ -> mode_of_action_adverb;
+ -> quantitative_adverb;
+ -> adverbial_adverb;
+ -> adverb_reason;
+ -> adverb_time;
+ -> local_adverb ;
+ -> adverb_goal ;
+ -> adverb_correlative_to_a_verb;
+ -> adverb_correlative_to_a_adjective;
+ -> adverb_correlative_to_a_noun;
+ -> adverb_correlative_to_a_pronoun;
+ -> adverb_correlative_to_a_numeral;;
+
+
+
+
+independent_part_of_speech 
+ => nrel_inclusion: adverb;;
+adverb
+<= nrel_subdividing: ...
+(*
+  -> adverb_correlative_to_a_verb;;
+  -> adverb_correlative_to_a_adjective;;
+  -> adverb_correlative_to_a_noun;;
+ -> adverb_correlative_to_a_pronoun;;
+ -> adverb_correlative_to_a_numeral;;
+
+  =>nrel_main_idtf:[Разбиение наречи по образованию](* <- lang_ru;; *)
+;;*);;
+
+adverb
+<= nrel_subdividing: ...
+(*
+  -> attributive_adverb;;
+  -> adverbial_adverb;;
+
+
+  =>nrel_main_idtf:[Разбиение наречий по значению](* <- lang_ru;; *)
+;;*);;
+attributive_adverb
+<= nrel_subdividing: ...
+(*
+ -> comparison_adverb;;
+ -> qualitative_adverb;;
+ -> adverb_aggregate;;
+ -> mode_of_action_adverb;;
+ -> quantitative_adverb;;
+*);;
+ adverbial_adverb
+<= nrel_subdividing: ...
+(*
+ -> adverb_reason;;
+ -> adverb_time;;
+ -> local_adverb;;
+ -> adverb_goal;;
+*);;
+
+
+
+definition -> ...   
+ (*
+     -> rrel_key_sc_element: adverb;;
+
+     => nrel_main_idtf: [Опр. (наречие)](* <- lang_ru;; *);;
+     <= nrel_using_constants: ...
+	(*
+	
+ -> independent_part_of_speech;;
+ -> sign_of_subject;;
+ -> sign_of_action;;
+ -> sign_of_sign;;
+ ->nrel_denote;;
+	*);;
+     <= nrel_sc_text_translation: ... (* -> [Наречие — неизменяемая самостоятельная часть речи, обозначающая признак предмета, признак действия или признак признака.](* <- lang_ru;; *);;*);;
+     *);;
+
+
+
+adverb
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [Высоко](*<-lang_ru;;*);
+[High](*<-lang_en;;*);;
+
+*);;
+
+ 
+   statement -> ...
+(*
+      -> rrel_key_sc_element: adverb;;
+      => nrel_main_idtf: [Утв.(прилагательное, причастие, наречие, признак признака, глагол, признак действия, существительное, признак предмета)](* <- lang_ru;; *);;
+      <= nrel_sc_text_translation: ... (*
+					 -> [Примыкая к прилагательным, причастиям и наречиям, наречия обозначают признак признака, к глаголам - признак действия, к существительным - признак предмета.](* <- lang_ru;; *);;
+					*);;
+*);;
+   
+
+statement -> ...
+(* 
+     
+      -> rrel_key_sc_element: adverb;;
+      => nrel_main_idtf: [Утв.(качественное наречие, качественное прилагательное, степень сравнения*)](* <- lang_ru;; *);;
+      <= nrel_sc_text_translation: ... (*
+				 	 -> [В русском языке качественные наречия, образованные от качественных прилагательных, имеют степени сравнения.](* <- lang_ru;; *);;
+					*);;
+*);;
+
+statement -> ... 
+(*
+      -> rrel_key_sc_element: adverb;;
+      => nrel_main_idtf: [Утв.(подлежащее, дополнение, субстантивация*)](* <- lang_ru;; *);;
+      <= nrel_sc_text_translation: ... (*
+					 -> [В роли подлежащего и дополнения наречие выступает только при субстантивации. ](* <- lang_ru;; *);;
+					
+    *);;
+*);;
+

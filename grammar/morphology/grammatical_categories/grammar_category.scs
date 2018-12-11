@@ -1,0 +1,62 @@
+
+sc_node_not_relation
+ -> grammar_category;;
+
+grammar_category
+
+ => nrel_idtf: [grammar category] (* <- lang_en;; *);
+ => nrel_idtf: [множество грамматических категорий] (* <- lang_ru;; *);
+ => nrel_main_idtf: [грамматическая категория] (* <- lang_ru;; *);;
+
+
+grammar_category
+<= nrel_subdividing: ...
+(*
+  -> binary_category;;
+  -> nobinary_category (*=> nrel_main_idtf: [небинарная грамматическая категория] (* <- lang_ru;; *);;*);;
+
+
+  =>nrel_main_idtf:[Разбиение грамматических категорий по количеству членов](* <- lang_ru;; *)
+;;*);;
+
+grammar_category
+<= nrel_subdividing: ...
+(*
+  -> morpholog_category(*=> nrel_main_idtf: [морфологическая грамматическая категория] (* <- lang_ru;; *);;*);;
+  -> sintax_category(*=> nrel_main_idtf: [синтаксическая грамматическая категория] (* <- lang_ru;; *);;*);;
+
+
+  =>nrel_main_idtf:[Разбиение грамматических категорий по способу выражения значений](* <- lang_ru;; *)
+;;*);;
+
+definition -> ...   
+ (*
+     -> rrel_key_sc_element: grammar_category;;
+
+     => nrel_main_idtf: [Опр. (грамматическая категория)](* <- lang_ru;; *);;
+     <= nrel_using_constants: ...
+	(*
+	
+->word;;
+->word_form;;
+->grammar_meaning;;
+
+
+	*);;
+     <= nrel_sc_text_translation: ... (* -> [Грамматическая категория — грамматические значения обобщенного характера, присущие сочетаниям слов и словоформам и вместе с тем отвлеченные от конкретных значений самих слов.](* <- lang_ru;; *);;*);;
+     *);;
+
+statement -> ...
+(* 
+     
+      -> rrel_key_sc_element: grammar_category;;
+      => nrel_main_idtf: [Утв.(грамматическая категория, грамматическая форма)](* <- lang_ru;; *);;
+      <= nrel_sc_text_translation: ... (*
+				 	 -> [Грамматическая категория является системой противопоставленных друг другу грамматических форм с однородными значениями](* <- lang_ru;; *);;
+					*);;
+*);;
+
+
+
+
+

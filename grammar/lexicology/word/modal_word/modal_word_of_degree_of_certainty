@@ -1,0 +1,31 @@
+sc_node_not_relation
+-> modal_word_of_degree_of_certainty;
+
+modal_word_of_degree_of_certainty
+=> nrel_main_idtf: [модальное слово степени уверенности](* <- lang_ru;; *);;
+=> nrel_idtf: [множество модальных слов степени уверенности](* <- lang_ru;; *);;
+=> nrel_idtf: [modal word of degree of certainty](* <- lang_en;; *);;
+
+definition ->
+... (*
+-> rrel_key_sc_element: modal_word_of_certainty;;
+=> nrel_main_idtf: [Опр. (модальное слово степени уверенности)](* <- lang_ru;; *);;
+<= nrel_using_constants: modal_word;
+<= nrel_sc_text_translation: ... (* -> [Модальное слово степени уверенности - это модальное слово, выражающее логическую оценку высказывания, уверенность говорящего в реальности сообщения.](* <- lang_ru;; *);;*);;
+*);;
+
+statement ->
+... (*
+-> rrel_key_sc_element: modal_word_of_certainty;;
+=> nrel_main_idtf: [Утв.(модальное слово степени уверенности)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation: ... (*
+-> [К модальным словам степени уверенности относятся и фразеологические сочетания.](* <- lang_ru;; *);;
+*);;
+*);;
+
+modal_word_of_degree_of_certainty
+-> rrel_example: ...
+(*
+=>nrel_main_idtf: [Безусловно](*<-lang_ru;;*);
+[Surely](*<-lang_en;;*);;
+*);;

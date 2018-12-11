@@ -26,7 +26,7 @@ adverbial_participle
 <- rrel_key_sc_element: ...
 		(*
         <- explanation;;
-        -> rrel_key_sc_element: participle; verb; concept_adverb;;
+        -> rrel_key_sc_element: participle; verb; adverb;;
 		=> nrel_main_idtf: 
             [Утв.(деепричастие, глагол, наречие)] (* <- lang_ru;; *);
             [Expl.(adverbial participle, verb, adverb)] (* <- lang_eng;; *);;
@@ -41,7 +41,7 @@ adverbial_participle
 <- rrel_key_sc_element: ...
 		(*
         <- explanation;;
-        -> rrel_key_sc_element: participle; verb; concept_adverb;;
+        -> rrel_key_sc_element: participle; verb; adverb;;
 		=> nrel_main_idtf: 
             [Утв.(деепричастие, наречие)] (* <- lang_ru;; *);
             [Expl.(adverbial participle, adverb)] (* <- lang_eng;; *);;
