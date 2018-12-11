@@ -1,0 +1,41 @@
+
+sc_node_not_relation
+ -> adverb_correlative_to_a_numeral;;
+
+adverb_correlative_to_a_numeral
+ => nrel_main_idtf: [наречие, соотносительное с именем числительным](* <- lang_ru;; *);
+ => nrel_idtf: [множество наречий, соотносительные с именами числительными](* <- lang_ru;; *);
+ => nrel_idtf: [adverb correlative to a numeral](* <- lang_en;; *);;
+
+
+
+
+definition -> ...   
+ (*
+     -> rrel_key_sc_element: adverb_correlative_to_a_numeral;;
+
+     => nrel_main_idtf: [Опр. (наречие, соотносительное с именем числительным)](* <- lang_ru;; *);;
+     <= nrel_using_constants: ...
+	(*
+ -> adverb;;
+ -> nrel_constitute_from;;
+ -> numeral;;
+
+	*);;
+     <= nrel_sc_text_translation: ... (* -> [Наречие, соотносительное с именем числительным - наречие, образованное от имени числительного.](* <- lang_ru;; *);;*);;
+     *);;
+
+
+adverb_correlative_to_a_numeral
+ -> rrel_example:...
+
+(*
+=>nrel_main_idtf: [Дважды](*<-lang_ru;;*);
+[Twice](*<-lang_en;;*);;
+
+*);;
+
+
+ 
+
+

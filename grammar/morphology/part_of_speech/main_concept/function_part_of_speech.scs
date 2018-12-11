@@ -1,0 +1,76 @@
+
+sc_node_not_relation
+ -> function_part_of_speech;;
+
+function_part_of_speech
+
+ => nrel_idtf: [function part of speech] (* <- lang_en;; *);
+ => nrel_idtf: [множество служебных частей речи] (* <- lang_ru;; *);
+ => nrel_main_idtf: [служебная часть речи] (* <- lang_ru;; *);;
+
+sc_node_not_relation
+ ->union;
+->preposition;
+->particle;;
+
+function_part_of_speech
+<= nrel_subdividing: ...
+(*
+ ->union;;
+->preposition;;
+->particle;;
+*);;
+
+
+
+definition -> ...   
+ (*
+     -> rrel_key_sc_element: function_part_of_speech;;
+
+     => nrel_main_idtf: [Опр. (служебная часть речи)](* <- lang_ru;; *);;
+     <= nrel_using_constants: ...
+	(*
+	
+ -> class;;
+->word;;
+->subject;;
+->action;;
+->sign;;
+->relation;;
+
+	*);;
+     <= nrel_sc_text_translation: ... (* -> [Служебная часть речи - это класс слов, которые не называют ни предметов, ни действий, ни признаков, а выражают только отношения между ними.](* <- lang_ru;; *);;*);;
+     *);;
+
+
+
+function_part_of_speech
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [Предлог](*<-lang_ru;;*);
+[Preposition](*<-lang_en;;*);;
+
+*);;
+
+ 
+
+statement -> ...
+(* 
+     
+      -> rrel_key_sc_element: function_part_of_speech;;
+      => nrel_main_idtf: [Утв.(служебная часть речи, вопрос)](* <- lang_ru;; *);;
+      <= nrel_sc_text_translation: ... (*
+				 	 -> [К служебным частям речи нельзя поставить вопрос.](* <- lang_ru;; *);;
+					*);;
+*);;
+
+statement -> ...
+(* 
+     
+      -> rrel_key_sc_element: function_part_of_speech;;
+      => nrel_main_idtf: [Утв.(служебная часть речи, самостоятельная часть речи, вопрос, словосочетание, предложение)](* <- lang_ru;; *);;
+      <= nrel_sc_text_translation: ... (*
+				 	 -> [Служебные части речи обслуживают самостоятельные части речи, помогая им соединяться друг с другом в составе словосочетаний и предложений.](* <- lang_ru;; *);;
+					*);;
+*);;
+

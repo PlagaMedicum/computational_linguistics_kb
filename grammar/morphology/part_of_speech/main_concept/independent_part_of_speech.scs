@@ -1,0 +1,88 @@
+
+sc_node_not_relation
+ -> independent_part_of_speech;;
+
+independent_part_of_speech
+
+ => nrel_idtf: [independent part of speech] (* <- lang_en;; *);
+ => nrel_idtf: [множество самостоятельных частей речи] (* <- lang_ru;; *);
+ => nrel_main_idtf: [самостоятельная часть речи] (* <- lang_ru;; *);;
+
+
+
+independent_part_of_speech
+<= nrel_subdividing: ...
+(*
+  -> noun(*=> nrel_main_idtf: [имя существительное] (* <- lang_ru;; *);;*);;
+ -> verb;;
+ ->adjective(*=> nrel_main_idtf: [имя прилагательное] (* <- lang_ru;; *);;*);;
+ ->numeral;;
+
+ ->pronoun;;
+ ->adverb;;
+
+*);;
+
+
+sc_node_not_relation
+
+ -> subject (*=> nrel_main_idtf: [предмет] (* <- lang_ru;; *);;*);
+ -> action(*=> nrel_main_idtf: [действие] (* <- lang_ru;; *);;*);
+
+->shaping_system(*=> nrel_main_idtf: [система формообразования] (* <- lang_ru;; *);;*);
+->word_formation_system(*=> nrel_main_idtf: [система словобразования] (* <- lang_ru;; *);;*);
+->grammatical_semantics(*=> nrel_main_idtf: [грамматическая семантика] (* <- lang_ru;; *);;*);;
+
+definition -> ...   
+ (*
+     -> rrel_key_sc_element: independent_part_of_speech;;
+
+     => nrel_main_idtf: [Опр. (самостоятельная часть речи)](* <- lang_ru;; *);;
+     <= nrel_using_constants: ...
+	(*
+	
+ -> class;;
+->word;;
+->subject;;
+->action;;
+->sign;;
+->shaping_system;;
+->word_formation_system;;
+->grammatical_semantics;;
+
+	*);;
+     <= nrel_sc_text_translation: ... (* -> [Самостоятельная часть речи - грамматический класс слов, называющий предмет, действие или признак и обладающий особой системой формообразования и словоизменения, которая определяется грамматической семантикой.](* <- lang_ru;; *);;*);;
+     *);;
+
+
+
+independent_part_of_speech
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [Наречие](*<-lang_ru;;*);
+[Adverb](*<-lang_en;;*);;
+
+*);;
+
+ 
+
+statement -> ...
+(* 
+     
+      -> rrel_key_sc_element: independent_part_of_speech;;
+      => nrel_main_idtf: [Утв.(самостоятельная часть речи, член предложения)](* <- lang_ru;; *);;
+      <= nrel_sc_text_translation: ... (*
+				 	 -> [В предложении самостоятельная часть речи является членом предложения.](* <- lang_ru;; *);;
+					*);;
+*);;
+
+statement -> ...
+(* 
+     
+      -> rrel_key_sc_element: independent_part_of_speech;;
+      => nrel_main_idtf: [Утв.(самостоятельная часть речи, вопрос)](* <- lang_ru;; *);;
+      <= nrel_sc_text_translation: ... (*
+				 	 -> [К самостоятельным частям речи можно задавать вопросы.](* <- lang_ru;; *);;
+					*);;
+*);;
+

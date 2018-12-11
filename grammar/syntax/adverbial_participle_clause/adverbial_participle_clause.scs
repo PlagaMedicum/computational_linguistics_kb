@@ -21,20 +21,34 @@ adverbial_participle_clause <- rrel_key_sc_element:
             <= nrel_using_constants: ...
             (*
                 -> adverbial_participle;;
-                -> word_forms;;
+                -> word_form;;
             *);;
 		*);;
 adverbial_participle_clause <- rrel_key_sc_element:...
 		(*
         <- explanation;;
-        -> rrel_key_sc_element: participle; concept_adverb;;
+        -> rrel_key_sc_element: adverbial_participle_clause;;
 		=> nrel_main_idtf: 
-            [Утв.(деепричастный оборот, обстоятельство)] (* <- lang_ru;; *);
-            [Expl.(adverbial participle, adverb)] (* <- lang_eng;; *);;
+            [Утв.(деепричастный оборот)] (* <- lang_ru;; *);
+            [Expl.(adverbial participle clause)] (* <- lang_eng;; *);;
 		<= nrel_sc_text_translation: ...
 			(*
 			    -> rrel_example: 
 			    	[В предложении деепричастный оборот всегда выполняет функцию обстоятельства.](*<- lang_ru;;*);
 			    	[In sentence adverbial participle clause always performs function of an adverb.](*<- lang_en;;*);;
+			*);;
+*);;
+adverbial_participle_clause <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: adverbial participle clause; rrel_main_word; rrel_minor_word;;
+		=> nrel_main_idtf: 
+            [Утв.(деепричастный оборот, главное слово, зависимое слово)] (* <- lang_ru;; *);
+            [Expl.(adverbial participle clause, main word, minor word)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Деепричастный оборот есть множество словосочетаний, в которых деепричастие является главной словоформой,а остальные слова зависимыми.](*<- lang_ru;;*);
+			    	[Adverbial participle clause is a set of phrases in which the adverbial participle is the main word form, and other words are dependent.](*<- lang_en;;*);;
 			*);;
 *);;

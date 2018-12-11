@@ -1,0 +1,57 @@
+
+sc_node_not_relation
+ -> sound_reflecting_word;;
+
+sound_reflecting_word
+ => nrel_idtf: [sound reflecting word] (* <- lang_en;; *);
+ => nrel_idtf: [множество звукоподражательных слов] (* <- lang_ru;; *);
+ => nrel_main_idtf: [звукоподражательное слово] (* <- lang_ru;; *);;
+
+
+
+
+
+sc_node_not_relation
+
+ -> changeable_word (*=> nrel_main_idtf: [неизменяемое слово] (* <- lang_ru;; *);;*);
+->sound(*=> nrel_main_idtf: [звук] (* <- lang_ru;; *);;*);;
+
+
+definition -> ...   
+ (*
+     -> rrel_key_sc_element: sound_reflecting_word;;
+
+     => nrel_main_idtf: [Опр. (звукоподражательное слово)](* <- lang_ru;; *);;
+     <= nrel_using_constants: ...
+	(*
+	
+ -> class;;
+->changeable_word;;
+->sound;;
+
+
+	*);;
+     <= nrel_sc_text_translation: ... (* -> [Звукоподражательные слова -  класс неизменяемых слов, которые своим звуковым составом воспроизводят издаваемые человеком, животными, предметами звуки, а также разнообразные явления природы, сопровождаемые звуками.](* <- lang_ru;; *);;*);;
+     *);;
+
+
+
+sound_reflecting_word
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [Дзинь-дзинь](*<-lang_ru;;*);;
+
+*);;
+
+
+ statement -> ...
+(* 
+     
+      -> rrel_key_sc_element: sound_reflecting_word;;
+      => nrel_main_idtf: [Утв.(звукоподражательное слово, признак слова, лексическое значение, грамматическое значение)](* <- lang_ru;; *);;
+      <= nrel_sc_text_translation: ... (*
+				 	 -> [Звукоподражательные слова не имеют главных признаков слова — лексического и грамматического значения.](* <- lang_ru;; *);;
+					*);;
+*);;
+
+

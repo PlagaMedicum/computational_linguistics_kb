@@ -1,0 +1,43 @@
+
+sc_node_not_relation
+ -> local_adverb;;
+
+local_adverb
+ => nrel_main_idtf: [наречие места](* <- lang_ru;; *);
+ => nrel_idtf: [множество наречий места](* <- lang_ru;; *);
+ => nrel_idtf: [local adverb](* <- lang_en;; *);;
+
+
+
+sc_node_role_relation
+->rrel_place_of_making;;
+
+definition -> ...   
+ (*
+     -> rrel_key_sc_element: local_adverb;;
+
+     => nrel_main_idtf: [Опр. (наречие места)](* <- lang_ru;; *);;
+     <= nrel_using_constants: ...
+	(*
+ -> adverb;;
+-> action;;
+ -> rrel_place_of_making;;
+ -> nrel_denote;;
+
+	*);;
+     <= nrel_sc_text_translation: ... (* -> [Наречие места - наречие, обозначающее место совершения действия.](* <- lang_ru;; *);;*);;
+     *);;
+
+
+local_adverb
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [Навстречу](*<-lang_ru;;*);
+[Towards](*<-lang_en;;*);;
+
+*);;
+
+
+ 
+
+

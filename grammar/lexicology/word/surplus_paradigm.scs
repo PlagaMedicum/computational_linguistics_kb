@@ -1,0 +1,36 @@
+
+sc_node_not_relation
+ -> surplus_paradigm;;
+
+surplus_paradigm
+ => nrel_idtf: [surplus paradigm] (* <- lang_en;; *);
+ => nrel_idtf: [множество избыточных парадигм] (* <- lang_ru;; *);
+ => nrel_main_idtf: [избыточная парадигма] (* <- lang_ru;; *);;
+
+
+
+
+
+definition -> ...   
+ (*
+     -> rrel_key_sc_element: surplus_paradigm;;
+
+     => nrel_main_idtf: [Опр. (избыточная парадигма)](* <- lang_ru;; *);;
+     <= nrel_using_constants: ...
+	(*
+->paradigm;;
+->category;;
+->inflection_form;;
+->complete_paradigm;;
+
+	*);;
+     <= nrel_sc_text_translation: ... (* -> [Избыточная парадигма — это парадигма, содержащая большее количество форм словоизменения, чем полная парадигма по какой-либо категории.](* <- lang_ru;; *);;*);;
+     *);;
+
+
+
+
+
+
+
+

@@ -1,0 +1,55 @@
+
+sc_node_not_relation
+ -> synthetic_grammar_word_form;;
+
+synthetic_grammar_word_form
+ => nrel_idtf: [synthetic grammar word form] (* <- lang_en;; *);
+ => nrel_idtf: [множество синтетических грамматических форм слова] (* <- lang_ru;; *);
+ => nrel_main_idtf: [синтетическая грамматическая форма слова] (* <- lang_ru;; *);;
+
+
+sc_node_not_relation
+->morphological_form;
+->word_formation;
+->grammar_meaning;
+->word;
+->flexion;
+->affix;;
+
+
+
+definition -> ...   
+ (*
+     -> rrel_key_sc_element: synthetic_grammar_word_form;;
+
+     => nrel_main_idtf: [Опр. (синтетическая грамматическая форма слова)](* <- lang_ru;; *);;
+     <= nrel_using_constants: ...
+	(*
+
+->morphological_form(*=> nrel_main_idtf: [морфологическая форма] (* <- lang_ru;; *);;*);;
+->word_formation(*=> nrel_main_idtf: [словообразование] (* <- lang_ru;; *);;*);;
+->grammar_meaning(*=> nrel_main_idtf: [грамматическое значение] (* <- lang_ru;; *);;*);;
+->word;;
+->flexion(*=> nrel_main_idtf: [флексия] (* <- lang_ru;; *);;*);;
+->affix(*=> nrel_main_idtf: [аффикс] (* <- lang_ru;; *);;*);;
+
+
+	*);;
+     <= nrel_sc_text_translation: ... (* -> [Синтетическая грамматическая форма слова — это морфологическая форма словообразвания, в которой грамматические значения выражаются при помощи флексий и аффиксов без использования дополнительных слов.](* <- lang_ru;; *);;*);;
+     *);;
+
+statement -> ...
+(* 
+     
+      -> rrel_key_sc_element: synthetic_grammar_word_form;;
+      => nrel_main_idtf: [Утв.(аналитическая грамматическая форма слова, синтетическая грамматическая форма слова, эквивалентность*, грамматическая форма)](* <- lang_ru;; *);;
+      <= nrel_sc_text_translation: ... (*
+				 	 -> [Синтетические грамматические формы часто функционируют параллельно с аналитическими формами, образуя эквивалентные грамматические формы.](* <- lang_ru;; *);;
+					*);;
+*);;
+
+
+
+
+
+

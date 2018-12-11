@@ -1,0 +1,40 @@
+
+sc_node_not_relation
+ -> adverb_correlative_to_a_verb;;
+
+adverb_correlative_to_a_verb
+ => nrel_main_idtf: [наречие, соотносительное с глаголом](* <- lang_ru;; *);
+ => nrel_idtf: [множество наречий, соотносительных с глаголами](* <- lang_ru;; *);
+ => nrel_idtf: [adverb correlative to a verb](* <- lang_en;; *);;
+
+
+
+definition -> ...   
+ (*
+     -> rrel_key_sc_element: adverb_correlative_to_a_verb;;
+
+     => nrel_main_idtf: [Опр. (наречие, соотносительное с глаголом)](* <- lang_ru;; *);;
+     <= nrel_using_constants: ...
+	(*
+ -> adverb;;
+ -> nrel_constitute_from;;
+ -> verb;;
+
+	*);;
+     <= nrel_sc_text_translation: ... (* -> [Наречие, соотносительное с глаголом - наречие, образованное от глагола.](* <- lang_ru;; *);;*);;
+     *);;
+
+
+adverb_correlative_to_a_verb
+ -> rrel_example:...
+
+(*
+=>nrel_main_idtf: [Шутя](*<-lang_ru;;*);
+[Jokingly](*<-lang_en;;*);;
+
+*);;
+
+
+ 
+
+
