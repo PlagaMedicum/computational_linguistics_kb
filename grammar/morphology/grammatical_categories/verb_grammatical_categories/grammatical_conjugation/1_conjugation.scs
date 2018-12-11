@@ -1,5 +1,6 @@
 1_conjugation
     <- sc_node_not_relation;
+    <- grammatical_conjugation;
 
     => nrel_main_idtf:
         [I-е спряжение](* <-lang_ru;; *);
@@ -19,7 +20,8 @@
         *);;
         <= nrel_using_constants: ...
         (*
-            ->lang_ru;;
-            ->verb;;
+            -> lang_ru;;
+            -> verb;;
+            -> infinitive;;
         *);;
     *);;

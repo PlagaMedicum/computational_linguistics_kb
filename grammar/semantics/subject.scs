@@ -1,0 +1,5 @@
+subject
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[субъект](* <-lang_ru;; *);
+    [subject](* <-lang_en;; *);;

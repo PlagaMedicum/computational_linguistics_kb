@@ -4,8 +4,6 @@ infinitive
     => nrel_main_idtf:
         [инфинитив](* <-lang_ru;; *);
         [infinitive](* <-lang_en;; *);
-    => nrel_idtf:
-        [начальная форма глагола](* <-lang_ru;; *);
 
     -> rrel_example: ...
     (*

@@ -1,5 +1,6 @@
 transitive_verb
 	<- sc_node_not_relation;
+	<- grammatical_transitivity;
 
 	=> nrel_main_idtf:
 		[переходный глагол](* <-lang_ru;; *);

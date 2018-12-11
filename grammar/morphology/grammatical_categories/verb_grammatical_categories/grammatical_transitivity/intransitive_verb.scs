@@ -1,5 +1,6 @@
 intransitive_verb
 	<- sc_node_not_relation;
+	<- grammatical_transitivity;
 
 	=> nrel_main_idtf:
 		[неперехоный глагол](* <-lang_ru;; *);
