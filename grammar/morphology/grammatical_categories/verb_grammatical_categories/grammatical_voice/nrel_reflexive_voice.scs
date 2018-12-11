@@ -1,0 +1,32 @@
+nrel_reflexive_voice
+	<-sc_node_norole_relation;
+	<-grammatical_voice;
+
+	=> nrel_main_idtf:
+		[cредневозвратный залог*](* <-lang_ru;; *);
+		[reflexive voice*](* <-lang_en;; *);
+	=> nrel_idtf:
+		[возвратный залог*](* <-lang_ru;; *);
+		[рефлексив*](* <-lang_ru;; *);
+		[возвратный глагол*](* <-lang_ru;; *);
+		
+	<- rrel_key_sc_element: definition_reflexive_voice
+	(*
+		<- definition;;
+		=> nrel_main_idtf: 
+			[Опр. (средневозвратный залог*)](*<- lang_ru;;*);
+			[Def. (reflexive voice*)](*<- lang_en;;*);;
+		
+		<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:
+				"file://html/nrel_reflexive_voice_ru.html"(*<- lang_ru;;*);
+				"file://html/nrel_reflexive_voice_en.html"(*<- lang_en;;*);;
+		*);;
+		<= nrel_using_constants: ...
+		(*
+			->transitive_verb;;
+			->object;;
+			->subject;;
+		*);;
+	*);;

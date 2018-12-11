@@ -1,0 +1,31 @@
+nrel_subjunctive_mood
+	<-sc_node_norole_relation;
+	<-grammatical_mood;
+
+	=> nrel_main_idtf:
+		[сослагательное наклонение*](* <-lang_ru;; *);
+		[subjunctive mood*](* <-lang_en;; *);
+	=> nrel_idtf:
+		[субъюнктив*](* <-lang_ru;; *);
+		[конъюнктив*](* <-lang_ru;; *);
+		[subjunctive*](* <-lang_en;; *);
+
+	<- rrel_key_sc_element: definition_subjunctive_mood
+    (*
+        <- definition;;
+        => nrel_main_idtf: 
+            [Опр. (сослагательное наклонение*)](*<- lang_ru;;*);
+            [Def. (indicative mood*)](*<- lang_en;;*);;
+        
+        <= nrel_sc_text_translation:...
+        (*
+            -> rrel_example:
+                "file://html/indicative_mood_ru.html"(*<- lang_ru;;*);
+                "file://html/indicative_mood_en.html"(*<- lang_en;;*);;
+        *);;
+        <= nrel_using_constants: ...
+        (*
+            -> grammatical_mood;;
+            -> action;;
+        *);;
+    *);;

@@ -1,0 +1,26 @@
+2_conjugation
+    <- sc_node_not_relation;
+
+    => nrel_main_idtf:
+        [II-е спряжение](* <-lang_ru;; *);
+        [2-d conjugation](* <-lang_en;; *);
+
+    <- rrel_key_sc_element: definition_2_conjugation
+    (*
+        <- definition;;
+        => nrel_main_idtf: 
+            [Опр. (II-е спряжение)] (* <- lang_ru;; *);
+            [Def. (2-st conjugation)] (* <- lang_en;; *);;
+        <= nrel_sc_text_translation: ...
+        (*
+            -> rrel_example: 
+                "file://html/2_conjugation_ru.html"(*<- lang_ru;;*);
+                "file://html/2_conjugation_en.html"(*<- lang_en;;*);;
+        *);;
+        <= nrel_using_constants: ...
+        (*
+            -> lang_ru;;
+            -> verb;;
+            -> infinitive;;
+        *);;
+    *);;

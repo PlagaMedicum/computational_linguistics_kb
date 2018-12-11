@@ -1,0 +1,26 @@
+compostie_compound_word
+<-sc_node_not_relation;
+<-compound_word;;
+compostie_compound_word => nrel_main_idtf:
+	[составное сложное слово](* <-lang_ru;; *);
+    [compostie compound word](* <-lang_en;; *);;
+compostie_compound_word <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: составное сложное слово] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: compostie compound word] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Составное сложное слово — сложное слово, которое пишется через дефис.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Conjoint compound word — a compound word which is written with hyphen.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> word;;
+                -> hyphen;;
+            *);;
+              *);;

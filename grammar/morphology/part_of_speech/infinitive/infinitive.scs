@@ -1,0 +1,32 @@
+infinitive
+    <- sc_node_not_relation;
+
+    => nrel_main_idtf:
+        [инфинитив](* <-lang_ru;; *);
+        [infinitive](* <-lang_en;; *);
+
+    -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [дождить](*<- lang_ru;;*);
+            [to blink](*<- lang_en;;*);;
+    *);
+
+    <- rrel_key_sc_element: definition_infinitive
+    (*
+        <- definition;;
+        => nrel_main_idtf: 
+            [Опр. (инфинитив)] (* <- lang_ru;; *);
+            [Def. (infinitive)] (* <- lang_en;; *);;
+        <= nrel_sc_text_translation: ...
+        (*
+            -> rrel_example: 
+                "file://html/infinitive_ru.html"(*<- lang_ru;;*);
+                "file://html/infinitive_en.html"(*<- lang_en;;*);;
+        *);;
+        <= nrel_using_constants: ...
+        (*
+            ->part_of_speech;;
+            ->action;;
+        *);;
+    *);;

@@ -1,0 +1,32 @@
+nrel_past_tense
+	<- sc_node_norole_relation;
+	<- grammatical_tense;
+
+	=> nrel_main_idtf:
+		[прошедшее время*](* <-lang_ru;; *);
+		[past tense*](* <-lang_en;; *);
+	=> nrel_idtf:
+		[претеорит*](* <-lang_ru;; *);
+
+	<- rrel_key_sc_element: definition_nrel_past_tense
+	(*
+		<- definition;;
+		=> nrel_main_idtf: 
+			[Опр. (прошедшее время*)](*<- lang_ru;;*);
+			[Def. (past tense*)](*<- lang_en;;*);;
+		
+		<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:
+				"file://html/nrel_past_tense_ru.html"(*<- lang_ru;;*);
+				"file://html/nrel_past_tense_en.html"(*<- lang_en;;*);;
+		*);;
+		<= nrel_using_constants: ...
+		(*
+			-> grammatical_tense;;
+			-> linguistic_modality;;
+			-> grammeme;;
+			-> action;;
+			-> event;;
+		*);;
+	*);;

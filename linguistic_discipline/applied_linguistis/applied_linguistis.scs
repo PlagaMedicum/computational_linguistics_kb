@@ -1,0 +1,5 @@
+applied_linguistics
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+        [прикладная лингвистика](* <-lang_ru;; *);
+        [applied linguistics](* <-lang_en;; *);;

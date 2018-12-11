@@ -1,29 +1,29 @@
 adverbial_participle
 <-sc_node_not_relation;
-<-part_of_speech;;
-adverbial_participle => nrel_main_idtf:
+<-part_of_speech;
+=> nrel_main_idtf:
 	[деепричастие](* <-lang_ru;; *);
-    [adverbial participle](* <-lang_en;; *);;
-adverbial_participle <- rrel_key_sc_element: 
-		... 
+    [adverbial participle](* <-lang_en;; *);
+
+<- rrel_key_sc_element: ... 
+(*
+	<- sc_definition;;
+	=> nrel_main_idtf: [Определение: деепричастие] (* <- lang_ru;; *);;
+	=> nrel_main_idtf: [Definition: adverbial participle] (* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation: ...
 		(*
-		<- sc_definition;;
-		=> nrel_main_idtf: [Определение: деепричастие] (* <- lang_ru;; *);;
-		=> nrel_main_idtf: [Definition: adverbial participle] (* <- lang_en;; *);;
-        <- definition;;
-		<= nrel_sc_text_translation: ...
-			(*
-			-> rrel_example: 
-				[Деепричастие — особая форма глагола, обозначающая добавочное действие при основном действии.](*<- lang_ru;;*);;
-			-> rrel_example: 
-				[Adverbial participle — the special form of a verb designating additional action at the main action.](*<- lang_en;;*);;
-			*);;
-            <= nrel_using_constants: ...
-            (*
-                -> verb;;
-            *);;
+		-> rrel_example: 
+			[Деепричастие — особая форма глагола, обозначающая добавочное действие при основном действии.](*<- lang_ru;;*);;
+		-> rrel_example: 
+			[Adverbial participle — the special form of a verb designating additional action at the main action.](*<- lang_en;;*);;
 		*);;
-adverbial_participle <- rrel_key_sc_element:...
+		<= nrel_using_constants: ...
+		(*
+			-> verb;;
+		*);;
+*);
+<- rrel_key_sc_element: ...
 		(*
         <- explanation;;
         -> rrel_key_sc_element: participle; verb; concept_adverb;;
@@ -36,9 +36,9 @@ adverbial_participle <- rrel_key_sc_element:...
 			    	[Деепричастие обладает свойствам глагола и наречия.](*<- lang_ru;;*);
 			    	[Adverbial participle possesses properties of a verb and adverb.](*<- lang_en;;*);;
 			*);;
-*);;
+*);
 
-adverbial_participle <- rrel_key_sc_element:...
+<- rrel_key_sc_element: ...
 		(*
         <- explanation;;
         -> rrel_key_sc_element: participle; verb; concept_adverb;;
@@ -51,23 +51,24 @@ adverbial_participle <- rrel_key_sc_element:...
 			    	[Деепричастия, как и наречия, являются неизменяемыми. ](*<- lang_ru;;*);
 			    	[Adverbial participles, as well as adverbs, are unchangeable.](*<- lang_en;;*);;
 			*);;
-*);;
+*);
 
-adverbial_participle <- rrel_key_sc_element:...
+<- rrel_key_sc_element:...
+(*
+	<- explanation;;
+	-> rrel_key_sc_element: participle; verb; grammatical_transitivity; grammatical_aspect; grammatical_voice; reflexivity;;
+	=> nrel_main_idtf: 
+		[Утв.(деепричастие, глагол, переходность, вид, залог, возвратность)] (* <- lang_ru;; *);
+		[Expl.(adverbial participle, verb, transitivity, aspect, voice, reflexivity.)] (* <- lang_eng;; *);;
+	<= nrel_sc_text_translation: ...
 		(*
-        <- explanation;;
-        -> rrel_key_sc_element: participle; verb; transitivity; aspect; voice; reflexivity;;
-		=> nrel_main_idtf: 
-            [Утв.(деепричастие, глагол, переходность, вид, залог, возвратность)] (* <- lang_ru;; *);
-            [Expl.(adverbial participle, verb, transitivity, aspect, voice, reflexivity.)] (* <- lang_eng;; *);;
-		<= nrel_sc_text_translation: ...
-			(*
-			    -> rrel_example: 
-			    	[Деепричастия,  как  и  глаголы,  сохраняют переходность, вид, залог, возвратность. ](*<- lang_ru;;*);
-			    	[Adverbial participles, as well as verbs, keep transitivity, an aspect, voice, reflexivity.](*<- lang_en;;*);;
-			*);;
-*);;
-adverbial_participle <= nrel_subdividing: ...
+			-> rrel_example: 
+				[Деепричастия,  как  и  глаголы,  сохраняют переходность, вид, залог, возвратность. ](*<- lang_ru;;*);
+				[Adverbial participles, as well as verbs, keep transitivity, an aspect, voice, reflexivity.](*<- lang_en;;*);;
+		*);;
+*);
+
+<= nrel_subdividing: ...
 (*
 	<- explanation;;
 	=> nrel_main_idtf:

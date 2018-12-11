@@ -1,0 +1,38 @@
+intransitive_verb
+	<- sc_node_not_relation;
+	<- grammatical_transitivity;
+
+	=> nrel_main_idtf:
+		[неперехоный глагол](* <-lang_ru;; *);
+		[intransitive verb](* <-lang_en;; *);
+	=> nrel_idtf:
+		[нетранзитивный глагол](* <-lang_ru;; *);
+
+	-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [лежать](*<- lang_ru;;*);
+            [to sleep](*<- lang_en;;*);;
+    *);
+
+	<- rrel_key_sc_element: definition_intransitive_verb
+	(*
+		<- definition;;
+		=> nrel_main_idtf: 
+			[Опр. (неперехоный глагол)](*<- lang_ru;;*);
+			[Def. (intransitive verb)](*<- lang_en;;*);;
+		
+		<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:
+				"file://html/intransitive_verb_ru.html"(*<- lang_ru;;*);
+				"file://html/intransitive_verb_en.html"(*<- lang_en;;*);;
+		*);;
+		<= nrel_using_constants: ...
+		(*
+			-> verb;;
+			-> action;;
+			-> subject;;
+			-> object;;
+		*);;
+	*);;

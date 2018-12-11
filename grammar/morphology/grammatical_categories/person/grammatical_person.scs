@@ -1,0 +1,52 @@
+grammatical_person
+    <- sc_node_not_relation;
+
+    => nrel_main_idtf:
+        [грамматическое лицо](* <-lang_ru;; *);
+        [grammatical person](* <-lang_en;; *);
+
+    <- rrel_key_sc_element: ...
+    (*
+        =>nrel_idtf:
+            [Опр. (грамматическое лицо)] (* <- lang_ru;; *);
+            [Def. (grammatical person)] (* <- lang_en;; *);;
+        <- definition;;
+        <=nrel_using_constants:
+        {
+        grammatical_category;
+        conversation;
+        person
+        };;
+        <= nrel_sc_text_translation: ...
+        (*
+                
+            -> rrel_example:[Лицо — грамматическая категория, выражающая отношения участников описываемой ситуации и участников разговора.](*<- lang_ru;;*);;
+            -> rrel_example:[Person - a grammatical category, expressing the relationship of participants in the described situation and participants in the conversation.] (* <- lang_en;; *);;
+        *);;
+    *);
+
+    <=nrel_subdividing:
+    {
+        nrel_first_person;
+        nrel_second_person;
+        nrel_third_person
+    };
+
+    <-rrel_key_sc_element:...
+    (*
+        <-explanation;;
+        <=nrel_sc_text_translation: ...
+        (*
+            ->[Большинство языков различают три лица.] (* <- lang_ru;; *);;
+            ->[Most languages ​​have three persons.] (* <- lang_en;; *);;
+        *);;
+        =>nrel_idtf:[Утв.(язык,лицо)] (* <- lang_ru;; *);;
+        =>nrel_idtf:[Expl. (language,person)] (* <- lang_en;; *);;
+    *);
+
+
+    ->rrel_example:...
+    (*
+        =>nrel_main_idtf:[Первое лицо] (* <- lang_ru;; *);;
+        =>nrel_main_idtf:[First person] (* <- lang_en;; *);;
+    *);;

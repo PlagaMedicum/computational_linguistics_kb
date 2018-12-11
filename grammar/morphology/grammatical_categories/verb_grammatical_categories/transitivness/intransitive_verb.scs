@@ -1,5 +1,0 @@
-intransitive_verb
-=> nrel_main_idtf:
-	[неперехоный глагол](* <-lang_ru;; *);
- 	[intransitive verb](* <-lang_en;; *);
-<- sc_node_not_relation;;

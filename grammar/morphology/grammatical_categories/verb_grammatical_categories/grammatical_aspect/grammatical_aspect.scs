@@ -1,0 +1,32 @@
+grammatical_aspect
+	<- sc_node_not_relation;
+	<- grammatical_category;
+
+	=> nrel_main_idtf:
+		[грамматический вид](* <-lang_ru;; *);
+		[grammatical aspect](* <-lang_en;; *);
+	=> nrel_idtf:
+		[вид глагола](* <-lang_ru;; *);
+		[грамматический аспект](* <-lang_ru;; *);
+
+	<- rrel_key_sc_element: definition_grammatical_aspect
+	(*
+		<- definition;;
+		=> nrel_main_idtf: 
+			[Опр. (грамматический вид)](*<- lang_ru;;*);
+			[Def. (grammatical aspect)](*<- lang_en;;*);;
+		
+		<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:
+				"file://html/grammatical_aspect_ru.html"(*<- lang_ru;;*);
+				"file://html/grammatical_aspect_en.html"(*<- lang_en;;*);;
+		*);;
+		<= nrel_using_constants: ...
+		(*
+			-> grammatical_category;;
+			-> action;;
+			-> event;;
+			-> state;;
+		*);;
+	*);;

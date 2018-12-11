@@ -1,0 +1,5 @@
+nrel_accusative_case
+=> nrel_main_idtf:
+	[винительный падеж](* <-lang_ru;; *);
+ 	[accusative case](* <-lang_en;; *);
+<-sc_node_norole_relation;;

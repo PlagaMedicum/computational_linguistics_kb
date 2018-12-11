@@ -1,0 +1,30 @@
+
+pronouns_definitive=> nrel_main_idtf:
+	[определительные местоимения](* <-lang_ru;; *);
+    [pronouns definitive](* <-lang_en;; *);;
+
+
+pronouns_definitive <-rrel_key_sc_element:...
+(*
+=>nrel_idtf:[Определение (определительные местоимения)] (* <- lang_ru;; *);;
+=>nrel_idtf:[Definition (pronouns definitive)] (* <- lang_en;; *);;
+<- definition;;
+<=nrel_using_constants: 
+{
+similar_objects;
+pronoun
+};;
+<=nrel_sc_text_translation: ...
+(*
+->[Определительные местоимения - местоимения,указывающие на один предмет из ряда однородных предметов.] (* <- lang_ru;; *);;
+->[Definitive pronouns are pronouns that indicate one object from a series of similar objects.] (* <- lang_en;; *);;
+*);;
+*);
+
+->rrel_example:...
+(*
+=>[весь] (* <- lang_ru;; *);;
+=>[всякий] (* <- lang_ru;; *);;
+=>[all] (* <- lang_en;; *);;
+=>[any] (* <- lang_en;; *);;
+*);; 

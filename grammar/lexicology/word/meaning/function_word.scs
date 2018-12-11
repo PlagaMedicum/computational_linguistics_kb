@@ -1,0 +1,42 @@
+function_word
+<-sc_node_not_relation;
+<-word;;
+function_word => nrel_main_idtf:
+	[служебное слово](* <-lang_ru;; *);
+    [function word](* <-lang_en;; *);;
+function_word <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: служебное слово] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: function word] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Служебные слова — лексически несамостоятельные слова, имеющие в языке не номинативную функцию (они не называют предметы, свойства или отношения), а лишь выражающие различные семантико-синтаксические отношения между словами, предложениями и частями предложений.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Function words — words that express grammatical relationships among other words within a sentence, or specify the attitude or mood of the speaker.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> word;;
+                -> sentence;;
+            *);;
+		*);;
+independent_word <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: word; function_word; functional_part_of_speech; part_of_speech;;
+		=> nrel_main_idtf: 
+            [Утв.(слово, служебное слово, самостоятельная часть речи,часть речи)] (* <- lang_ru;; *);
+            [Expl.(word, function word, functional part of speech, part of speech)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Знаменательные слова являются служебными частями речи.](*<- lang_ru;;*);
+			    	[Function words are functional parts of speech.](*<- lang_en;;*);;
+			*);;
+*);;
+
+

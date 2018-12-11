@@ -1,0 +1,29 @@
+nrel_perfective_aspect
+    <-sc_node_norole_relation;
+    <-grammatical_aspect;
+
+    => nrel_main_idtf:
+        [совершенный вид*](* <-lang_ru;; *);
+        [perfective aspect*](* <-lang_en;; *);
+    => nrel_idtf:
+        [aoristic aspect*](* <-lang_en;; *);
+        [перфективный вид*](* <-lang_ru;; *);
+        [аористический вид*](* <-lang_ru;; *);
+    <- rrel_key_sc_element: definition_nrel_perfective_aspect
+    (*
+        <- definition;;
+        => nrel_main_idtf: 
+            [Опр. (совершенный вид*)](*<- lang_ru;;*);
+            [Def. (perfective aspect*)](*<- lang_en;;*);;
+        <= nrel_sc_text_translation:...
+        (*
+            -> rrel_example:
+                "file://html/nrel_perfective_aspect_ru.html"(*<- lang_ru;;*);
+                "file://html/nrel_perfective_aspect_ru.html"(*<- lang_en;;*);;
+        *);;
+        <= nrel_using_constants:...
+        (*
+            -> verb;;
+            -> action;;
+        *);;
+    *);;

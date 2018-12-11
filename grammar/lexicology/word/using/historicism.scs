@@ -1,0 +1,26 @@
+historicism
+<-sc_node_not_relation;
+<-word;;
+historicism => nrel_main_idtf:
+	[историзм](* <-lang_ru;; *);
+    [historicism](* <-lang_en;; *);;
+historicism <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: историзм] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: historicism] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Историзм - слова или устойчивые словосочетания, представляющие собой названия существовавших когда-то, но исчезнувших предметов, явлений человеческой жизни.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Historicism - words or phrases representing names of the objects existing once, but disappeared, the phenomena of human life.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> word;;
+                -> phrase;;
+            *);;
+              *);;

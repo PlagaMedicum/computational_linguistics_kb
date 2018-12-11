@@ -1,0 +1,26 @@
+mixed_conjugation
+    <- sc_node_not_relation;
+
+    => nrel_main_idtf:
+        [смешанное спряжение](* <-lang_ru;; *);
+        [mixed conjugation](* <-lang_en;; *);
+
+    <- rrel_key_sc_element: definition_mixed_conjugation
+    (*
+        <- definition;;
+        => nrel_main_idtf: 
+            [Опр. (смешанное спряжение)] (* <- lang_ru;; *);
+            [Def. (mixed conjugation)] (* <- lang_en;; *);;
+        <= nrel_sc_text_translation: ...
+        (*
+            -> rrel_example: 
+                "file://html/mixed_conjugation_ru.html"(*<- lang_ru;;*);
+                "file://html/mixed_conjugation_en.html"(*<- lang_en;;*);;
+        *);;
+        /*
+        <= nrel_using_constants: ...
+        (*
+
+        *);;
+        */
+    *);;

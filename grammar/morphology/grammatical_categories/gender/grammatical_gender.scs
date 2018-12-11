@@ -1,0 +1,44 @@
+grammatical_gender
+<- sc_node_not_relation;
+ => nrel_main_idtf:
+	[род](* <-lang_ru;; *);
+    [grammatical gender](* <-lang_en;; *);
+
+<- rrel_key_sc_element: ...
+(*
+    =>nrel_idtf:[Опр. (род)] (* <- lang_ru;; *);;
+    =>nrel_idtf:[Def. (grammatical gender)] (* <- lang_en;; *);;
+    <- definition;;
+    <=nrel_using_constants:
+    {
+    grammatical_category;
+    class;
+    person;
+    feature;
+    gender
+    };;
+    <= nrel_sc_text_translation: ...
+    (*
+             
+    -> rrel_example:[Род в грамматике — категория, представляющая распределение слов и форм по классам, традиционно соотносимым с признаками пола или их отсутствием.](*<- lang_ru;;*);;
+    -> rrel_example:[Gender in grammar is a category representing the distribution of words and forms into classes, traditionally related to the characteristics of sex or their absence.] (* <- lang_en;; *);;
+    *);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+<-explanation;;
+<=nrel_sc_text_translation: ...
+(*
+->[Род характеризует различные части речи, являясь для них словоизменительной категорией.] (* <- lang_ru;; *);;
+->[The grammatical gender characterizes various parts of speech, being for them the inflection category..] (* <- lang_en;; *);;
+*);;
+=>nrel_idtf:[Утв.(род,часть речи,словоизменительная категория)] (* <- lang_ru;; *);;
+=>nrel_idtf:[Expl. (grammatical gender,part of speech,inflection category)] (* <- lang_en;; *);;
+*);
+
+->rrel_example:...
+(*
+=>nrel_main_idtf:[Средний род] (* <- lang_ru;; *);;
+=>nrel_main_idtf:[Neuter_gender] (* <- lang_en;; *);;
+*);;

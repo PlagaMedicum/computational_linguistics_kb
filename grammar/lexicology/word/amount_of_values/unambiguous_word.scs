@@ -1,0 +1,27 @@
+unambiguous_word
+<-sc_node_not_relation;
+<-word;;
+unambiguous_word => nrel_main_idtf:
+	[однозначное слово](* <-lang_ru;; *);
+    [unambiguous word](* <-lang_en;; *);;
+unambiguous_word <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: однозначное слово] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: unambiguous word] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Однозначные слова — слова, имеющие одно лексическое значение. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Unambiguous words — the words having one lexical meaning.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> word;;
+                -> grammatical_form;;
+            *);;
+		*);;
+

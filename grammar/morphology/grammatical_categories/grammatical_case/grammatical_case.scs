@@ -1,0 +1,42 @@
+grammatical_case
+<- sc_node_not_relation;
+ => nrel_main_idtf:
+	[падеж](* <-lang_ru;; *);
+    [grammatical case](* <-lang_en;; *);
+
+<- rrel_key_sc_element: ...
+ (*
+    =>nrel_idtf:[Опр. (падеж)] (* <- lang_ru;; *);;
+    =>nrel_idtf:[Def. (grammatical case)] (* <- lang_en;; *);;
+    <- definition;;
+    <=nrel_using_constants:
+    {
+    relation;
+    word;
+    sentence
+    };;
+    <= nrel_sc_text_translation: ...
+    (*       
+    -> rrel_example:[Падеж — это форма имени, указывающая на отношение слова к другим словам в предложении.](*<- lang_ru;;*);;
+    -> rrel_example:[Case - a form of a name indicating the relation of a word to other words in a sentence..] (* <- lang_en;; *);;
+    *);; 
+*);
+
+<-rrel_key_sc_element:...
+(*
+<-explanation;;
+<=nrel_sc_text_translation: ...
+(*
+->[Падеж является грамматической категорией выполняющей двоякие функции в языке: падежные формы всегда выступают в роли маркеров,указывают на семантическую роль.] (* <- lang_ru;; *);;
+->[A case is a grammatical category that performs dual functions in a language: case forms always act as markers, indicate a semantic role.] (* <- lang_en;; *);;
+*);;
+=>nrel_idtf:[Утв.(падеж,грамматическая категория,функции,падежные формы,маркер,язык,сематническая роль)] (* <- lang_ru;; *);;
+=>nrel_idtf:[Expl. (case,grammatical category,function,language,case forms,marker,semantic role)] (* <- lang_en;; *);;
+*);
+
+
+->rrel_example:...
+(*
+=>nrel_main_idtf:[Именительный падеж] (* <- lang_ru;; *);;
+=>nrel_main_idtf:[Nominative] (* <- lang_en;; *);;
+*);;

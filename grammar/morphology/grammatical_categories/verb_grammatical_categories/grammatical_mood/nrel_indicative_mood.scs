@@ -1,0 +1,32 @@
+nrel_indicative_mood
+	<-sc_node_norole_relation;
+	<-grammatical_mood;
+
+	=> nrel_main_idtf:
+		[изъявительное наклонение*](* <-lang_ru;; *);
+		[indicative mood*](* <-lang_en;; *);
+	=> nrel_idtf:
+		[индикатив*](* <-lang_ru;; *);
+		[realis mood*](* <-lang_en;; *);
+		[indicative*](* <-lang_en;; *);
+
+	<- rrel_key_sc_element: definition_indicative_mood
+    (*
+        <- definition;;
+        => nrel_main_idtf: 
+            [Опр. (изъявительное наклонение*)](*<- lang_ru;;*);
+            [Def. (indicative mood*)](*<- lang_en;;*);;
+        
+        <= nrel_sc_text_translation:...
+        (*
+            -> rrel_example:
+                "file://html/indicative_mood_ru.html"(*<- lang_ru;;*);
+                "file://html/indicative_mood_en.html"(*<- lang_en;;*);;
+        *);;
+        <= nrel_using_constants: ...
+        (*
+            -> grammatical_mood;;
+            -> action;;
+            -> event;;
+        *);;
+    *);;

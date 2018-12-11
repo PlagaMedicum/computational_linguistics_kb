@@ -1,0 +1,28 @@
+grammatical_transitivity
+    <-sc_node_not_relation;
+    <- grammatical_category;
+
+    => nrel_main_idtf:
+        [грамматическая переходность](* <-lang_ru;; *);
+        [grammatical transitivity](* <-lang_en;; *);
+
+    <- rrel_key_sc_element: definition_grammatical_transitivity
+    (*
+        <- definition;;
+        => nrel_main_idtf: 
+            [Опр. (грамматическая переходность)] (* <- lang_ru;; *);
+            [Def. (grammatical transitivity)] (* <- lang_en;; *);;
+        <= nrel_sc_text_translation: ...
+        (*
+            -> rrel_example: 
+                "file://html/grammatical_transitivity_ru.html"(*<- lang_ru;;*);
+                "file://html/grammatical_transitivity_en.html"(*<- lang_en;;*);;
+        *);;
+        <= nrel_using_constants: ...
+        (*
+            -> grammatical_category;;
+            -> action;;
+            -> verb;;
+            -> object;;
+        *);;
+    *);;

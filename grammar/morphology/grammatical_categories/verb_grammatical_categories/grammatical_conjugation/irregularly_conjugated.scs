@@ -1,0 +1,26 @@
+irregularly_conjugated
+    <- sc_node_not_relation;
+
+    => nrel_main_idtf:
+        [разноспрягаемость](* <-lang_ru;; *);
+        [irregularly conjugated](* <-lang_en;; *);
+
+    <- rrel_key_sc_element: definition_irregularly_conjugated
+    (*
+        <- definition;;
+        => nrel_main_idtf: 
+            [Опр. (разноспрягаемость)] (* <- lang_ru;; *);
+            [Def. (irregularly conjugated)] (* <- lang_en;; *);;
+        <= nrel_sc_text_translation: ...
+        (*
+            -> rrel_example: 
+                "file://html/irregularly_conjugated_ru.html"(*<- lang_ru;;*);
+                "file://html/irregularly_conjugated_en.html"(*<- lang_en;;*);;
+        *);;
+        /*
+        <= nrel_using_constants: ...
+        (*
+
+        *);;
+        */
+    *);;

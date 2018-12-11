@@ -1,5 +1,7 @@
 nrel_second_person
+<- sc_node_norole_relation;
+<- grammatical_person;
+
 => nrel_main_idtf:
 	[второе лицо*](* <-lang_ru;; *);
- 	[second person*](* <-lang_en;; *);
-<-sc_node_norole_relation;;
+ 	[second person*](* <-lang_en;; *);;

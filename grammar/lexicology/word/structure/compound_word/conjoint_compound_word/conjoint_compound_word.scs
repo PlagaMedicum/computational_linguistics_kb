@@ -1,0 +1,25 @@
+conjoint_compound_word
+<-sc_node_not_relation;
+<-compound_word;;
+conjoint_compound_word => nrel_main_idtf:
+	[слитное сложное слово](* <-lang_ru;; *);
+    [conjoint compound_word](* <-lang_en;; *);;
+conjoint_compound_word <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: слитное сложное слово] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: conjoint compound word] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Слитное сложное слово — сложное слово, которое пишется слитно.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Conjoint compound word — a compound word which is written together.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> word;;
+            *);;
+             *);;

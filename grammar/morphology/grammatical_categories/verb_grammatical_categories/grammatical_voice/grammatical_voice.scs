@@ -1,0 +1,28 @@
+grammatical_voice
+	<- sc_node_not_relation;
+	<- grammatical_category;
+
+	=> nrel_main_idtf:
+		[грамматический залог](* <-lang_ru;; *);
+		[grammatical voice](* <-lang_en;; *);
+
+	<- rrel_key_sc_element: definition_grammatical_voice
+	(*
+		<- definition;;
+		=> nrel_main_idtf: 
+			[Опр. (грамматический залог)](*<- lang_ru;;*);
+			[Def. (grammatical voice)](*<- lang_en;;*);;
+		
+		<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:
+				"file://html/grammatical_voice_ru.html"(*<- lang_ru;;*);
+				"file://html/grammatical_voice_en.html"(*<- lang_en;;*);;
+		*);;
+		<= nrel_using_constants: ...
+		(*
+			-> grammatical_category;;
+			-> verb;;
+			-> linguistic_argument;;
+		*);;
+	*);;

@@ -1,0 +1,32 @@
+nrel_future_tense
+	<- sc_node_norole_relation;
+	<- grammatical_tense;
+
+	=> nrel_main_idtf:
+		[будущее время*](* <-lang_ru;; *);
+		[future tense*](* <-lang_en;; *);
+	=> nrel_idtf:
+		[футурум*](* <-lang_ru;; *);
+
+	<- rrel_key_sc_element: definition_nrel_future_tense
+	(*
+		<- definition;;
+		=> nrel_main_idtf: 
+			[Опр. (будущее время*)](*<- lang_ru;;*);
+			[Def. (future tense*)](*<- lang_en;;*);;
+		
+		<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:
+				"file://html/nrel_future_tense_ru.html"(*<- lang_ru;;*);
+				"file://html/nrel_future_tense_en.html"(*<- lang_en;;*);;
+		*);;
+		<= nrel_using_constants: ...
+		(*
+			-> grammatical_tense;;
+			-> linguistic_modality;;
+			-> grammeme;;
+			-> action;;
+			-> event;;
+		*);;
+	*);;
