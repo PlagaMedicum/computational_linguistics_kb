@@ -1,0 +1,39 @@
+modal_particle
+<-sc_node_not_relation;;
+
+modal_particle=>nrel_main_idtf:
+    [модальная частица](* <-lang_ru;; *);
+    [modal particle](* <-lang_en;; *);;
+
+modal_particle <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: модальная частица] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: modal particle] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [модальная частица - частицы, которые вносят в предложение различные смысловые оттенки, а также выражают чувства и 
+                отношение говорящего.](*<- lang_ru;;*);;
+                -> rrel_example:
+                [modal particle - .](*<- lang_en;;*);;
+            *);;
+        *);;
+
+modal_particle  <= nrel_subdividing: ...
+(*
+     <- explanation;;
+    => nrel_main_idtf:
+    [Разбиение по значению](*<-lang_ru;; *);;
+->  interrogative_particle;
+    pointing_particle;
+    clarifying_particle;
+    excretory_and_restrictive_particle;
+    exclamation_particle;
+    amplifying_particle;
+    mitigation_requirement;
+    doubt;
+    trigger_particle;;
+*);;

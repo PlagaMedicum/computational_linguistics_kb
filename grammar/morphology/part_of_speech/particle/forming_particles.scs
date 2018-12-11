@@ -1,0 +1,22 @@
+   forming_particles
+   <-sc_node_not_relation;;
+
+forming_particles=>nrel_main_idtf:
+    [формообразующие  частицы](* <-lang_ru;; *);
+    [forming particles](* <-lang_en;; *);;
+
+forming_particles <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: формообразующие  частицы] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: forming particles] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [формообразующие  частицы - .](*<- lang_ru;;*);;
+                -> rrel_example:
+                [forming particles - .](*<- lang_en;;*);;
+            *);;
+        *);;

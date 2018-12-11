@@ -1,0 +1,54 @@
+particle
+<-sc_node_not_relation;
+<-part_of_speech;;
+particle=>nrel_main_idtf:
+    [частица](* <-lang_ru;; *);
+    [particle](* <-lang_en;; *);;
+particle <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: частица] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: particle] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example:
+                 "file://html/particle_ru.html"(*<- lang_ru;;*);;
+    
+            *);;
+            <= nrel_using_constants: ...
+            (*
+                ->category_of_words;;
+            *);;
+        *);;
+
+
+particle  <= nrel_subdividing: ...
+(*
+    <- explanation;;
+    => nrel_main_idtf:
+    [Разбиение по происхождению](*<-lang_ru;; *);;
+ -> involuntary_particle;
+    voluntary_particle;;
+*);;
+
+particle  <= nrel_subdividing: ...
+(*
+     <- explanation;;
+    => nrel_main_idtf:
+    [Разбиение по составу](*<-lang_ru;; *);;
+ -> simple_particle;
+    composite_particle;;
+*);;
+
+
+particle  <= nrel_subdividing: ...
+(*
+     <- explanation;;
+    => nrel_main_idtf:
+    [Разбиение по значению](*<-lang_ru;; *);;
+->  modal_particle;
+    forming_particles;
+    negative_particles;;
+*);;

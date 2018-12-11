@@ -1,0 +1,29 @@
+composite_particle
+<-sc_node_not_relation;;
+
+composite_particle=>nrel_main_idtf:
+    [составная частица](* <-lang_ru;; *);
+    [composite particle](* <-lang_en;; *);;
+
+composite_particle <- rrel_key_sc_element: 
+    ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: составная частица] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: composite particle] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [составная частица - частица, образующаяся из двух и более слов.](*<- lang_ru;;*);;
+                -> rrel_example:
+                [composite particle- .](*<- lang_en;;*);;
+            *);;
+        *);;
+
+composite_particle  <= nrel_subdividing:
+{
+    undivided_particle;
+    divided_particle;
+    particle_phraseological_unit
+};;

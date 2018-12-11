@@ -1,0 +1,22 @@
+simple_particle
+   <-sc_node_not_relation;;
+
+simple_particle=>nrel_main_idtf:
+    [простая частица](* <-lang_ru;; *);
+    [simple particle](* <-lang_en;; *);;
+
+simple_particle <- rrel_key_sc_element: 
+    ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: простая частица] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: simple particle] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [простая частица - частица,состоящая из одного слова.](*<- lang_ru;;*);;
+                -> rrel_example:
+                [simple particle - .](*<- lang_en;;*);;
+            *);;
+        *);;

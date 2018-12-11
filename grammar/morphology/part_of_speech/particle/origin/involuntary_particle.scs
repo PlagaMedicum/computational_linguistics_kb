@@ -1,0 +1,28 @@
+involuntary_particle
+  <-sc_node_not_relation;;
+
+involuntary_particle=>nrel_main_idtf:
+    [непроизводная частица](* <-lang_ru;; *);
+    [involuntary particle](* <-lang_en;; *);;
+
+involuntary_particle <- rrel_key_sc_element: 
+    ... 
+        (*
+            
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: непроизводная частица] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: involuntary particle] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                 ->rrel_example:
+                 "file://html/involuntary_particle_ru.html"(*<- lang_ru;;*);;
+            *);;
+                <= nrel_sc_text_translation: ...
+                (*
+                ->rrel_example:
+                [вишь](*<- lang_ru;;*);;
+                ->rrel_example:
+                [бишь](*<- lang_ru;;*);;
+                *);;
+        *);;

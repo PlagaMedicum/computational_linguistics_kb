@@ -1,0 +1,16 @@
+doubt
+<-sc_node_not_relation;;
+
+     doubt=>nrel_main_idtf:
+    [сомнение](* <-lang_ru;; *);
+    [doubt](* <-lang_en;; *);;
+
+    doubt <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: сомнение] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: doubt] (* <- lang_en;; *);;
+            <- definition;;
+           
+        *);;
