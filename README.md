@@ -8,7 +8,8 @@
 
 ### <a name="intro"></a> Начало
 - Делаем себе копию базы(форкаем).
-- Список понятий на формализацию храним на Google Tab: <https://docs.google.com/spreadsheets/d/18nNCC-Ydy1ah3_SeUuJ8MQDD3im1HLbOKU62bB0T5bw/edit?usp=drivesdk>
+- Все понятия, над которыми хотим, начали или закончили работать храним на <b>Google Tab</b>: 
+<https://docs.google.com/spreadsheets/d/18nNCC-Ydy1ah3_SeUuJ8MQDD3im1HLbOKU62bB0T5bw/edit?usp=drivesdk>
 
 ### <a name="installation"></a> Установка OSTIS
 Рекомендуется ставить систему на Ubuntu версии 16.04, но установка на 18.04 здесь также рассматривается.
