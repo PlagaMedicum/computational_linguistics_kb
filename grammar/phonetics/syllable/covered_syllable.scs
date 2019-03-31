@@ -1,0 +1,32 @@
+covered_syllable
+<-sc_node_not_relation;;
+covered_syllable => nrel_main_idtf:
+	[прикрытый слог](* <-lang_ru;; *);
+    [covered syllable](* <-lang_en;; *);;
+covered_syllable <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: прикрытый слог] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: covered syllable] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Прикрытый слог – называется слог, начинающийся на согласный звук.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Covered syllable is called the syllable beginning on a consonant.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sound;;
+                -> syllable;;
+            *);;
+		*);;
+
+covered_syllable -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [батон - [ба-тон]](*<- lang_ru;;*);;
+    *);;
+

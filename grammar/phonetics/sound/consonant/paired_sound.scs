@@ -1,0 +1,53 @@
+paired_sound
+<-sc_node_not_relation;;
+paired_sound => nrel_main_idtf:
+	[парный согласный звук](* <-lang_ru;; *);
+    [paired consonant sound](* <-lang_en;; *);;
+paired_sound <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: парный согласный звук] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: paired consonant sound] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Парный согласный звук – это звук, который имеет пару по различным признакам. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The paired consonant is a sound which has couple on various signs.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sound;;
+            *);;
+		*);;
+
+paired_sound-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [[п]](*<- lang_ru;;*);;
+    *);;
+paired_sound-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [[ш]](*<- lang_ru;;*);;
+    *);;
+
+paired_sound <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку твёрдости - мягкости: ](*<-lang_ru;; *);
+		[Subdividing based on hardness - softness:](*<-lang_en;; *);;
+	-> hardness_sound; softness_sound;;
+*);;
+
+paired_sound <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку звонкости - глухости: ](*<-lang_ru;; *);
+		[Subdividing based on sonorities - dullness:](*<-lang_en;; *);;
+	-> sonant_sound; dullness_sound;;
+*);;

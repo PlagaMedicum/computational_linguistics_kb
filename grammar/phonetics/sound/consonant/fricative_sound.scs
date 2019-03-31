@@ -1,0 +1,35 @@
+fricative_sound
+<-sc_node_not_relation;;
+fricative_sound => nrel_main_idtf:
+	[фрикативный звук](* <-lang_ru;; *);
+    [fricative sound](* <-lang_en;; *);;
+fricative_sound <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: фрикативный звук] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: fricative sound] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Звук, образуемый трением воздуха в щели между сближенными органами речи. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The sound formed by friction of air in a crack between the pulled together organs of speech.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sound;;
+            *);;
+		*);;
+
+fricative_sound-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [[в]](*<- lang_ru;;*);;
+    *);;
+fricative_sound-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [[ф]](*<- lang_ru;;*);;
+    *);;

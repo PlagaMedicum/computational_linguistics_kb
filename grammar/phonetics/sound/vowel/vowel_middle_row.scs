@@ -1,0 +1,36 @@
+vowel_middle_row
+<-sc_node_not_relation;;
+vowel_middle_row => nrel_main_idtf:
+	[гласный звук среднего ряда](* <-lang_ru;; *);
+    [vowel of the middle row](* <-lang_en;; *);;
+vowel_middle_row <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: гласный звук среднего ряда] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: vowel of the middle row] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Звук при котором основная масса языка занимает среднее положение.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Sound at which the bulk of tongue holds average position.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sound;;
+            *);;
+		*);;
+
+vowel_middle_row -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [[а]](*<- lang_ru;;*);;
+    *);;
+vowel_middle_row -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [[ы]](*<- lang_ru;;*);;
+    *);;
+

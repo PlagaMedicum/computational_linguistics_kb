@@ -1,0 +1,27 @@
+saying
+<-sc_node_not_relation;
+<-steady_expression;;
+saying => nrel_main_idtf:
+	[поговорка](* <-lang_ru;; *);
+    [saying](* <-lang_en;; *);;
+saying <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: поговорка] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: saying] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Поговорка- ходячее выражение, недоразвившееся до полной пословицы, новый образ, замещающий обычное слово.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Saying - the current expression which remained undeveloped to a full proverb, the new image replacing a usual word.](*<- lang_en;;*);;
+			*);;
+		*);;
+
+saying-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [на одном гвозде всего не повесишь](*<- lang_ru;;*);;
+    *);;

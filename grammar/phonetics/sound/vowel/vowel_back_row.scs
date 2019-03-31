@@ -1,0 +1,36 @@
+vowel_back_row
+<-sc_node_not_relation;;
+vowel_back_row => nrel_main_idtf:
+	[гласный звук заднего ряда](* <-lang_ru;; *);
+    [vowel of the back row](* <-lang_en;; *);;
+vowel_back_row <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: гласный звук заднего ряда] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: vowel of the back row] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Звук при котором основная масса языка сконцентрирована в задней части ротовой полости.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Sound at which the bulk of tongue is concentrated in a back part of a mouth.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sound;;
+            *);;
+		*);;
+
+vowel_back_row -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [[о]](*<- lang_ru;;*);;
+    *);;
+vowel_back_row -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [[у]](*<- lang_ru;;*);;
+    *);;
+

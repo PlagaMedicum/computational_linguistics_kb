@@ -1,0 +1,34 @@
+tongue_sound
+<-sc_node_not_relation;;
+tongue_sound => nrel_main_idtf:
+	[язычный звук](* <-lang_ru;; *);
+    [tongue sound](* <-lang_en;; *);;
+tongue_sound <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: язычный звук] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: tongue sound] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Звук, при котором язык доминирует при его образовании.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Sound at which tongue dominates at its formation.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sound;;
+            *);;
+		*);;
+
+tongue_sound <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку артикуляции:](*<-lang_ru;; *);
+		[Subdividing based on articulation:](*<-lang_en;; *);;
+	-> fronttongue_sound; middletongue_sound; backtongue_sound;;
+*);;
+

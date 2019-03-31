@@ -1,0 +1,28 @@
+unaccent_sound
+<-sc_node_not_relation;;
+unaccent_sound => nrel_main_idtf:
+	[безударный звук](* <-lang_ru;; *);
+    [unaccent sound](* <-lang_en;; *);;
+unaccent_sound <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: безударный звук] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: unaccent sound] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Гласный в безударном положении находится в слабой позиции, то есть произносится с меньшей силой и менее отчётливо. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Vowel in unaccented situation is in a weak position, that is it is said with a smaller force and it is less distinct.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> accent;;
+                -> vowel_sound;;
+            *);;
+		*);;
+
+
+

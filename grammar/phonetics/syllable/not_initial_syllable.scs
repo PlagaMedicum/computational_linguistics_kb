@@ -1,0 +1,31 @@
+not_initial_syllable
+<-sc_node_not_relation;;
+not_initial_syllable => nrel_main_idtf:
+	[неначальный слог](* <-lang_ru;; *);
+    [not initial syllable](* <-lang_en;; *);;
+not_initial_syllable <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: неначальный слог] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: not initial syllable] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Неначальный слог словоформы строится по принципу восходящей звучности.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Not initial syllable of a word form is based on the principle of the ascending sonority.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> syllable;;
+            *);;
+		*);;
+
+not_initial_syllable -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [ра­са - [ра-са]](*<- lang_ru;;*);;
+    *);;
+

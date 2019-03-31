@@ -1,0 +1,34 @@
+fronttongue_sound
+<-sc_node_not_relation;;
+fronttongue_sound => nrel_main_idtf:
+	[переднеязычный звук](* <-lang_ru;; *);
+    [front-tongue sound](* <-lang_en;; *);;
+fronttongue_sound <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: переднеязычный звук] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: front-tongue sound] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Звук, при котором язык доминирует при его образовании.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Sound at which tongue dominates at its formation.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> consonant_sound;;
+            *);;
+		*);;
+
+fronttongue_sound <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку типа:](*<-lang_ru;; *);
+		[Subdividing based on type:](*<-lang_en;; *);;
+	-> tooth_sound; palataltotooth_sound;;
+*);;
+

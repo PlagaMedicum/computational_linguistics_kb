@@ -18,10 +18,10 @@ kind
     [добрый*](* <-lang_ru;; *);
     [kind*](* <-lang_en;; *);;
         
-sound
+sounding
  => nrel_main_idtf:
     [звучание*](* <-lang_ru;; *);
-    [sound*](* <-lang_en;; *);;
+    [sounding*](* <-lang_en;; *);;
 opposite_meaning
  <- sc_node_norole_relation;
  => nrel_main_idtf:

@@ -1,0 +1,27 @@
+phraseological_combination
+<-sc_node_not_relation;
+<-steady_expression;;
+phraseological_combination => nrel_main_idtf:
+	[фразеологическое сочетание](* <-lang_ru;; *);
+    [phraseological combination](* <-lang_en;; *);;
+phraseological_combination <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: фразеологическое сочетание] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: phraseological combination] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Фразеологическими сочетаниями называются такие устойчивые обороты, общее значение которых полностью зависит от значения составляющих слов. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Phraseological combinations are called such steady clauses which general meaning completely depends on value of the making words.](*<- lang_en;;*);;
+			*);;
+		*);;
+
+phraseological_combination-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [тоска берет](*<- lang_ru;;*);;
+    *);;

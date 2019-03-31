@@ -1,0 +1,30 @@
+bouncing_sound
+<-sc_node_not_relation;;
+bouncing_sound => nrel_main_idtf:
+	[дрожащий звук](* <-lang_ru;; *);
+    [bouncing sound](* <-lang_en;; *);;
+bouncing_sound <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: дрожащий звук] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: bouncing sound] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Дрожащие звуки - звуки, которые образуются чередованием смычки и прохода.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The shivering sounds are sounds which are formed by alternation bows and pass.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sound;;
+            *);;
+		*);;
+
+bouncing_sound-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [[р]](*<- lang_ru;;*);;
+    *);;

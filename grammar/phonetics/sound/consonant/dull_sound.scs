@@ -1,0 +1,36 @@
+dull_sound
+<-sc_node_not_relation;;
+dull_sound => nrel_main_idtf:
+	[глухой звук](* <-lang_ru;; *);
+    [dull sound](* <-lang_en;; *);;
+dull_sound <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: глухой звук] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: dull sound] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Глухой звук – согласный звук, образуемый при помощи одного шума, без участия голоса. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Dull sound – the consonant formed by means of one noise without participation of a voice.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sound;;
+                -> consonant_sound;;
+            *);;
+		*);;
+
+dull_sound -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [[к]](*<- lang_ru;;*);;
+    *);;
+dull_sound -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [[п]](*<- lang_ru;;*);;
+    *);;

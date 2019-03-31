@@ -1,0 +1,30 @@
+palataltotooth_sound
+<-sc_node_not_relation;;
+palataltotooth_sound => nrel_main_idtf:
+	[нёбно-зубной звук](* <-lang_ru;; *);
+    [palatal-tooth sound](* <-lang_en;; *);;
+palataltotooth_sound <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: нёбно-зубной звук] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: palatal-tooth sound] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Согласный звук, образующийся поднятием кончика языка к границе передних верхних зубов и нёба.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The consonant which is formed a language tip raising to border of front upper teeth and the palate.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> consonant_sound;;
+            *);;
+		*);;
+
+palataltotooth_sound -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [[р]](*<- lang_ru;;*);;
+    *);;

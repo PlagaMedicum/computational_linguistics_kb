@@ -1,0 +1,30 @@
+phrase_accent
+<-sc_node_not_relation;;
+phrase_accent => nrel_main_idtf:
+	[фразовое ударение](* <-lang_ru;; *);
+    [phrase accent](* <-lang_en;; *);;
+phrase_accent <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: фразовое ударение] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: phrase accent] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Фразовым ударением называется выделение в произношении наиболее важного в смысловом отношении слова в пределах высказывания. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Phrase accent is called allocation in pronunciation of the most important word in the semantic relation within a statement.](*<- lang_en;;*);;
+			*);;
+        <= nrel_using_constants: ...
+            (*
+                -> word;;
+            *);;
+		*);;
+phrase_accent -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [Брожу ли я вдоль улиц шумных, вхожу ль во многолюдный храм, сижу ль меж юношей безумных, я предаюсь моим 'мечтам' ](*<- lang_ru;;*);;
+    *);;
+

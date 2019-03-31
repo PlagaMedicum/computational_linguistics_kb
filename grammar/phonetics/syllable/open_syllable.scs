@@ -1,0 +1,32 @@
+open_syllable
+<-sc_node_not_relation;;
+open_syllable => nrel_main_idtf:
+	[открытый слог](* <-lang_ru;; *);
+    [open syllable](* <-lang_en;; *);;
+open_syllable <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: открытый слог] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: open syllable] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Открытый слог – называется слог, оканчивающийся слогообразующим звуком.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Open syllable is called the syllable terminating in a syllabic sound.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sound;;
+                -> syllable;;
+            *);;
+		*);;
+
+open_syllable -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [вата - [ва-та]](*<- lang_ru;;*);;
+    *);;
+

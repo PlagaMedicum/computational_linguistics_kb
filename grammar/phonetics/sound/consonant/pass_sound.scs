@@ -1,0 +1,35 @@
+pass_sound
+<-sc_node_not_relation;;
+pass_sound => nrel_main_idtf:
+	[смычно-проходной звук](* <-lang_ru;; *);
+    [occlusive-pass sound](* <-lang_en;; *);;
+pass_sound <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: смычно-проходной звук] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: occlusive-pass sound] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Смычно-проходной звук - звук, при котором одни органы артикуляции образуют смычку, а другие образуют проход для воздушной струи.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Occlusive-pass sound is a sound at which some bodies of an articulation form to a bow and others form pass for an air stream.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sound;;
+            *);;
+		*);;
+
+pass_sound-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [[л]](*<- lang_ru;;*);;
+    *);;
+pass_sound-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [[м]](*<- lang_ru;;*);;
+    *);;

@@ -1,0 +1,32 @@
+idiom
+<-sc_node_not_relation;
+<-steady_expression;;
+idiom => nrel_main_idtf:
+	[идиома](* <-lang_ru;; *);
+    [idiom](* <-lang_en;; *);;
+idiom <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: идиома] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: idiom] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Идиома - это лексически неделимые словосочетания, значение которых не определяется значением входящих в них отдельных слов.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[An idiom is lexically indivisible phrases which value is not defined by value of the separate words entering them.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> word;;
+                -> phrase;;
+            *);;
+		*);;
+
+idiom -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [с бухты-барахты - «необдуманно»](*<- lang_ru;;*);;
+    *);;

@@ -1,0 +1,26 @@
+middletongue_sound
+<-sc_node_not_relation;;
+middletongue_sound => nrel_main_idtf:
+	[среднеязычный звук](* <-lang_ru;; *);
+    [middle-tongue sound](* <-lang_en;; *);;
+middletongue_sound <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: среднеязычный звук] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: middle-tongue sound] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Согласный звук, произносимый при участии средней части спинки языка.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The consonant said with the participation of a middle part of a back of tongue.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> consonant_sound;;
+            *);;
+		*);;
+
+

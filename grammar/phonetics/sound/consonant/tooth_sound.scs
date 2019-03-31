@@ -1,0 +1,26 @@
+tooth_sound
+<-sc_node_not_relation;;
+tooth_sound => nrel_main_idtf:
+	[зубной звук](* <-lang_ru;; *);
+    [tooth sound](* <-lang_en;; *);;
+tooth_sound <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: зубной звук] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: tooth sound] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Звук, образуемый между языком и верхним рядом зубов.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The sound formed between tongue and the top number of teeth.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sound;;
+            *);;
+		*);;
+
+

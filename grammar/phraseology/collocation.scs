@@ -1,0 +1,27 @@
+collocation
+<-sc_node_not_relation;
+<-steady_expression;;
+collocation => nrel_main_idtf:
+	[коллокация](* <-lang_ru;; *);
+    [collocation](* <-lang_en;; *);;
+collocation <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: коллокация] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: collocation] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Коллокацией называется полуфраземой.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Сollocation is a sub-type of phraseme.](*<- lang_en;;*);;
+			*);;
+		*);;
+
+collocation-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [свежий ветер](*<- lang_ru;;*);;
+    *);;

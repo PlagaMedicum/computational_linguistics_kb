@@ -1,0 +1,28 @@
+not_labialized_sound
+<-sc_node_not_relation;;
+not_labialized_sound => nrel_main_idtf:
+	[нелабиализованный звук](* <-lang_ru;; *);
+    [not labialized sound](* <-lang_en;; *);;
+not_labialized_sound <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: нелабиализованный звук] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: not labialized sound] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Нелабиализованный звук — долгий гласный звук.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Not labialized sound — long vowel sound.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sound;;
+                -> vowel_sound;;
+            *);;
+		*);;
+
+
+

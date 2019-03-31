@@ -1,0 +1,36 @@
+affricate_sound
+<-sc_node_not_relation;;
+affricate_sound => nrel_main_idtf:
+	[аффрикат](* <-lang_ru;; *);
+    [affricate](* <-lang_en;; *);;
+affricate_sound <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: аффрикат] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: affricate] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Согласные звуки, представляющие слитное сочетание взрывного согласного звука с фрикативным того же места образования (т. е. образуемого с помощью тех же органов произношения).](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The consonants representing a conjoint combination of an explosive consonant to fricative the same place of formation (i.e. the pronunciation formed by means of the same bodies).](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> consonant_sound;;
+                -> fricative_sound;;
+            *);;
+		*);;
+
+affricate_sound-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [[ц]](*<- lang_ru;;*);;
+    *);;
+affricate_sound-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [[ч]](*<- lang_ru;;*);;
+    *);;

@@ -1,0 +1,30 @@
+backtongue_sound
+<-sc_node_not_relation;;
+backtongue_sound => nrel_main_idtf:
+	[заднеязычный звук](* <-lang_ru;; *);
+    [back-tongue sound](* <-lang_en;; *);;
+backtongue_sound <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: заднеязычный звук] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: back-tongue sound] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Согласные звуки, образуемые поднятием задней части спинки языка к заднему (мягкому) нёбу или к задней части твердого нёба. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The consonants formed by a raising of a back part of a back of tongue to the back (soft) sky or to a back part of a hard palate.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> consonant_sound;;
+            *);;
+		*);;
+
+backtongue_sound-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [[к]](*<- lang_ru;;*);;
+    *);;

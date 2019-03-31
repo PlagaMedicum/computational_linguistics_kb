@@ -1,0 +1,36 @@
+verbal_accent
+<-sc_node_not_relation;;
+verbal_accent => nrel_main_idtf:
+	[словесное ударение](* <-lang_ru;; *);
+    [verbal accent](* <-lang_en;; *);;
+verbal_accent <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: словесное ударение] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: verbal accent] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Словесным ударением называется выделение при произношении одного из слогов двусложного или многосложного слова. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Verbal accent is called allocation at pronunciation of one of syllables disyllabic or a multisyllable.](*<- lang_en;;*);;
+			*);;
+        <= nrel_using_constants: ...
+            (*
+                -> word;;
+            *);;
+		*);;
+verbal_accent-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [под-горо'й ](*<- lang_ru;;*);;
+    *);;
+verbal_accent-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [на-стороне'](*<- lang_ru;;*);;
+    *);;
+
+

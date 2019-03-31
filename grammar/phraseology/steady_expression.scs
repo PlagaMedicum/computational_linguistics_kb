@@ -1,0 +1,40 @@
+steady_expression
+<-sc_node_not_relation;;
+steady_expression => nrel_main_idtf:
+	[устойчивое выражение](* <-lang_ru;; *);
+    [steady expression](* <-lang_en;; *);;
+steady_expression <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: устойчивое выражение] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: steady expression] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Устойчивыми выражениями называют слова вошедшие в лексику из исторических либо литературных источников и получившие широкое распространение благодаря своей выразительности. Изучаются фразеологией.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Steady expressions are the words which entered lexicon from historical or references and widely adopted thanks to the expressiveness. Studied by phraseology.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> phraseology;;
+            *);;
+		*);;
+
+steady_expression -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [сгорать от стыда](*<- lang_ru;;*);
+            [to be burned with a shame](*<- lang_en;;*);;
+    *);;
+
+steady_expression <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку социального употребления](*<-lang_ru;; *);
+		[Subdividing based on social using](*<-lang_en;; *);;
+	-> idiom; proverb; saying; collocation;;
+*);;

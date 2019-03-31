@@ -1,0 +1,30 @@
+motionless_accent
+<-sc_node_not_relation;;
+motionless_accent => nrel_main_idtf:
+	[неподвижное ударение](* <-lang_ru;; *);
+    [motionless accent](* <-lang_en;; *);;
+motionless_accent <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: неподвижное ударение] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: motionless accent] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Ударение, которое при образовании форм одного и того же слова переходит с одной части слова на другую. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Accent which at formation of forms of the same word passes from one part of a word to another.](*<- lang_en;;*);;
+			*);;
+        <= nrel_using_constants: ...
+            (*
+                -> word;;
+            *);;
+		*);;
+motionless_accent -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [огоро'д, огоро'да, огоро'ду, огоро'ды, огоро'дов](*<- lang_ru;;*);;
+    *);;
+

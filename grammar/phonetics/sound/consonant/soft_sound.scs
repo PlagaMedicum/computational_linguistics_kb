@@ -1,0 +1,35 @@
+soft_sound
+<-sc_node_not_relation;;
+soft_sound => nrel_main_idtf:
+	[мягкий звук](* <-lang_ru;; *);
+    [soft sound](* <-lang_en;; *);;
+soft_sound <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: мягкий звук] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: soft sound] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Мягкий звук – это звук, образуемый без помощи дополнительной артикуляции. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The soft sound is the sound formed without an additional articulation.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sound;;
+            *);;
+		*);;
+
+soft_sound-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [[ч]](*<- lang_ru;;*);;
+    *);;
+soft_sound-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [[ш]](*<- lang_ru;;*);;
+    *);;

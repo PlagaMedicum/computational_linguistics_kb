@@ -1,0 +1,34 @@
+sound
+<-sc_node_not_relation;;
+sound => nrel_main_idtf:
+	[звук](* <-lang_ru;; *);
+    [sound](* <-lang_en;; *);;
+sound <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: звук] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: sound] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Кратчайшая, минимальная, нечленимая звуковая единица, которая выделяется при последовательном звуковом членении слова. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The shortest, minimum, nechlenimy sound unit which is allocated at consecutive sound partitioning of a word.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> word;;
+            *);;
+		*);;
+
+sound <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку гласности](*<-lang_ru;; *);
+		[Subdividing based on vowel](*<-lang_en;; *);;
+	-> vowel_sound; consonant_sound;;
+*);;
+
