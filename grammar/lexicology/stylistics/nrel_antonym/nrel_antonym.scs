@@ -24,7 +24,7 @@ nrel_antonym
         <= nrel_using_constants: ...
         (*
             -> word;;
-            -> sound;;
+            -> sounding;;
             -> different;;
             -> opposite_meaning;;
         *);;
@@ -32,7 +32,7 @@ nrel_antonym
         <=nrel_using_constants:
         {
          word;
-         sound;
+         sounding;
          different;
          opposite_meaning
         };;

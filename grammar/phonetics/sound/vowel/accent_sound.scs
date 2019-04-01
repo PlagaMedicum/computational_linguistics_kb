@@ -1,0 +1,29 @@
+accent_sound
+<-sc_node_not_relation;;
+accent_sound => nrel_main_idtf:
+	[ударный звук](* <-lang_ru;; *);
+    [accent sound](* <-lang_en;; *);;
+accent_sound <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: ударный звук] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: accent sound] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Звук, на который падает ударение в слове.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Sound on which the accent in a word falls.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sound;;
+                -> word;;
+                -> accent;;
+            *);;
+		*);;
+
+
+

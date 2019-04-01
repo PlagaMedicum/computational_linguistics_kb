@@ -1,0 +1,37 @@
+phraseology
+<-sc_node_not_relation;;
+phraseology => nrel_main_idtf:
+	[фразеология](* <-lang_ru;; *);
+    [phraseology](* <-lang_en;; *);;
+phraseology <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: фразеология] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: phraseology] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Фразеологией русского языка называется раздел науки о языке, изучающая устойчивые сочетания слов русского языка. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Phraseology of Russian is called the division of science about language, studying steady combinations of words of Russian.](*<- lang_en;;*);;
+			*);;
+		*);;
+
+phraseology <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку функциональной направленности:](*<-lang_ru;; *);
+		[Subdividing based on functional orientation:](*<-lang_en;; *);;
+	-> unambiguous_clause; polysemantic_clause;;
+*);;
+phraseology <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку социального употребления](*<-lang_ru;; *);
+		[Subdividing based on social using](*<-lang_en;; *);;
+	-> idiom; proverb; saying; collocation;;
+*);;

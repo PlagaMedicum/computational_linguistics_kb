@@ -1,0 +1,32 @@
+initial_syllable
+<-sc_node_not_relation;;
+initial_syllable => nrel_main_idtf:
+	[начальный слог](* <-lang_ru;; *);
+    [initial syllable](* <-lang_en;; *);;
+initial_syllable <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: начальный слог] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: initial syllable] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Начальный слог слова может начинаться с любого согласного, с сочетания двух согласных.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The initial syllable of a word can begin with any concordant, with a combination of two concordants.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> consonant_sound;;
+                -> syllable;;
+            *);;
+		*);;
+
+initial_syllable -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [враг - [враг]](*<- lang_ru;;*);;
+    *);;
+

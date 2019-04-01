@@ -1,0 +1,85 @@
+consonant_sound
+<-sc_node_not_relation;;
+consonant_sound => nrel_main_idtf:
+	[согласный звук](* <-lang_ru;; *);
+    [consonant sound](* <-lang_en;; *);;
+consonant_sound <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: согласный звук] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: consonant sound] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Звук, состоящий только из голоса (музыкального тона). ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The sound consisting only of a voice (musical tone).](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sound;;
+            *);;
+		*);;
+
+consonant_sound-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [[б]](*<- lang_ru;;*);;
+    *);;
+consonant_sound-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [[м]](*<- lang_ru;;*);;
+    *);;
+consonant_sound-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [[р]](*<- lang_ru;;*);;
+    *);;
+
+consonant_sound <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку парности - непарности:](*<-lang_ru;; *);
+		[Subdividing based on paired relationship - not paired relationship:](*<-lang_en;; *);;
+	-> paired_sound; not_paired_sound;;
+*);;
+
+consonant_sound <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку твёрдости - мягкости: ](*<-lang_ru;; *);
+		[Subdividing based on hardness - softness:](*<-lang_en;; *);;
+	-> solid_sound; soft_sound;;
+*);;
+
+consonant_sound <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку звонкости - глухости: ](*<-lang_ru;; *);
+		[Subdividing based on sonorities - dullness:](*<-lang_en;; *);;
+	-> voiced_sound; dull_sound;;
+*);;
+
+consonant_sound <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку места образования шума: ](*<-lang_ru;; *);
+		[Subdividing based on places of formation of noise:](*<-lang_en;; *);;
+	-> lip_sound; tongue_sound;;
+*);;
+
+consonant_sound <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку способа образования шума: ](*<-lang_ru;; *);
+		[Subdividing based on way of formation of noise:](*<-lang_en;; *);;
+	-> occlusive_sound; fricative_sound; affricate_sound; pass_sound; bouncing_sound;;
+*);;

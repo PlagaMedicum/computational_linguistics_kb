@@ -1,0 +1,36 @@
+vowel_front_row
+<-sc_node_not_relation;;
+vowel_front_row => nrel_main_idtf:
+	[гласный звук переднего ряда](* <-lang_ru;; *);
+    [vowel of the front row](* <-lang_en;; *);;
+vowel_front_row <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: гласный звук переднего ряда] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: vowel of the front row] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Звук при котором язык выдвинут вперед. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Sound at which tongue is pushed forward.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sound;;
+            *);;
+		*);;
+
+vowel_front_row -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [[е]](*<- lang_ru;;*);;
+    *);;
+vowel_front_row -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [[и]](*<- lang_ru;;*);;
+    *);;
+

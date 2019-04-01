@@ -1,0 +1,35 @@
+solid_sound
+<-sc_node_not_relation;;
+solid_sound => nrel_main_idtf:
+	[твердый звук](* <-lang_ru;; *);
+    [solid sound](* <-lang_en;; *);;
+solid_sound <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: твердый звук] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: solid sound] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Твёрдый звук – это звук, образуемый при помощи дополнительной артикуляции. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The solid sound is the sound formed by means of an additional articulation.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sound;;
+            *);;
+		*);;
+
+solid_sound-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [[р]](*<- lang_ru;;*);;
+    *);;
+solid_sound-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [[з]](*<- lang_ru;;*);;
+    *);;

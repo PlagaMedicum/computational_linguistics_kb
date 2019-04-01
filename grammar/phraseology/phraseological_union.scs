@@ -1,0 +1,27 @@
+phraseological_union
+<-sc_node_not_relation;
+<-steady_expression;;
+phraseological_union => nrel_main_idtf:
+	[фразеологическое сращение](* <-lang_ru;; *);
+    [phraseological union](* <-lang_en;; *);;
+phraseological_union <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: фразеологическое сращение] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: phraseological union] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Фразеологическими сращениями называются такие лексически неделимые словосочетания, значение которых не определяется значением входящих в них отдельных слов. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Phraseological unions are called such lexically indivisible phrases which value is not defined by value of the separate words entering them.](*<- lang_en;;*);;
+			*);;
+		*);;
+
+phraseological_union-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [спустя рукава(небрежно)](*<- lang_ru;;*);;
+    *);;

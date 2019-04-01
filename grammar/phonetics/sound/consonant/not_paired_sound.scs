@@ -1,0 +1,35 @@
+not_paired_sound
+<-sc_node_not_relation;;
+not_paired_sound => nrel_main_idtf:
+	[непарный согласный звук](* <-lang_ru;; *);
+    [not paired consonant sound](* <-lang_en;; *);;
+not_paired_sound <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: непарный согласный звук] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: not paired consonant sound] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Непарный согласный звук – это звук, который не имеет пары по различным признакам.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Not paired consonant is a sound which has no couple on various signs.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sound;;
+            *);;
+		*);;
+
+not_paired_sound-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [[р]](*<- lang_ru;;*);;
+    *);;
+not_paired_sound-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [[н]](*<- lang_ru;;*);;
+    *);;

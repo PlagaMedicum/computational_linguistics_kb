@@ -1,0 +1,27 @@
+labialized_sound
+<-sc_node_not_relation;;
+labialized_sound => nrel_main_idtf:
+	[лабиализованный звук](* <-lang_ru;; *);
+    [labialized sound](* <-lang_en;; *);;
+labialized_sound <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: лабиализованный звук] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: labialized sound] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Лабиализованный звук — звуки человеческой речи, образуемые с помощью губ. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The labialized sound — the sounds of the human speech formed by means of lips.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sound;;
+            *);;
+		*);;
+
+
+

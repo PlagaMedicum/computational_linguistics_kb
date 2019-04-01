@@ -1,0 +1,36 @@
+voiced_sound
+<-sc_node_not_relation;;
+voiced_sound => nrel_main_idtf:
+	[звонкий звук](* <-lang_ru;; *);
+    [voiced sound](* <-lang_en;; *);;
+voiced_sound <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: звонкий звук] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: voiced sound] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Звонкий звук – согласный звук, образуемый шумом в сопровождении голоса.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Voiced sound – the consonant formed by noise accompanied by a voice.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sound;;
+                -> consonant_sound;;
+            *);;
+		*);;
+
+voiced_sound -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [[ж]](*<- lang_ru;;*);;
+    *);;
+voiced_sound -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [[д]](*<- lang_ru;;*);;
+    *);;

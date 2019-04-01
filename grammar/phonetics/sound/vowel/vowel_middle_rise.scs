@@ -1,0 +1,41 @@
+vowel_middle_rise
+<-sc_node_not_relation;;
+vowel_middle_rise => nrel_main_idtf:
+	[гласный звук среднего подъема](* <-lang_ru;; *);
+    [vowel of the middle rise](* <-lang_en;; *);;
+vowel_middle_rise <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: гласный звук среднего подъема] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: vowel of the middle rise] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Звук при котором язык занимает среднюю позицию .](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Sound at which tounge takes an average position.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sound;;
+            *);;
+		*);;
+
+vowel_middle_rise -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [[о]](*<- lang_ru;;*);;
+    *);;
+vowel_middle_rise -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [[е]](*<- lang_ru;;*);;
+    *);;
+vowel_middle_rise -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [[у]](*<- lang_ru;;*);;
+    *);;
+

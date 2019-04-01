@@ -1,0 +1,30 @@
+clock_accent
+<-sc_node_not_relation;;
+clock_accent => nrel_main_idtf:
+	[тактовое ударение](* <-lang_ru;; *);
+    [clock accent](* <-lang_en;; *);;
+clock_accent <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: тактовое ударение] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: clock accent] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Тактовым ударением называется выделение в произношении более важного в смысловом отношении слова в пределах речевого такта. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Clock accent is called allocation in pronunciation of more important word in the semantic relation within a speech step.](*<- lang_en;;*);;
+			*);;
+        <= nrel_using_constants: ...
+            (*
+                -> word;;
+            *);;
+		*);;
+clock_accent -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [Брожу' ли я вдоль у'лиц шумных, вхожу' ль во многолюдный хра'м, сижу' ль меж ю'ношей безумных, я предаю'сь моим мечта'м](*<- lang_ru;;*);;
+    *);;
+

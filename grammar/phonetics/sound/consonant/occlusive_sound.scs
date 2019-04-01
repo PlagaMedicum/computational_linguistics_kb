@@ -1,0 +1,35 @@
+occlusive_sound
+<-sc_node_not_relation;;
+occlusive_sound => nrel_main_idtf:
+	[смычной звук](* <-lang_ru;; *);
+    [occlusive](* <-lang_en;; *);;
+occlusive_sound <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: смычной звук] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: occlusive] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Смычные согласные (окклюзивы) — согласные звуки, при артикуляции которых органы речи находятся в таком положении, что поток воздуха из легких полностью блокируется с помощью смычки, создаваемой в полости рта или в гортани.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Occlusive sounds are consonants at which articulation organs of speech are in such situation that air flow from lungs is completely blocked with the help bows created in an oral cavity or in a throat.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sound;;
+            *);;
+		*);;
+
+occlusive_sound-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [[г]](*<- lang_ru;;*);;
+    *);;
+occlusive_sound-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [[к]](*<- lang_ru;;*);;
+    *);;

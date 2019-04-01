@@ -1,0 +1,34 @@
+liptolip_sound
+<-sc_node_not_relation;;
+liptolip_sound => nrel_main_idtf:
+	[губно-губной звук](* <-lang_ru;; *);
+    [lip to lip sound](* <-lang_en;; *);;
+liptolip_sound <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: губно-губной звук] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: lip to lip sound] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Звук, при котором губа артикулирует к губе.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Sound at which the lip articulates to a lip.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sound;;
+            *);;
+		*);;
+liptolip_sound-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [[м]](*<- lang_ru;;*);;
+    *);;
+liptolip_sound-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [[п]](*<- lang_ru;;*);;
+    *);;

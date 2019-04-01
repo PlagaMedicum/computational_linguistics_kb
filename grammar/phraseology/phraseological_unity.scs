@@ -1,0 +1,27 @@
+phraseological_unity
+<-sc_node_not_relation;
+<-steady_expression;;
+phraseological_unity => nrel_main_idtf:
+	[фразеологическое единство](* <-lang_ru;; *);
+    [phraseological unity](* <-lang_en;; *);;
+phraseological_unity <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: фразеологическое единство] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: phraseological unity] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Фразеологическими единствами называются такие лексически неделимые обороты, общее значение которых в какой-то мере мотивировано переносным значением слов, составляющих данный оборот. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Phraseological unities are called such lexically indivisible clauses which general meaning to some extent motivated figurative sense of the words making this clause.](*<- lang_en;;*);;
+			*);;
+		*);;
+
+phraseological_unity-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [плыть по течению](*<- lang_ru;;*);;
+    *);;

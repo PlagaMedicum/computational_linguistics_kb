@@ -1,0 +1,49 @@
+phraseological_unit
+<-sc_node_not_relation;;
+phraseological_unit => nrel_main_idtf:
+	[фразеологизм](* <-lang_ru;; *);
+    [phraseological unit](* <-lang_en;; *);;
+phraseological_unit <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: фразеологизм] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: phraseological unit] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Фразеологизм — устойчивое по составу и структуре, лексически неделимое и целостное по значению словосочетание или предложение, выполняющее функцию отдельной лексемы.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Phraseological unit — steady on structure and structure, lexically the phrase or the offer, indivisible and complete on value, performing function of a separate lexeme.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> lexeme;;
+                -> phrase;;
+                -> sentense;;
+            *);;
+		*);;
+
+phraseological_unit -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [дело в шляпе](*<- lang_ru;;*);;
+    *);;
+
+phraseological_unit <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку функциональной направленности:](*<-lang_ru;; *);
+		[Subdividing based on functional orientation](*<-lang_en;; *);;
+	-> unambiguous_clause; polysemantic_clause;;
+*);;
+phraseological_unit <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку значения:](*<-lang_ru;; *);
+		[Subdividing based on value](*<-lang_en;; *);;
+	-> phraseological_union; phraseological_unity; phraseological_combination;;
+*);;

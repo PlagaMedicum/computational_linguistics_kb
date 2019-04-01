@@ -1,0 +1,41 @@
+vowel_top_rise
+<-sc_node_not_relation;;
+vowel_top_rise => nrel_main_idtf:
+	[гласный звук верхнего подъема](* <-lang_ru;; *);
+    [vowel of the top rise](* <-lang_en;; *);;
+vowel_top_rise <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: гласный звук верхнего подъема] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: vowel of the top rise] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Звук при котором язык приподнят ближе всего к небу и даже немного немного отогнут назад .](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The sound at which tounge is raised most closer to the sky and is even a little a little unbent back.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sound;;
+            *);;
+		*);;
+
+vowel_top_rise -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [[ы]](*<- lang_ru;;*);;
+    *);;
+vowel_top_rise -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [[и]](*<- lang_ru;;*);;
+    *);;
+vowel_top_rise -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [[у]](*<- lang_ru;;*);;
+    *);;
+

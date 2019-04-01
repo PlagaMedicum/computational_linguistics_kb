@@ -1,0 +1,30 @@
+mobile_accent
+<-sc_node_not_relation;;
+mobile_accent => nrel_main_idtf:
+	[подвижное ударение](* <-lang_ru;; *);
+    [mobile accent](* <-lang_en;; *);;
+mobile_accent <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: подвижное ударение] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: mobile accent] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Подвижность ударения служит дополнительным средством при образовании форм одного и того же слова: ударение переходит с одной части слова на другую. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The mobility of an accent serves as an additional tool at formation of forms of the same word: the accent passes from one part of a word to another.](*<- lang_en;;*);;
+			*);;
+        <= nrel_using_constants: ...
+            (*
+                -> word;;
+            *);;
+		*);;
+mobile_accent -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [го'род, города', городо'в](*<- lang_ru;;*);;
+    *);;
+

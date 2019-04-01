@@ -1,0 +1,36 @@
+dynamic_accent
+<-sc_node_not_relation;;
+dynamic_accent => nrel_main_idtf:
+	[динамическое ударение](* <-lang_ru;; *);
+    [dynamic accent](* <-lang_en;; *);;
+dynamic_accent <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: динамическое ударение] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: dynamic accent] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Динамическим ударением называется произношение при котором ударный слог выделяется по сравнению с неударными большей напряженностью артикуляции, в особенности гласного звука.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Dynamic accent is called pronunciation at which the shock syllable is allocated in comparison with unaccented bigger tension of an articulation, in particular a vowel.](*<- lang_en;;*);;
+			*);;
+        <= nrel_using_constants: ...
+            (*
+                -> word;;
+            *);;
+		*);;
+dynamic_accent-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [вы'ход](*<- lang_ru;;*);;
+    *);;
+dynamic_accent-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [уда'р](*<- lang_ru;;*);;
+    *);;
+
+

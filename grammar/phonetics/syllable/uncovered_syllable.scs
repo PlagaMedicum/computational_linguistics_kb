@@ -1,0 +1,32 @@
+uncovered_syllable
+<-sc_node_not_relation;;
+uncovered_syllable => nrel_main_idtf:
+	[неприкрытый слог](* <-lang_ru;; *);
+    [uncovered syllable](* <-lang_en;; *);;
+uncovered_syllable <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: неприкрытый слог] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: uncovered syllable] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Неприкрытый слог – называется слог, начинающийся на гласный звук.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Uncovered syllable is called the syllable beginning on a vowel.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sound;;
+                -> syllable;;
+            *);;
+		*);;
+
+uncovered_syllable -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [аорта - [а-орта]](*<- lang_ru;;*);;
+    *);;
+

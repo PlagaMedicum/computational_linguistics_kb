@@ -41,7 +41,7 @@ adverbial_participle_clause <- rrel_key_sc_element:...
 adverbial_participle_clause <- rrel_key_sc_element:...
 		(*
         <- explanation;;
-        -> rrel_key_sc_element: adverbial participle clause; rrel_main_word; rrel_minor_word;;
+        -> rrel_key_sc_element: adverbial_participle_clause; rrel_main_word; rrel_minor_word;;
 		=> nrel_main_idtf: 
             [Утв.(деепричастный оборот, главное слово, зависимое слово)] (* <- lang_ru;; *);
             [Expl.(adverbial participle clause, main word, minor word)] (* <- lang_eng;; *);;

@@ -1,0 +1,32 @@
+vowel_bottom_rise
+<-sc_node_not_relation;;
+vowel_bottom_rise => nrel_main_idtf:
+	[гласный звук нижнего подъема](* <-lang_ru;; *);
+    [vowel of the bottom rise](* <-lang_en;; *);;
+vowel_bottom_rise <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: гласный звук нижнего подъема] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: vowel of the bottom rise] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Звук при котором язык располагается достаточно низко, расстояние между спинкой языка и небом наибольшее, что достигается и за счет немного опущенной нижней челюсти, поэтому его отличает максимальное среди всех гласных звуков русского языка раскрытия рта .
+](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Sound at which tounge is located rather low, distance between a back of language and the sky the greatest that is reached also at the expense of a little lowered lower jaw therefore distinguishes it maximum among all vowels of Russian of disclosure of a mouth.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sound;;
+            *);;
+		*);;
+
+vowel_bottom_rise -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [[а]](*<- lang_ru;;*);;
+    *);;
+

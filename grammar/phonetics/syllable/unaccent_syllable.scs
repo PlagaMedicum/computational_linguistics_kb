@@ -1,0 +1,32 @@
+unaccent_syllable
+<-sc_node_not_relation;;
+unaccent_syllable => nrel_main_idtf:
+	[безударный слог](* <-lang_ru;; *);
+    [unaccent syllable](* <-lang_en;; *);;
+unaccent_syllable <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: безударный слог] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: unaccent syllable] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Безударный слог - все слоги в слове,которые не являются ударными. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Unaccent syllable - all syllables in a word which are not accent.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> syllable;;
+                -> accent_syllable;;
+            *);;
+		*);;
+
+unaccent_syllable -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [салфетка - [сал-фет-ка]](*<- lang_ru;;*);;
+    *);;
+

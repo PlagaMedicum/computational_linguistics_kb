@@ -1,0 +1,34 @@
+lip_sound
+<-sc_node_not_relation;;
+lip_sound => nrel_main_idtf:
+	[губной звук](* <-lang_ru;; *);
+    [lip sound](* <-lang_en;; *);;
+lip_sound <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: губной звук] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: lip sound] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Звук, при котором губа доминирует при его образовании. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Sound at which the lip dominates at its formation.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sound;;
+            *);;
+		*);;
+
+lip_sound <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку артикуляции:](*<-lang_ru;; *);
+		[Subdividing based on articulation:](*<-lang_en;; *);;
+	-> liptolip_sound; liptotooth_sound;;
+*);;
+

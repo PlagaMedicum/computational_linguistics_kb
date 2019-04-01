@@ -1,0 +1,27 @@
+proverb
+<-sc_node_not_relation;
+<-steady_expression;;
+proverb => nrel_main_idtf:
+	[пословица](* <-lang_ru;; *);
+    [proverb](* <-lang_en;; *);;
+proverb <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: пословица] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: proverb] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[К пословицам относятся малые формы народного поэтического творчества, облеченные в краткое, ритмизованное изречение, несущее обобщённую мысль, вывод, иносказание с дидактическим уклоном.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The small forms of folk poetic art invested with the short, metrical saying bearing the generalized thought, a conclusion, an allegory with a didactic bias belong to proverbs.](*<- lang_en;;*);;
+			*);;
+		*);;
+
+proverb-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [баран бараном, а рога даром](*<- lang_ru;;*);;
+    *);;

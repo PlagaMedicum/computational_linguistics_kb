@@ -1,0 +1,43 @@
+accent
+<-sc_node_not_relation;;
+accent => nrel_main_idtf:
+	[ударение](* <-lang_ru;; *);
+    [accent](* <-lang_en;; *);;
+accent <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: ударение] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: accent] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Выделение каким-либо акустическим средством одного из компонентов речи. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Allocation by any acoustic means of one of speech components.](*<- lang_en;;*);;
+			*);;
+		*);;
+accent-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [побе’да](*<- lang_ru;;*);;
+    *);;
+
+accent <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку типа](*<-lang_ru;; *);
+		[Subdividing based on type](*<-lang_en;; *);;
+	-> verbal_accent; dynamic_accent; clock_accent; phrase_accent;;
+*);;
+accent <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку образования формы одного и того же слова: ](*<-lang_ru;; *);
+		[Subdividing based on formations of a form of the same word:](*<-lang_en;; *);;
+	-> mobile_accent; motionless_accent;;
+*);;
+

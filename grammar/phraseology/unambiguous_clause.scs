@@ -1,0 +1,27 @@
+unambiguous_clause
+<-sc_node_not_relation;
+<-steady_expression;;
+unambiguous_clause => nrel_main_idtf:
+	[однозначный оборот](* <-lang_ru;; *);
+    [unambiguous clause](* <-lang_en;; *);;
+unambiguous_clause <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: однозначный оборот] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: unambiguous clause] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Однозначный оборот - фразеологический оборот, имеющий единственное значение.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Unambiguous clause - set phrase which has a unique value.](*<- lang_en;;*);;
+			*);;
+		*);;
+
+unambiguous_clause -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [ахиллесова пята](*<- lang_ru;;*);;
+    *);;

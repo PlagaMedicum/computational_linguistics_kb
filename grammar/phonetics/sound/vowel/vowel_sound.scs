@@ -1,0 +1,77 @@
+vowel_sound
+<-sc_node_not_relation;;
+vowel_sound => nrel_main_idtf:
+	[гласный звук](* <-lang_ru;; *);
+    [vowel sound](* <-lang_en;; *);;
+vowel_sound <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: гласный звук] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: vowel sound] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Звук, состоящий только из голоса (музыкального тона). ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The sound consisting only of a voice (musical tone).](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> sound;;
+            *);;
+		*);;
+
+vowel_sound-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [[а]](*<- lang_ru;;*);;
+    *);;
+vowel_sound-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [[о]](*<- lang_ru;;*);;
+    *);;
+vowel_sound-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [[у]](*<- lang_ru;;*);;
+    *);;
+
+vowel_sound <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку произнесения:](*<-lang_ru;; *);
+		[Subdividing based on pronouncings:](*<-lang_en;; *);;
+	-> labialized_sound; not_labialized_sound;;
+*);;
+
+vowel_sound <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку ударности](*<-lang_ru;; *);
+		[Subdividing based on accent](*<-lang_en;; *);;
+	-> accent_sound; unaccent_sound;;
+*);;
+
+vowel_sound <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку степени вертикального подъема языка](*<-lang_ru;; *);
+		[Subdividing based on extents of vertical raising of tongue](*<-lang_en;; *);;
+	-> vowel_top_rise; vowel_bottom_rise; vowel_middle_rise;;
+*);;
+
+vowel_sound <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку степени вертикального подъема языка](*<-lang_ru;; *);
+		[Subdividing based on extents of vertical raising of tongue](*<-lang_en;; *);;
+	-> vowel_front_row; vowel_back_row; vowel_middle_row;;
+*);;
+

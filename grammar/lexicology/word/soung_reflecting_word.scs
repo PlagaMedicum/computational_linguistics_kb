@@ -13,8 +13,7 @@ sound_reflecting_word
 
 sc_node_not_relation
 
- -> changeable_word (*=> nrel_main_idtf: [неизменяемое слово] (* <- lang_ru;; *);;*);
-->sound(*=> nrel_main_idtf: [звук] (* <- lang_ru;; *);;*);;
+ -> changeable_word (*=> nrel_main_idtf: [неизменяемое слово] (* <- lang_ru;; *);;*);;
 
 
 definition -> ...   
