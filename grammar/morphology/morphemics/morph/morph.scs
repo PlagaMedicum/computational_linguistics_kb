@@ -1,0 +1,45 @@
+morph
+<-sc_node_not_relation;;
+morph => nrel_main_idtf:
+	[морф](* <-lang_ru;; *);
+    [morph](* <-lang_en;; *);;
+morph <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: морф] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: morph] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Одна из формальных разновидностей (видоизменений) морфемы, выступающая в разных словах и словоформах. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[One of formal kinds (modifications) of a morpheme acting in different words and word forms.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> word_form; word; morpheme;;
+            *);;
+		*);;
+
+morph -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [рука (морф рук-)](*<- lang_ru;;*);;
+    *);;
+
+morph -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [ручка (морф руч-)](*<- lang_ru;;*);;
+    *);;
+
+morph <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку вида](*<-lang_ru;; *);
+		[Subdividing based on type](*<-lang_en;; *);;
+	-> root_morph; affix_morph;;
+*);;

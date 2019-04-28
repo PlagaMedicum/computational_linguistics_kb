@@ -1,0 +1,25 @@
+semantic_noun_function
+<-sc_node_not_relation;;
+semantic_noun_function => nrel_main_idtf:
+	[семантическая функция существительного](* <-lang_ru;; *);
+    [semantic noun function](* <-lang_en;; *);;
+semantic_noun_function <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: семантическая функция существительного] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: semantic noun function] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Семантическая функция существительного - функция выражения субъекта действия или состояния, объекта действия или состояния, предикативного признака, атрибута, обстоятельственного квалификатора. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Semantic function of a noun - function of expression of the subject of action or a state, subject to action or a state, predicative sign, attribute, the adverbial qualifier.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> noun;;
+            *);;
+		*);;
+

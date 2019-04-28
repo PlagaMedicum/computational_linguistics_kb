@@ -1,0 +1,39 @@
+adjective_declension
+<-sc_node_not_relation;;
+adjective_declension => nrel_main_idtf:
+	[склонение прилагательных](* <-lang_ru;; *);
+    [adjective declension](* <-lang_en;; *);;
+adjective_declension <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: склонение прилагательных] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: adjective declension] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Изменение прилагательного по родам, числам и падежам.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Change of an adjective on genders, numbers and cases.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> adjective; grammatical_gender; number; grammatical_case;;
+            *);;
+		*);;
+
+adjective_declension -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [свежий](*<- lang_ru;;*);;
+    *);;
+
+adjective_declension <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку типа](*<-lang_ru;; *);
+		[Subdividing based on type](*<-lang_en;; *);;
+	-> firm_adjective; soft_adjective; mixed_adjective;;
+*);;

@@ -1,0 +1,51 @@
+genitive_noun
+<-sc_node_not_relation;;
+genitive_noun => nrel_main_idtf:
+	[существительное родительного падежа](* <-lang_ru;; *);
+    [noun of a genitive case](* <-lang_en;; *);;
+genitive_noun <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: существительное родительного падежа] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: noun of a genitive case] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Существительное родительного падежа - существительное отвечающее на вопрос «кого?»/«чего?».  ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Genitive case noun - a noun answering the question "whom?" / "what?".](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> noun;;
+            *);;
+		*);;
+
+genitive_noun <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: genitive_noun; verb;;
+		=> nrel_main_idtf: 
+            [Утв.(существительное родительного падежа, глагол)] (* <- lang_ru;; *);
+            [Expl.(noun of a genitive case, verb)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Существительное родительного падежа употребляется после глаголов и имен.](*<- lang_ru;;*);
+			    	[The noun of a genitive case is used after verbs and names.](*<- lang_en;;*);;
+			*);;
+*);;
+
+genitive_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [дома](*<- lang_ru;;*);;
+    *);;
+
+genitive_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [отца](*<- lang_ru;;*);;
+    *);;

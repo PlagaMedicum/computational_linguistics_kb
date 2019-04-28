@@ -1,0 +1,32 @@
+accent_type_C_noun
+<-sc_node_not_relation;;
+accent_type_C_noun => nrel_main_idtf:
+	[существительное характеризующееся акцентным типом C](* <-lang_ru;; *);
+    [the noun which is characterized by accent type C](* <-lang_en;; *);;
+accent_type_C_noun <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: существительное характеризующееся акцентным типом C] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: the noun which is characterized by accent type C] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Существительное характеризующееся акцентным типом C - это существительное, с ударением на основе во всех формах единственного числа и на флексии - во всех формах множественного числа.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The noun which is characterized by accent type C is a noun, with an accent on a basis in all forms of singular and on an inflection - in all forms of plural.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> noun; accent; inflection; singular_noun; plural_noun;;
+            *);;
+		*);;
+
+
+accent_type_C_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [город, города, городу, город, городом, (о) городе; города, городов, городам, города, городами, (о) городах](*<- lang_ru;;*);;
+    *);;
+

@@ -1,0 +1,47 @@
+circumfix
+<-sc_node_not_relation;;
+circumfix => nrel_main_idtf:
+    [циркумфикс](* <-lang_ru;; *);
+    [circumfix](* <-lang_en;; *);;
+circumfix <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: циркумфикс] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: circumfix] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Циркумфикс — аффикс, морфема, которая ставится в начале и в конце другой морфемы. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Circumfix — an affix, a morpheme which is put at the beginning and at the end of other morpheme.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> morpheme; affix;;
+            *);;
+		*);;
+
+circumfix <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: circumfix; prefix; suffix; infix;;
+		=> nrel_main_idtf: 
+            [Утв.(циркумфикс, префикс, суффикс, инфикс)] (* <- lang_ru;; *);
+            [Expl.(circumfix, prefix, suffix, infix)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Циркумфиксы контрастируют с префиксами, которые прибавляются к началу слова, суффиксами, которые добавляются в конец слова, и инфиксами, которые вставляются в середину слова. ](*<- lang_ru;;*);
+			    	[Circumfixes contrast with prefixes which increase by the beginning of a word, suffixes which are added to the end of a word, and infixes which are squozen in the middle words.](*<- lang_en;;*);;
+			*);;
+*);;
+
+circumfix -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [в-двенадцатер-ом](*<- lang_ru;;*);;
+    *);;
+
+

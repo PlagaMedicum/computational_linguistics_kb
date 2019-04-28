@@ -1,0 +1,66 @@
+dative_noun
+<-sc_node_not_relation;;
+dative_noun => nrel_main_idtf:
+	[существительное дательного падежа](* <-lang_ru;; *);
+    [noun of a dative case](* <-lang_en;; *);;
+dative_noun <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: существительное дательного падежа] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: noun of a dative case] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Существительное дательного падежа - существительное отвечающее на вопрос «кому?»/«чему?».  ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Dative case noun - a noun answering the question "to whom?" / "to what?".](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> noun;;
+            *);;
+		*);;
+
+dative_noun <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: dative_noun; verb;;
+		=> nrel_main_idtf: 
+            [Утв.(существительное дательного падежа, глагол)] (* <- lang_ru;; *);
+            [Expl.(noun of a dative case, verb)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Существительное дательного падежа употребляется в сочетании с глаголами и именами.](*<- lang_ru;;*);
+			    	[The noun of the dative case is used in combination with verbs and names.](*<- lang_en;;*);;
+			*);;
+*);;
+
+dative_noun <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: dative_noun; impersonal_sentence;;
+		=> nrel_main_idtf: 
+            [Утв.(существительное дательного падежа, безличное предложение)] (* <- lang_ru;; *);
+            [Expl.(noun of a dative case, impersonal sentence)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[В безличных предложениях существительные дательного падежа могут называть лицо или предмет.](*<- lang_ru;;*);
+			    	[In impersonal sentences nouns of a dative case can call the person or a subject.](*<- lang_en;;*);;
+			*);;
+*);;
+
+dative_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [другу](*<- lang_ru;;*);;
+    *);;
+
+dative_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [войску](*<- lang_ru;;*);;
+    *);;

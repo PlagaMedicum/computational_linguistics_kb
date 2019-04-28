@@ -1,0 +1,37 @@
+transfix
+<-sc_node_not_relation;;
+transfix => nrel_main_idtf:
+    [трансфикс](* <-lang_ru;; *);
+    [transfix](* <-lang_en;; *);;
+transfix <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: трансфикс] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: transfix] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Трансфикс - лингвистическая разновидность аффикса, разрывающая корень слова, состоящий из согласных, путем вставки гласных. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Transfix - the linguistic kind of an affix which is breaking off the word root consisting of concordants by an insert of vowels.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> affix; root; consonant_sound; vowel_sound;;
+            *);;
+		*);;
+
+transfix -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [Присевероморье](*<- lang_ru;;*);;
+    *);;
+
+transfix -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [Причерноречье](*<- lang_ru;;*);;
+    *);;
+

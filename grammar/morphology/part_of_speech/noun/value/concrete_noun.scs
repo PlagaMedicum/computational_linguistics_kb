@@ -1,0 +1,50 @@
+concrete_noun
+<-sc_node_not_relation;;
+concrete_noun => nrel_main_idtf:
+	[конкретное существительное](* <-lang_ru;; *);
+    [concrete noun](* <-lang_en;; *);;
+concrete_noun <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: конкретное существительное] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: concrete noun] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Конкретное существительное - существительное , которое обозначает явления или предметы реальной действительности.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Concrete noun - a noun which designates the phenomena or objects of reality.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> noun;;
+            *);;
+		*);;
+concrete_noun <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: concrete_noun; singular_noun; plural_noun;;
+		=> nrel_main_idtf: 
+            [Утв.(конкретное существительное, единственное число, множественное число)] (* <- lang_ru;; *);
+            [Expl.(concrete noun, singular, plural)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Конкретные существительные имеют и форму единственного числа и форму множественного числа. ](*<- lang_ru;;*);
+			    	[Concrete nouns have both the form of singular and a form of plural.](*<- lang_en;;*);;
+			*);;
+*);;
+
+concrete_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [стул](*<- lang_ru;;*);;
+    *);;
+
+concrete_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [крыша](*<- lang_ru;;*);;
+    *);;

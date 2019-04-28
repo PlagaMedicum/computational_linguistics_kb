@@ -1,0 +1,51 @@
+singularity_noun
+<-sc_node_not_relation;;
+singularity_noun => nrel_main_idtf:
+	[сингулятивное существительное](* <-lang_ru;; *);
+    [single noun](* <-lang_en;; *);;
+singularity_noun <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: сингулятивное существительное] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: single noun] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Сингулятивное существительное - существительное, которое называет один экземпляр тех предметов, из которых состоит множество. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Single noun - a noun which calls one copy of those objects of which the set consists.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> noun;;
+            *);;
+		*);;
+
+singularity_noun <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: singularity_noun;;
+		=> nrel_main_idtf: 
+            [Утв.(единичное существительное)] (* <- lang_ru;; *);
+            [Expl.(single noun)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Предметы, обозначаемые единичным существительным, поддаются счету.](*<- lang_ru;;*);
+			    	[The objects designated by a single noun give in to the account.](*<- lang_en;;*);;
+			*);;
+*);;
+
+singularity_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [жемчужина](*<- lang_ru;;*);;
+    *);;
+
+singularity_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [соломина](*<- lang_ru;;*);;
+    *);;

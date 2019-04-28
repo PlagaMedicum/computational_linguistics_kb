@@ -1,0 +1,32 @@
+plural_adjective
+<-sc_node_not_relation;;
+plural_adjective => nrel_main_idtf:
+	[прилагательное множественного числа](* <-lang_ru;; *);
+    [plural adjective](* <-lang_en;; *);;
+plural_adjective <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: прилагательное множественного числа] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: plural adjective] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Прилагательное, которое отвечает на вопрос "какие?" и имеет окончание -ые, -ие. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The adjective which answers the question "what?" and has the termination - ые, - ие.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> adjective;;
+            *);;
+		*);;
+
+
+plural_adjective -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [красивые](*<- lang_ru;;*);;
+    *);;
+

@@ -1,0 +1,32 @@
+prepositional_adjective
+<-sc_node_not_relation;;
+prepositional_adjective => nrel_main_idtf:
+	[прилагательное предложного падежа](* <-lang_ru;; *);
+    [prepositional case adjective](* <-lang_en;; *);;
+prepositional_adjective <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: прилагательное предложного падежа] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: prepositional case adjective] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Прилагательное предложного падежа - прилагательное, у которого существительное, от которого оно зависит, стоит в предложном падеже.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The adjective of a prepositional case - an adjective which has a noun on which it depends costs in a prepositional case.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> adjective; noun;;
+            *);;
+		*);;
+
+
+prepositional_adjective -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [о тёмной ночи](*<- lang_ru;;*);;
+    *);;
+

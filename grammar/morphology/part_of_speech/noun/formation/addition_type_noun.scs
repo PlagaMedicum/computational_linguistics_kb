@@ -1,0 +1,37 @@
+addition_type_noun
+<-sc_node_not_relation;;
+addition_type_noun => nrel_main_idtf:
+	[существительное образованное способом сложения](* <-lang_ru;; *);
+    [the noun formed by way of addition](* <-lang_en;; *);;
+addition_type_noun <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: существительное образованное способом сложения] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: the noun formed by way of addition] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Существительное образованное способом сложения - существительное образованное путем объединения двух и более основ.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The noun formed by way of addition - the noun formed by association of two and more bases.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> noun; basis;;
+            *);;
+		*);;
+
+
+addition_type_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [теплоход](*<- lang_ru;;*);;
+    *);;
+
+addition_type_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [кинотеатр](*<- lang_ru;;*);;
+    *);;

@@ -1,0 +1,36 @@
+abstract_noun
+<-sc_node_not_relation;;
+abstract_noun => nrel_main_idtf:
+	[абстрактное существительное](* <-lang_ru;; *);
+    [abstract noun](* <-lang_en;; *);;
+abstract_noun <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: абстрактное существительное] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: abstract noun] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Абстрактное существительное - существительное , которое обозначает какое-либо отвлечённое действие, состояние, качество, свойство или понятие. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Abstract noun - a noun which designates any abstract action, a state, quality, property or a concept.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> noun;;
+            *);;
+		*);;
+
+abstract_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [нежность](*<- lang_ru;;*);;
+    *);;
+
+abstract_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [жатва](*<- lang_ru;;*);;
+    *);;

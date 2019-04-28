@@ -1,0 +1,32 @@
+addition_suffixation_noun
+<-sc_node_not_relation;;
+addition_suffixation_noun => nrel_main_idtf:
+	[существительное образованное способом сложения с суффиксацией](* <-lang_ru;; *);
+    [the noun formed by way of addition with suffixation](* <-lang_en;; *);;
+addition_suffixation_noun <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: существительное образованное способом сложения с суффиксацией] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: the noun formed by way of addition with suffixation] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Существительное образованное способом сложения с суффиксацией - комбинированный способ, включающий в себя сложение и суффиксацию. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The noun formed by way of addition with a suffixation - the combined method including addition and a suffixation](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> noun; suffixal_noun; addition_type_noun;;
+            *);;
+		*);;
+
+
+addition_suffixation_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [землепроходец](*<- lang_ru;;*);;
+    *);;
+

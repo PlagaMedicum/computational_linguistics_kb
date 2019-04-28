@@ -1,0 +1,41 @@
+morpheme
+<-sc_node_not_relation;;
+morpheme => nrel_main_idtf:
+	[морфема](* <-lang_ru;; *);
+    [morpheme](* <-lang_en;; *);;
+morpheme <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: морфема] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: morpheme] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Морфема — мельчайшая частица смысла в языке. Она передаёт простое понятие или представление и как смысловая единица дальше нечленима.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Morpheme — the smallest particle of sense in language. It gives a simple concept or representation and as semantic unit is not divided further.](*<- lang_en;;*);;
+			*);;
+		*);;
+
+morpheme -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [там(одна морфема)](*<- lang_ru;;*);;
+    *);;
+
+morpheme -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [тепл-о-воз-о-стро-и-телъ-н-ый(много морфем)](*<- lang_ru;;*);;
+    *);;
+
+morpheme <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку обязательности наличия в слове:](*<-lang_ru;; *);
+		[Subdividing based on obligation of existence in a word:](*<-lang_en;; *);;
+	-> root; affix;;
+*);;

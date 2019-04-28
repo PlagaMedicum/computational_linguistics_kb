@@ -1,0 +1,31 @@
+affixal_derivation
+<-sc_node_not_relation;;
+affixal_derivation => nrel_main_idtf:
+	[аффиксальная модель словообразования](* <-lang_ru;; *);
+    [affixal model of derivation](* <-lang_en;; *);;
+affixal_derivation <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: аффиксальная модель словообразования] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: affixal model of derivation] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Аффиксальное словообразование — образование новых слов (дериватов) от однокорневых слов, используя аффиксы.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Affixal derivation — formation of new words (derivatives) from single-root words, using affixes.](*<- lang_en;;*);;
+			*);;
+             <= nrel_using_constants: ...
+            (*
+                -> derivation; word; affix;;
+            *);;
+		*);;
+
+affixal_derivation -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [жевать ->разжевывать ->жвачка](*<- lang_ru;;*);;
+    *);;
+

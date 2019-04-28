@@ -1,0 +1,66 @@
+prepositional_noun
+<-sc_node_not_relation;;
+prepositional_noun => nrel_main_idtf:
+	[существительное предложного падежа](* <-lang_ru;; *);
+    [noun of a prepositional case](* <-lang_en;; *);;
+prepositional_noun <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: существительное предложного падежа] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: noun of a prepositional case] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Существительное предложного падежа - существительное отвечающее на вопрос «о ком?»/«о чем?».  ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Prepositional case noun - a noun answering the question "about whom?" / "about what?".](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> noun;;
+            *);;
+		*);;
+
+prepositional_noun <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: prepositional_noun; verb;;
+		=> nrel_main_idtf: 
+            [Утв.(существительное предложного падежа, глагол)] (* <- lang_ru;; *);
+            [Expl.(noun of a prepositional case, verb)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Существительное предложного падежа употребляется в сочетании с глаголами и именами.](*<- lang_ru;;*);
+			    	[The noun of the prepositional case is used in combination with verbs and names.](*<- lang_en;;*);;
+			*);;
+*);;
+
+prepositional_noun <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: prepositional_noun; preposition;;
+		=> nrel_main_idtf: 
+            [Утв.(существительное предложного падежа, предлог)] (* <- lang_ru;; *);
+            [Expl.(noun of a prepositional case, preposition)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Существительное предложного падежа употребляется только с предлогами. ](*<- lang_ru;;*);
+			    	[The noun of a prepositional case is used only with prepositions.](*<- lang_en;;*);;
+			*);;
+*);;
+
+prepositional_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [о женитьбе](*<- lang_ru;;*);;
+    *);;
+
+prepositional_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [при институте](*<- lang_ru;;*);;
+    *);;

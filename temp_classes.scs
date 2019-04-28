@@ -86,18 +86,6 @@ class
 	[класс](* <-lang_ru;; *);
     [class](* <-lang_en;; *);;
 
-noun
-<-sc_node_not_relation;
-=> nrel_main_idtf:
-	[имя существительное](* <-lang_ru;; *);
-    [noun](* <-lang_en;; *);;
-
-adjectives
-<-sc_node_not_relation;
-=> nrel_main_idtf:
-	[прилагательное](* <-lang_ru;; *);
-    [adjectives](* <-lang_en;; *);;
-
 grammatical_category
 <-sc_node_not_relation;
 => nrel_main_idtf:

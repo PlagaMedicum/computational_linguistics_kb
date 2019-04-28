@@ -1,0 +1,37 @@
+collective_number_noun
+<-sc_node_not_relation;;
+collective_number_noun => nrel_main_idtf:
+	[существительное собирательного числа](* <-lang_ru;; *);
+    [collective number noun](* <-lang_en;; *);;
+collective_number_noun <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: существительное собирательного числа] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: collective number noun] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Существительное собирательного числа - существительное, которое употребляется для обозначения совокупности предметов. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Noun of collective number - a noun which is used for designation of set of objects.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> noun;;
+            *);;
+		*);;
+
+
+collective_number_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [зубья](*<- lang_ru;;*);;
+    *);;
+
+collective_number_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [зверье](*<- lang_ru;;*);;
+    *);;

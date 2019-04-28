@@ -1,0 +1,32 @@
+prefixal_adjective
+<-sc_node_not_relation;;
+prefixal_adjective => nrel_main_idtf:
+	[префиксальный способ образования прилагательного](* <-lang_ru;; *);
+    [prefixal way of formation of an adjective](* <-lang_en;; *);;
+prefixal_adjective <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: префиксальный способ образования прилагательного] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: prefixal way of formation of an adjective] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Префиксальный способ образования прилагательного - способ образования нового прилагательного при помощи приставки, которая присоединяются к производящему слову. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Prefixal way of formation of an adjective - a way of formation of a new adjective by means of a prefix which join the making word.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> adjective; suffix; prefix;;
+            *);;
+		*);;
+
+
+prefixal_adjective -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [необычный](*<- lang_ru;;*);;
+    *);;
+

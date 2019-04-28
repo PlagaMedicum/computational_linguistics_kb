@@ -1,0 +1,54 @@
+noun_functions
+<-sc_node_not_relation;
+<-noun;;
+noun_functions => nrel_main_idtf:
+	[функции существительного](* <-lang_ru;; *);
+    [noun functions](* <-lang_en;; *);;
+noun_functions <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: функции существительного] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: noun functions] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Функции существительного - роль существительного во взаимодействии с составными частями синтаксиса и морфологии русского языка. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Functions of a noun - a noun role in interaction with components of syntax and morphology of Russian.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> noun;;
+            *);;
+		*);;
+noun_functions <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: noun; noun_functions;;
+		=> nrel_main_idtf: 
+            [Утв.(функции существительного)] (* <- lang_ru;; *);
+            [Expl.(noun functions)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Функции существительного характеризуются с семантической и формальной точек зрения. ](*<- lang_ru;;*);
+			    	[Functions of a noun are characterized from the semantic and formal points of view.](*<- lang_en;;*);;
+			*);;
+*);;
+
+noun_functions -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [семантическая](*<- lang_ru;;*);;
+    *);;
+
+noun_functions <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку функций выполняемых в предложении](*<-lang_ru;; *);
+		[Subdividing based on the functions which are carried out in the offer](*<-lang_en;; *);;
+	-> semantic_noun_function; formal_noun_function;;
+*);;

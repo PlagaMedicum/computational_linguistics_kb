@@ -1,0 +1,32 @@
+dative_adjective
+<-sc_node_not_relation;;
+dative_adjective => nrel_main_idtf:
+	[прилагательное дательного падежа](* <-lang_ru;; *);
+    [dative case adjective](* <-lang_en;; *);;
+dative_adjective <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: прилагательное дательного падежа] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: dative case adjective] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Прилагательное дательного падежа - прилагательное, у которого существительное, от которого оно зависит, стоит в дательном падеже.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The adjective of a dative case - an adjective which has a noun on which it depends costs in a dative case.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> adjective; noun;;
+            *);;
+		*);;
+
+
+dative_adjective -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [весёлым людям](*<- lang_ru;;*);;
+    *);;
+

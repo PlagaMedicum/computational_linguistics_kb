@@ -1,0 +1,32 @@
+singular_adjective
+<-sc_node_not_relation;;
+singular_adjective => nrel_main_idtf:
+	[прилагательное единственного числа](* <-lang_ru;; *);
+    [singular adjective](* <-lang_en;; *);;
+singular_adjective <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: прилагательное единственного числа] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: singular adjective] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Прилагательное, которое отвечает на вопрос "какой? какая? какое?" и имеет окончание -ой,-ый,-ий,-ая,-ое,-ее. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Adjective which answers a question "what? what? what?" also has the termination - oй, - ый, - ий, - ая, - ое, - ее.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> adjective;;
+            *);;
+		*);;
+
+
+singular_adjective -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [красивое](*<- lang_ru;;*);;
+    *);;
+

@@ -1,0 +1,32 @@
+masculine_adjective
+<-sc_node_not_relation;;
+masculine_adjective => nrel_main_idtf:
+	[прилагательное мужского рода](* <-lang_ru;; *);
+    [masculine gender adjective](* <-lang_en;; *);;
+masculine_adjective <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: прилагательное мужского рода] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: masculine gender adjective] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Прилагательное, которое отвечает на вопрос "какой?" и имеет окончание -ой,-ый,-ий. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The adjective which answers the question "what?" and has the termination - oй, - ый, - ий.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> adjective;;
+            *);;
+		*);;
+
+
+masculine_adjective -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [умный](*<- lang_ru;;*);;
+    *);;
+

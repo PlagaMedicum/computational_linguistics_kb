@@ -1,0 +1,39 @@
+comparative_adjective
+<-sc_node_not_relation;;
+comparative_adjective => nrel_main_idtf:
+	[сравнительная степень прилагательного](* <-lang_ru;; *);
+    [comparative degree of an adjective](* <-lang_en;; *);;
+comparative_adjective <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: сравнительная степень прилагательного] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: comparative degree of an adjective] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Прилагательное в сравнительной степени обозначает качество, характерное для данного предмета в большей или меньшей мере по сравнению с теми же качествами в других предметах, а также по сравнению с качествами, которыми данный предмет обладал ранее или будет обладать в дальнейшем.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The adjective in comparative degree designates the quality characteristic of this subject in a bigger or smaller measure in comparison with the same qualities in other objects and also in comparison with qualities which this subject possessed earlier or will possess further.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> adjective;;
+            *);;
+		*);;
+
+comparative_adjective -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [более сильный](*<- lang_ru;;*);;
+    *);;
+
+comparative_adjective <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку типа](*<-lang_ru;; *);
+		[Subdividing based on type](*<-lang_en;; *);;
+	-> simple_comparative_adjective; compound_comparative_adjective;;
+*);;

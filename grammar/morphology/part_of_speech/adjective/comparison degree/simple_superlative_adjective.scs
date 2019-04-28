@@ -1,0 +1,31 @@
+simple_superlative_adjective
+<-sc_node_not_relation;;
+simple_superlative_adjective => nrel_main_idtf:
+	[простая превосходная степень прилагательного](* <-lang_ru;; *);
+    [simple superlative degree of an adjective](* <-lang_en;; *);;
+simple_superlative_adjective <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: простая превосходная степень прилагательного] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: simple superlative degree of an adjective] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Простая превосходная степень сравнения прилагательного обозначает наибольшую степень проявления признака и образуется следующим образом: основа положительной степени + формообразующие суффиксы -ейш/-айш (после к, г, х, вызывая чередование). ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The simple superlative degree of comparison of an adjective designates the greatest extent of manifestation of sign and is formed as follows: a basis of positive degree + form-building suffixes -ейш/-айш (после к, г, х, вызывая чередование).](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> adjective; suffix;;
+            *);;
+		*);;
+
+simple_superlative_adjective -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [добрейший](*<- lang_ru;;*);;
+    *);;
+

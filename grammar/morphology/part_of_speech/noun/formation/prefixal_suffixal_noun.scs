@@ -1,0 +1,37 @@
+prefixal_suffixal_noun
+<-sc_node_not_relation;;
+prefixal_suffixal_noun => nrel_main_idtf:
+	[существительное образованное приставочно-суффиксальным способом](* <-lang_ru;; *);
+    [the noun formed using prefix and suffix](* <-lang_en;; *);;
+prefixal_suffixal_noun <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: существительное образованное приставочно-суффиксальным способом] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: the noun formed using prefix and suffix] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Существительное образованное приставочно-суффиксальным способом - способ образования нового существительного при помощи приставки и суффикса, которые присоединяются к производящему слову. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The noun formed in the prefixal and suffixal way - a way of formation of a new noun by means of a prefix and a suffix which join the making word.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> noun; suffix; prefix; making_basis;;
+            *);;
+		*);;
+
+
+prefixal_suffixal_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [подорожник](*<- lang_ru;;*);;
+    *);;
+
+prefixal_suffixal_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [перелесок](*<- lang_ru;;*);;
+    *);;

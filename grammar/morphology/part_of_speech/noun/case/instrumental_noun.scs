@@ -1,0 +1,51 @@
+instrumental_noun
+<-sc_node_not_relation;;
+instrumental_noun => nrel_main_idtf:
+	[существительное творительного падежа](* <-lang_ru;; *);
+    [noun of a instrumental case](* <-lang_en;; *);;
+instrumental_noun <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: существительное творительного падежа] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: noun of a instrumental case] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Существительное творительного падежа - существительное отвечающее на вопрос «кем?»/«чем?».  ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Instrumental case noun - a noun answering the question "whom?" / "than?".](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> noun;;
+            *);;
+		*);;
+
+instrumental_noun <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: instrumental_noun; verb;;
+		=> nrel_main_idtf: 
+            [Утв.(существительное творительного падежа, глагол)] (* <- lang_ru;; *);
+            [Expl.(noun of a instrumental case, verb)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Существительное творительного падежа употребляется в сочетании с глаголами и именами.](*<- lang_ru;;*);
+			    	[The noun of the instrumental case is used in combination with verbs and names.](*<- lang_en;;*);;
+			*);;
+*);;
+
+instrumental_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [карандашом](*<- lang_ru;;*);;
+    *);;
+
+instrumental_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [молотком](*<- lang_ru;;*);;
+    *);;

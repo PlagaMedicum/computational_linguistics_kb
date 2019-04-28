@@ -1,0 +1,33 @@
+formal_noun_function
+<-sc_node_not_relation;;
+formal_noun_function => nrel_main_idtf:
+	[формальная функция существительного](* <-lang_ru;; *);
+    [formal noun function](* <-lang_en;; *);;
+formal_noun_function <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: формальная функция существительного] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: formal noun function] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Формальная функция существительного - это функции подлежащего, именного сказуемого и дополнения.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Formal function of a noun are functions of a subject, a personalized predicate and addition.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> noun;;
+            *);;
+		*);;
+
+formal_noun_function <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку принадлежности главным членам предложения:](*<-lang_ru;; *);
+		[Subdividing based on accessories to the principal parts of the sentence:](*<-lang_en;; *);;
+	-> subject_noun; minor_noun;;
+*);;

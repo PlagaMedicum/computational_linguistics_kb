@@ -1,0 +1,32 @@
+soft_adjective
+<-sc_node_not_relation;;
+soft_adjective => nrel_main_idtf:
+	[мягкое склонение прилагательных](* <-lang_ru;; *);
+    [soft declension of adjectives](* <-lang_en;; *);;
+soft_adjective <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: мягкое склонение прилагательных] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: soft declension of adjectives] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Прилагательное с основой на мягкий согласный.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Adjective with a basis on a soft consonant.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> adjective; basis; soft_sound;;
+            *);;
+		*);;
+
+
+soft_adjective -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [синий](*<- lang_ru;;*);;
+    *);;
+

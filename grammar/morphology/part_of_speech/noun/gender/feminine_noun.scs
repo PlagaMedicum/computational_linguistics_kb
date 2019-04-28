@@ -1,0 +1,32 @@
+feminine_noun
+<-sc_node_not_relation;;
+feminine_noun => nrel_main_idtf:
+	[существительное женского рода](* <-lang_ru;; *);
+    [feminine gender noun](* <-lang_en;; *);;
+feminine_noun <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: существительное женского рода] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: feminine gender noun] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Существительное женского рода - существительное, способное обозначать существо женского пола. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Noun of a feminine gender - the noun capable to designate a female being.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> noun;;
+            *);;
+		*);;
+
+
+feminine_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [собака](*<- lang_ru;;*);;
+    *);;
+

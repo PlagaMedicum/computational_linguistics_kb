@@ -1,0 +1,37 @@
+prefixal_noun
+<-sc_node_not_relation;;
+prefixal_noun => nrel_main_idtf:
+	[существительное образованное приставочным способом](* <-lang_ru;; *);
+    [the noun formed in the prefixal way](* <-lang_en;; *);;
+prefixal_noun <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: существительное образованное приставочным способом] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: the noun formed in the prefixal way] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Существительное образованное приставочным способом - способ образования нового существительного при помощи приставки, которая присоединяется к производящему слову.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The noun formed in the prefixal way - a way of formation of a new noun by means of a prefix which joins the making word.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> noun; prefix;;
+            *);;
+		*);;
+
+
+prefixal_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [беспокойсво](*<- lang_ru;;*);;
+    *);;
+
+prefixal_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [пробежка](*<- lang_ru;;*);;
+    *);;

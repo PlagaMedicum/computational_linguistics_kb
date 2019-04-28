@@ -1,0 +1,32 @@
+mixed_adjective
+<-sc_node_not_relation;;
+mixed_adjective => nrel_main_idtf:
+	[смешанное склонение прилагательных](* <-lang_ru;; *);
+    [mixed declension of adjectives](* <-lang_en;; *);;
+mixed_adjective <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: смешанное склонение прилагательных] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: mixed declension of adjectives] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Прилагательное с основой на г, к, х.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Adjective with a basis on г, к, х](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> adjective; basis; soft_sound;;
+            *);;
+		*);;
+
+
+mixed_adjective -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [строгий](*<- lang_ru;;*);;
+    *);;
+

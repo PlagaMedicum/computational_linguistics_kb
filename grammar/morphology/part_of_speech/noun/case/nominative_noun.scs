@@ -1,0 +1,51 @@
+nominative_noun
+<-sc_node_not_relation;;
+nominative_noun => nrel_main_idtf:
+	[существительное именительного падежа](* <-lang_ru;; *);
+    [noun of a nominative case](* <-lang_en;; *);;
+nominative_noun <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: существительное именительного падежа] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: noun of a nominative case] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Существительное именительного падежа - существительное отвечающее на вопрос «кто?»/«что?».  ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Nominative case noun - a noun answering the question "who?" / "what?".](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> noun;;
+            *);;
+		*);;
+
+nominative_noun <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: nominative_noun; verb;;
+		=> nrel_main_idtf: 
+            [Утв.(существительное именительного падежа, глагол)] (* <- lang_ru;; *);
+            [Expl.(noun of a nominative case, verb)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Существительное именительного падежа употребляется в сочетании с глаголами и именами.](*<- lang_ru;;*);
+			    	[The noun of the nominative case is used in combination with verbs and names.](*<- lang_en;;*);;
+			*);;
+*);;
+
+nominative_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [слон](*<- lang_ru;;*);;
+    *);;
+
+nominative_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [телефон](*<- lang_ru;;*);;
+    *);;

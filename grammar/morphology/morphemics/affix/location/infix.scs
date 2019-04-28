@@ -1,0 +1,37 @@
+infix
+<-sc_node_not_relation;;
+infix => nrel_main_idtf:
+    [инфикс](* <-lang_ru;; *);
+    [infix](* <-lang_en;; *);;
+infix <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: инфикс] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: infix] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Инфикс - аффикс вставляемый внутрь основы при словообразовании или словоизменении.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Infix - the affix inserted in a basis at word formation or word change.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> affix; derivation;;
+            *);;
+		*);;
+
+infix -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [лечь-лягу](*<- lang_ru;;*);;
+    *);;
+
+infix -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [сесть-сяду](*<- lang_ru;;*);;
+    *);;
+

@@ -1,0 +1,37 @@
+suffixal_noun
+<-sc_node_not_relation;;
+suffixal_noun => nrel_main_idtf:
+	[существительное образованное суффиксальным способом](* <-lang_ru;; *);
+    [the noun formed in the suffixal way](* <-lang_en;; *);;
+suffixal_noun <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: существительное образованное суффиксальным способом] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: the noun formed in the suffixal way] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Существительное образованное суффиксальным способом - способ образования нового существительного при помощи суффиска, который присоединяется к производящей основе. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The noun formed in the suffixal way - a way of formation of a new noun by means of a suffisk who joins the making basis.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> noun; suffix; making_basis;;
+            *);;
+		*);;
+
+
+suffixal_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [земляк](*<- lang_ru;;*);;
+    *);;
+
+suffixal_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [землячка](*<- lang_ru;;*);;
+    *);;

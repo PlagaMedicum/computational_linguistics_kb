@@ -1,0 +1,32 @@
+addition_type_adjective
+<-sc_node_not_relation;;
+addition_type_adjective => nrel_main_idtf:
+	[сложение основ прилагательных](* <-lang_ru;; *);
+    [addition of bases of adjectives](* <-lang_en;; *);;
+addition_type_adjective <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: сложение основ прилагательных] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: addition of bases of adjectives] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Сложение основ прилагательных - способ образования нового прилагательного путём сложения двух и более основ прилагательных либо существительных, наречий. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Prefixal-suffixal way of formation of an adjective - a way of formation of a new adjective by means of a prefix and a suffix which join the making word.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> adjective; basis; noun; adverb;;
+            *);;
+		*);;
+
+
+addition_type_adjective -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [светло-серый](*<- lang_ru;;*);;
+    *);;
+

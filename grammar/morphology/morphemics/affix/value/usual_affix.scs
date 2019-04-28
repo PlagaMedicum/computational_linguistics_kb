@@ -1,0 +1,37 @@
+usual_affix
+<-sc_node_not_relation;;
+usual_affix => nrel_main_idtf:
+    [обычный аффикс](* <-lang_ru;; *);
+    [usual affix](* <-lang_en;; *);;
+usual_affix <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: обычный аффикс] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: usual affix] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Обычный аффикс — аффикс, передающий грамматическое или лексическое значение слова.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Usual affix — the affix transferring a grammatical or lexical meaning of a word.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> grammar_meaning; affix;;
+            *);;
+		*);;
+
+usual_affix -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [Присевероморье](*<- lang_ru;;*);;
+    *);;
+
+usual_affix -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [Причерноречье](*<- lang_ru;;*);;
+    *);;
+

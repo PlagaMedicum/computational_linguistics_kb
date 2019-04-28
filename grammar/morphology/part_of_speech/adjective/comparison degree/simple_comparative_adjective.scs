@@ -1,0 +1,31 @@
+simple_comparative_adjective
+<-sc_node_not_relation;;
+simple_comparative_adjective => nrel_main_idtf:
+	[простая сравнительная степень прилагательного](* <-lang_ru;; *);
+    [simple comparative degree of an adjective](* <-lang_en;; *);;
+simple_comparative_adjective <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: простая сравнительная степень прилагательного] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: simple comparative degree of an adjective] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Простая сравнительная степень обозначает бoльшую степень проявления признака и образуется следующим образом: основа положительной степени + формообразующие суффиксы -ее(-ей), -е, -ше/-же. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Simple comparative degree designates big extent of manifestation of sign and is formed as follows: a basis of positive degree + form-building suffixes -ее(-ей), -е, -ше/-же.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> adjective; suffix; comparative_adjective;;
+            *);;
+		*);;
+
+simple_comparative_adjective -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [быстрее](*<- lang_ru;;*);;
+    *);;
+
