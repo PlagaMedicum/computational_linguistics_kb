@@ -1,0 +1,32 @@
+general_gender_noun
+<-sc_node_not_relation;;
+general_gender_noun => nrel_main_idtf:
+	[существительное общего рода](* <-lang_ru;; *);
+    [general gender noun](* <-lang_en;; *);;
+general_gender_noun <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: существительное общего рода] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: general gender noun] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Существительное общего рода - слово, с окончанием на -а (-я). ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Common gender noun - a word, with the termination on - а (-я).](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> noun;;
+            *);;
+		*);;
+
+
+general_gender_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [брюзга](*<- lang_ru;;*);;
+    *);;
+

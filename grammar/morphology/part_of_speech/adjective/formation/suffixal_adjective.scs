@@ -1,0 +1,32 @@
+suffixal_adjective
+<-sc_node_not_relation;;
+suffixal_adjective => nrel_main_idtf:
+	[суффиксальный способ образования прилагательного](* <-lang_ru;; *);
+    [suffixal way of formation of an adjective](* <-lang_en;; *);;
+suffixal_adjective <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: суффиксальный способ образования прилагательного] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: suffixal way of formation of an adjective] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Суффиксальный способ образования прилагательного - способ образования нового прилагательного при помощи суффикса, который присоединяются к производящему слову. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Suffixal way of formation of an adjective - a way of formation of a new adjective by means of a suffix which join the making word.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> adjective; suffix;;
+            *);;
+		*);;
+
+
+suffixal_adjective -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [красивый](*<- lang_ru;;*);;
+    *);;
+

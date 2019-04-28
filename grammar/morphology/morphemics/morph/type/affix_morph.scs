@@ -1,0 +1,25 @@
+affix_morph
+<-sc_node_not_relation;;
+affix_morph => nrel_main_idtf:
+	[аффиксальный морф](* <-lang_ru;; *);
+    [affixal morph](* <-lang_en;; *);;
+affix_morph <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: аффиксальный морф] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: affixal morph] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Морф, наличествующий не в каждой словоформе и заключающий в себе дополнительное, служебное значение - словообразовательное или морфологическое, более абстрактное, чем у корневого морфа (морфов) данной словоформы.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The morph which is present not at each word form and comprising additional, office value - word-formation or morphological, more abstract, than at a root morph (morphs) of this word form.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> word_form; root_morph; morph;;
+            *);;
+		*);;
+

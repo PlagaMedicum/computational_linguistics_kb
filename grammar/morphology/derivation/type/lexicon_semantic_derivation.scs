@@ -1,0 +1,41 @@
+lexicon_semantic_derivation
+<-sc_node_not_relation;;
+lexicon_semantic_derivation => nrel_main_idtf:
+	[лексико-семантическое словообразование](* <-lang_ru;; *);
+    [lexicon-semantic derivation](* <-lang_en;; *);;
+lexicon_semantic_derivation <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: лексико-семантическое словообразование] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: lexicon-semantic derivation] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Тип словообразования, при котором слово, уже существующее в языке, приобретает новое лексическое значение.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Type of derivation at which the word which is already existing in language gets a new lexical meaning.](*<- lang_en;;*);;
+			*);;
+             <= nrel_using_constants: ...
+            (*
+                -> derivation; word;;
+            *);;
+		*);;
+
+lexicon_semantic_derivation -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [бабка (бабушка)](*<- lang_ru;;*);;
+    *);;
+lexicon_semantic_derivation -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [бабка (надкопытный сустав ноги у животных)](*<- lang_ru;;*);;
+    *);;
+lexicon_semantic_derivation -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [бабка (одна из парных частей токарного станка)](*<- lang_ru;;*);;
+    *);;
+

@@ -1,0 +1,36 @@
+morphology_syntax_derivation
+<-sc_node_not_relation;;
+morphology_syntax_derivation => nrel_main_idtf:
+	[морфолого-синтаксическое словообразование](* <-lang_ru;; *);
+    [morphology-syntax derivation](* <-lang_en;; *);;
+morphology_syntax_derivation <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: морфолого-синтаксическое словообразование] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: morphology-syntax derivation] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Тип словообразования, при котором слово принадлежащее к какой-либо части речи, переходит в иную часть речи. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Type of derivation at which the word belonging to any part of speech passes into other part of speech.](*<- lang_en;;*);;
+			*);;
+             <= nrel_using_constants: ...
+            (*
+                -> derivation; word; part_of_speech;;
+            *);;
+		*);;
+
+morphology_syntax_derivation -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [булочная (перешло из прилагательного в существительное)](*<- lang_ru;;*);;
+    *);;
+morphology_syntax_derivation -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [заведующий (перешло из причастия в существительное)](*<- lang_ru;;*);;
+    *);;
+

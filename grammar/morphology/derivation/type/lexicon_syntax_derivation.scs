@@ -1,0 +1,41 @@
+lexicon_syntax_derivation
+<-sc_node_not_relation;;
+lexicon_syntax_derivation => nrel_main_idtf:
+	[лексико-синтаксическое словообразование](* <-lang_ru;; *);
+    [lexicon-syntax derivation](* <-lang_en;; *);;
+lexicon_syntax_derivation <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: лексико-синтаксическое словообразование] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: lexicon-syntax derivation] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Тип словообразования, при котором новое слово образуется из словосочетания в процессе употребления в языке. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Type of derivation at which the new word is formed of a phrase in the course of the use in language.](*<- lang_en;;*);;
+			*);;
+             <= nrel_using_constants: ...
+            (*
+                -> derivation; phrase; word;;
+            *);;
+		*);;
+
+lexicon_syntax_derivation -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [сумасшедший (с ума сшедший)](*<- lang_ru;;*);;
+    *);;
+lexicon_syntax_derivation -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [тяжелораненый (тяжело раненный)](*<- lang_ru;;*);;
+    *);;
+lexicon_syntax_derivation -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [наконец (на конец)](*<- lang_ru;;*);;
+    *);;
+

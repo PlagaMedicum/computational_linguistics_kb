@@ -1,0 +1,37 @@
+substantivation_noun
+<-sc_node_not_relation;;
+substantivation_noun => nrel_main_idtf:
+	[существительное образованное способом субстантивации](* <-lang_ru;; *);
+    [the noun formed by way of substantivation](* <-lang_en;; *);;
+substantivation_noun <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: существительное образованное способом субстантивации] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: the noun formed by way of substantivation] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Существительное образованное способом субстантивации - переход в разряд имен существительных слов других частей речи. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The noun formed by way of substantivation - transition to the category of nouns of words of other parts of speech.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> noun; part_of_speech;;
+            *);;
+		*);;
+
+
+substantivation_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [портной](*<- lang_ru;;*);;
+    *);;
+
+substantivation_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [запятая](*<- lang_ru;;*);;
+    *);;

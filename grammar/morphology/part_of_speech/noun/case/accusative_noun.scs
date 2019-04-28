@@ -1,0 +1,51 @@
+accusative_noun
+<-sc_node_not_relation;;
+accusative_noun => nrel_main_idtf:
+	[существительное винительного падежа](* <-lang_ru;; *);
+    [noun of a accusative case](* <-lang_en;; *);;
+accusative_noun <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: существительное винительного падежа] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: noun of a accusative case] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Существительное винительного падежа - существительное отвечающее на вопрос «кого?»/«что?».  ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Accusative case noun - a noun answering the question "whom?" / "what?".](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> noun;;
+            *);;
+		*);;
+
+accusative_noun <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: accusative_noun; verb;;
+		=> nrel_main_idtf: 
+            [Утв.(существительное винительного падежа, глагол)] (* <- lang_ru;; *);
+            [Expl.(noun of a accusative case, verb)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Существительное винительного падежа употребляется только при глаголах. ](*<- lang_ru;;*);
+			    	[The noun of an accusative case is used only at verbs.](*<- lang_en;;*);;
+			*);;
+*);;
+
+accusative_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [ловить карасей](*<- lang_ru;;*);;
+    *);;
+
+accusative_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [чистить ружье](*<- lang_ru;;*);;
+    *);;

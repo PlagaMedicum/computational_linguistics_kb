@@ -10,10 +10,10 @@ synthetic_grammar_word_form
 
 sc_node_not_relation
 ->morphological_form;
-->word_formation;
+->derivation;
 ->grammar_meaning;
 ->word;
-->flexion;
+->inflection;
 ->affix;;
 
 
@@ -27,11 +27,10 @@ definition -> ...
 	(*
 
 ->morphological_form(*=> nrel_main_idtf: [морфологическая форма] (* <- lang_ru;; *);;*);;
-->word_formation(*=> nrel_main_idtf: [словообразование] (* <- lang_ru;; *);;*);;
 ->grammar_meaning(*=> nrel_main_idtf: [грамматическое значение] (* <- lang_ru;; *);;*);;
 ->word;;
-->flexion(*=> nrel_main_idtf: [флексия] (* <- lang_ru;; *);;*);;
-->affix(*=> nrel_main_idtf: [аффикс] (* <- lang_ru;; *);;*);;
+->inflection;;
+->affix;;
 
 
 	*);;

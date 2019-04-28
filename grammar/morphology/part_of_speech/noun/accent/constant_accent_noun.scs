@@ -1,0 +1,38 @@
+constant_accent_noun
+<-sc_node_not_relation;;
+constant_accent_noun => nrel_main_idtf:
+	[существительное с постоянным ударением](* <-lang_ru;; *);
+    [noun with a constant accent](* <-lang_en;; *);;
+constant_accent_noun <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: существительное с постоянным ударением] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: noun with a constant accent] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Существительное с постоянным ударением - существительное, ударение в котором не меняет свое место в зависимости от падежа. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Noun with a constant accent - a noun in which accent does not change the place depending on a case.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> noun; accent; grammatical_case;;
+            *);;
+		*);;
+
+
+constant_accent_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [молот](*<- lang_ru;;*);;
+    *);;
+
+constant_accent_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [яблоко](*<- lang_ru;;*);;
+    *);;
+

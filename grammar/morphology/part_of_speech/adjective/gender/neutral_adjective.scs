@@ -1,0 +1,32 @@
+neutral_adjective
+<-sc_node_not_relation;;
+neutral_adjective => nrel_main_idtf:
+	[прилагательное среднего рода](* <-lang_ru;; *);
+    [neutral gender adjective](* <-lang_en;; *);;
+neutral_adjective <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: прилагательное среднего рода] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: neutral gender adjective] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Прилагательное, которое отвечает на вопрос "какое?" и имеет окончание -ое, -ее.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The adjective which answers the question "what?" and has the termination - ое, - ее.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> adjective;;
+            *);;
+		*);;
+
+
+neutral_adjective -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [зимнее](*<- lang_ru;;*);;
+    *);;
+

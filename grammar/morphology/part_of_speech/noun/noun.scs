@@ -1,96 +1,173 @@
 noun
-    <-sc_node_not_relation;
-    //<-section_subjdomain_part_of_speech;
-   
-    => nrel_main_idtf:
-        [существительное](* <-lang_ru;; *);
-        [noun](* <-lang_en;; *);
-
-        -> rrel_example: ...
-    (*
-        => nrel_main_idtf: 
-            [дом](*<- lang_ru;;*);
-            [home](*<- lang_en;;*);;
-    *);
-
-    <- rrel_key_sc_element: definition_noun
-    (*
+<-sc_node_not_relation;
+<-part_of_speech;;
+noun => nrel_main_idtf:
+	[имя существительное](* <-lang_ru;; *);
+    [noun](* <-lang_en;; *);;
+noun <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: имя существительное] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: noun] (* <- lang_en;; *);;
         <- definition;;
-        => nrel_main_idtf: 
-            [Опр. (существительное)] (* <- lang_ru;; *);
-            [Def. (noun)] (* <- lang_en;; *);;
-        <= nrel_sc_text_translation: ...
-        (*
-            -> rrel_example: 
-                [Существительное - самостоятельная часть речи, обозначающая предмет или лицо.](*<- lang_ru;;*);
-                [Noun - that in an independent part of speech, denoting an object or person.](*<- lang_en;;*);;
-        *);;
-        <= nrel_using_constants: ...
-        (*
-            ->category_of_words;;
-            ->nrel_action;;
-            ->nrel_process_statement_of_object;;
-        *);;
-    *);
-
-    <- rrel_key_sc_element: ...
-    (*
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Самостоятельная часть речи, обозначающая предмет и отвечающая на вопрос кто?/что?.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The independent part of speech designating a subject and answering a question who? / what?.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> independent_part_of_speech;;
+            *);;
+		*);;
+noun <- rrel_key_sc_element:...
+		(*
         <- explanation;;
-        <- reflexive_noun;;
-        <- intransitive_verb;;
+        -> rrel_key_sc_element: noun; sentence;;
+		=> nrel_main_idtf: 
+            [Утв.(имя существительное,предложение)] (* <- lang_ru;; *);
+            [Expl.(noun, sentence)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Существительное может употребляться в роли любого члена предложения. ](*<- lang_ru;;*);
+			    	[The noun can be used as any sentence part.](*<- lang_en;;*);;
+			*);;
+*);;
+
+noun <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: noun; grammatical_gender; foundation; ending; morphology;;
+		=> nrel_main_idtf: 
+            [Утв.(существительное,род,основа,окончание,морфология)] (* <- lang_ru;; *);
+            [Expl.(noun, grammatical gender, foundation, ending, morphology)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Морфологически род существительного определяется основой и окончанием.](*<- lang_ru;;*);
+			    	[Morphologically noun gender is defined by a foundation and the ending.](*<- lang_en;;*);;
+			*);;
+*);;
+
+noun <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: noun; grammatical_gender; adjective; syntax;;
+		=> nrel_main_idtf: 
+            [Утв.(существительное, род, прилагательное, синтаксис)] (* <- lang_ru;; *);
+            [Expl.(noun, grammatical gender, adjective, syntax)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Синтаксически род существительного определяется формой согласованного с ним прилагательного.](*<- lang_ru;;*);
+			    	[Syntactically noun gender is defined by a form of the adjective coordinated with it.](*<- lang_en;;*);;
+			*);;
+*);;
+
+noun -> rrel_example: ...
+    (*
         => nrel_main_idtf: 
-            [Утв.(русский язык, существительное, морфологический признак)] (* <- lang_ru;; *);
-            [Expl.(russian language, noun, morphological signs)] (* <- lang_eng;; *);;
-        <= nrel_sc_text_translation: ...
-        (*
-            -> rrel_example: 
-                [В русском языке все существительные имеют определенный морфологические признаки.](*<- lang_ru;;*);
-                [In russian language all nouns have defined morphological signs.](*<- lang_en;;*);;
-        *);;
-    *);
+            [слон](*<- lang_ru;;*);;
+    *);;
 
-      <=nrel_subdividing:
-    {
-        nrel_first_declension;
-        nrel_second_declension;
-        nrel_third_declension
-    };
+noun <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку значения](*<-lang_ru;; *);
+		[Subdividing based on value](*<-lang_en;; *);;
+	-> concrete_noun; abstract_noun; material_noun; collective_noun; singularity_noun; own_noun; common_noun; animated_noun; inanimate_noun;;
+*);
+<= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку склонения](*<-lang_ru;; *);
+		[Subdividing based on declension](*<-lang_en;; *);;
+	-> opposing_nouns;
+         indelible_nouns;;
+*);
+<= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку рода](*<-lang_ru;; *);
+		[Subdividing based on gender](*<-lang_en;; *);;
+	-> feminine_noun;
+         masculine_noun;
+         neutral_noun;
+         general_gender_noun;;
+*);
+ <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку падежа](*<-lang_ru;; *);
+		[Subdividing based on case](*<-lang_en;; *);;
+	-> nominative_noun;
+         genitive_noun;
+         dative_noun;
+         accusative_noun;
+         instrumental_noun;
+         prepositional_noun;
+         partitive_noun;
+         locative_noun;
+         vocative_noun;
+         calulative_noun;;
+*);
+ <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку числа](*<-lang_ru;; *);
+		[Subdividing based on number](*<-lang_en;; *);;
+	-> singular_noun;
+         plural_noun;
+         pair_number_noun;
+         collective_number_noun;;
+*);
 
-    <=nrel_subdividing:
-    {
-        nrel_feminine_gender;
-        nrel_musculine_gender;
-        nrel_neuter_gender
-    };
+ <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку способа образования:](*<-lang_ru;; *);
+		[Subdividing based on way of formation](*<-lang_en;; *);;
+	-> prefixal_noun;
+         suffixal_noun;
+         prefixal_suffixal_noun;
+         addition_type_noun;
+         reduction_noun;
+         substantivation_noun;
+         addition_suffixation_noun;;
+*);
 
-     <=nrel_subdividing:
-    {
-        nrel_animated_noun;
-        nrel_inanimate_noun
-    };
+ <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку акцентного типа](*<-lang_ru;; *);
+		[Subdividing based on accent type](*<-lang_en;; *);;
+	-> accent_type_A_noun;
+         accent_type_B_noun;
+         accent_type_Bf_noun;
+         accent_type_Bs_noun;
+         accent_type_C_noun;
+         accent_type_Cf_noun;
+         accent_type_D_noun;
+         accent_type_Df_noun;;
+*);
 
-     <=nrel_subdividing:
-    {
-       nrel_own_noun;
-       nrel_nominal_noun
-    };
-
-    <=nrel_subdividing:
-    {
-       nrel_nominative_case;
-       nrel_genitive_case;
-       nrel_dative_case;
-       nrel_accusative_case;
-       nrel_instrumental_case;
-       nrel_prepositional_case
-    };
-
-    <=nrel_subdividing:
-    {
-        nrel_singular_noun;
-        nrel_plural_noun
-    };;
-
-
-
-
+ <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку ударения](*<-lang_ru;; *);
+		[Subdividing based on accent](*<-lang_en;; *);;
+	-> constant_accent_noun;
+         mobile_accent_noun;;
+*);;

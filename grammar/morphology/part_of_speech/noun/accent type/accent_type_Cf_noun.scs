@@ -1,0 +1,32 @@
+accent_type_Cf_noun
+<-sc_node_not_relation;;
+accent_type_Cf_noun => nrel_main_idtf:
+	[существительное характеризующееся акцентным типом C1](* <-lang_ru;; *);
+    [the noun which is characterized by accent type C1](* <-lang_en;; *);;
+accent_type_Cf_noun <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: существительное характеризующееся акцентным типом C1] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: the noun which is characterized by accent type C1] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Существительное характеризующееся акцентным типом C1 - это существительное, с ударением на основе во всех формах единственного числа и в форме именительного-винительного падежа множественного числа, ударение на флексии в формах всех остальных падежей множественного числа. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The noun which is characterized by accent C1 type is a noun, with an accent on a basis in all forms of singular and in the form of an imenitelnogo-accusative case of plural, an accent on an inflection in forms of all other cases of plural.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> noun; accent; inflection; singular_noun; plural_noun; nominative_noun; basis; accusative_noun;;
+            *);;
+		*);;
+
+
+accent_type_Cf_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [зуб, зуба, зубу, зуб, зубом, (о) зубе; зубы, зубов, зубам, зубы, зубами, (о) зубах](*<- lang_ru;;*);;
+    *);;
+

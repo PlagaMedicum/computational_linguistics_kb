@@ -1,0 +1,26 @@
+minor_noun
+<-sc_node_not_relation;
+<-noun;;
+minor_noun => nrel_main_idtf:
+	[существительное-сказуемое](* <-lang_ru;; *);
+    [noun - minor member](* <-lang_en;; *);;
+minor_noun <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: существительное-сказуемое] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: noun - minor member] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Существительное-второстепенный член - существительное в форме косвенного падежа, управляется глаголом или именем.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The noun-minor member - a noun in the form of an oblique case, copes a verb or a name.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> noun; verb;;
+            *);;
+		*);;
+

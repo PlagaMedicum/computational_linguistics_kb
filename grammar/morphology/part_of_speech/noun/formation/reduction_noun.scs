@@ -1,0 +1,37 @@
+reduction_noun
+<-sc_node_not_relation;;
+reduction_noun => nrel_main_idtf:
+	[существительное образованное способом сокращения](* <-lang_ru;; *);
+    [the noun formed by way of reduction](* <-lang_en;; *);;
+reduction_noun <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: существительное образованное способом сокращения] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: the noun formed by way of reduction] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Существительное образованное способом сокращения - существительное, образованное сокращением исходной основы.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The noun formed by way of reduction - the noun formed by reduction of an initial basis.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> noun; basis;;
+            *);;
+		*);;
+
+
+reduction_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [БГУ](*<- lang_ru;;*);;
+    *);;
+
+reduction_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [спец](*<- lang_ru;;*);;
+    *);;

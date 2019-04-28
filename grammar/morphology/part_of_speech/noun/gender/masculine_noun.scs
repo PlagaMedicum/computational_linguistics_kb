@@ -1,0 +1,32 @@
+masculine_noun
+<-sc_node_not_relation;;
+masculine_noun => nrel_main_idtf:
+	[существительное мужского рода](* <-lang_ru;; *);
+    [masculine gender noun](* <-lang_en;; *);;
+masculine_noun <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: существительное мужского рода] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: masculine gender noun] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Существительное мужского рода - слово, способное обозначать существо мужского пола. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Noun of a masculine gender - the noun capable to designate a male being.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> noun;;
+            *);;
+		*);;
+
+
+masculine_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [телефон](*<- lang_ru;;*);;
+    *);;
+

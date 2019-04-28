@@ -1,0 +1,37 @@
+singular_noun
+<-sc_node_not_relation;;
+singular_noun => nrel_main_idtf:
+	[существительное единственного числа](* <-lang_ru;; *);
+    [singular noun](* <-lang_en;; *);;
+singular_noun <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: существительное единственного числа] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: singular noun] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Существительное единственного числа - существительное, которое обозначает один предмет. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Singular noun - a noun which designates one subject.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> noun;;
+            *);;
+		*);;
+
+
+singular_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [слон](*<- lang_ru;;*);;
+    *);;
+
+singular_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [телефон](*<- lang_ru;;*);;
+    *);;

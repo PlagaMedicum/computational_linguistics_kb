@@ -1,0 +1,31 @@
+semiaffixal_derivation
+<-sc_node_not_relation;;
+semiaffixal_derivation => nrel_main_idtf:
+	[полуаффиксальная модель словообразования](* <-lang_ru;; *);
+    [semi-affixal model of derivation](* <-lang_en;; *);;
+semiaffixal_derivation <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: полуаффиксальная модель словообразования] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: semi-affixal model of derivation] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Полуаффиксальное словообразование — образование новых слов (дериватов) от однокорневых слов, используя полуаффиксы.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Semi-affixal derivation — formation of new words (derivatives) from single-root words, using semi-affixes.](*<- lang_en;;*);;
+			*);;
+             <= nrel_using_constants: ...
+            (*
+                -> derivation; word; affix;;
+            *);;
+		*);;
+
+semiaffixal_derivation -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [голубовато-синий](*<- lang_ru;;*);;
+    *);;
+

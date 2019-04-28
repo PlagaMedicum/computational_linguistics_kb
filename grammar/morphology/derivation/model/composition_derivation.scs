@@ -1,0 +1,31 @@
+composition_derivation
+<-sc_node_not_relation;;
+composition_derivation => nrel_main_idtf:
+	[словосложение](* <-lang_ru;; *);
+    [composition](* <-lang_en;; *);;
+composition_derivation <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: словосложение] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: composition] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Словосложение — образование новых слов (дериватов) от однокорневых слов, способом сложения нескольких корней.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Composition — formation of new words (derivatives) from single-root words, way of addition of several roots.](*<- lang_en;;*);;
+			*);;
+             <= nrel_using_constants: ...
+            (*
+                -> derivation; word; root;;
+            *);;
+		*);;
+
+composition_derivation -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [паровоз](*<- lang_ru;;*);;
+    *);;
+

@@ -1,0 +1,50 @@
+derivation
+<-sc_node_not_relation;;
+derivation => nrel_main_idtf:
+	[словообразование](* <-lang_ru;; *);
+    [derivation](* <-lang_en;; *);;
+derivation <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: словообразование] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: derivation] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Словообразование — образование новых слов (дериватов) от однокорневых слов и возникшее в результате этого формально-семантическое соотношение между дериватом и его производящим словом.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Derivation — formation of new words (derivatives) from single-root words and the formal and semantic ratio which resulted from it between a derivative and his making word.](*<- lang_en;;*);;
+			*);;
+		*);;
+
+derivation -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [профессор → профессорский](*<- lang_ru;;*);;
+    *);;
+
+derivation -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [работа → работник](*<- lang_ru;;*);;
+    *);;
+
+derivation <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку модели словообразования](*<-lang_ru;; *);
+		[Subdividing based on derivation model](*<-lang_en;; *);;
+	-> affixal_derivation; semiaffixal_derivation; composition_derivation;;
+*);;
+
+derivation <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку типа](*<-lang_ru;; *);
+		[Subdividing based on type](*<-lang_en;; *);;
+	-> lexicon_semantic_derivation; lexicon_syntax_derivation; morphological_derivation; morphology_syntax_derivation;;
+*);;

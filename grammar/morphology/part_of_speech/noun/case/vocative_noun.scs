@@ -1,0 +1,51 @@
+vocative_noun
+<-sc_node_not_relation;;
+vocative_noun => nrel_main_idtf:
+	[существительное вокативного падежа](* <-lang_ru;; *);
+    [noun of a vocative case](* <-lang_en;; *);;
+vocative_noun<- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: существительное вокативного падежа] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: noun of a vocative case] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Существительное вокативного падежа - форма имени существительного, используемая для идентификации объекта к которому ведется обращение.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The noun of a vocative case - the noun form used for identification of an object to which is conducted the address.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> noun;;
+            *);;
+		*);;
+
+vocative_noun <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: vocative_noun;;
+		=> nrel_main_idtf: 
+            [Утв.(вокатив)] (* <- lang_ru;; *);
+            [Expl.(vocative)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[В современном русском языке вокативный падеж утрачен.](*<- lang_ru;;*);
+			    	[In modern Russian the vocative case is lost.](*<- lang_en;;*);;
+			*);;
+*);;
+
+vocative_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [боже](*<- lang_ru;;*);;
+    *);;
+
+vocative_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [старче](*<- lang_ru;;*);;
+    *);;

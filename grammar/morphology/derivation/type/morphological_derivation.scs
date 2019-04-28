@@ -1,0 +1,36 @@
+morphological_derivation
+<-sc_node_not_relation;;
+morphological_derivation => nrel_main_idtf:
+	[морфологическое словообразование](* <-lang_ru;; *);
+    [morphological derivation](* <-lang_en;; *);;
+morphological_derivation <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: морфологическое словообразование] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: morphological derivation] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Тип словообразования, при котором новое слово создается на базе имеющегося в языке строительного материала путем закономерного сочетания морфем в слове.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Type of derivation at which the new word is created on the basis of the construction material which is available in language by a natural combination of morphemes in a word.](*<- lang_en;;*);;
+			*);;
+             <= nrel_using_constants: ...
+            (*
+                -> derivation; word; morpheme;;
+            *);;
+		*);;
+
+morphological_derivation -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [теплоход (образовано сложением)](*<- lang_ru;;*);;
+    *);;
+morphological_derivation -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [земляк (образовано аффиксацией)](*<- lang_ru;;*);;
+    *);;
+

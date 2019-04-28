@@ -1,0 +1,51 @@
+partitive_noun
+<-sc_node_not_relation;;
+partitive_noun => nrel_main_idtf:
+	[существительное партитивного падежа](* <-lang_ru;; *);
+    [noun of a partitive case](* <-lang_en;; *);;
+partitive_noun <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: существительное партитивного падежа] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: noun of a partitive case] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Существительное партитивного падежа - это форма склонения существительного использующаяся для обозначения свойства «частичности».](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The noun of a partitive case is the form of inducement of a noun which is used for designation of property of "incompleteness".](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> noun;;
+            *);;
+		*);;
+
+partitive_noun <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: partitive_noun; word;;
+		=> nrel_main_idtf: 
+            [Утв.(партитив, слово)] (* <- lang_ru;; *);
+            [Expl.(partitive, word)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[В русском языке партитив имеет ограниченное число слов. ](*<- lang_ru;;*);
+			    	[In Russian partitive has limited number of words.](*<- lang_en;;*);;
+			*);;
+*);;
+
+partitive_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [сахару](*<- lang_ru;;*);;
+    *);;
+
+partitive_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [чаю](*<- lang_ru;;*);;
+    *);;

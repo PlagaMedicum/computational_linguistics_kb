@@ -1,0 +1,51 @@
+locative_noun
+<-sc_node_not_relation;;
+locative_noun => nrel_main_idtf:
+	[существительное локативного падежа](* <-lang_ru;; *);
+    [noun of a locative case](* <-lang_en;; *);;
+locative_noun <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: существительное локативного падежа] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: noun of a locative case] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Существительное локативного падежа - это существительное показывающее местонахождение предмета.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The noun of a locative case is a noun the showing location of a subject.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> noun;;
+            *);;
+		*);;
+
+locative_noun <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: locative_noun; plural_noun; prepositional_noun;;
+		=> nrel_main_idtf: 
+            [Утв.(локатив, множественное число, предложный падеж)] (* <- lang_ru;; *);
+            [Expl.(locative, plural, prepositional case)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Форма локативного падежа совпадает во множественном числе с предложным падежом. ](*<- lang_ru;;*);
+			    	[The form of a locative case coincides in plural with a prepositional case.](*<- lang_en;;*);;
+			*);;
+*);;
+
+locative_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [в лесу](*<- lang_ru;;*);;
+    *);;
+
+locative_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [в снегах](*<- lang_ru;;*);;
+    *);;

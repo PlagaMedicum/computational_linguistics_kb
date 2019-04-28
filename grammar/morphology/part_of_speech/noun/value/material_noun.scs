@@ -1,0 +1,51 @@
+material_noun
+<-sc_node_not_relation;;
+material_noun => nrel_main_idtf:
+	[вещественное существительное](* <-lang_ru;; *);
+    [material noun](* <-lang_en;; *);;
+material_noun <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: вещественное существительное] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: material noun] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Вещественное существительное - существительное, которое обозначает однородные по составу вещества.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Material noun - a noun which designates substances, uniform in structure.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> noun;;
+            *);;
+		*);;
+
+material_noun <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: material_noun; singular_noun; plural_noun;;
+		=> nrel_main_idtf: 
+            [Утв.(вещественное существительное, единственное число, множественное число)] (* <- lang_ru;; *);
+            [Expl.(material noun, singular, plural)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Вещественные существительные имеют форму единственного числа и не имеют формы множественного числа.](*<- lang_ru;;*);
+			    	[Material nouns have the form of singular and have no plural form.](*<- lang_en;;*);;
+			*);;
+*);;
+
+material_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [железо](*<- lang_ru;;*);;
+    *);;
+
+material_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [нефть](*<- lang_ru;;*);;
+    *);;

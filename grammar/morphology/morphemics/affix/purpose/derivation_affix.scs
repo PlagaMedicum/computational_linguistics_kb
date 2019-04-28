@@ -1,0 +1,26 @@
+derivation_affix
+<-sc_node_not_relation;;
+derivation_affix => nrel_main_idtf:
+    [словообразовательный аффикс](* <-lang_ru;; *);
+    [derivation affix](* <-lang_en;; *);;
+derivation_affix <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: словообразовательный аффикс] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: derivation affix] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Словообразовательный аффикс — морфема, образующая от известных корней новые лексические единицы, т.е. новые детали речи. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Derivation affix — the morpheme forming new lexical units, i.e. new details of the speech from the known roots.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> derivation; root; morpheme;;
+            *);;
+		*);;
+
+

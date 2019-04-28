@@ -1,0 +1,51 @@
+calulative_noun
+<-sc_node_not_relation;;
+calulative_noun => nrel_main_idtf:
+	[существительное в падеже особой «счётной формы»](* <-lang_ru;; *);
+    [noun in a case of a special "calculating form"](* <-lang_en;; *);;
+calulative_noun <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: существительное в падеже особой «счётной формы»] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: noun in a case of a special "calculating form"] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Существительное в падеже особой «счётной формы» - это особая форма множественного числа существительного, употребляемая в сочетании с численными обозначениями количества чего-либо. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The noun in a case of a special "calculating form" is the special form of plural of a noun used in combination with numerical designations of quantity something.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> noun; plural_noun;;
+            *);;
+		*);;
+
+calulative_noun <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: calulative_noun; word;;
+		=> nrel_main_idtf: 
+            [Утв.(существительное в падеже особой «счётной формы», слово)] (* <- lang_ru;; *);
+            [Expl.(noun in a case of a special "calculating form", word)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Существуют слова для которых нет счётной формы.](*<- lang_ru;;*);
+			    	[There are words for which there is no calculating form.](*<- lang_en;;*);;
+			*);;
+*);;
+
+calulative_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [8 бит](*<- lang_ru;;*);;
+    *);;
+
+calulative_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [256 байт](*<- lang_ru;;*);;
+    *);;

@@ -1,0 +1,36 @@
+root_morph
+<-sc_node_not_relation;;
+root_morph => nrel_main_idtf:
+	[корневой морф](* <-lang_ru;; *);
+    [root morph](* <-lang_en;; *);;
+root_morph <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: корневой морф] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: root morph] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Морф, обязательно наличествующий в каждой словоформе и заключающий в себе основной элемент лексического значения слова. Корневой морф может полностью материально совпадать с основой. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The morph which is surely present at each word form and comprising a basic element of a lexical meaning of a word. The root morph can coincide with a basis completely financially.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> word_form; word; morph; basis;;
+            *);;
+		*);;
+
+root_morph -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [рука (морф рук-)](*<- lang_ru;;*);;
+    *);;
+
+root_morph -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [ручка (морф руч-)](*<- lang_ru;;*);;
+    *);;

@@ -1,0 +1,41 @@
+mobile_accent_noun
+<-sc_node_not_relation;;
+mobile_accent_noun => nrel_main_idtf:
+	[существительное с подвижным ударением](* <-lang_ru;; *);
+    [noun with a mobile accent](* <-lang_en;; *);;
+mobile_accent_noun <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: существительное с подвижным ударением] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: noun with a mobile accent] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Существительное с подвижным ударением - существительное, ударение в котором меняет свое место при склонении.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Noun with a mobile accent - a noun in which accent changes the place at inducement.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> noun; accent; declension;;
+            *);;
+		*);;
+
+declension => nrel_main_idtf:
+	[склонение](* <-lang_ru;; *);
+    [declension](* <-lang_en;; *);;
+
+mobile_accent_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [холод](*<- lang_ru;;*);;
+    *);;
+
+mobile_accent_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [место](*<- lang_ru;;*);;
+    *);;
+

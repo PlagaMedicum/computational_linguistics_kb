@@ -1,0 +1,80 @@
+collective_noun
+<-sc_node_not_relation;;
+collective_noun => nrel_main_idtf:
+	[собирательное существительное](* <-lang_ru;; *);
+    [collective noun](* <-lang_en;; *);;
+collective_noun <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: собирательное существительное] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: collective noun] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Собирательное существительное - существительное , которое обозначает совокупность лиц или предметов как неделимое целое. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Collective noun - a noun which designates set of persons or objects as an integrated whole.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> noun;;
+            *);;
+		*);;
+
+collective_noun <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: collective_noun; singular_noun;;
+		=> nrel_main_idtf: 
+            [Утв.(собирательное существительное, единственное число)] (* <- lang_ru;; *);
+            [Expl.(collective noun, singular)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Собирательные существительные употребляются только в единственном числе.](*<- lang_ru;;*);
+			    	[Collective nouns are used only in singular.](*<- lang_en;;*);;
+			*);;
+*);;
+
+collective_noun <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: collective_noun; singularity_noun;;
+		=> nrel_main_idtf: 
+            [Утв.(собирательное существительное, единичное существительное)] (* <- lang_ru;; *);
+            [Expl.(collective noun, single noun)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Собирательные существительные соотносится с единичным существительным.](*<- lang_ru;;*);
+			    	[Collective nouns corresponds to a single noun.](*<- lang_en;;*);;
+			*);;
+*);;
+
+collective_noun <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: collective_noun; cardinal_numbers;;
+		=> nrel_main_idtf: 
+            [Утв.(собирательное существительное, колличественное числительное)] (* <- lang_ru;; *);
+            [Expl.(collective noun, cardinal number)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Собирательные существительные не могут сочетаться с колличественными числительными. ](*<- lang_ru;;*);
+			    	[Collective nouns cannot be combined with cardinal numbers.](*<- lang_en;;*);;
+			*);;
+*);;
+collective_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [белье](*<- lang_ru;;*);;
+    *);;
+
+collective_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [дурачье](*<- lang_ru;;*);;
+    *);;

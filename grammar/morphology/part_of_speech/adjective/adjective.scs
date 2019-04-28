@@ -36,8 +36,8 @@ adjective
     <- rrel_key_sc_element: ...
     (*
         <- explanation;;
-        <- genus;;
-        <- case;;
+        <- grammatical_gender;;
+        <- grammatical_case;;
         <- number;;
         => nrel_main_idtf: 
             [Утв.(прилагательное, род*, падеж*, число*)] (* <- lang_ru;; *);
@@ -50,10 +50,80 @@ adjective
         *);;
     *);
 
-    <=nrel_subdividing:
-    {
-        quality_adjective;
-        relative_adjective;
-        possessive_adjective
-    };;
+<= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку значения](*<-lang_ru;; *);
+		[Subdividing based on value](*<-lang_en;; *);;
+	-> quality_adjective;
+         possessive_adjective;
+         relative_adjective;;
+*);
+
+<= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку рода](*<-lang_ru;; *);
+		[Subdividing based on gender](*<-lang_en;; *);;
+	-> feminine_adjective;
+         masculine_adjective;
+         neutral_adjective;;
+*);
+
+<= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку падежа](*<-lang_ru;; *);
+		[Subdividing based on case](*<-lang_en;; *);;
+	-> nominative_adjective;
+         genitive_adjective;
+         dative_adjective;
+         accusative_adjective;
+         instrumental_adjective;
+         prepositional_adjective;;
+*);
+<= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку способа образования:](*<-lang_ru;; *);
+		[Subdividing based on way of formation](*<-lang_en;; *);;
+	-> prefixal_adjective;
+         suffixal_adjective;
+         prefixal_suffixal_adjective;
+         addition_type_adjective;;
+*);
+
+<= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку склонения](*<-lang_ru;; *);
+		[Subdividing based on declension](*<-lang_en;; *);;
+	-> firm_adjective;
+         soft_adjective;
+         mixed_adjective;;
+*);
+
+<= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку числа](*<-lang_ru;; *);
+		[Subdividing based on number](*<-lang_en;; *);;
+	-> singular_adjective;
+         plural_adjective;;
+*);
+<= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку степени сравнения](*<-lang_ru;; *);
+		[Subdividing based on degree of comparison](*<-lang_en;; *);;
+	-> comparative_adjective;
+         superlative_adjective;;
+*);;
 

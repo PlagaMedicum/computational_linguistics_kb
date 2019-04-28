@@ -1,0 +1,31 @@
+compound_superlative_adjective
+<-sc_node_not_relation;;
+compound_superlative_adjective => nrel_main_idtf:
+	[составная превосходная степень прилагательного](* <-lang_ru;; *);
+    [compound superlative degree of an adjective](* <-lang_en;; *);;
+compound_superlative_adjective <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: составная превосходная степень прилагательного] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: compound superlative degree of an adjective] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Составная превосходная степень сравнения прилагательных обозначает как наибольшую, так и наименьшую степень проявления признака и образуется тремя способами: 1) элемент самый + положительная степень, 2) элемент наиболее / наименее + положительная степень, 3) простая сравнительная степень + элемент всего / всех. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The compound superlative degree of comparison of adjectives designates both the greatest, and smallest extent of manifestation of sign and is formed in three ways: 1) element + the most positive degree, 2) element the most / least + positive degree, 3) simple comparative degree + element of all all.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> adjective; superlative_adjective;;
+            *);;
+		*);;
+
+compound_superlative_adjective -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [наименее умный](*<- lang_ru;;*);;
+    *);;
+

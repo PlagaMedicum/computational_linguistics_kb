@@ -1,0 +1,65 @@
+affix
+<-sc_node_not_relation;;
+affix => nrel_main_idtf:
+    [аффикс](* <-lang_ru;; *);
+    [affix](* <-lang_en;; *);;
+affix <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: аффикс] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: affix] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Аффикс — морфема, которая присоединяется к корню и служит для образования слов.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Affix — a morpheme which joins a root and serves for word formation.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> derivation; root; morpheme;;
+            *);;
+		*);;
+
+affix -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [пре-, до-, пере-](*<- lang_ru;;*);;
+    *);;
+
+affix -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [-а-, -н-, -еск-](*<- lang_ru;;*);;
+    *);;
+
+affix <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку морфологического предназначения: ](*<-lang_ru;; *);
+		[Subdividing based on morphological purpose:](*<-lang_en;; *);;
+	-> derivation_affix; form_building_affix;;
+*);;
+
+affix <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку положения относительно корня:](*<-lang_ru;; *);
+		[Subdividing based on provisions concerning a root:](*<-lang_en;; *);;
+	-> prefix; postfix; interfix; circumfix; infix; transfix;;
+*);;
+
+affix <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку семантического значения:](*<-lang_ru;; *);
+		[Subdividing based on semantic value:](*<-lang_en;; *);;
+	-> usual_affix; inflection;;
+*);;
+
+

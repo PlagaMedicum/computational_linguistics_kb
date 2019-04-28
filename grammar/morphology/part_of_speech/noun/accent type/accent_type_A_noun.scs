@@ -1,0 +1,32 @@
+accent_type_A_noun
+<-sc_node_not_relation;;
+accent_type_A_noun => nrel_main_idtf:
+	[существительное характеризующееся акцентным типом A](* <-lang_ru;; *);
+    [the noun which is characterized by accent type A](* <-lang_en;; *);;
+accent_type_A_noun <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: существительное характеризующееся акцентным типом A] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: the noun which is characterized by accent type A] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Существительное характеризующееся акцентным типом A - это существительное, с неподвижным ударением на одном и том же слоге основы во всех формах.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The noun which is characterized by accent type A is a noun, with a motionless accent on the same syllable of a basis in all forms.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> noun; accent; syllable; basis;;
+            *);;
+		*);;
+
+
+accent_type_A_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [знак, знака, знаку, знак, знаком](*<- lang_ru;;*);;
+    *);;
+

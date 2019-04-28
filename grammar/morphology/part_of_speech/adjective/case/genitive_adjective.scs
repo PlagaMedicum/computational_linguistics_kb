@@ -1,0 +1,32 @@
+genitive_adjective
+<-sc_node_not_relation;;
+genitive_adjective => nrel_main_idtf:
+	[прилагательное родительного падежа](* <-lang_ru;; *);
+    [genitive case adjective](* <-lang_en;; *);;
+genitive_adjective <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: прилагательное родительного падежа] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: genitive case adjective] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Прилагательное родительного падежа - прилагательное, у которого существительное, от которого оно зависит, стоит в родительном падеже. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The adjective of a genitive case - an adjective which has a noun on which it depends costs in a genitive case.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> adjective; noun;;
+            *);;
+		*);;
+
+
+genitive_adjective -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [красного платья](*<- lang_ru;;*);;
+    *);;
+

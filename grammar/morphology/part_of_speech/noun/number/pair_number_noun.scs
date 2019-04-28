@@ -1,0 +1,37 @@
+pair_number_noun
+<-sc_node_not_relation;;
+pair_number_noun => nrel_main_idtf:
+	[существительное парного числа](* <-lang_ru;; *);
+    [pair number noun](* <-lang_en;; *);;
+pair_number_noun <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: существительное парного числа] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: pair number noun] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Существительное парного числа - существительное, которое обозначает два предмета. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Pair number noun - a noun which designates two subjects.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> noun;;
+            *);;
+		*);;
+
+
+pair_number_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [берега](*<- lang_ru;;*);;
+    *);;
+
+pair_number_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [плечи](*<- lang_ru;;*);;
+    *);;

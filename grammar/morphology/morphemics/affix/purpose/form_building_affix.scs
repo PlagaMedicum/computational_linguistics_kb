@@ -1,0 +1,26 @@
+form_building_affix
+<-sc_node_not_relation;;
+form_building_affix => nrel_main_idtf:
+    [формообразовательный аффикс](* <-lang_ru;; *);
+    [form-building affix](* <-lang_en;; *);;
+form_building_affix <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: формообразовательный аффикс] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: form-building affix] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Формообразовательный аффикс — морфема, образующая от известных корней новые новые формы слов.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Form-building affix — the morpheme forming new new forms of words from the known roots.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> derivation; root; morpheme; word_form;;
+            *);;
+		*);;
+
+

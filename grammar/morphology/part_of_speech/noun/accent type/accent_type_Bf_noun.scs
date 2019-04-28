@@ -1,0 +1,32 @@
+accent_type_Bf_noun
+<-sc_node_not_relation;;
+accent_type_Bf_noun => nrel_main_idtf:
+	[существительное характеризующееся акцентным типом B1](* <-lang_ru;; *);
+    [the noun which is characterized by accent type B1](* <-lang_en;; *);;
+accent_type_Bf_noun <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: существительное характеризующееся акцентным типом B1] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: the noun which is characterized by accent type B1] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Существительное характеризующееся акцентным типом B1 - это существительное, с ударением на флексии во всех формах единственного и множественного числа, кроме формы именительного падежа множественного числа, в которой ударение на основе.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The noun which is characterized by accent B1 type is a noun, with an accent on an inflection in all forms of the only thing and plural, except plural Nominative case form in which an accent on a basis.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> noun; accent; inflection; singular_noun; plural_noun; nominative_noun; basis;;
+            *);;
+		*);;
+
+
+accent_type_Bf_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [конь, коня, коню, коня, конём, (о) коне; кони, коней, коням, коней, конями, (о) конях](*<- lang_ru;;*);;
+    *);;
+

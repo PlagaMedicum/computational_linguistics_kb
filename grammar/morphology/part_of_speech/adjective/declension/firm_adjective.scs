@@ -1,0 +1,32 @@
+firm_adjective
+<-sc_node_not_relation;;
+firm_adjective => nrel_main_idtf:
+	[твердое склонение прилагательных](* <-lang_ru;; *);
+    [firm declension of adjectives](* <-lang_en;; *);;
+firm_adjective <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: твердое склонение прилагательных] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: firm declension of adjectives] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Прилагательное с основой на ж, ш, ц.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Adjective with a basis on ж, ш, ц.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> adjective; basis;;
+            *);;
+		*);;
+
+
+firm_adjective -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [светло-серый](*<- lang_ru;;*);;
+    *);;
+

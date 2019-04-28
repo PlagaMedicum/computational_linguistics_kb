@@ -1,0 +1,32 @@
+neutral_noun
+<-sc_node_not_relation;;
+neutral_noun => nrel_main_idtf:
+	[существительное среднего рода](* <-lang_ru;; *);
+    [neutral gender noun](* <-lang_en;; *);;
+neutral_noun <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: существительное среднего рода] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: neutral gender noun] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Существительное среднего рода - существительные с окончанием -о (-е), -я в именительном падеже единственного числа.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Noun of a neutral gender - nouns with the termination -о (-е), -я in singular nominative case.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> noun;;
+            *);;
+		*);;
+
+
+neutral_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [время](*<- lang_ru;;*);;
+    *);;
+

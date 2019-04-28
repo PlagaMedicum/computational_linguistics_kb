@@ -24,8 +24,6 @@ binary_relation
 binary_relation
  => nrel_measurement: 2;;
 
-sc_node_not_relation
-->morpheme(*=> nrel_main_idtf: [морфема] (* <- lang_ru;; *);;*);;
 
 nrel_omomorpheme
 => nrel_definitional_domain: morpheme;

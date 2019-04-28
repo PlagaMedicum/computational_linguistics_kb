@@ -13,11 +13,10 @@ independent_part_of_speech
 independent_part_of_speech
 <= nrel_subdividing: ...
 (*
-  -> noun(*=> nrel_main_idtf: [имя существительное] (* <- lang_ru;; *);;*);;
+  -> noun;;
  -> verb;;
- ->adjective(*=> nrel_main_idtf: [имя прилагательное] (* <- lang_ru;; *);;*);;
+ ->adjective;;
  ->numeral;;
-
  ->pronoun;;
  ->adverb;;
 

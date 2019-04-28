@@ -1,0 +1,39 @@
+superlative_adjective
+<-sc_node_not_relation;;
+superlative_adjective => nrel_main_idtf:
+	[превосходная степень прилагательного](* <-lang_ru;; *);
+    [superlative degree of an adjective](* <-lang_en;; *);;
+superlative_adjective <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: превосходная степень прилагательного] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: superlative degree of an adjective] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Прилагательное в превосходной степени указывает на самую высокую степень качества в предмете по сравнению с теми же качествами в других подобных предметах. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The adjective in a superlative degree indicates the highest degree of quality in a subject in comparison with the same qualities in other similar objects.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> adjective;;
+            *);;
+		*);;
+
+superlative_adjective -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [самый заметный](*<- lang_ru;;*);;
+    *);;
+
+superlative_adjective <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку типа](*<-lang_ru;; *);
+		[Subdividing based on type](*<-lang_en;; *);;
+	-> simple_superlative_adjective; compound_superlative_adjective;;
+*);;

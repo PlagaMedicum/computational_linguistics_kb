@@ -1,0 +1,26 @@
+inflection
+<-sc_node_not_relation;;
+inflection => nrel_main_idtf:
+    [флексия](* <-lang_ru;; *);
+    [inflection](* <-lang_en;; *);;
+inflection <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: флексия] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: inflection] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Флексия — аффикс, передающий реляционное(указывающее на связь с другими членами предложения) значение слова.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Inflection — the affix transferring relational (pointing to communication with other sentence parts) a word meaning.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> affix;;
+            *);;
+		*);;
+
+

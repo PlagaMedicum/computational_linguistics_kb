@@ -1,0 +1,81 @@
+plural_noun
+<-sc_node_not_relation;;
+plural_noun => nrel_main_idtf:
+	[существительное множественного числа](* <-lang_ru;; *);
+    [plural noun](* <-lang_en;; *);;
+plural_noun <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: существительное множественного числа] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: plural noun] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Существительное множественного числа - существительное, которое обозначает несколько предметов. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Plural noun - a noun which designates several objects.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> noun;;
+            *);;
+		*);;
+
+plural_noun <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: plural_noun;;
+		=> nrel_main_idtf: 
+            [Утв.(множественное число)] (* <- lang_ru;; *);
+            [Expl.(plural)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Названия парных предметов имеют только множественное число.](*<- lang_ru;;*);
+			    	[Names of pair objects have only plural.](*<- lang_en;;*);;
+			*);;
+*);;
+
+plural_noun <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: plural_noun; word;;
+		=> nrel_main_idtf: 
+            [Утв.(множественное число, слово)] (* <- lang_ru;; *);
+            [Expl.(plural,word)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Слова, обозначающие временные промежутки, имеют только множественное число. ](*<- lang_ru;;*);
+			    	[The words designating periods of time have only plural.](*<- lang_en;;*);;
+			*);;
+*);;
+
+plural_noun <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: plural_noun; noun;;
+		=> nrel_main_idtf: 
+            [Утв.(множественное число, существительное)] (* <- lang_ru;; *);
+            [Expl.(plural, noun)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Существительные, называющие какую-либо массу вещества, имеют только множественное число. ](*<- lang_ru;;*);
+			    	[The nouns calling any mass of substance have only plural.](*<- lang_en;;*);;
+			*);;
+*);;
+
+plural_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [магазины](*<- lang_ru;;*);;
+    *);;
+
+plural_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [карандаши](*<- lang_ru;;*);;
+    *);;

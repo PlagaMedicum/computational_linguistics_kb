@@ -54,7 +54,7 @@ definition -> ...
       <= nrel_sc_text_translation: ...(* ->[Префиксация - это присоединение приставок к корням и основам как способ словообразования и формообразования.] (* <- lang_ru;; *);;*);;
       <= nrel_using_constants: ...
 			      (*
-				 ->word_formation;;
+				 ->derivation;;
                                  ->shaping;;
 				->foundation;;
 				->root;;

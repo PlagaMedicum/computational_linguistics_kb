@@ -1,0 +1,39 @@
+interfix
+<-sc_node_not_relation;;
+interfix => nrel_main_idtf:
+    [интерфикс](* <-lang_ru;; *);
+    [interfix](* <-lang_en;; *);;
+interfix <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: интерфикс] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: interfix] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Интерфикс — соединительный словообразовательный аффикс, который выделяется составе сложных слов, где используются два и более корня. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Interfix — a connecting word-formation affix which is allocated structure of compound words where two and more roots are used.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> root; form_building_affix;;
+            *);;
+		*);;
+
+interfix -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [пар-о-воз](*<- lang_ru;;*);;
+    *);;
+
+interfix -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [птиц-е-вод](*<- lang_ru;;*);;
+    *);;
+
+
+

@@ -1,0 +1,31 @@
+compound_comparative_adjective
+<-sc_node_not_relation;;
+compound_comparative_adjective => nrel_main_idtf:
+	[составная сравнительная степень прилагательного](* <-lang_ru;; *);
+    [compound comparative degree of an adjective](* <-lang_en;; *);;
+compound_comparative_adjective <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: составная сравнительная степень прилагательного] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: compound comparative degree of an adjective] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Составная сравнительная степень обозначает как бoльшую, так и меньшую степень проявления признака и образуется следующим образом: элемент более/менее + положительная степень.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Compound comparative degree designates both big, and smaller extent of manifestation of sign and is formed as follows: element more or less + positive degree.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> adjective; comparative_adjective;;
+            *);;
+		*);;
+
+compound_comparative_adjective -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [более высокий](*<- lang_ru;;*);;
+    *);;
+

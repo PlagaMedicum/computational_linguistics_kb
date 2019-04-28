@@ -1,0 +1,32 @@
+accent_type_D_noun
+<-sc_node_not_relation;;
+accent_type_D_noun => nrel_main_idtf:
+	[существительное характеризующееся акцентным типом D](* <-lang_ru;; *);
+    [the noun which is characterized by accent type D](* <-lang_en;; *);;
+accent_type_D_noun <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: существительное характеризующееся акцентным типом D] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: the noun which is characterized by accent type D] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Существительное характеризующееся акцентным типом D - это существительное, с ударением на флексии во всех формах единственного числа и ударением на основе - во всех формах множественного числа. ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The noun which is characterized by accent type D is a noun, with an accent on an inflection in all forms of singular and an accent on a basis - in all forms of plural.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*
+                -> noun; accent; inflection; singular_noun; plural_noun; basis;;
+            *);;
+		*);;
+
+
+accent_type_D_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [труба, трубы, трубе, трубу, трубой, (о) трубе; трубы, труб, трубам, трубы, трубами, (о) трубах](*<- lang_ru;;*);;
+    *);;
+
