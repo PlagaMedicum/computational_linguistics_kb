@@ -1,0 +1,31 @@
+nrel_disproportionate_antonyms
+
+<-sc_node_norole_relation;;
+
+
+nrel_disproportionate_antonyms=>nrel_main_idtf:
+  [ несоразмерный антоним* ](* <-lang_ru;; *);
+  [ disproportionate antonyms* ](* <-lang_en;; *);;
+
+
+nrel_disproportionate_antonyms <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [ Определение: несоразмерный антоним* ] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: disproportionate antonyms* ] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                
+                ->[Несоразмерные антонимы - это  слова,выражающие действие и отсутствие действия](*<- lang_ru;;*);;
+                ->[Disproportionate antonyms are words expressing action and lack of action.](*<- lang_en;;*);;//google translate 
+            *);;
+        
+            <= nrel_using_constants: ...
+            (*
+                -> word;;
+                -> action;;
+            *);;
+        *);;
+

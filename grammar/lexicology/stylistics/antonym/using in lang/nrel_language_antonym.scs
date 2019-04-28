@@ -1,0 +1,30 @@
+//linguistic antonym??
+nrel_language_antonym
+<-sc_node_norole_relation;;
+
+
+nrel_language_antonym=>nrel_main_idtf:
+  [ языковой антоним* ](* <-lang_ru;; *);
+  [ language antonym* ](* <-lang_en;; *);;
+
+
+nrel_language_antonym <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [ Определение: языковой антоним* ] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: language antonym* ] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                
+                ->[Языковые антонимы - это  антонимы, существующие в системе языка](*<- lang_ru;;*);;
+                ->[Language antonyms are antonyms that exist in the language system.](*<- lang_en;;*);;//google translate 
+            *);;
+        
+            <= nrel_using_constants: ...
+            (*
+                -> nrel_antonym;;
+                ->language;;
+            *);;
+        *);;

@@ -1,0 +1,31 @@
+nrel_contralateral_correlate//контрарные корреляты
+<- sc_node_norole_relation;;
+
+nrel_contralateral_correlate=>nrel_main_idtf:
+  [ контрарный коррелят* ](* <-lang_ru;; *);
+  [ contralateral correlate* ](* <-lang_en;; *);;
+
+ 
+nrel_contralateral_correlate <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [ Определение: контрарный коррелят* ] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: contralateral correlate* ] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                
+                ->[контрарные корреляты — антонимы, выражающие полярные противоположности внутри одной сущности при наличии переходных звеньев — 
+                внутренней градации; они находятся в отношении градуальной оппозиции.](*<- lang_ru;;*);;
+                ->[contralateral correlates — antonyms, expressing polar opposites within one entity in the presence of transitional 
+                links — internal gradation; they are in relation to the gradual opposition.](*<- lang_en;;*);;//google translate 
+            *);;
+        
+            <= nrel_using_constants: ...
+            (*
+                -> nrel_antonym;;
+                //-> sound;;
+                //-> unchangeable_word;;
+            *);;
+        *);;

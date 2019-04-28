@@ -1,0 +1,30 @@
+nrel_contradictory_correlate//контрадикторные корреляты
+<- sc_node_norole_relation;;
+
+
+nrel_contradictory_correlate=>nrel_main_idtf:
+  [ контрадикторнный коррелят* ](* <-lang_ru;; *);
+  [ contradictory correlate* ](* <-lang_en;; *);;
+ 
+nrel_contradictory_correlate <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [ Определение: контрадикторнный коррелят* ] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: contradictory correlate* ] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                
+                ->[Контрадикторные корреляты — такие противоположности, которые взаимно дополняют друг друга до целого, без переходных звеньев; 
+                они находятся в отношении привативной оппозиции.](*<- lang_ru;;*);;
+                ->[Contradictory correlates are opposites that complement each other to the whole, without transitional links; they are in the attitude of privative opposition.](*<- lang_en;;*);;//google translate 
+            *);;
+        
+            /*<= nrel_using_constants: ...
+            (*
+                -> part_of_speech;;
+                //-> sound;;
+                //-> unchangeable_word;;
+            *);;*/
+        *);;

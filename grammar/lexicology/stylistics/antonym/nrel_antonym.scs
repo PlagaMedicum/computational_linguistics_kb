@@ -1,0 +1,93 @@
+nrel_antonym
+<- sc_node_norole_relation;;
+
+nrel_antonym=>nrel_main_idtf:
+  [ антоним* ](* <-lang_ru;; *);
+  [ antonym* ](* <-lang_en;; *);;
+
+
+nrel_antonym <- antireflexive_relation;;
+nrel_antonym <- symmetric_relation;;
+nrel_antonym <- non_oriented_relation;;
+nrel_antonym <- antitransitive_relation;;
+nrel_antonym <- binary_relation;;
+nrel_antonym => nrel_first_domain: word;;
+nrel_antonym => nrel_second_domain: word;;
+
+
+
+nrel_antonym <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку существования в языке: ](*<-lang_ru;; *);
+		[Subdividing based on existence in the language:](*<-lang_en;; *);;
+	-> nrel_language_antonym;;
+    -> nrel_context_antonym;;
+*);;
+
+nrel_antonym <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку структуры: ](*<-lang_ru;; *);
+		[Subdividing based on structure:](*<-lang_en;; *);;
+	-> nrel_single_root_antonyms;;
+    -> nrel_different_root_antonyms;;
+*);;
+
+
+nrel_antonym <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку действия: ](*<-lang_ru;; *);
+		[Subdividing based on action:](*<-lang_en;; *);;
+	-> nrel_proportional_antonyms;;
+    -> nrel_disproportionate_antonyms;;
+*);;
+
+nrel_antonym <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку выражаемых понятий: ](*<-lang_ru;; *);
+		[Subdividing based on  the expressed concepts:](*<-lang_en;; *);;
+	
+    -> nrel_contradictory_correlate;;
+    -> nrel_contralateral_correlate;;
+    -> nrel_vector_correlate;;
+    -> nrel_converse;;
+    -> nrel_enantiosemy;;
+    -> nrel_pragmatic_antonym;;
+*);;
+
+
+nrel_antonym -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [добрый - злой ](*<- lang_ru;;*);;
+    *);;
+
+
+nrel_antonym <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [ Определение: антоним* ] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: antonym* ] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                
+                ->[Антонимы - это слова одной части речи, различные по звучанию и написанию, имеющие прямо противоположные лексические значения](*<- lang_ru;;*);;
+                ->[Antonyms are words of one part of speech, different in sound and spelling, having directly opposite lexical meanings.](*<- lang_en;;*);;//google translate 
+            *);;
+        
+            <= nrel_using_constants: ...
+            (*
+                ->word;;
+                ->part_of_speech;;
+                ->sound;;
+            *);;
+        *);;
