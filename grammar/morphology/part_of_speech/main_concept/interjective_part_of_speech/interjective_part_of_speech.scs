@@ -1,0 +1,39 @@
+interjective_part_of_speech
+<- sc_node_norole_relation;;
+
+interjective_part_of_speech=>nrel_idtf:
+[множество интеръективных частей речи](* <-lang_ru;; *);
+[множество служебно-самостоятельных частей речи](* <-lang_ru;; *);
+[служебно-самостоятельные части речи](* <-lang_ru;; *);;
+
+interjective_part_of_speech=>nrel_main_idtf:
+    [интеръективная часть речи](* <-lang_ru;; *);
+    [interjective part of speech](* <-lang_en;; *);;
+
+interjective_part_of_speech <= nrel_subdividing: ...
+(*
+ -> interjection;;
+ -> onomatopoeic_words;;
+*);;
+
+interjective_part_of_speech  <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: интеръективная часть речи] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: interjective part of speech] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                
+                ->[интеръективная часть речи - особая группа слов, которая не относится ни к самостоятельным частям речи, ни к служебным.](*<- lang_ru;;*);;
+                ->[interjective part of speech - a special group of words that does not apply to either independent parts of speech or service.](*<- lang_en;;*);;//google translate 
+            *);;
+        
+            <= nrel_using_constants: ...
+            (*
+                -> word;;
+                -> independent_part_of_speech;;
+                -> function_part_of_speech;;
+            *);;
+        *);;

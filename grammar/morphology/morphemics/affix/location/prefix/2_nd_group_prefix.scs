@@ -1,0 +1,33 @@
+2_nd_group_prefix
+ <-sc_node_not_relation;;
+
+ 2_nd_group_prefix=>nrel_main_idtf:
+    [приставка второй группы](* <-lang_ru;; *);
+    [prefix of the second group](* <-lang_en;; *);;
+
+2_nd_group_prefix <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: приставка второй группы] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: prefix of the second group] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example:
+                [Приставка второй группы — приставка, оканчивающаяся на З и С (кроме с-)](*<- lang_ru;;*);;
+                -> rrel_example:
+                [The prefix of the second group - the prefix ending in З and С (except c-)](*<- lang_en;;*);;
+            *);;
+             <= nrel_using_constants: ...
+            (*
+                ->prefix;;
+            *);;
+        *);;
+
+
+2_nd_group_prefix -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [ без- (бес-), вз- (вс-), воз- (вос-), из- (ис-), низ- (нис-), раз- (рас-), роз- (рос-), через- (черес-).](*<- lang_ru;;*);;
+    *);;

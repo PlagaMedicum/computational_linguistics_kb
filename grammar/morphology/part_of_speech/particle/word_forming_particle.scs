@@ -1,0 +1,27 @@
+word_forming_particles
+   <-sc_node_not_relation;;
+
+word_forming_particles=>nrel_main_idtf:
+    [словообразующие  частицы](* <-lang_ru;; *);
+    [word-forming particles](* <-lang_en;; *);;
+
+word_forming_particles <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: словообразующие  частицы] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: word-forming particles] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example:
+                [словообразующие  частицы - частицы , которые образуют новые слова.](*<- lang_ru;;*);;
+                -> rrel_example:
+                [word-forming particles - particles that form new words.](*<- lang_en;;*);;
+            *);;
+             <= nrel_using_constants: ...
+            (*
+                ->particle;;
+                ->word;;
+            *);;
+        *);;

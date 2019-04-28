@@ -1,0 +1,42 @@
+forming_suffix
+ <-sc_node_not_relation;;
+
+
+
+forming_suffix=>nrel_main_idtf:
+    [формообразующий суффикс](* <-lang_ru;; *);
+    [forming suffix](* <-lang_en;; *);;
+
+forming_suffix <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: формообразующий суффикс] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: forming suffix] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example:
+                [Формообразующий суффикс – суффикс, который служит для образования новых форм слова.](*<- lang_ru;;*);;
+                -> rrel_example:
+                [Forming suffix - suffix that serves to form new forms of the word.](*<- lang_en;;*);;
+            *);;
+             <= nrel_using_constants: ...
+            (*
+                ->suffix;;
+                ->word;;
+            *);;
+        *);;
+
+forming_suffix-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [–ть- (-ти-) ](*<- lang_ru;;*);;
+    *);;
+
+
+forming_suffix-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [–л- ](*<- lang_ru;;*);;
+    *);;

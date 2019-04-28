@@ -1,0 +1,48 @@
+onomatopoeic_words
+<-sc_node_not_relation;;
+
+onomatopoeic_words=>nrel_idtf:
+[множество звукоподражательных слов](* <-lang_ru;; *);;
+
+onomatopoeic_words=>nrel_main_idtf:
+   [звукоподражательное слово] (* <- lang_ru;; *);
+   [onomatopoeic word](* <-lang_en;; *);;
+
+
+onomatopoeic_words <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: звукоподражательное слово] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: onomatopoeic word ] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                
+                ->[Звукоподражательные слова - класс неизменяемых слов, которые своим звуковым составом воспроизводят издаваемые человеком, животными, предметами звуки, а также 
+                разнообразные явления природы, сопровождаемые звуками.](*<- lang_ru;;*);;
+                ->[Onomatopoeic words are a class of unchangeable words that, with their sound composition, reproduce sounds made by man, animals, objects, as well 
+                as various phenomena of nature, accompanied by sounds..](*<- lang_en;;*);;//google translate 
+            *);;
+        
+            <= nrel_using_constants: ...
+            (*
+                -> class;;
+                -> unchangeable_word;;
+                ->sound;;
+            *);;
+        *);;
+onomatopoeic_words 
+ -> rrel_example:...
+(*
+    =>nrel_main_idtf: [Дзинь-дзинь](*<-lang_ru;;*);;
+*);;
+ statement -> ...
+(* 
+     
+      -> rrel_key_sc_element: onomatopoeic_words;;
+      => nrel_main_idtf: [Утв.(звукоподражательное слово, признак слова, лексическое значение, грамматическое значение)](* <- lang_ru;; *);;
+      <= nrel_sc_text_translation: ... (*
+				 	 -> [Звукоподражательные слова не имеют главных признаков слова — лексического и грамматического значения.](* <- lang_ru;; *);;
+					*);;
+*);;

@@ -48,7 +48,6 @@ binary_relation
 sc_node_not_relation
  -> phonomorphological_phenomenon(*=> nrel_main_idtf: [фономорфологическое явление] (* <- lang_ru;; *);;*);
 -> syllable(*=> nrel_main_idtf: [слог] (* <- lang_ru;; *);;*);
- -> foundation(*=> nrel_main_idtf: [основа] (* <- lang_ru;; *);;*);;
 
 sc_node_norole_relation
   -> nrel_doubling (*=> nrel_main_idtf: [удвоение*] (* <- lang_ru;; *);;*);;
@@ -65,7 +64,7 @@ definition -> ...
 				 -> nrel_doubling;;
                                  -> phonomorphological_phenomenon;;
 				 -> syllable;;
-                                -> foundation;;
+                                -> word_stem;;
 				->word;;
 			      *);;
 *);;

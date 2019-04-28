@@ -1,0 +1,28 @@
+zero_derivational_suffix
+ <-sc_node_not_relation;;
+
+
+zero_derivational_suffix=>nrel_main_idtf:
+    [Нулевой словообразовательный суффикс](* <-lang_ru;; *);
+    [zero derivational suffix](* <-lang_en;; *);;
+
+zero_derivational_suffix <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: Нулевой словообразовательный суффикс] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: zero derivational suffix] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example:
+                [Нулевой словообразовательный суффикс – суффикс, который служит  для образования новых слов.](*<- lang_ru;;*);;
+                -> rrel_example:
+                [The zero derivational suffix is a suffix that serves to form new words.](*<- lang_en;;*);;
+            *);;
+             <= nrel_using_constants: ...
+            (*
+                ->suffix;;
+                ->word;;
+            *);;
+        *);;

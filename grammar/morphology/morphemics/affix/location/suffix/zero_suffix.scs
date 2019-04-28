@@ -1,0 +1,42 @@
+zero_suffix
+ <-sc_node_not_relation;;
+
+
+zero_suffix=>nrel_main_idtf:
+    [нулевой суффикс](* <-lang_ru;; *);
+    [zero suffix](* <-lang_en;; *);;
+
+zero_suffix <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: нулевой суффикс] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: zero suffix] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example:
+                [Нулевой суффикс – суффикс, не выраженный звуками в речи и буквами на письме, но с помощью которого образуются новые слова.](*<- lang_ru;;*);;
+                -> rrel_example:
+                [Zero suffix - suffix, not expressed by sounds in speech and letters on the letter, but with the help of which new words are 
+                formed.](*<- lang_en;;*);;
+            *);;
+             <= nrel_using_constants: ...
+            (*
+                ->suffix;;
+                ->sound;;
+                ->word;;
+            *);;
+        *);;
+
+
+zero_suffix  <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку морфологическому предназначению:](*<-lang_ru;; *);
+		[Subdividing based on morphological purpose:](*<-lang_en;; *);;
+	-> zero_formative_suffix;;
+    ->zero_derivational_suffix;;
+*);;
+

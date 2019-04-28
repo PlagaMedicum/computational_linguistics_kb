@@ -1,0 +1,49 @@
+nrel_ending_of_the_word
+<-sc_node_norole_relation;;
+
+nrel_ending_of_the_word=> nrel_main_idtf:
+	[окончание слова](* <-lang_ru;; *);
+ 	[ending of the word](* <-lang_en;; *);;
+
+
+nrel_ending_of_the_word <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: окончание слова] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: ending of the word] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [Окончание слова — изменяемая значимая часть слова,  которая  образует формы слова  и служит для связи слов в словосочетании и предложении.](*<- lang_ru;;*);;
+                -> rrel_example:
+                [The end of a word is a variable significant part of a word that forms the forms of a word and serves to link words in a phrase and a sentence.](*<- lang_en;;*);;
+            *);;
+             <= nrel_using_constants: ...
+            (*
+                ->word;;
+				->phrase;;
+				->sentence;;
+            *);;
+        *);;
+
+nrel_ending_of_the_word -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [круг() - круг(а)](*<- lang_ru;;*);;
+    *);;
+
+nrel_ending_of_the_word -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [луг() - луг(а)](*<- lang_ru;;*);;
+    *);;
+
+    
+
+
+nrel_ending_of_the_word  <= nrel_subdividing: ...
+(*
+ -> nrel_zero_ending_word;;
+*);;

@@ -50,5 +50,17 @@ particle  <= nrel_subdividing: ...
     [Разбиение по значению](*<-lang_ru;; *);;
 ->  modal_particle;
     forming_particles;
+     word_forming_particles;
     negative_particles;;
 *);;
+
+particle  <= nrel_subdividing: ...
+(*
+     <- explanation;;
+    => nrel_main_idtf:
+    [Разбиение по образованию](*<-lang_ru;; *);;
+->   forming_particles;
+     word_forming_particles;;
+*);;
+
+
