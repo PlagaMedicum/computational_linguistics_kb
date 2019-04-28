@@ -1,0 +1,44 @@
+zero_formative_suffix
+ <-sc_node_not_relation;;
+
+
+zero_formative_suffix=>nrel_main_idtf:
+    [Нулевой формообразующий суффикс](* <-lang_ru;; *);
+    [zero formative suffix](* <-lang_en;; *);;
+
+zero_formative_suffix <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: Нулевой формообразующий суффикс] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: zero formative suffix] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example:
+                [Нулевой формообразующий суффикс – суффикс, который служит для образования форм слова.](*<- lang_ru;;*);;
+                -> rrel_example:
+                [The zero formative suffix is a suffix that serves to form words.](*<- lang_en;;*);;
+            *);;
+             <= nrel_using_constants: ...
+            (*
+                ->suffix;;
+                ->word;;
+            *);;
+        *);;
+
+
+zero_formative_suffix  <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: zero_formative_suffix; verb;;
+		=> nrel_main_idtf: 
+            [Утв.(Нулевой формообразующий суффикс, глагол)] (* <- lang_ru;; *);
+            [Expl.(zero formative suffix,verb)] (* <- lang_eng;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Нулевые формообразующие суффиксы есть только у глаголов.](*<- lang_ru;;*);
+			    	[Only verbs have zero formative suffixes.](*<- lang_en;;*);;
+			*);;
+*);;

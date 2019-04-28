@@ -1,0 +1,56 @@
+prefix
+ <-sc_node_not_relation;;
+
+  prefix=>nrel_main_idtf:
+    [приставка слова](* <-lang_ru;; *);
+    [prefix](* <-lang_en;; *);;
+
+prefix <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: приставка слова] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: prefix] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example:
+                [Приста́вка — значимая часть слова, стоящая перед его корнем и дополняющая или изменяющая смысл слова.](*<- lang_ru;;*);;
+                -> rrel_example:
+                [prefix - significant part of the word, standing in front of its root and complementing or changing the meaning of the word.](*<- lang_en;;*);;
+            *);;
+             <= nrel_using_constants: ...
+            (*
+                ->word;;
+                ->root;;
+            *);;
+        *);;
+
+
+
+prefix -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [взо- ](*<- lang_ru;;*);;
+    *);;
+
+prefix -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [воз- ](*<- lang_ru;;*);;
+    *);;
+
+
+prefix -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [пре-,при- ](*<- lang_ru;;*);;
+    *);;
+
+
+prefix <= nrel_subdividing: ...
+(*
+ ->1_st_group_prefix;;
+ ->2_nd_group_prefix;;
+ ->3_rd_group_prefix;;
+*);;

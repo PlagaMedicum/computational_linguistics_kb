@@ -1,0 +1,28 @@
+root
+ <-sc_node_not_relation;;
+
+root=>nrel_main_idtf:
+    [корень слова](* <-lang_ru;; *);
+    [root](* <-lang_en;; *);;
+
+
+root<- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: корень слова] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: root] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example:
+                [Корень — морфема, несущая лексическое значение слова (или основную часть этого значения).](*<- lang_ru;;*);;
+                -> rrel_example:
+                [Root - a morpheme that carries the lexical meaning of a word (or the main part of that meaning).](*<- lang_en;;*);;
+            *);;
+             <= nrel_using_constants: ...
+            (*
+                ->morpheme;;
+                ->word;;
+            *);;
+        *);;

@@ -1,0 +1,59 @@
+word_formation_suffix
+ <-sc_node_not_relation;;
+
+
+
+word_formation_suffix=>nrel_main_idtf:
+    [cловообразовательный суффикс](* <-lang_ru;; *);
+    [word formation suffix](* <-lang_en;; *);;
+
+word_formation_suffix <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: cловообразовательный суффикс] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: word formation suffix] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example:
+                [Словообразовательный суффикс – суффикс,с помощью которого образуются слова разных частей речи.](*<- lang_ru;;*);;
+                -> rrel_example:
+                [A word formation suffix is a suffix by which words are formed in different parts of speech.](*<- lang_en;;*);;
+            *);;
+             <= nrel_using_constants: ...
+            (*
+                ->suffix;;
+                ->word;;
+                ->part_of_speech;;
+            *);;
+        *);;
+
+
+word_formation_suffix-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [-ян- ](*<- lang_ru;;*);;
+    *);;
+
+word_formation_suffix-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [-ик- ](*<- lang_ru;;*);;
+    *);;
+
+word_formation_suffix-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [-ин- ](*<- lang_ru;;*);;
+    *);;
+
+
+
+word_formation_suffix-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [-о- ](*<- lang_ru;;*);;
+    *);;
+
+

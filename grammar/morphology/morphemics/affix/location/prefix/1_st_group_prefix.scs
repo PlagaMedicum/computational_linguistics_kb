@@ -1,0 +1,35 @@
+1_st_group_prefix
+ <-sc_node_not_relation;;
+
+1_st_group_prefix=>nrel_main_idtf:
+    [приставка первой группы](* <-lang_ru;; *);
+    [prefix of the first group](* <-lang_en;; *);;
+
+1_st_group_prefix <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: приставка первой группы] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: prefix of the first group] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example:
+                [Приставка первой группы — приставка, которая всегда пишется одинаково, независимо от произношения.](*<- lang_ru;;*);;
+                -> rrel_example:
+                [The prefix of the first group is a prefix, which is always written in the same way, regardless of pronunciation.](*<- lang_en;;*);;
+            *);;
+             <= nrel_using_constants: ...
+            (*
+                ->prefix;;
+            *);;
+        *);;
+
+
+1_st_group_prefix -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [в- (во-), взо-, вы-, до-, за-, из- (изо-), к-, на-, над-, не-, недо-, о-, об- (обо-), от- (ото-), па-, пере-, по-, под- (подо-), пра-, 
+            пред- (предо-), про-, разо-, с- (со-), су-, у-.](*<- lang_ru;;*);;
+    *);;
+

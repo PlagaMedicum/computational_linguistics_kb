@@ -57,7 +57,7 @@ definition -> ...
 			      (*
 				 ->affix;;
                                  -> root;;
-				->foundation;;
+				->word_stem;;
 				->word;;
 				->nrel_joining;;
 

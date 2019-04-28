@@ -1,0 +1,33 @@
+3_rd_group_prefix
+ <-sc_node_not_relation;;
+
+3_rd_group_prefix=>nrel_main_idtf:
+    [приставка третьей группы](* <-lang_ru;; *);
+    [prefix of the third group](* <-lang_en;; *);;
+
+3_rd_group_prefix <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: приставка третьей группы] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: prefix of the third group] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example:
+                [Приставки третьей группы — приставки пре- и при-.](*<- lang_ru;;*);;
+                -> rrel_example:
+                [The prefixes of the third group are the pre and the pri.](*<- lang_en;;*);;
+            *);;
+             <= nrel_using_constants: ...
+            (*
+                ->prefix;;
+            *);;
+        *);;
+
+
+3_rd_group_prefix -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [ пре-,при-.](*<- lang_ru;;*);;
+    *);;

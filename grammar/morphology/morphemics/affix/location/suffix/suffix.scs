@@ -1,0 +1,52 @@
+suffix
+ <-sc_node_not_relation;;
+
+  suffix=>nrel_main_idtf:
+    [суффикс слова](* <-lang_ru;; *);
+    [suffix](* <-lang_en;; *);;
+
+suffix <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: суффикс слова] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: suffix] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example:
+                [Суффикс – это морфема, которая стоит после корня и обычно служит для образования новых слов, хотя может использоваться и 
+                при образовании формы одного слова.](*<- lang_ru;;*);;
+                -> rrel_example:
+                [The suffix is a morpheme that stands after the root and is usually used to form new words, although it can 
+                also be used to form a single word.](*<- lang_en;;*);;
+            *);;
+             <= nrel_using_constants: ...
+            (*
+                ->morpheme;;
+                ->root;;
+                ->word;;
+            *);;
+        *);;
+
+suffix -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [-ок- ](*<- lang_ru;;*);;
+    *);;
+
+
+suffix <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по признаку морфологическому предназначению:](*<-lang_ru;; *);
+		[Subdividing based on morphological purpose:](*<-lang_en;; *);;
+	-> word_formation_suffix;;
+    ->forming_suffix;;
+*);;
+
+suffix <= nrel_subdividing: ...
+(*
+    ->zero_suffix;;
+*);;

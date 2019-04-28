@@ -3,8 +3,8 @@ sc_node_norole_relation
  -> nrel_suffixation;;
 
 nrel_suffixation
- => nrel_idtf: [suffixation*] (* <- lang_en;; *);
- => nrel_main_idtf: [суффиксация*] (* <- lang_ru;; *);;
+ => nrel_idtf: [suffixation* ] (* <- lang_en;; *);
+ => nrel_main_idtf: [суффиксация* ] (* <- lang_ru;; *);;
 
 nrel_suffixation <- binary_relation 
 	(*
@@ -42,12 +42,6 @@ binary_relation
  => nrel_inclusion: antisymmetric_relation;;
 
 
-
-sc_node_not_relation
-
-->suffix(*=> nrel_main_idtf: [суффикс] (* <- lang_ru;; *);;*);;
-
-
 definition -> ...
 (* 
       -> rrel_key_sc_element: nrel_suffixation;;
@@ -57,7 +51,7 @@ definition -> ...
 			      (*
 				 ->word_formation;;
                                  -> shaping;;
-				->foundation;;
+				->word_stem;;
 				->root;;
 				->suffix;;
 				->nrel_joining;;

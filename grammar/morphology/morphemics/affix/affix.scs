@@ -26,13 +26,13 @@ affix <- rrel_key_sc_element:
 affix -> rrel_example: ...
     (*
         => nrel_main_idtf: 
-            [пре-, до-, пере-](*<- lang_ru;;*);;
+            [пре-, до-, пере- ](*<- lang_ru;;*);;
     *);;
 
 affix -> rrel_example: ...
     (*
         => nrel_main_idtf: 
-            [-а-, -н-, -еск-](*<- lang_ru;;*);;
+            [-а-, -н-, -еск- ](*<- lang_ru;;*);;
     *);;
 
 affix <= nrel_subdividing: ...

@@ -3,8 +3,8 @@ sc_node_norole_relation
  -> nrel_supplivism;;
 
 nrel_supplivism
- => nrel_idtf: [supplivism*] (* <- lang_en;; *);
- => nrel_main_idtf: [супплетивизм*] (* <- lang_ru;; *);;
+ => nrel_idtf: [supplivism* ] (* <- lang_en;; *);
+ => nrel_main_idtf: [супплетивизм* ] (* <- lang_ru;; *);;
 
 nrel_supplivism <- binary_relation 
 	(*
@@ -42,11 +42,6 @@ binary_relation
  => nrel_inclusion: transitive_relation;
  => nrel_inclusion: antireflexive_relation;
  => nrel_inclusion: antisymmetric_relation;;
-
-
-
-sc_node_not_relation
- ->root(*=> nrel_main_idtf: [корень] (* <- lang_ru;; *);;*);;
 
 
 
