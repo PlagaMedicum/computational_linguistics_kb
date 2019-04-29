@@ -1,0 +1,28 @@
+nrel_vector_correlate//векторные корреляты
+<- sc_node_norole_relation;;
+
+
+nrel_vector_correlate=>nrel_main_idtf:
+  [ векторный коррелят* ](* <-lang_ru;; *);
+  [ vector correlate* ](* <-lang_en;; *);;
+ 
+nrel_vector_correlate <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [ Определение: векторный коррелят* ] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: vector correlate* ] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                
+                ->[Векторные корреляты — антонимы, выражающие разную направленность действий, признаков, общественных явлений и т. д.](*<- lang_ru;;*);;
+                ->[Vector correlates - antonyms, expressing a different orientation of actions, signs, social phenomena, etc.](*<- lang_en;;*);;//google translate 
+            *);;
+        
+            <= nrel_using_constants: ...
+            (*
+                -> nrel_antonym;;
+                -> action;;
+            *);;
+        *);;

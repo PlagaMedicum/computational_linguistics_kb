@@ -50,7 +50,7 @@ affix <= nrel_subdividing: ...
 	=> nrel_main_idtf:
 		[Разбиение по признаку положения относительно корня:](*<-lang_ru;; *);
 		[Subdividing based on provisions concerning a root:](*<-lang_en;; *);;
-	-> prefix; postfix; interfix; circumfix; infix; transfix;;
+	-> prefix;suffix; postfix; interfix; circumfix; infix; transfix;;
 *);;
 
 affix <= nrel_subdividing: ...

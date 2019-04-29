@@ -1,0 +1,29 @@
+nrel_converse//конверсивы 
+<- sc_node_norole_relation;;
+
+nrel_converse=>nrel_main_idtf:
+  [ конверсив* ](* <-lang_ru;; *);
+  [ converse* ](* <-lang_en;; *);;
+
+ 
+nrel_converse <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [ Определение: конверсивы* ] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: converse* ] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                
+                ->[Конверсивы — слова, описывающие одну и ту же ситуацию с точки зрения разных участников.](*<- lang_ru;;*);;
+                ->[Converse - words that describe the same situation from the point of view of different participants.](*<- lang_en;;*);;//google translate 
+            *);;
+        
+            <= nrel_using_constants: ...
+            (*
+                -> word;;
+                //-> sound;;
+                //-> unchangeable_word;;
+            *);;
+        *);;

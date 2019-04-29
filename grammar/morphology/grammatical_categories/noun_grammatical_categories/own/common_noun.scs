@@ -1,19 +1,19 @@
 common_noun
 <-sc_node_not_relation;;
 common_noun => nrel_main_idtf:
-	[нарицательное существительное](* <-lang_ru;; *);
+	[имя нарицательное](* <-lang_ru;; *);
     [common noun](* <-lang_en;; *);;
 common_noun <- rrel_key_sc_element: 
 		... 
 		(*
 		<- sc_definition;;
-		=> nrel_main_idtf: [Определение: нарицательное существительное] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Определение: имя нарицательное] (* <- lang_ru;; *);;
 		=> nrel_main_idtf: [Definition: common noun] (* <- lang_en;; *);;
         <- definition;;
 		<= nrel_sc_text_translation: ...
 			(*
 			-> rrel_example: 
-				[Нарицательное существительное - существительное, которое является обобщенным наименованием предметов, действий, состояний.](*<- lang_ru;;*);;
+				[Имя нарицательное - существительное, которое является обобщенным наименованием предметов, действий, состояний.](*<- lang_ru;;*);;
 			-> rrel_example: 
 				[Common noun - a noun which is the generalized name of objects, actions, states.](*<- lang_en;;*);;
 			*);;
@@ -47,5 +47,17 @@ common_noun -> rrel_example: ...
 common_noun -> rrel_example: ...
     (*
         => nrel_main_idtf: 
-            [река](*<- lang_ru;;*);;
+            [Деревня](*<- lang_ru;;*);;
+    *);;
+
+common_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [Озеро](*<- lang_ru;;*);;
+    *);;
+
+common_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [Танк](*<- lang_ru;;*);;
     *);;

@@ -4,9 +4,9 @@ sc_node_norole_relation
 
 nrel_partial_homonym
 
- => nrel_idtf: [partial homonym*] (* <- lang_en;; *);
- => nrel_idtf: [быть частичным омонимом*] (* <- lang_ru;; *);
- => nrel_main_idtf: [частичный омоним*] (* <- lang_ru;; *);;
+ => nrel_idtf: [partial homonym* ] (* <- lang_en;; *);
+ => nrel_idtf: [быть частичным омонимом* ] (* <- lang_ru;; *);
+ => nrel_main_idtf: [частичный омоним* ] (* <- lang_ru;; *);;
 
 
 number
@@ -70,5 +70,5 @@ definition -> ...
 
 //nrel_partial_homonym-> rrel_example: ...(*=>nrel_main_idtf:[ласка(проявление нежности)](*<-lang_ru;;*);
 //[ласка(животное)](*<-lang_ru;;*);;*);;
-
+////lexicology->stylestics
 

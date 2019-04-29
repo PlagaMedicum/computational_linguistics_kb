@@ -1,0 +1,28 @@
+nrel_context_antonym
+<-sc_node_norole_relation;;
+
+
+nrel_context_antonym => nrel_main_idtf:
+  [ контекстный антоним* ](* <-lang_ru;; *);
+  [ context antonym* ](* <-lang_en;; *);;
+
+
+nrel_context_antonym <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [ Определение: контекстный антоним* ] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: context antonym* ] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                
+                ->[Контекстные антонимы - это антонимы, возникающие в определённом контексте. ](*<- lang_ru;;*);;
+                ->[Context antonyms are antonyms that arise in a particular context.](*<- lang_en;;*);;//google translate 
+            *);;
+        
+            <= nrel_using_constants: ...
+            (*
+                -> nrel_antonym;;
+            *);;
+        *);;

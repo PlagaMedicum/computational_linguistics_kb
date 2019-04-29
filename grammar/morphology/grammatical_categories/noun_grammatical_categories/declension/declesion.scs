@@ -1,0 +1,32 @@
+declension
+<-sc_node_norole_relation;;
+
+
+declension => nrel_main_idtf:
+[склонение](* <-lang_ru;; *);
+[declension](* <-lang_en;; *);;
+
+
+declension <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: имя существительное первого склонения] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: first declension noun] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [Склонение — это изменение существительных по падежам.](*<- lang_ru;;*);;
+                //-> rrel_example:
+                //[inanimate nouns - nouns that are used to name inanimate objects, as well as objects flora and answer the question "what?"](*<- lang_en;;*);;
+            *);;
+             <= nrel_using_constants: ...
+            (*
+                ->noun;;
+				->grammatical_case;;
+
+            *);;
+        *);;
+
+

@@ -4,9 +4,9 @@ sc_node_norole_relation
 
 nrel_homonym
 
- => nrel_idtf: [homonym*] (* <- lang_en;; *);
- => nrel_idtf: [быть омонимом*] (* <- lang_ru;; *);
- => nrel_main_idtf: [омоним*] (* <- lang_ru;; *);;
+ => nrel_idtf: [homonym* ] (* <- lang_en;; *);
+ => nrel_idtf: [быть омонимом* ] (* <- lang_ru;; *);
+ => nrel_main_idtf: [омоним* ] (* <- lang_ru;; *);;
 
 sc_node_norole_relation
  -> nrel_homonym;;
@@ -26,7 +26,11 @@ binary_relation
 binary_relation
  => nrel_measurement: 2;;
 
-
+nrel_homonym <= nrel_subdividing: ...
+(*
+ -> nrel_complete_homonym;;
+ -> nrel_partial_homonym;;
+*);;
 
 
 
@@ -57,9 +61,9 @@ binary_relation
 
 
 sc_node_norole_relation
- -> nrel_match_writing (*=> nrel_main_idtf: [совпадать по написанию*] (* <- lang_ru;; *);;*);
--> nrel_match_sound (*=> nrel_main_idtf: [совпадать по звучанию*] (* <- lang_ru;; *);;*);
--> nrel_different_in_meaning (*=> nrel_main_idtf: [быть различными по значению*] (* <- lang_ru;; *);;*);;
+ -> nrel_match_writing (*=> nrel_main_idtf: [совпадать по написанию* ] (* <- lang_ru;; *);;*);
+-> nrel_match_sound (*=> nrel_main_idtf: [совпадать по звучанию* ] (* <- lang_ru;; *);;*);
+-> nrel_different_in_meaning (*=> nrel_main_idtf: [быть различными по значению* ] (* <- lang_ru;; *);;*);;
 
 
 definition -> ...
@@ -88,5 +92,6 @@ definition -> ...
 
 //nrel_homonym-> rrel_example: ...(*=>nrel_main_idtf:[бор(химический элемент)](*<-lang_ru;;*);
 //[бор(сосновый лес)](*<-lang_ru;;*);;*);;
+////lexicology->stylestics
 
 

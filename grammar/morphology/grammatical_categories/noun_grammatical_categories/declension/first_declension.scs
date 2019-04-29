@@ -1,0 +1,35 @@
+first_declension
+<-sc_node_norole_relation;;
+
+first_declension=> nrel_main_idtf:
+	[имена существительные первого склонения](* <-lang_ru;; *);
+ 	[first declension noun](* <-lang_en;; *);;
+
+first_declension <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: имя существительное первого склонения] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: first declension noun] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [имена существительные первого склонения -существительные  женского рода с окончанием -а (-я) в именительном падеже единственного числа (страна, земля), а 
+				также существительные мужского рода, обозначающие людей, с теми же окончаниями (юноша, дядя).](*<- lang_ru;;*);;
+                //-> rrel_example:
+                //[inanimate nouns - nouns that are used to name inanimate objects, as well as objects flora and answer the question "what?"](*<- lang_en;;*);;
+            *);;
+             <= nrel_using_constants: ...
+            (*
+                ->noun;;
+				->concept_feminine_genus;;
+				->ending_of_the_word;;
+				->nrel_nominative_case;;
+				->nrel_singular_noun;;
+				->concept_masculine_genus;;
+
+            *);;
+        *);;
+
+

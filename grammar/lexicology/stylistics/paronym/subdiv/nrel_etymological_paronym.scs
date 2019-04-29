@@ -1,0 +1,30 @@
+nrel_etymological_paronym
+<-sc_node_norole_relation;;
+
+nrel_etymological_paronym=>nrel_main_idtf:
+  [ этимологический пароним* ](* <-lang_ru;; *);
+  [ etymological paronym* ](* <-lang_en;; *);;
+  
+
+nrel_etymological_paronym <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [ Определение: этимологический пароним* ] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: etymological paronym* ] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                
+                ->[Этимологические паронимы — это одно и то же слово, заимствованное языком разными путями несколько раз и в разных значениях.](*<- lang_ru;;*);;
+                ->[Etymological paronyms are the same word, borrowed by the language in different ways several times and in different meanings.](*<- lang_en;;*);;//google translate 
+            *);;
+        
+            /*<= nrel_using_constants: ...///из близкородственных языков//из языков-предков
+            (*
+                -> word;;
+                -> sound;;
+                //-> unchangeable_word;;
+            *);;
+            */
+        *);;
