@@ -1,0 +1,30 @@
+nrel_root_paronym
+<-sc_node_norole_relation;;
+
+nrel_root_paronym=>nrel_main_idtf:
+  [ корневой пароним* ](* <-lang_ru;; *);
+  [ root paronym* ](* <-lang_en;; *);;
+  
+
+nrel_root_paronym <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [ Определение: корневой пароним* ] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: root paronym* ] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                
+                ->[Корневые паронимы- это паронимы, которые имеют разные корни, внешнее сходство которых является чисто случайным](*<- lang_ru;;*);;
+                ->[Root paronyms are paronyms that have different roots whose external similarity is purely random.](*<- lang_en;;*);;//google translate 
+            *);;
+        
+            /*<= nrel_using_constants: ...
+            (*
+                -> word;;
+                -> sound;;
+                //-> unchangeable_word;;
+            *);;
+            */
+        *);;

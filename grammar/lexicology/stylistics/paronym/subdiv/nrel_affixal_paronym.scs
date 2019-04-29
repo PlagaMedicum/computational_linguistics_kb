@@ -1,0 +1,30 @@
+nrel_affixal_paronym
+<-sc_node_norole_relation;;
+
+nrel_affixal_paronym=>nrel_main_idtf:
+  [ аффиксальный пароним* ](* <-lang_ru;; *);
+  [ affixal paronym* ](* <-lang_en;; *);;
+  
+
+nrel_affixal_paronym <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [ Определение: аффиксальный пароним* ] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: affixal paronym* ] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                
+                ->[Аффиксальные паронимы- это паронимы, которые объединены общей мотивацией и общей семантической связью.](*<- lang_ru;;*);;
+                ->[Affixal paronyms are paronyms that are combined by common motivation and common semantic link..](*<- lang_en;;*);;//google translate 
+            *);;
+        
+            /*<= nrel_using_constants: ...
+            (*
+                -> word;;
+                -> sound;;
+                //-> unchangeable_word;;
+            *);;
+            */
+        *);;

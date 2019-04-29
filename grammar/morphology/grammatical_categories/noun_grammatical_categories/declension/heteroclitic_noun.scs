@@ -1,0 +1,30 @@
+heteroclitic_noun
+<-sc_node_norole_relation;;
+
+
+heteroclitic_noun=> nrel_main_idtf:
+	[разносклоняемое имя существительное](* <-lang_ru;; *);
+ 	[heteroclitic noun](* <-lang_en;; *);;
+
+nrel_first_declension <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: разносклоняемое имя существительное] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: heteroclitic noun] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [Разносклоняемые именя существительные - десять существительных на -мя (бремя, время, вымя, знамя, имя, пламя, племя, семя, стремя, темя);
+                существительные путь, дитя](*<- lang_ru;;*);;
+                //-> rrel_example:
+                //[inanimate nouns - nouns that are used to name inanimate objects, as well as objects flora and answer the question "what?"](*<- lang_en;;*);;
+            *);;
+             <= nrel_using_constants: ...
+            (*
+                ->noun;;
+            *);;
+        *);;
+
+

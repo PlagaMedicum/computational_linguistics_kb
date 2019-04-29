@@ -88,8 +88,11 @@ noun <= nrel_subdividing: ...
 	=> nrel_main_idtf:
 		[Разбиение по признаку склонения](*<-lang_ru;; *);
 		[Subdividing based on declension](*<-lang_en;; *);;
-	-> opposing_nouns;
-         indelible_nouns;;
+	-> heteroclitic_noun;;//разносклоняемые 
+    -> indeclinable_noun;;//несклоняемое существительное
+	->first_declension;;
+	->second_declension;;
+	->third_declension;;
 *);
 <= nrel_subdividing: ...
 (*

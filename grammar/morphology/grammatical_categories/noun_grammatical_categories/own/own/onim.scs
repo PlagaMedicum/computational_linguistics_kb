@@ -1,0 +1,36 @@
+onim
+<-sc_node_norole_relation;;
+
+onim=>nrel_main_idtf:
+    [оним](* <-lang_ru;; *);
+    [onim](* <-lang_en;; *);;
+
+
+onim <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: поним] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: onym] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [Оним - слово, словосочетание или предложение, которое служит для выделения именуемого им объекта среди других объектов, его индивидуализации и идентификации](*<- lang_ru;;*);;
+                -> rrel_example:
+                [Onim is a word, phrase or sentence that serves to select an object named by it from other objects, its individualization and identification.](*<- lang_en;;*);;
+            *);;
+             <= nrel_using_constants: ...
+            (*
+                ->word;;
+                ->phrase;;
+                ->sentence;;
+            *);;
+        *);;
+
+
+// onim <= nrel_subdividing:
+//{
+  //  anthroponym;
+  //  toponym
+//};;

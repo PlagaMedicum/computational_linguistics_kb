@@ -1,0 +1,33 @@
+third_declension
+<-sc_node_norole_relation;;
+
+third_declension=> nrel_main_idtf:
+	[имена существительные третьего склонения](* <-lang_ru;; *);
+ 	[third declension noun](* <-lang_en;; *);;
+
+third_declension <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: имя существительное третьего склонения] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: third declension noun] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [имена существительные третьего склонения -существительные  женского рода с нулевым окончанием в именительном падеже единственного числа..](*<- lang_ru;;*);;
+                //-> rrel_example:
+                //[inanimate nouns - nouns that are used to name inanimate objects, as well as objects flora and answer the question "what?"](*<- lang_en;;*);;
+            *);;
+             <= nrel_using_constants: ...
+            (*
+                ->noun;;
+				->concept_feminine_genus;;
+				->zero_ending_word;;
+				->nrel_nominative_case;;
+				->nrel_singular_noun;;
+
+            *);;
+        *);;
+
+

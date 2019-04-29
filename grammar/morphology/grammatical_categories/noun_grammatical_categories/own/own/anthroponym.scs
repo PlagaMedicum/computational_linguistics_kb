@@ -1,0 +1,38 @@
+anthroponym
+<-sc_node_norole_relation;;
+
+anthroponym=>nrel_main_idtf:
+    [антропоним](* <-lang_ru;; *);
+    [anthroponym](* <-lang_en;; *);;
+
+
+anthroponym <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: антропоним] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: anthroponym] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [антропоним - единичное имя собственное или совокупность имён собственных, идентифицирующих человека.](*<- lang_ru;;*);;
+                -> rrel_example:
+                [anthroponym - a single proper name or a collection of proper names that identify a person.](*<- lang_en;;*);;
+            *);;
+             <= nrel_using_constants: ...
+            (*
+                ->own_noun;;
+            *);;
+        *);;
+
+
+/*anthroponym <= nrel_subdividing: ...
+(*
+    <- explanation;;
+    => nrel_main_idtf:
+    [Разбиение по типам ](*<-lang_ru;; *);;
+// -> involuntary_particle;
+*);;
+*/
+

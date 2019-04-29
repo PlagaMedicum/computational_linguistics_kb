@@ -1,0 +1,28 @@
+toponym
+<-sc_node_norole_relation;;
+
+toponym=>nrel_main_idtf:
+    [топоним](* <-lang_ru;; *);
+    [toponym](* <-lang_en;; *);;
+
+
+toponym <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: топоним] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: toponym] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [Топоним - разряд онимов, имя собственное, обозначающее собственное название природного объекта на Земле или объекта, созданного человеком на Земле](*<- lang_ru;;*);;
+                -> rrel_example:
+                [A toponym is a class of onyms, a proper name, denoting the proper name of a natural object on Earth or an object created by man on Earth.](*<- lang_en;;*);;
+            *);;
+             <= nrel_using_constants: ...
+            (*
+                ->onim;;
+                ->own_noun;;
+            *);;
+        *);;
