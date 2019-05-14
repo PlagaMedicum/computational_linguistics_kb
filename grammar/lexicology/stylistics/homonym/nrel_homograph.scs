@@ -48,7 +48,7 @@ binary_relation
 
 
 sc_node_norole_relation
-->nrel_different_sound(*=> nrel_main_idtf: [быть различными по звучанию*] (* <- lang_ru;; *);;*);;
+->nrel_different_sound(*=> nrel_main_idtf: [быть различными по звучанию* ] (* <- lang_ru;; *);;*);;
 
 definition -> ...
 (* 

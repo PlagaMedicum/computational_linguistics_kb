@@ -24,6 +24,7 @@ nrel_first_declension <- rrel_key_sc_element:
             (*
                 ->noun;;
                 ->declension;;
+                ->grammatical_case;;
             *);;
         *);;
 

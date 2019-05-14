@@ -9,6 +9,10 @@ nrel_paronym=>nrel_main_idtf:
 
 nrel_paronym <= nrel_subdividing: ...
 (*
+    <- explanation;;
+	=> nrel_main_idtf:
+		[ ](*<-lang_ru;; *);;
+	
  -> nrel_affixal_paronym;;
  -> nrel_etymological_paronym;;
  -> nrel_root_paronym;;
@@ -27,13 +31,12 @@ nrel_paronym <- rrel_key_sc_element:
             (*
                 
                 ->[Паронимы- это слова, сходные по звучанию и морфемному составу, но различающиеся лексическим значением](*<- lang_ru;;*);;
-                ->[Paronyms are words that are similar in sound and morphemic composition, but differ in lexical meaning.](*<- lang_en;;*);;//google translate 
+                ->[Paronyms are words that are similar in sound and morphemic composition, but differ in lexical meaning.](*<- lang_en;;*);;
             *);;
         
             <= nrel_using_constants: ...
             (*
                 -> word;;
                 -> sound;;
-                //-> unchangeable_word;;
             *);;
         *);;

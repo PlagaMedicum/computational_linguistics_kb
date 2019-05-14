@@ -1,0 +1,27 @@
+zoonym
+<-sc_node_norole_relation;;
+
+zoonym=>nrel_main_idtf:
+    [зооним](* <-lang_ru;; *);
+    [zoonym](* <-lang_en;; *);;
+
+
+zoonym <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: зооним] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: zoonym] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [зоооним - собственное имя дикого или домашнего животного](*<- lang_ru;;*);;
+                -> rrel_example:
+                [zooonym - own name of wild or pet.](*<- lang_en;;*);;
+            *);;
+             <= nrel_using_constants: ...
+            (*
+                ->own_noun;;
+            *);;
+        *);;

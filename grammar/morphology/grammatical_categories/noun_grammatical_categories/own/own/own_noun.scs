@@ -15,7 +15,7 @@ own_noun <- rrel_key_sc_element:
             <- definition;;
             <= nrel_sc_text_translation: ...
             (*
-                ->rrel_example;
+                ->rrel_example:
                 [Имена собственные - существительные, которые представляют названия единичных предметов.](*<- lang_ru;;*);;
                 -> rrel_example:
                 [Proper names - nouns that represent the names of single objects.](*<- lang_en;;*);;
@@ -30,7 +30,9 @@ own_noun <- rrel_key_sc_element:
  own_noun <= nrel_subdividing:
 {
     anthroponym;
-    toponym
+    toponym;
+    teonym;
+    zoonym
 };;
 
 

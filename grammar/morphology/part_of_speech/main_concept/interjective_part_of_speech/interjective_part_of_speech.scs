@@ -13,6 +13,9 @@ interjective_part_of_speech=>nrel_main_idtf:
 
 interjective_part_of_speech <= nrel_subdividing: ...
 (*
+     <- explanation;;
+	=> nrel_main_idtf:
+		[ ](*<-lang_ru;; *);;
  -> interjection;;
  -> onomatopoeic_words;;
 *);;

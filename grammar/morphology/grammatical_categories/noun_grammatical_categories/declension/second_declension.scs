@@ -31,11 +31,7 @@ second_declension <- rrel_key_sc_element:
 				->concept_neuter_genus;; 
 				->nrel_nominative_case;;
 				->nrel_singular_noun;;
-				//->concept_feminine_genus;;
-				//->ending_of_the_word;;
-				//->nrel_nominative_case;;
-				//->nrel_singular_noun;;
-				//->concept_masculine_genus;;
+
 
             *);;
         *);;

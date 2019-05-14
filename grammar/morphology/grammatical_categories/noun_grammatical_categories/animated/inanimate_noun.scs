@@ -1,6 +1,6 @@
 inanimate_noun
 <-sc_node_norole_relation;;
-_inanimate_noun=> nrel_main_idtf:
+inanimate_noun=> nrel_main_idtf:
 	[неодушевленное имя существительное](* <-lang_ru;; *);
  	[inanimate noun](* <-lang_en;; *);;
 
@@ -14,7 +14,7 @@ inanimate_noun <- rrel_key_sc_element:
             <- definition;;
             <= nrel_sc_text_translation: ...
             (*
-                ->rrel_example;
+                ->rrel_example:
                 [неодушевленные имена существительные - имена существительные, которые служат для названия неживых предметов,а также предметов 
 				растительного мира и отвечают на вопрос что?](*<- lang_ru;;*);;
                 -> rrel_example:

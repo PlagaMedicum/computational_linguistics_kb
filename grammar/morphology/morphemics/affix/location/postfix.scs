@@ -19,7 +19,7 @@ postfix <- rrel_key_sc_element:
 			*);;
             <= nrel_using_constants: ...
             (*
-                -> nrel_ending_of_the_word; suffix;;
+                -> ending_of_the_word; suffix;;
             *);;
 		*);;
 
