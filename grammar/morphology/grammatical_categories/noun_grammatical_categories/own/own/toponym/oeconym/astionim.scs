@@ -1,0 +1,32 @@
+astionim
+<-sc_node_norole_relation;;
+
+astionim=>nrel_main_idtf:
+    [астионим](* <-lang_ru;; *);
+    [astionim](* <-lang_en;; *);;
+
+astionim<- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: астионим] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: astionim] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [астионим- это собственное имя любого города.](*<- lang_ru;;*);;
+                -> rrel_example:
+                [astionim is the proper name of any city](*<- lang_en;;*);;
+            *);;
+             <= nrel_using_constants: ...
+            (*
+                ->own_noun;;
+            *);;
+        *);;
+
+astionim -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [Минск](*<- lang_ru;;*);;
+    *);;

@@ -1,0 +1,32 @@
+gelonim
+<-sc_node_norole_relation;;
+
+gelonim=>nrel_main_idtf:
+    [гелоним](* <-lang_ru;; *);
+    [gelonim](* <-lang_en;; *);;
+
+gelonim<- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: гелоним] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: gelonim] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [гелоним - собственное имя любого болота, заболоченного места.](*<- lang_ru;;*);;
+                -> rrel_example:
+                [gelonim is the proper name of any swamp, wetland.](*<- lang_en;;*);;
+            *);;
+             <= nrel_using_constants: ...
+            (*
+                ->own_noun;;
+            *);;
+        *);;
+
+gelonim -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [Ольманские болота](*<- lang_ru;;*);;
+    *);;

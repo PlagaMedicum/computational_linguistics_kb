@@ -1,0 +1,34 @@
+odonim
+<-sc_node_norole_relation;;
+
+odonim=>nrel_main_idtf:
+    [одоним](* <-lang_ru;; *);
+    [odonim](* <-lang_en;; *);;
+
+odonim<- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: одоним] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: odonim] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [одоним -  топоним для обозначения названий улиц, в том числе проспектов, бульваров, аллей, набережных, проездов, переулко, 
+                шоссе (в черте города), тупиков](*<- lang_ru;;*);;
+                -> rrel_example:
+                [odonim is a toponym for street names, including avenues, boulevards, avenues, embankments, passages, lane,
+                 highway (within the city), dead ends.](*<- lang_en;;*);;
+            *);;
+             <= nrel_using_constants: ...
+            (*
+                ->toponym;;
+            *);;
+        *);;
+
+odonim -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [Арбат](*<- lang_ru;;*);;
+    *);;

@@ -50,6 +50,9 @@ prefix -> rrel_example: ...
 
 prefix <= nrel_subdividing: ...
 (*
+  <- explanation;;
+	=> nrel_main_idtf:
+		[ ](*<-lang_ru;; *);;
  ->1_st_group_prefix;;
  ->2_nd_group_prefix;;
  ->3_rd_group_prefix;;

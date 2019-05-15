@@ -1,0 +1,40 @@
+urbanonym
+<-sc_node_norole_relation;;
+
+urbanonym=>nrel_main_idtf:
+    [урбаноним](* <-lang_ru;; *);
+    [urbanonym](* <-lang_en;; *);;
+
+urbanonym <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: урбаноним] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: urbanonym] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [урбаноним - имя собственное любого внутригородского топографического объекта.](*<- lang_ru;;*);;
+                -> rrel_example:
+                [Urbanonym - the proper name of any intracity topographic object](*<- lang_en;;*);;
+            *);;
+             <= nrel_using_constants: ...
+            (*
+                ->own_noun;;
+            *);;
+        *);;
+
+urbanonym -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [Кутузовский проспект](*<- lang_ru;;*);;
+    *);;
+
+
+urbanonym <= nrel_subdividing:
+{
+    agoronim;
+    odonim;
+    horonim
+};;

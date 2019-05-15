@@ -34,6 +34,13 @@ suffix -> rrel_example: ...
         => nrel_main_idtf: 
             [-ок- ](*<- lang_ru;;*);;
     *);;
+suffix <= nrel_subdividing: ...
+(*    <- explanation;;
+	=> nrel_main_idtf:
+		[ ](*<-lang_ru;; *);;
+    ->zero_suffix;;
+*);;
+
 
 
 suffix <= nrel_subdividing: ...
@@ -46,7 +53,4 @@ suffix <= nrel_subdividing: ...
     ->forming_suffix;;
 *);;
 
-suffix <= nrel_subdividing: ...
-(*
-    ->zero_suffix;;
-*);;
+

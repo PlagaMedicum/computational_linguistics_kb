@@ -1,0 +1,36 @@
+oeconym
+<-sc_node_norole_relation;;
+
+oeconym=>nrel_main_idtf:
+    [ойконим](* <-lang_ru;; *);
+    [oeconym](* <-lang_en;; *);;
+
+oeconym<- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: ойконим] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: oeconym] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [ойконим - собственное имя любого (начиная с отдельно стоящего дома) поселения, в том числе сельских (комонимы) и городских (астионимы) поселений.](*<- lang_ru;;*);;
+                -> rrel_example:
+                [oeconym is the proper name of any settlement (starting from a detached house), including rural (comonyms) and urban (astionim) settlements.](*<- lang_en;;*);;
+            *);;
+             <= nrel_using_constants: ...
+            (*
+                //->onim;;
+                ->own_noun;;
+                ->comonym;;
+                //
+            *);;
+        *);;
+
+oeconym <= nrel_subdividing:
+{   
+    comonym;
+    astionim
+    
+};;

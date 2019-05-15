@@ -14,7 +14,7 @@ animated_noun <- rrel_key_sc_element:
             <- definition;;
             <= nrel_sc_text_translation: ...
             (*
-                ->rrel_example;
+                ->rrel_example:
                 [одушевленные имена существительные - имена существительные, которые служат для названия людей, животных и отвечают на вопрос "кто?"](*<- lang_ru;;*);;
                 -> rrel_example:
                 [animated nouns - nouns that serve to name people, animals and answer the question "who?"](*<- lang_en;;*);;

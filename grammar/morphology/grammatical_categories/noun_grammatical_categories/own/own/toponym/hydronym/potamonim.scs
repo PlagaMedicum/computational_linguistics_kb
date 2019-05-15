@@ -1,0 +1,32 @@
+potamonim
+<-sc_node_norole_relation;;
+
+potamonim=>nrel_main_idtf:
+    [потамоним](* <-lang_ru;; *);
+    [potamonim](* <-lang_en;; *);;
+
+potamonim<- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: потамоним] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: potamonim] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [потамоним - собственное имя любой реки.](*<- lang_ru;;*);;
+                -> rrel_example:
+                [potamonim is the proper name of any river.](*<- lang_en;;*);;
+            *);;
+             <= nrel_using_constants: ...
+            (*
+                ->own_noun;;
+            *);;
+        *);;
+
+potamonim -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [Нева](*<- lang_ru;;*);;
+    *);;
