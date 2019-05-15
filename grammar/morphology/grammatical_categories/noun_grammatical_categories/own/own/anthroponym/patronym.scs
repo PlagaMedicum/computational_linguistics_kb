@@ -1,0 +1,33 @@
+patronym
+<-sc_node_norole_relation;;
+
+patronym=>nrel_main_idtf:
+    [отчество ](* <-lang_ru;; *);
+    [patronym](* <-lang_en;; *);;
+
+patronym <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: отчество] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: patronym] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [отчество - разновидность имени собственного; наименование человека по отцу.](*<- lang_ru;;*);;
+                -> rrel_example:
+                [patronym - a kind of proper name; name of the person on the father.](*<- lang_en;;*);;
+            *);;
+             <= nrel_using_constants: ...
+            (*
+                ->own_noun;;
+                //->name;;
+            *);;
+        *);;
+
+patronym  -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [Иванович](*<- lang_ru;;*);;
+    *);;

@@ -1,0 +1,29 @@
+allonym
+<-sc_node_not_relation;;
+
+allonym=>nrel_main_idtf:
+    [аллоним](* <-lang_ru;; *);
+    [allonym](* <-lang_en;; *);;
+
+allonym <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: аллоним] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: allonym] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [Аллоним — имя другого реально существующего или существовавшего лица, используемое автором вместо собственного имени при обозначении 
+                авторства произведения](*<- lang_ru;;*);;
+                -> rrel_example:
+                [Allonym - the name of another real or existing person, used by the author instead of his own name when designating the authorship of the work.](*<- lang_en;;*);;
+            *);;
+             <= nrel_using_constants: ...
+            (*
+                //->own_noun???????
+                ->given_name;;
+                //personal name
+            *);;
+        *);;

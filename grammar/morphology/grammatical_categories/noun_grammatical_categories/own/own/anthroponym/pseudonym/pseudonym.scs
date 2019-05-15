@@ -1,0 +1,60 @@
+pseudonym
+<-sc_node_not_relation;;
+
+
+pseudonym=>nrel_main_idtf:
+    [псевдоним](* <-lang_ru;; *);
+    [pseudonym](* <-lang_en;; *);;
+
+pseudonym <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: псевдоним] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: pseudonym] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [псевдоним -  вымышленное имя, используемое человеком в публичной деятельности вместо настоящего. ](*<- lang_ru;;*);;
+                -> rrel_example:
+                [pseudonym is a fictitious name used by a person in public activities instead of real. ](*<- lang_en;;*);;
+            *);;
+            //<= nrel_using_constants: ...
+            //(*
+                //->surname;;
+            //*);;  
+        *);;
+
+pseudonym <= nrel_subdividing:
+{
+    literary_mask;
+    allonym
+     
+     
+};;
+
+
+pseudonym -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [Айни — Садриддин Саид-Мурадзола; ](*<- lang_ru;;*);;
+    *);;
+
+pseudonym -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [Александр Грин — Александр Степанович Гриневский; ](*<- lang_ru;;*);;
+    *);;
+
+pseudonym -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [Александр Серафимович — Александр Серафимович Попов; ](*<- lang_ru;;*);;
+    *);;
+
+pseudonym -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [Анна Ахматова — Анна Андреевна Горенко; ](*<- lang_ru;;*);;
+    *);;

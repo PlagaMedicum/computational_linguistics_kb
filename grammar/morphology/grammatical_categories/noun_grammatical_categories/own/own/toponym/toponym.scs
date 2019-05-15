@@ -1,5 +1,5 @@
 toponym
-<-sc_node_norole_relation;;
+<-sc_node_not_relation;;
 
 toponym=>nrel_main_idtf:
     [топоним](* <-lang_ru;; *);
@@ -30,8 +30,10 @@ toponym <- rrel_key_sc_element:
 
 toponym <= nrel_subdividing:
 {
+    microtoponym;
     hydronym;
     oronim;
     urbanonym:
-    oeconym
+    oeconym;
+    drimonym
 };;

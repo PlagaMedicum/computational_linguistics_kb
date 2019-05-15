@@ -1,5 +1,5 @@
 surname
-<-sc_node_norole_relation;;
+<-sc_node_not_relation;;
 
 surname=>nrel_main_idtf:
     [фамилия](* <-lang_ru;; *);
@@ -19,7 +19,7 @@ surname <- rrel_key_sc_element:
                 к одной семье.](*<- lang_ru;;*);;
                 -> rrel_example:
                 [A surname is a hereditary generic name indicating that a person belongs to the same genus, leading from a common ancestor, or, in 
-                a narrower sense, to one family..](*<- lang_en;;*);;
+                a narrower sense, to one family.](*<- lang_en;;*);;
                 //-> rrel_example:
                // [a surname- is the portion of a personal name that indicates a person's family (or tribe or community, depending on the culture).](*<- lang_en;;*);;
             *);;

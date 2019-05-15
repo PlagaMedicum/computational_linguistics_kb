@@ -1,0 +1,28 @@
+literary_mask
+<-sc_node_norole_relation;;
+
+
+literary_mask=>nrel_main_idtf:
+    [литературная маска](* <-lang_ru;; *);
+    [literary mask](* <-lang_en;; *);;
+
+
+literary_mask <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: литературная маска] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: literary mask] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [Литературная маска — особый тип литературного псевдонима, превращающий использование псевдонима в литературный приём. ](*<- lang_ru;;*);;
+                -> rrel_example:
+                [a literary mask is a special type of literary pseudonym that turns the use of a pseudonym into a literary device. ](*<- lang_en;;*);;
+            *);;
+            <= nrel_using_constants: ...
+            (*
+                ->pseudonym;;
+            *);;  
+        *);;

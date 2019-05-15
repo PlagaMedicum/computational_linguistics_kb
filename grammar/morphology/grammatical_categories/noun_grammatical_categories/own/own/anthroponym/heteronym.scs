@@ -1,0 +1,41 @@
+heteronym
+<-sc_node_not_relation;;
+
+heteronym=>nrel_main_idtf:
+    [гетероним](* <-lang_ru;; *);
+    [heteronym](* <-lang_en;; *);;
+
+heteronym <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: гетероним] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: heteronym] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [Гетероним — имя, используемое автором для части своих произведений, выделенных по какому-либо признаку, в отличие от других произведений, 
+                подписываемых собственным именем или другим гетеронимом. ](*<- lang_ru;;*);;
+                -> rrel_example:
+                [heteronim is the name used by the author for a part of his works, distinguished by some feature, unlike other works, 
+                signed by his own name or by another heteronym. ](*<- lang_en;;*);;
+            *);;
+            //<= nrel_using_constants: ...
+            //(*
+                //->surname;;
+            //*);;  
+        *);;
+
+
+heteronym -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [Гнойный - Соня Мармеладова - Валентин Дядька - Слава КПСС - Птичий Пепел - Король драконов; ](*<- lang_ru;;*);;
+    *);;
+
+heteronym -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [ Зинаида Гиппиус -  Антон Крайний; ](*<- lang_ru;;*);;
+    *);;

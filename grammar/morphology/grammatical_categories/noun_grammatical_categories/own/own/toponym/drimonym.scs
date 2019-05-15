@@ -1,0 +1,27 @@
+drimonym
+<-sc_node_not_relation;;
+
+drimonym=>nrel_main_idtf:
+    [дримоним](* <-lang_ru;; *);
+    [drimonym](* <-lang_en;; *);;
+
+drimonym<- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: дримоним] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: drimonym] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [дримоним — вид топонима, собственное имя любого лесного участка — леса, бора, рощи.](*<- lang_ru;;*);;
+                -> rrel_example:
+                [drimonym is a type of toponym, the proper name of any forest area - forest, boron, grove.](*<- lang_en;;*);;
+            *);;
+             <= nrel_using_constants: ...
+            (*
+                ->toponym;;
+                ->own_noun;;
+            *);;
+        *);;

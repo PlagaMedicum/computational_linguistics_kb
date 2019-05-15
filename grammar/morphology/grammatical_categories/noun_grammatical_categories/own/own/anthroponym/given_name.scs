@@ -1,9 +1,12 @@
 given_name
-<-sc_node_norole_relation;;
+<-sc_node_not_relation;;
 
 given_name=>nrel_main_idtf:
     [личное имя](* <-lang_ru;; *);
     [given name](* <-lang_en;; *);;
+
+given_name=>nrel_idtf:
+    [personal name](* <-lang_en;; *);;
 
 given_name <- rrel_key_sc_element: 
 		... 
