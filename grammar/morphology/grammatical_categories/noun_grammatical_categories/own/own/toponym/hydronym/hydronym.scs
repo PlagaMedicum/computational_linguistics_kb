@@ -1,0 +1,38 @@
+hydronym
+<-sc_node_norole_relation;;
+
+hydronym=>nrel_main_idtf:
+    [гидроним](* <-lang_ru;; *);
+    [hydronym](* <-lang_en;; *);;
+
+
+hydronym<- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: гидроним] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: hydronym] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [Гидроним - собственное имя водного объекта](*<- lang_ru;;*);;
+                -> rrel_example:
+                [Hydronym  is a proper name of a body of water.](*<- lang_en;;*);;
+            *);;
+             <= nrel_using_constants: ...
+            (*
+                //->onim;;
+                ->own_noun;;
+            *);;
+        *);;
+
+
+hydronym <= nrel_subdividing:
+{
+    gelonim;
+    potamonim;
+    insulonim;
+    limnonym;
+    pelagonim
+};;

@@ -1,0 +1,32 @@
+agoronim
+<-sc_node_norole_relation;;
+
+agoronim=>nrel_main_idtf:
+    [агороним](* <-lang_ru;; *);
+    [agoronim](* <-lang_en;; *);;
+
+agoronim <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: агороним] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: agoronim] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [агороним - вид урбанонима, топоним для обозначения названий площадей и других открытых пространств в городах. ](*<- lang_ru;;*);;
+                -> rrel_example:
+                [agoronim is a type of urbanonym, a toponym for designating the names of squares and other open spaces in cities.](*<- lang_en;;*);;
+            *);;
+             <= nrel_using_constants: ...
+            (*
+                ->urbanonym;;
+            *);;
+        *);;
+
+agoronim -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [Красная лощадь](*<- lang_ru;;*);;
+    *);;

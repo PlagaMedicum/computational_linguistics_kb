@@ -1,0 +1,32 @@
+comonym
+<-sc_node_norole_relation;;
+
+comonym=>nrel_main_idtf:
+    [комоним](* <-lang_ru;; *);
+    [comonym](* <-lang_en;; *);;
+
+comonym<- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: комоним] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: comonym] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [комоним- это собственное имя любого сельского поселения.](*<- lang_ru;;*);;
+                -> rrel_example:
+                [сomonim is the proper name of any rural settlement.](*<- lang_en;;*);;
+            *);;
+             <= nrel_using_constants: ...
+            (*
+                ->own_noun;;
+            *);;
+        *);;
+
+comonym -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [Коломенское](*<- lang_ru;;*);;
+    *);;

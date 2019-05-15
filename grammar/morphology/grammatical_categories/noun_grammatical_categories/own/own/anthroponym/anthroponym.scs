@@ -26,13 +26,18 @@ anthroponym <- rrel_key_sc_element:
             *);;
         *);;
 
+anthroponym <= nrel_subdividing:
+{
+     given_name;
+     surname
+};;
 
 /*anthroponym <= nrel_subdividing: ...
 (*
     <- explanation;;
     => nrel_main_idtf:
     [Разбиение по типам ](*<-lang_ru;; *);;
-// -> involuntary_particle;
+    -> given_name;;
 *);;
 */
 

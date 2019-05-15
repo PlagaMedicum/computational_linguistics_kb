@@ -1,0 +1,32 @@
+pelagonim
+<-sc_node_norole_relation;;
+
+pelagonim=>nrel_main_idtf:
+    [пелагоним](* <-lang_ru;; *);
+    [pelagonim](* <-lang_en;; *);;
+
+pelagonim<- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: пелагоним] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: pelagonim] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [пелагоним - собственное имя любого моря.](*<- lang_ru;;*);;
+                -> rrel_example:
+                [pelagonym is a own name of any sea.](*<- lang_en;;*);;
+            *);;
+             <= nrel_using_constants: ...
+            (*
+                ->own_noun;;
+            *);;
+        *);;
+
+    pelagonim -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [Чёрное море](*<- lang_ru;;*);;
+    *);;

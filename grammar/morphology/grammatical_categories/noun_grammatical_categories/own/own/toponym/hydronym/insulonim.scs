@@ -1,0 +1,32 @@
+insulonim
+<-sc_node_norole_relation;;
+
+insulonim=>nrel_main_idtf:
+    [инсулоним](* <-lang_ru;; *);
+    [insulonim](* <-lang_en;; *);;
+
+insulonim<- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: инсулоним] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: insulonim] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [инсулоним - собственное имя любого острова.](*<- lang_ru;;*);;
+                -> rrel_example:
+                [insulonim is the proper name of any island.](*<- lang_en;;*);;
+            *);;
+             <= nrel_using_constants: ...
+            (*
+                ->own_noun;;
+            *);;
+        *);;
+
+insulonim -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [Гренландия](*<- lang_ru;;*);;
+    *);;

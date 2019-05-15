@@ -1,0 +1,42 @@
+horonim
+<-sc_node_norole_relation;;
+
+horonim=>nrel_main_idtf:
+    [хороним](* <-lang_ru;; *);
+    [horonim](* <-lang_en;; *);;
+
+
+horonim<- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: хороним] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: horonim] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [ороним - собственное имя юбой территории, имеющей определённые границы: небольшого пространства (луг, лес, городской район или микрорайон), 
+                исторической области, административного района или страны.](*<- lang_ru;;*);;
+                -> rrel_example:
+                [oronim - own name of any territory with certain boundaries: small space (meadow, forest, urban area or microdistrict),
+                 historical region, administrative region or country.](*<- lang_en;;*);;
+            *);;
+             <= nrel_using_constants: ...
+            (*
+                ->own_noun;;
+            *);;
+        *);;
+
+
+horonim -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [Приморский край](*<- lang_ru;;*);;
+    *);;
+
+horonim -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [США](*<- lang_ru;;*);;
+    *);;

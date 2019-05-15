@@ -16,9 +16,9 @@ own_noun <- rrel_key_sc_element:
             <= nrel_sc_text_translation: ...
             (*
                 ->rrel_example:
-                [Имена собственные - существительные, которые представляют названия единичных предметов.](*<- lang_ru;;*);;
+                [имя собственное - существительное, которое представляет название единичного предмета.](*<- lang_ru;;*);;
                 -> rrel_example:
-                [Proper names - nouns that represent the names of single objects.](*<- lang_en;;*);;
+                [proper name - a noun that represents the name of a single object.](*<- lang_en;;*);;
             *);;
              <= nrel_using_constants: ...
             (*

@@ -1,0 +1,32 @@
+limnonym
+<-sc_node_norole_relation;;
+
+limnonym=>nrel_main_idtf:
+    [лимноним](* <-lang_ru;; *);
+    [limnonym](* <-lang_en;; *);;
+
+limnonym<- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: лимноним] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: limnonym] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [лимноним - собственное имя любого озера или пруда.](*<- lang_ru;;*);;
+                -> rrel_example:
+                [limnonym is a own name of any lake or pond](*<- lang_en;;*);;
+            *);;
+             <= nrel_using_constants: ...
+            (*
+                ->own_noun;;
+            *);;
+        *);;
+
+limnonym -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [Гурон](*<- lang_ru;;*);;
+    *);;
