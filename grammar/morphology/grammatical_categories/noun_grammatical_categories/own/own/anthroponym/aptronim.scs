@@ -1,0 +1,33 @@
+aptronim
+<-sc_node_norole_relation;;
+
+aptronim=>nrel_main_idtf:
+    [аптроним](* <-lang_ru;; *);
+    [aptronim](* <-lang_en;; *);;
+
+aptronim <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: аптроним] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: aptronim] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [аптроним - фамилия человека, характеризующая его образ жизни, профессию](*<- lang_ru;;*);;
+                -> rrel_example:
+                [aptronim - the surname of a person characterizing his lifestyle, profession. ](*<- lang_en;;*);;
+            *);;
+            <= nrel_using_constants: ...
+            (*
+                ->surname;;
+            *);;
+        *);;
+
+
+aptronim -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [Кузнецов](*<- lang_ru;;*);;
+    *);;

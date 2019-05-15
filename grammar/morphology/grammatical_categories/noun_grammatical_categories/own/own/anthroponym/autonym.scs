@@ -1,0 +1,26 @@
+autonym
+<-sc_node_norole_relation;;
+
+autonym=>nrel_main_idtf:
+    [автоним](* <-lang_ru;; *);
+    [autonym](* <-lang_en;; *);;
+
+autonym <- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: автоним] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: autonym] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [псевдоним -  личное имя, используемое человеком в публичной деятельности вместо настоящего. ](*<- lang_ru;;*);;
+                -> rrel_example:
+                [autonym is the personal name  of a person known under a pseudonym.. ](*<- lang_en;;*);;
+            *);;
+            <= nrel_using_constants: ...
+            (*
+                ->given_name;;
+            *);;  
+        *);;

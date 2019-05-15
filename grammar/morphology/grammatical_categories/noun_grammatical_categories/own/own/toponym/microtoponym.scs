@@ -1,0 +1,28 @@
+microtoponym
+<-sc_node_not_relation;;
+
+microtoponym=>nrel_main_idtf:
+    [микротопоним](* <-lang_ru;; *);
+    [microtoponym](* <-lang_en;; *);;
+
+microtoponym<- rrel_key_sc_element: 
+		... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf: [Определение: микротопоним] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: microtoponym] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [микротопоним — один из видов топонимов, название небольшого местного объекта, как правило, физико-географического или находящегося 
+                внутри поселения.](*<- lang_ru;;*);;
+                -> rrel_example:
+                [microtoponym - one of the types of toponyms, the name of a small local object, as a rule, physiographic or located inside the 
+                settlement.](*<- lang_en;;*);;
+            *);;
+             <= nrel_using_constants: ...
+            (*
+                ->toponym;;
+            *);;
+        *);;
