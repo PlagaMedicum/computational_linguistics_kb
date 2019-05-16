@@ -26,3 +26,15 @@ nrel_single_root_antonyms <- rrel_key_sc_element:
                 -> prefix;;
             *);;
         *);;
+
+nrel_single_root_antonyms-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [входить - выходить ](*<- lang_ru;;*);;
+    *);;
+
+nrel_single_root_antonyms-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [монопольный - антимонопольный ](*<- lang_ru;;*);;
+    *);;

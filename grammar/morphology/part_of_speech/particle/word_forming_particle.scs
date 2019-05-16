@@ -25,3 +25,27 @@ word_forming_particles <- rrel_key_sc_element:
                 ->word;;
             *);;
         *);;
+
+word_forming_particles -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [-тo](*<- lang_ru;;*);;
+    *);;
+
+word_forming_particles -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [-либo](*<- lang_ru;;*);;
+    *);;
+
+word_forming_particles -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [-нибyдь](*<- lang_ru;;*);;
+    *);;
+
+word_forming_particles -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [кoe- ](*<- lang_ru;;*);;
+    *);;

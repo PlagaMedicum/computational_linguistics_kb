@@ -1,4 +1,5 @@
-word_stem<-sc_node_not_relation;;
+word_stem
+<-sc_node_not_relation;;
 
 word_stem=>nrel_main_idtf:
     [основа слова](* <-lang_ru;; *);
@@ -14,16 +15,17 @@ word_stem <- rrel_key_sc_element:
             <= nrel_sc_text_translation: ...
             (*
                 ->rrel_example:
-                [Осно́ва — неизменяемая часть слова, которая выражает его лексическое значение.В основу не входит окончание](*<- lang_ru;;*);;
+                [Основа — неизменяемая часть слова, которая выражает его лексическое значение.В основу не входит окончание](*<- lang_ru;;*);;
                 -> rrel_example:
                 [word stem - unchangeable part of the word, which expresses its lexical meaning.The word stem does not include the ending of the word](*<- lang_en;;*);;
             *);;
              <= nrel_using_constants: ...
             (*
                 ->word;;
-                ->nrel_ending_of_the_word;;
+                ->ending_of_the_word;;
             *);;
         *);;
+
 word_stem -> rrel_example: ...
     (*
         => nrel_main_idtf: 
