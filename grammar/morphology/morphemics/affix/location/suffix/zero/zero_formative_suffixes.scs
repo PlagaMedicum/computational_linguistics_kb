@@ -16,13 +16,13 @@ zero_formative_suffix <- rrel_key_sc_element:
             <= nrel_sc_text_translation: ...
             (*
                 ->rrel_example:
-                [Нулевой формообразующий суффикс – суффикс, который служит для образования форм слова.](*<- lang_ru;;*);;
+                [Нулевой формообразующий суффикс – нулевой суффикс, который служит для образования форм слова.](*<- lang_ru;;*);;
                 -> rrel_example:
                 [The zero formative suffix is a suffix that serves to form words.](*<- lang_en;;*);;
             *);;
              <= nrel_using_constants: ...
             (*
-                ->suffix;;
+                ->zero_suffix;;
                 ->word;;
             *);;
         *);;

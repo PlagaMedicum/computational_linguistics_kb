@@ -16,13 +16,13 @@ zero_derivational_suffix <- rrel_key_sc_element:
             <= nrel_sc_text_translation: ...
             (*
                 ->rrel_example:
-                [Нулевой словообразовательный суффикс – суффикс, который служит  для образования новых слов.](*<- lang_ru;;*);;
+                [Нулевой словообразовательный суффикс – нулевой суффикс, который служит  для образования новых слов.](*<- lang_ru;;*);;
                 -> rrel_example:
                 [The zero derivational suffix is a suffix that serves to form new words.](*<- lang_en;;*);;
             *);;
              <= nrel_using_constants: ...
             (*
-                ->suffix;;
+                ->zero_suffix;;
                 ->word;;
             *);;
         *);;

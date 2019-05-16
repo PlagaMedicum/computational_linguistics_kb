@@ -1,5 +1,5 @@
 ending_of_the_word
-<-sc_node_norole_relation;;
+<-sc_node_not_relation;;
 
 ending_of_the_word=> nrel_main_idtf:
 	[окончание слова](* <-lang_ru;; *);

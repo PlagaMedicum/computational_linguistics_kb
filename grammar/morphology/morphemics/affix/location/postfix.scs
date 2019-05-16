@@ -19,7 +19,9 @@ postfix <- rrel_key_sc_element:
 			*);;
             <= nrel_using_constants: ...
             (*
-                -> ending_of_the_word; suffix;;
+                -> word;;
+                -> ending_of_the_word;;
+                -> suffix;;
             *);;
 		*);;
 
@@ -32,8 +34,29 @@ postfix -> rrel_example: ...
 postfix -> rrel_example: ...
     (*
         => nrel_main_idtf: 
+            [-сь](*<- lang_ru;;*);;
+    *);;
+
+postfix -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
             [-либо](*<- lang_ru;;*);;
     *);;
+
+postfix -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [-то](*<- lang_ru;;*);;
+    *);;
+
+postfix -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [-нибудь](*<- lang_ru;;*);;
+    *);;
+
+
+
 
 
 

@@ -28,3 +28,9 @@ nrel_language_antonym <- rrel_key_sc_element:
                 ->language;;
             *);;
         *);;
+
+nrel_language_antonym -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [богатый - бедный ](*<- lang_ru;;*);;
+    *);;

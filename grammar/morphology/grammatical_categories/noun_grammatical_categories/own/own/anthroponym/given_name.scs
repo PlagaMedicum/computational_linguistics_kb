@@ -17,7 +17,7 @@ given_name <- rrel_key_sc_element:
             <- definition;;
             <= nrel_sc_text_translation: ...
             (*
-                ->rrel_example;
+                ->rrel_example:
                 [личное имя - разновидность имени собственного,один из главных персональных языковых идентификаторов человека или какого-либо одушевлённого существа.](*<- lang_ru;;*);;
                 -> rrel_example:
                 [given name - a kind of own noun, one of the main personal language identifiers of a person or some animate being.](*<- lang_en;;*);;
@@ -40,4 +40,10 @@ given_name -> rrel_example: ...
     (*
         => nrel_main_idtf: 
             [Stephen](*<- lang_en;;*);;
+    *);;
+
+given_name -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [Светлана](*<- lang_ru;;*);;
     *);;

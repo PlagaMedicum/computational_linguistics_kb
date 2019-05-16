@@ -26,3 +26,27 @@ root<- rrel_key_sc_element:
                 ->word;;
             *);;
         *);;
+
+root-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [ -гор- ](*<- lang_ru;;*);;
+    *);;
+
+root-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [ -гар- ](*<- lang_ru;;*);;
+    *);;
+
+root-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [ -лаг- ](*<- lang_ru;;*);;
+    *);;
+
+root-> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [ -лож- ](*<- lang_ru;;*);;
+    *);;

@@ -1,5 +1,5 @@
 interjective_part_of_speech
-<- sc_node_norole_relation;
+ <-sc_node_not_relation;
 <-part_of_speech;;
 
 interjective_part_of_speech=>nrel_idtf:

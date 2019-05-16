@@ -24,5 +24,12 @@ nrel_context_antonym <- rrel_key_sc_element:
             <= nrel_using_constants: ...
             (*
                 -> nrel_antonym;;
+                -> nrel_context_of_action;;
             *);;
         *);;
+
+nrel_context_antonym -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [золотой - полушка медная(т. е. дорогой — дешевый) ](*<- lang_ru;;*);;
+    *);;

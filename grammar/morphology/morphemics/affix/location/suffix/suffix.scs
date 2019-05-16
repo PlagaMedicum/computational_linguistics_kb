@@ -34,10 +34,30 @@ suffix -> rrel_example: ...
         => nrel_main_idtf: 
             [-ок- ](*<- lang_ru;;*);;
     *);;
+
+suffix -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [-ти ](*<- lang_ru;;*);;
+    *);;
+
+suffix -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [-ть ](*<- lang_ru;;*);;
+    *);;
+
+suffix -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [-л- ](*<- lang_ru;;*);;
+    *);;
+
+
 suffix <= nrel_subdividing: ...
 (*    <- explanation;;
 	=> nrel_main_idtf:
-		[ ](*<-lang_ru;; *);;
+		[Разбиение по способу словоообразования ](*<-lang_ru;; *);;
     ->zero_suffix;;
 *);;
 
@@ -51,6 +71,7 @@ suffix <= nrel_subdividing: ...
 		[Subdividing based on morphological purpose:](*<-lang_en;; *);;
 	-> word_formation_suffix;;
     ->forming_suffix;;
+    ->zero_suffix;;
 *);;
 
 

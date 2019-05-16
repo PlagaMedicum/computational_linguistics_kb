@@ -19,8 +19,8 @@ onomatopoeic_words <- rrel_key_sc_element:
             <= nrel_sc_text_translation: ...
             (*
                 
-                ->[Звукоподражательные слова - класс неизменяемых слов, которые своим звуковым составом воспроизводят издаваемые человеком, животными, предметами звуки, а также 
-                разнообразные явления природы, сопровождаемые звуками.](*<- lang_ru;;*);;
+                ->[Звукоподражательные слова - класс неизменяемых слов, которые своим звуковым составом воспроизводят издаваемые человеком, животными, предметами звуки, 
+                а также разнообразные явления природы, сопровождаемые звуками.](*<- lang_ru;;*);;
                 ->[Onomatopoeic words are a class of unchangeable words that, with their sound composition, reproduce sounds made by man, animals, objects, as well 
                 as various phenomena of nature, accompanied by sounds..](*<- lang_en;;*);;//google translate 
             *);;
@@ -29,14 +29,42 @@ onomatopoeic_words <- rrel_key_sc_element:
             (*
                 -> class;;
                 -> unchangeable_word;;
-                ->sound;;
+                -> sound;;
             *);;
         *);;
+
 onomatopoeic_words 
  -> rrel_example:...
 (*
-    =>nrel_main_idtf: [Дзинь-дзинь](*<-lang_ru;;*);;
+    =>nrel_main_idtf: [дзинь-дзинь](*<-lang_ru;;*);;
 *);;
+
+onomatopoeic_words 
+ -> rrel_example:...
+(*
+    =>nrel_main_idtf: [пиф-паф](*<-lang_ru;;*);;
+*);;
+
+onomatopoeic_words 
+ -> rrel_example:...
+(*
+    =>nrel_main_idtf: [гав-гав](*<-lang_ru;;*);;
+*);;
+
+onomatopoeic_words 
+ -> rrel_example:...
+(*
+    =>nrel_main_idtf: [мяу](*<-lang_ru;;*);;
+*);;
+
+onomatopoeic_words 
+ -> rrel_example:...
+(*
+    =>nrel_main_idtf: [ква-ква](*<-lang_ru;;*);;
+*);;
+
+
+
  statement -> ...
 (* 
      

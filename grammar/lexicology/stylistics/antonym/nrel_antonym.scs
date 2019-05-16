@@ -69,6 +69,18 @@ nrel_antonym -> rrel_example: ...
             [добрый - злой ](*<- lang_ru;;*);;
     *);;
 
+nrel_antonym -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [правда - ложь ](*<- lang_ru;;*);;
+    *);;
+
+nrel_antonym -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [говорить - молчать ](*<- lang_ru;;*);;
+    *);;
+
 
 nrel_antonym <- rrel_key_sc_element: 
 		... 
@@ -91,3 +103,14 @@ nrel_antonym <- rrel_key_sc_element:
                 ->sound;;
             *);;
         *);;
+
+
+statement -> ...
+(* 
+     
+      -> rrel_key_sc_element: nrel_antonym;;
+      => nrel_main_idtf: [Утв.(имя собственное, местоимение, имя числительное, антоним)](* <- lang_ru;; *);;
+      <= nrel_sc_text_translation: ... (*
+				 	 -> [У собственных имён, местоимений, числительных антонимов нет.](* <- lang_ru;; *);;
+					*);;
+*);;
