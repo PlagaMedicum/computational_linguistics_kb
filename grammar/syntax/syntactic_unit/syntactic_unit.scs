@@ -1,0 +1,44 @@
+sc_node_not_relation
+ -> syntactic_unit;;
+
+syntactic_unit
+ => nrel_main_idtf: [синтаксическая единица](* <- lang_ru;; *);
+ => nrel_idtf: [множество синтаксических единиц](* <- lang_ru;; *);
+ => nrel_idtf: [syntactic unit](* <- lang_en;; *);;
+
+	
+syntactic_unit
+<= nrel_subdividing: ...
+	(*
+		-> phrase;;
+		-> sentence;;
+		-> complex_syntactic_integer;;
+		-> text;;
+	*);;
+
+
+definition -> ...   
+(*
+  	-> rrel_key_sc_element: syntactic_unit;;
+  	=> nrel_main_idtf: [Опр. (синтаксическая единица)](* <- lang_ru;; *);;
+    	<= nrel_using_constants: ...
+	(*
+		-> syntactic_relationship;;
+		-> syntactic_relation;;
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Cинтаксическая единица - это конструкция, в которой элементы(компоненты) объединены синтаксическими связями и отношениями.](* <- lang_ru;; *);;
+	*);;
+*);;
+
+statement -> ...
+(*
+      	-> rrel_key_sc_element: syntactic_unit;;
+
+      	=> nrel_main_idtf: [Утв.(синтаксическая единица, словоформа)](* <- lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Словоформы являются строевыми элементами синтаксических единиц.](* <- lang_ru;; *);;
+	*);;
+*);;

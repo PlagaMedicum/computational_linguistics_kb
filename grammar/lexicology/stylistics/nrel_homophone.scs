@@ -1,0 +1,76 @@
+
+sc_node_norole_relation
+ -> nrel_homophone;;
+
+nrel_homophone
+
+ => nrel_idtf: [homophone*] (* <- lang_en;; *);
+ => nrel_idtf: [быть омофоном*] (* <- lang_ru;; *);
+ => nrel_main_idtf: [омофон*] (* <- lang_ru;; *);;
+
+
+number
+ -> 2;;
+
+parameter
+ ->arity;;
+
+arity
+ ->binary_relation;;
+
+binary_relation
+ -> nrel_homophone;;
+
+binary_relation
+ => nrel_measurement: 2;;
+
+
+nrel_homophone
+=> nrel_definitional_domain: ...(*=> nrel_combination:... (*->word;;
+  -> phrase;;*);;*);
+=> nrel_first_domain: ...(*=> nrel_combination:... (*->word;;
+  -> phrase;;*);;*);
+=> nrel_second_domain:...(*=> nrel_combination:... (*->word;;
+  -> phrase;;*);;*);;
+
+nrel_homophone
+ <- oriented_relation;
+ <- norole_relation;
+ <- transitive_relation;
+ <- antireflexive_relation;
+ <- symmetric_relation;;
+
+relation
+ => nrel_inclusion: binary_relation;
+ => nrel_inclusion: oriented_relation;;	
+
+binary_relation
+ => nrel_inclusion: transitive_relation;
+ => nrel_inclusion: antireflexive_relation;
+ => nrel_inclusion: symmetric_relation;;
+
+
+sc_node_norole_relation
+->nrel_different_in_writing(*=> nrel_main_idtf: [быть различными по написанию*] (* <- lang_ru;; *);;*);;
+
+definition -> ...
+(* 
+      -> rrel_key_sc_element: nrel_homophone;;
+      => nrel_main_idtf: [Опр.(омофон*)] (* <- lang_ru;; *);;
+      <= nrel_sc_text_translation: ...(* ->[Омофоны — слова и словосочетания, совпадающие по звучанию, но различные по написанию и значению.] (* <- lang_ru;; *);;*);;
+      <= nrel_using_constants: ...
+			      (*
+				->nrel_different_in_writing;;
+				-> nrel_different_in_meaning;;
+				-> nrel_match_sound;;
+                                -> word;;
+				->phrase;;
+			      *);;
+*);;
+
+
+
+//nrel_homophone-> rrel_example: ...(*=>nrel_main_idtf:[не мой](*<-lang_ru;;*);
+//[немой](*<-lang_ru;;*);;*);;
+
+

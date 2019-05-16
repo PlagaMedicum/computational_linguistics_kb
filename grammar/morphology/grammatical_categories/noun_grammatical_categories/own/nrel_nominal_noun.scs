@@ -1,0 +1,5 @@
+nrel_nominal_noun
+=> nrel_main_idtf:
+	[нарицательное](* <-lang_ru;; *);
+ 	[nominal](* <-lang_en;; *);
+<-sc_node_norole_relation;;

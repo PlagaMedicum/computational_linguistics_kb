@@ -1,0 +1,28 @@
+sc_node_not_relation
+ -> syntactic_relationship_of_simple_sentence;;
+
+syntactic_relationship_of_simple_sentence
+ => nrel_main_idtf: [синтаксическая связь простого предложения](* <- lang_ru;; *);
+ => nrel_idtf: [множество синтаксических связей простого предложения](* <- lang_ru;; *);
+ => nrel_idtf: [syntactic relationship of simple sentence](* <- lang_en;; *);;
+
+
+definition -> ...   
+(*
+  	-> rrel_key_sc_element: syntactic_relationship_of_simple_sentence;;
+  	=> nrel_main_idtf: [Опр. (синтаксическая связь простого предложения)](* <- lang_ru;; *);;
+    	<= nrel_using_constants: ...
+	(*
+ 		-> simple_sentence;;
+		-> semantic_relation;;
+		-> nrel_to_be_expressed_by;;
+		-> language_tool;;
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Синтаксическая связь в простом предложении - формальное строевое отношение между компонентами простого предложения, выявляющее семантическое отношение между этими компонентами и выражаемое средствами языка.](* <- lang_ru;; *);;
+	*);;
+*);;
+
+ 
+ 

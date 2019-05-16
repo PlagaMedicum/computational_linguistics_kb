@@ -1,0 +1,48 @@
+sc_node_not_relation
+ -> impersonal_sentence;;
+
+impersonal_sentence
+ => nrel_main_idtf: [безличное предложение](* <- lang_ru;; *);
+ => nrel_idtf: [множество безличных предложений](* <- lang_ru;; *);
+ => nrel_idtf: [impersonal sentence](* <- lang_en;; *);;
+
+
+definition -> ...   
+(*
+     	-> rrel_key_sc_element: impersonal_sentence;;
+
+	=> nrel_main_idtf: [Опр. (безличное предложение)](* <- lang_ru;; *);;
+     	<= nrel_using_constants: ...
+	(*
+		-> one_part_sentence;;
+		-> sentence_structure;;
+		-> rrel_main_member_of_sentence;;
+		-> nrel_denote;;
+		-> proccess;;
+		-> condition;;	
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Безличное предложение - односоставное предложение, главный член которого обозначает процесс или состояние, независимые от активного деятеля (или признак, независимый от его носителя).](* <- lang_ru;; *);;
+     	*);;
+
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: impersonal_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(безличное предложение, семантическая особенность*, подлежащее')](*<-lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Семантической основой безличных предложений является отсутствие именно активного деятеля (или носителя признака), так как указание на деятеля (или носителя признака) в предложении все-таки может быть, однако в такой форме, которая не допускает грамматического подлежащего.](* <-lang_ru;; *);;
+	*);;
+*);;
+
+
+impersonal_sentence
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [Лодку сносит к берегу.](*<-lang_ru;;*);;
+*);;
+

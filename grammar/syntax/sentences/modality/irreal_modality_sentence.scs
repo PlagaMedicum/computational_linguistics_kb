@@ -1,25 +1,56 @@
+
+sc_node_not_relation
+ -> irreal_modality_sentence;;
+
 irreal_modality_sentence
-<-sc_node_not_relation;
-<-sentence;;
-irreal_modality_sentence => nrel_main_idtf:
-	[предложение ирреальной модальности](* <-lang_ru;; *);
-    [irreal modality sentence](* <-lang_en;; *);;
-irreal_modality_sentence <- rrel_key_sc_element: 
-		... 
-		(*
-		<- sc_definition;;
-		=> nrel_main_idtf: [Определение: предложение ирреальной модальности] (* <- lang_ru;; *);;
-		=> nrel_main_idtf: [Definition: irreal modality sentence] (* <- lang_en;; *);;
-        <- definition;;
-		<= nrel_sc_text_translation: ...
-			(*
-			-> rrel_example: 
-				[Предложение ирреальной модальности – это предложение в котором сообщаемое представляется как возможное, желаемое, должное или требуемое, т.е. реально не существующее.](*<- lang_ru;;*);;
-			-> rrel_example: 
-				[The sentence of an irreal modality is a sentence in which reported it is represented as possible, desirable, due or demanded, i.e. really not existing.](*<- lang_en;;*);;
-			*);;
-            <= nrel_using_constants: ...
-            (*
-                -> sentence; tense;;
-            *);;
-		*);;
+ => nrel_main_idtf: [предложение ирреальной модальности](* <- lang_ru;; *);
+ => nrel_idtf: [множество предложений ирреальной модальности](* <- lang_ru;; *);
+ => nrel_idtf: [irreal modality sentence](* <- lang_en;; *);;
+
+definition -> ...   
+(*
+     	-> rrel_key_sc_element: irreal_modality_sentence;;
+
+	=> nrel_main_idtf: [Опр. (предложение ирреальной модальности)](* <- lang_ru;; *);;
+     	<= nrel_using_constants: ...
+	(*
+		-> sentence;;
+		-> temporal_uncertainty;;
+		-> nrel_bear_the_meaning;;
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Предложение ирреальной модальности - предложение, несущее в себе значение временной 		неопределенности.](* <- lang_ru;; *);;
+     	*);;
+
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: irreal_modality_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(предложение ирреальной модальности, реально не существующее сообщаемое*)](* <- lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Сообщаемое в предложении ирреальной модальности представляется как возможное, желаемое, должное или требуемое, т.е. реально не существующее.](* <- lang_ru;; *);;
+	*);;
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: irreal_modality_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(предложение ирреальной модальности, форма сослагательного наклонения*, форма условного наклонения*, форма желательного наклонения*, форма побудительного наклонения*)](* <- lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [В предложении ирреальной модальности используются формы сослагательного, условного, желательного и побудительного наклонений.](* <- lang_ru;; *);;
+	*);;
+*);;
+
+
+irreal_modality_sentence
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [Будь бы боровики, настоящие грибы, стал бы я, старый человек, наклоняться за черным грибом?](*<-lang_ru;;*);;
+*);;
+

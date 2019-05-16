@@ -1,25 +1,58 @@
+
+sc_node_not_relation
+ -> real_modality_sentence;;
+
+
 real_modality_sentence
-<-sc_node_not_relation;
-<-sentence;;
-real_modality_sentence => nrel_main_idtf:
-	[предложение реальной модальности](* <-lang_ru;; *);
-    [real modality sentence](* <-lang_en;; *);;
-real_modality_sentence <- rrel_key_sc_element: 
-		... 
-		(*
-		<- sc_definition;;
-		=> nrel_main_idtf: [Определение: предложение реальной модальности] (* <- lang_ru;; *);;
-		=> nrel_main_idtf: [Definition: real modality sentence] (* <- lang_en;; *);;
-        <- definition;;
-		<= nrel_sc_text_translation: ...
-			(*
-			-> rrel_example: 
-				[Предложение реальной модальности – это предложение которые позволяет представить сообщаемое в нем как осуществляемое в реальном времени - в настоящем, прошедшем и будущем.](*<- lang_ru;;*);;
-			-> rrel_example: 
-				[The sentence of a real modality is a sentence which allows to present reported in it as carried out in real time - in real, last and future](*<- lang_en;;*);;
-			*);;
-            <= nrel_using_constants: ...
-            (*
-                -> sentence; tense;;
-            *);;
-		*);;
+ => nrel_main_idtf: [предложение реальной модальности](* <- lang_ru;; *);
+ => nrel_idtf: [множество предложений реальной модальности](* <- lang_ru;; *);
+ => nrel_idtf: [real modality sentence](* <- lang_en;; *);;
+
+
+definition -> ...   
+(*
+     	-> rrel_key_sc_element: real_modality_sentence;;
+
+	=> nrel_main_idtf: [Опр. (предложение реальной модальности)](* <- lang_ru;; *);;
+     	<= nrel_using_constants: ...
+	(*
+		-> sentence;;
+		-> temporal_certainty;;
+		-> nrel_bear_the_meaning;;
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Предложение реальной модальности - предложение, несущее в себе значение временной 			определенности.](* <- lang_ru;; *);;
+     	*);;
+
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: real_modality_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(предложение реальной модальности, грамматический признак, настоящее время', прошедшее время', будущее время')](* <- lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Предложение реальной модальности обладает такими грамматическими признаками, которые позволяют представить сообщаемое в нем как осуществляемое в реальном времени - в настоящем, прошедшем и будущем.](* <- lang_ru;; *);;
+	*);;
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: real_modality_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(предложение реальной модальности, синтактическая форма, нести значение*, временная определенность, синтактический индикатив)](* <- lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [В предложении реальной модальности синтаксические формы, несущие значение временной определенности (формы настоящего, прошедшего и будущего времени действительного залога), образуют синтаксический индикатив.](* <- lang_ru;; *);;
+	*);;
+*);;
+
+
+real_modality_sentence
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [Ваши документы и вещи вам привезут через несколько дней.](*<-lang_ru;;*);;
+*);;
+

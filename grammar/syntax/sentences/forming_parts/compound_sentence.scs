@@ -1,25 +1,90 @@
+sc_node_not_relation
+ -> compound_sentence;;
+
 compound_sentence
-<-sc_node_not_relation;
-<-sentence;;
-compound_sentence => nrel_main_idtf:
-	[сложное предложение](* <-lang_ru;; *);
-    [compound sentence](* <-lang_en;; *);;
-compound_sentence <- rrel_key_sc_element: 
-		... 
-		(*
-		<- sc_definition;;
-		=> nrel_main_idtf: [Определение: сложное предложение] (* <- lang_ru;; *);;
-		=> nrel_main_idtf: [Definition: compound sentence] (* <- lang_en;; *);;
-        <- definition;;
-		<= nrel_sc_text_translation: ...
-			(*
-			-> rrel_example: 
-				[Сложное предложение – это предложение, которое состоит из двух или более простых предложений, объединенных друг с другом смысловой и синтаксической связью.](*<- lang_ru;;*);;
-			-> rrel_example: 
-				[The compound sentence is a sentence which consists of two or more simple sentences or grammatical bases united with each other by a semantic and syntactic link.](*<- lang_en;;*);;
-			*);;
-            <= nrel_using_constants: ...
-            (*
-                -> sentence; grammatical_basis;;
-            *);;
-		*);;
+ => nrel_main_idtf: [сложное предложение](* <- lang_ru;; *);
+ => nrel_idtf: [множество сложных предложений](* <- lang_ru;; *);
+ => nrel_idtf: [compound sentence](* <- lang_en;; *);;
+
+
+definition -> ...   
+(*
+     	-> rrel_key_sc_element: compound_sentence;;
+
+	=> nrel_main_idtf: [Опр. (сложное предложение)](* <- lang_ru;; *);;
+     	<= nrel_using_constants: ...
+	(*
+		-> sentence;;
+		-> nrel_consist_of;;
+		-> nrel_united_by_meaning;;
+		-> nrel_grammatically_united;;	
+		-> predicative_unit;;
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Сложное предложение - предложение, состоящее из объединенных по смыслу и грамматически двух или нескольких предикативных единиц.](* <- lang_ru;; *);;
+     	*);;
+
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: compound_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(сложное предложение, часть сложного предложения*, грамматический состав)](*<-lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Каждая из частей сложного предложения имеет свои грамматические составы.](* <-lang_ru;; *);;
+	*);;
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: compound_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(сложное предложение, представлять собой*, структурное единство, смысловое единство, интонационное единство)](*<-lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Сложное предложение представляет собой структурное, смысловое и интонационное единство.](* <-lang_ru;; *);;
+	*);;
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: compound_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(часть сложного предложения*, простое предложение, существовать*, сложное предложение, грамматическое объединение, самостоятельная коммуникативная единица)](*<-lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Хотя части сложного предложения структурно напоминают простые предложения, они не могут существовать вне сложного предложения, т.е. вне данного грамматического объединения, как самостоятельные коммуникативные единицы.](* <-lang_ru;; *);;
+	*);;
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: compound_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(часть сложного предложения*, объединение*, равноправные части, грамматически независимые части, грамматически зависимые части)](*<-lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Части сложного предложения могут объединяться как равноправные, грамматически независимые, и как зависимые.](* <-lang_ru;; *);;
+	*);;
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: compound_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(простое предложение, сложное предложение, главное различие*, монопредикативная единица, полипредикативная единица)](*<-lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Главное различие между простым и сложным предложением состоит в том, что простое предложение - единица монопредикативная, сложное - полипредикативная.](* <-lang_ru;; *);;
+	*);;
+*);;
+
+compound_sentence
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [Мальчик всматривался в знакомые места, а ненавистная бричка бежала мимо.](*<-lang_ru;;*);;
+*);;
+

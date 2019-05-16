@@ -1,0 +1,98 @@
+sc_node_norole_relation
+ -> nrel_junction;;
+
+nrel_junction
+
+ => nrel_idtf: [junction*] (* <- lang_en;; *);
+ => nrel_idtf: [быть примыканием*] (* <- lang_ru;; *);
+ => nrel_main_idtf: [примыкание*] (* <- lang_ru;; *);;
+
+
+nrel_junction
+ <- syntactic_relationship_of_phrase;
+ <- oriented_relation;
+ <- norole_relation;
+ <- antitransitive_relation;
+ <- antireflexive_relation;
+ <- antisymmetric_relation;
+
+<-binary_relation;
+=> nrel_definitional_domain: ...
+(*
+	=> nrel_combination:...
+	(*
+		-> word;;
+  		-> idiom;;
+	*);;
+*);
+=> nrel_first_domain:...
+(*
+	=> nrel_combination:...
+	(*
+		-> word;;
+  		-> idiom;;
+	*);;
+*);
+=> nrel_second_domain:...
+(*
+	=> nrel_combination:...
+	(*
+		-> word;;
+  		-> idiom;;
+	*);;
+*);;
+
+
+definition -> ...   
+(*
+  	-> rrel_key_sc_element: nrel_junction;;
+  	=> nrel_main_idtf: [Опр. (примыкание*)](* <- lang_ru;; *);;
+    	<= nrel_using_constants: ...
+	(*
+		-> syntactic_relationship;;
+		-> nrel_subordination;;
+		-> grammatical_case;;
+		-> part_of_speech;;
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Примыкание - это такой вид подчинительной связи, при котором подчиненное слово, будучи неизменяемой частью речи или словоформой, изолированной от системы падежей, свою зависимость от господствующего слова выражает только местоположением и смыслом.](* <- lang_ru;; *);;
+	*);;
+*);;
+
+  statement -> ... 
+(*
+        -> rrel_key_sc_element: nrel_junction;;
+
+
+	=> nrel_main_idtf: [Утв.(примыкание*, словосочетание, обстоятельственное отношение*, определительное отношение*)] (* <-lang_ru;; *);;
+
+	<= nrel_sc_text_translation: ... (* -> [В словосочетаниях со связью примыкания выражаются отношения информативного восполнения, обстоятельственные и - реже - определительные.] (* <- lang_ru;; *);; *);;
+*);;
+
+  statement -> ... 
+(*
+        -> rrel_key_sc_element: nrel_junction;;
+
+
+	=> nrel_main_idtf: [Утв.(примыкание*, наречие, деепричастие, инфинитив, слово, синтаксическое отношение)] (* <-lang_ru;; *);;
+
+	<= nrel_sc_text_translation: ... (* -> [Примыкают наречия (или функционально близкие к ним словоформы), деепричастия, инфинитив. Такие слова не располагают грамматически изменяемыми формами выражения синтаксических отношений, и формальным признаком примыкания оказывается неизменяемость.] (* <- lang_ru;; *);; *);;
+*);;
+
+ 
+nrel_junction
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:[Рис.(примыкание на языке SCg)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation: ...
+	(*
+		->"file://examples_of_scg_syntax/junction.png"
+		(*
+			=>nrel_format:format_png;;
+		*);;
+	*);;
+*);;
+
+  

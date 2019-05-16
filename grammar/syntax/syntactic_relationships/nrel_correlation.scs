@@ -1,0 +1,55 @@
+sc_node_norole_relation
+ -> nrel_correlation;;
+
+nrel_correlation
+
+ => nrel_idtf: [correlation*] (* <- lang_en;; *);
+ => nrel_idtf: [быть корреляцией*] (* <- lang_ru;; *);
+ => nrel_main_idtf: [корреляция*] (* <- lang_ru;; *);;
+
+
+nrel_correlation
+ <- syntactic_relationship_of_phrase;
+ <- oriented_relation;
+ <- norole_relation;
+ <- antitransitive_relation;
+ <- antireflexive_relation;
+ <- antisymmetric_relation;
+
+<-binary_relation;
+=> nrel_definitional_domain: word;
+=> nrel_first_domain: word;
+=> nrel_second_domain:word;;
+
+definition -> ...   
+(*
+  	-> rrel_key_sc_element: nrel_correlation;;
+  	=> nrel_main_idtf: [Опр. (корреляция*)](* <- lang_ru;; *);;
+    	<= nrel_using_constants: ...
+	(*
+		-> syntactic_relationship;;
+		-> grammatical_gender;;
+		-> grammatical_number;;
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Корреляция - связь в объединении слов, при которой формы числа и рода зависимого слова скорее являются совпадающими с формами главенствующего слова, нежели обусловленными ими.](* <- lang_ru;; *);;
+	*);;
+*);;
+
+  
+nrel_correlation
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:[Рис.(корреляция на языке SСg)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation: ...
+	(*
+		->"file://examples_of_scg_syntax/correlation.png"
+		(*
+			=>nrel_format:format_png;;
+		*);;
+	*);;
+*);;
+
+  

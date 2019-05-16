@@ -1,0 +1,36 @@
+sc_node_not_relation
+ -> objectively_existence_sentence;;
+
+objectively_existence_sentence
+ => nrel_main_idtf: [ предметно-бытийное предложение](* <- lang_ru;; *);
+ => nrel_idtf: [множество предметно-бытийных предложений](* <- lang_ru;; *);
+ => nrel_idtf: [objectively existence sentence](* <- lang_en;; *);;
+
+
+definition -> ...   
+(*
+     	-> rrel_key_sc_element: objectively_existence_sentence;;
+
+	=> nrel_main_idtf: [Опр. ( предметно-бытийное предложение)](* <- lang_ru;; *);;
+     	<= nrel_using_constants: ...
+	(*
+		-> one_part_sentence;;
+		-> nominative_sentence;;
+		-> nrel_term;;
+		-> thing;;	
+		-> idea_of_existence_of_thing;;
+		-> nrel_transmit;;
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Предметно-бытийное предложение - это односоставное номинативное предложение, называющее предметы, расположенные в пространстве, и передают идею их существования.](* <- lang_ru;; *);;
+     	*);;
+
+*);;
+
+objectively_existence_sentence
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [Приземистые ели.](*<-lang_ru;;*);;
+*);;
+

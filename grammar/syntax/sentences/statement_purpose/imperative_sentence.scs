@@ -1,0 +1,56 @@
+sc_node_not_relation
+ -> imperative_sentence;;
+
+imperative_sentence
+ => nrel_main_idtf: [побудительное предложение](* <- lang_ru;; *);
+ => nrel_idtf: [множество побудительных предложений](* <- lang_ru;; *);
+ => nrel_idtf: [imperative sentence](* <- lang_en;; *);;
+
+
+definition -> ...   
+(*
+     	-> rrel_key_sc_element: imperative_sentence;;
+
+	=> nrel_main_idtf: [Опр. (побудительное предложение)](* <- lang_ru;; *);;
+     	<= nrel_using_constants: ...
+	(*
+		-> sentence;;
+		-> nrel_express;;
+		-> will_of_speaker;;	
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Побудительное предложение - предложение, выражающее волеизъявление говорящего.](* <- lang_ru;; *);;
+     	*);;
+
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: imperative_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(побудительное предложение, цель*, побуждать к*)](*<-lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Цель побудительного предложения - побуждение к действию.](* <-lang_ru;; *);;
+	*);;
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: imperative_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(побудительное предложение, грамматическое средство оформления, побудительная интонация, сказуемое', повелительное наклонение*, частица, побудительный оттенок, предложение)](*<-lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Грамматическими средствами оформления побудительных предложений являются побудительная интонация, сказуемое в форме повелительного наклонения и специальные частицы, вносящие побудительный оттенок в предложение (давай, давайте, ну-ка, да, пусть).](* <-lang_ru;; *);;
+	*);;
+*);;
+
+
+imperative_sentence
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [Мой друг, отчизне посвятим души прекрасные порывы!](*<-lang_ru;;*);;
+*);;
+

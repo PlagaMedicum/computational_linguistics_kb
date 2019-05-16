@@ -1,0 +1,93 @@
+sc_node_norole_relation
+ -> nrel_matching_without_preposition;;
+
+nrel_matching_without_preposition
+
+ => nrel_idtf: [matching without preposition*] (* <- lang_en;; *);
+ => nrel_idtf: [быть согласованием беспредложным*] (* <- lang_ru;; *);
+ => nrel_main_idtf: [согласование беспредложное*] (* <- lang_ru;; *);;
+
+
+nrel_matching_without_preposition
+ <- syntactic_relationship_of_phrase;
+ <- oriented_relation;
+ <- norole_relation;
+ <- antitransitive_relation;
+ <- antireflexive_relation;
+ <- antisymmetric_relation;
+
+<-binary_relation;
+=> nrel_definitional_domain: word;
+=> nrel_first_domain: word;
+=> nrel_second_domain:word;;
+
+
+definition -> ...   
+(*
+  	-> rrel_key_sc_element: nrel_matching_without_preposition;;
+  	=> nrel_main_idtf: [Опр. (согласование беспредложное*)](* <- lang_ru;; *);;
+    	<= nrel_using_constants: ...
+	(*
+		-> syntactic_relationship;;
+		-> nrel_subordination;;
+		-> sentence;;
+		-> grammatical_gender;;
+		-> grammatical_number;;
+		-> grammatical_case;;
+		-> preposition;;
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Согласование беспредложное - это вид подчинительной связи, при котором формы рода, числа и падежа зависимого слова предопределяются формами рода, числа и падежа слова подчиняющего. Подчинительная связь двух слов без употребления предлога, является бинарным отношением.](* <- lang_ru;; *);;
+	*);;
+*);;
+
+  statement -> ... 
+(*
+        -> rrel_key_sc_element: nrel_matching_without_preposition;;
+	-> rrel_key_sc_element: nrel_matching_with_preposition;;
+
+
+	=> nrel_main_idtf: [Утв.(согласование беспредложное*, согласование предложное*, определительное отношение*)] (* <-lang_ru;; *);;
+
+	<= nrel_sc_text_translation: ... (* -> [При согласовании всегда устанавливаются определительные отношения.] (* <- lang_ru;; *);; *);;
+*);;
+
+  statement -> ... 
+(*
+        -> rrel_key_sc_element: nrel_matching_without_preposition;;
+	-> rrel_key_sc_element: nrel_matching_with_preposition;;
+
+
+	=> nrel_main_idtf: [Утв.(согласование беспредложное*, согласование предложное*, грамматическое свойство, грамматическая категория, морфологическое свойство)] (* <-lang_ru;; *);;
+
+	<= nrel_sc_text_translation: ... (* -> [Связь согласования определяется грамматическими свойствами как господствующего, так и зависимого слова, а «необходимость использовать именно согласование зависит от морфологических свойств подчиненного слова, обладающего несамостоятельными, «отраженными» грамматическими категориями».] (* <- lang_ru;; *);; *);;
+*);;
+
+ statement -> ... 
+(*
+        -> rrel_key_sc_element: nrel_matching_without_preposition;;
+	-> rrel_key_sc_element: nrel_matching_with_preposition;;
+
+
+	=> nrel_main_idtf: [Утв.(согласование беспредложное*, согласование предложное*, род, число, падеж)](* <-lang_ru;; *);;
+
+	<= nrel_sc_text_translation: ... (* -> [Согласование может быть полным (согласование в роде, числе и падеже) или неполным (согласование в числе и падеже, согласование в числе, согласование в падеже).] (* <- lang_ru;; *);; *);;
+*);;
+
+ 
+nrel_matching_without_preposition
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:[Рис.(согласование беспредложное на языке SCg)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation: ...
+	(*
+		->"file://examples_of_scg_syntax/matching_without_preposition.png"
+		(*
+			=>nrel_format:format_png;;
+		*);;
+	*);;
+*);;
+
+  

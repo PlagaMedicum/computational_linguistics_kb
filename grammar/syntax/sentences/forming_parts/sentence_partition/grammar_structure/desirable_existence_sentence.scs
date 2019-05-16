@@ -1,0 +1,46 @@
+sc_node_not_relation
+ -> desirable_existence_sentence;;
+
+desirable_existence_sentence
+ => nrel_main_idtf: [желательно-бытийное предложение](* <- lang_ru;; *);
+ => nrel_idtf: [множество желательно-бытийных предложений](* <- lang_ru;; *);
+ => nrel_idtf: [desirable-existence sentence](* <- lang_en;; *);;
+
+
+definition -> ...   
+(*
+     	-> rrel_key_sc_element: desirable_existence_sentence;;
+
+	=> nrel_main_idtf: [Опр. (желательно-бытийное предложение)](* <- lang_ru;; *);;
+     	<= nrel_using_constants: ...
+	(*
+		-> one_part_sentence;;
+		-> nominative_sentence;;
+		-> nrel_transmit;;
+		-> desirability_of_called;;
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Желательно-бытийное предложение - это односоставное номинативное предложение, которое передает желательность называемого.](* <- lang_ru;; *);;
+     	*);;
+
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: desirable_existence_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(желательно-бытийное предложение, структурный признак*, частица, показатель ирреального наклонения)](*<-lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Структурным признаком желательно-бытийных предложений являются частицы только, если, лишь в сочетании с частицей бы (показателем ирреального наклонения). ](* <-lang_ru;; *);;
+	*);;
+*);;
+
+
+desirable_existence_sentence
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [Только бы здоровье!](*<-lang_ru;;*);;
+*);;
+

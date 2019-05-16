@@ -1,25 +1,58 @@
+sc_node_not_relation
+ -> narrative_sentence;;
+
 narrative_sentence
-<-sc_node_not_relation;
-<-sentence;;
-narrative_sentence => nrel_main_idtf:
-	[повествовательное предложение](* <-lang_ru;; *);
-    [narrative sentence](* <-lang_en;; *);;
-narrative_sentence <- rrel_key_sc_element: 
-		... 
-		(*
-		<- sc_definition;;
-		=> nrel_main_idtf: [Определение: повествовательное предложение] (* <- lang_ru;; *);;
-		=> nrel_main_idtf: [Definition: narrative sentence] (* <- lang_en;; *);;
-        <- definition;;
-		<= nrel_sc_text_translation: ...
-			(*
-			-> rrel_example: 
-				[Повествовательное предложение – это предложение, заключающие в себе сообщение о каком-либо факте действительности, явлении, событии и т.д. (утверждаемом или отрицаемом).](*<- lang_ru;;*);;
-			-> rrel_example: 
-				[The narrative sentence is a sentence comprising the message about any fact of reality, the phenomenon, an event, etc. (approved or denied).](*<- lang_en;;*);;
-			*);;
-            <= nrel_using_constants: ...
-            (*
-                -> sentence;;
-            *);;
-		*);;
+ => nrel_main_idtf: [повествовательное предложение](* <- lang_ru;; *);
+ => nrel_idtf: [множество повествовательных предложений](* <- lang_ru;; *);
+ => nrel_idtf: [narrative sentence](* <- lang_en;; *);;
+
+
+definition -> ...   
+(*
+     	-> rrel_key_sc_element: narrative_sentence;;
+
+	=> nrel_main_idtf: [Опр. (повествовательное предложение)](* <- lang_ru;; *);;
+     	<= nrel_using_constants: ...
+	(*
+		-> sentence;;
+		-> message_about_fact;;
+		-> message_about_phenomenon;;
+		-> message_about_event;;
+		-> nrel_comprise;;	
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Пoвecтвoвaтeльнoe пpeдлoжeниe – этo пpeдлoжeниe, зaключaющee в ceбe cooбщeниe o кaкoм-либo фaктe, явлeнии, coбытии, yтвepждaeмыx или oтpицaeмыx.](* <- lang_ru;; *);;
+     	*);;
+
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: narrative_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(повествовательное предложение, тип предложения, содержание предложения*, структура предложения*)](*<-lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Повествовательные предложения являются наиболее распространенным типом предложений, они очень разнообразны по своему содержанию и структуре.](* <-lang_ru;; *);;
+	*);;
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: narrative_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(повествовательное предложение, отличаться относительной законченностью мысли от*, повествовательная интонация, слово, наибольшее повышение тона*, конец предложения*)](*<-lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Повествовательные предложения отличаются относительной законченностью мысли, передающейся специфической повествовательной интонацией: повышением тона на логически выделяемом слове (или двух и более, но при этом одно из повышений будет наибольшим) и спокойным понижением тона в конце предложения.](* <-lang_ru;; *);;
+	*);;
+*);;
+
+
+narrative_sentence
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [Народ узнал колокольчик Пугачева и толпою бежал за ним.](*<-lang_ru;;*);;
+*);;
+

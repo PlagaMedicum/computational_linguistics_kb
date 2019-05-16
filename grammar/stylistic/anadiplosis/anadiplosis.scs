@@ -1,0 +1,42 @@
+anadiplosis
+	<- sc_node_not_relation;
+	<- stylistic_device;
+
+	=> nrel_main_idtf:
+			[анадиплосис](* <- lang_ru;; *);
+			[anadiplosis](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Я на башню всходил, и дрожали ступени. И дрожали ступени под ногой у меня.](* <- lang_ru;; *);
+					[I climbed the tower, and the stairs trembled. And the stairs trembled under my foot.](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_anadiplosis
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (анадиплосис)](* <- lang_ru;; *);
+					[Опр. (anadiplosis)](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example:
+						[Анадиплосис - повторение одного или нескольких слов таким образом, что последнее слово или фраза первой части отрезка речи повторяется в начале следующей части, тем самым связывая их в единое целое.](* <- lang_ru;; *);
+						[Anadiplosis is the repetition of one or several words in such a way that the last word or phrase of the first part of the segment of speech is repeated at the beginning of the next part, thereby connecting them into a single whole.](* <- lang_en;; *);;
+				*);;
+		*);
+	
+	<- rrel_key_sc_element: ...
+		(* 
+				<- explanation;; 
+				=> nrel_main_idtf:
+					[Утв. (анадиплосис)](* <- lang_ru;; *);
+					[Expl. (anadiplosis)](* <- lang_en;; *);;
+				<- nrel_sc_text_translation: ...
+						(*
+							-> rrel_example: 
+									[По современной стихологической терминологии анадиплосис является повторением конца стиха в начале следующего.](* <-lang_ru;; *);
+									[In modern verse terminology, anadiplosis is a repetition of the end of a verse at the beginning of the next.](* <- lang_en;; *);;
+						*);;
+		*);;

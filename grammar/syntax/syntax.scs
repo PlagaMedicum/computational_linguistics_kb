@@ -1,0 +1,39 @@
+sc_node_not_relation
+ -> syntax;;
+
+syntax
+ => nrel_main_idtf: [синтаксис](* <- lang_ru;; *);
+ => nrel_idtf: [множество синтаксисов](* <- lang_ru;; *);
+ => nrel_idtf: [syntax](* <- lang_en;; *);;
+
+
+
+
+definition -> ...   
+(*
+  	-> rrel_key_sc_element: syntax;;
+  	=> nrel_main_idtf: [Опр. (синтаксис)](* <- lang_ru;; *);;
+    	<= nrel_using_constants: ...
+	(*
+		-> sentence;;
+		-> word;;
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Синтаксис - это раздел грамматики, изучающий предложения и способы сочетания слов внутри предложения.](* <- lang_ru;; *);;
+	*);;
+*);;
+
+ 
+   statement -> ...
+(*
+      	-> rrel_key_sc_element: syntax;;
+
+      	=> nrel_main_idtf: [Утв.(синтаксис, синтаксическая единица)](* <- lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Предметом изучения в синтаксисе являются синтаксические единицы.](* <- lang_ru;; *);;
+	*);;
+*);;
+   
+

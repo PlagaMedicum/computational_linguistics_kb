@@ -1,0 +1,56 @@
+retardation
+	<- sc_node_not_relation;
+	<- stylistic_device;
+
+	=> nrel_main_idtf:
+			[ретардация](* <- lang_ru;; *);
+			[retardation](* <- lang_en;; *);
+	
+	/*-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[?](* <- lang_ru;; *);
+					[primer en](* <- lang_en;; *);;
+		*);*/
+
+	<- rrel_key_sc_element: definition_retardation
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (ретардация)](* <- lang_ru;; *);
+					[Опр. (retardation)](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example:
+						[Ретардация - литературно-художественный приём: задержка развития действия включением в текст внефабульных элементов — лирических отступлений, различных описаний (пейзаж, интерьер, характеристика), а также предложение (или период), части которого представляют ряд нисходящих по силе выражений.](* <- lang_ru;; *);
+						[Retardation is a literary and artistic technique: delay in the development of the action by including in the text off-topic elements - lyrical digressions, various descriptions (landscape, interior, characteristics), as well as a sentence (or period), parts of which represent a series of descending expressions.](* <- lang_en;; *);;
+				*);;
+		*);	
+		
+	<- rrel_key_sc_element: ...
+		(* 
+				<- explanation;; 
+				=> nrel_main_idtf:
+					[Утв. (ретардация)](* <- lang_ru;; *);
+					[Expl. (retardation)](* <- lang_en;; *);;
+				<- nrel_sc_text_translation: ...
+						(*
+							-> rrel_example: 
+									[Ретардация приводит к тому, что эмоциональное напряжение перед близким финалом поднимается снова.](* <-lang_ru;; *);
+									[Retardation leads to the fact that the emotional stress before the close final rises again.](* <- lang_en;; *);;
+						*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+	(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (ретардация, градация)](* <- lang_ru;; *);
+				[Expl. (retardation, gradation)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: 
+								[Фигура речи, противоположная ретардации - градация.](* <-lang_ru;; *);
+								[The figure of speech, opposite of retardation - gradation.](* <- lang_en;; *);;
+					*);;
+	*);;

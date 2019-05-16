@@ -1,0 +1,41 @@
+sc_node_not_relation
+ -> interrogative_narrative_sentence;;
+
+interrogative_narrative_sentence
+ => nrel_main_idtf: [вопросительно-повествовательное предложение](* <- lang_ru;; *);
+ => nrel_idtf: [множество вопросительно-повествовательных предложений](* <- lang_ru;; *);
+ => nrel_idtf: [interrogative-narrative sentence](* <- lang_en;; *);;
+
+interrogative_narrative_sentence
+<= nrel_subdividing: ...
+(*
+	-> interrogative_affirmative_sentence;;	
+	-> interrogative_negative_sentence;;		
+*);;
+
+definition -> ...   
+(*
+     	-> rrel_key_sc_element: interrogative_narrative_sentence;;
+
+	=> nrel_main_idtf: [Опр. (вопросительно-повествовательное предложение)](* <- lang_ru;; *);;
+     	<= nrel_using_constants: ...
+	(*
+		-> sentence;;
+		-> transient_nature;;
+		-> answer;;
+		-> message;;
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Вопросительно-повествовательное предложение - предложение, которое имеет переходный характер - от вопроса к сообщению.](* <- lang_ru;; *);;
+     	*);;
+
+*);;
+
+
+interrogative_narrative_sentence
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [Значит, в Москву теперь?](*<-lang_ru;;*);;
+*);;
+

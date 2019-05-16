@@ -1,0 +1,56 @@
+metonymy
+	<- sc_node_not_relation;
+	<- stylistic_device;
+
+	=> nrel_main_idtf:
+			[метонимия](* <- lang_ru;; *);
+			[metonymy](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[«Я три тарелки съел»](* <- lang_ru;; *);
+					["I ate three plates"](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_metonymy
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (метонимия)](* <- lang_ru;; *);
+					[Опр. (metonymy)](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example:
+						[Метонимия — вид тропа, словосочетание, в котором одно слово заменяется другим, обозначающим предмет (явление), находящийся в той или иной (пространственной, временной и т. п.) связи с предметом, который обозначается заменяемым словом; замещающее слово при этом употребляется в переносном значении.](* <- lang_ru;; *);
+						[Metonymy is a type of trail, a phrase in which one word is replaced by another, denoting an object (phenomenon) that is in one way or another (spatial, temporal, etc.) related to the object that is indicated by the word being replaced; the replacement word is used in a figurative sense.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+				<- explanation;; 
+				=> nrel_main_idtf:
+					[Утв. (метонимия, метафора)](* <- lang_ru;; *);
+					[Expl. (metonymy, metaphor)](* <- lang_en;; *);;
+				<- nrel_sc_text_translation: ...
+						(*
+							-> rrel_example: 
+									[Метонимию следует отличать от метафоры, с которой её нередко путают: метонимия основана на замене слов «по смежности», а метафора — «по сходству».](* <-lang_ru;; *);
+									[Metonymy should be distinguished from metaphor, with which it is often confused: metonymy is based on the replacement of the words “by contiguity”, and the metaphor - “by similarity”.](* <- lang_en;; *);;
+						*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+				<- explanation;; 
+				=> nrel_main_idtf:
+					[Утв. (метонимия, синекдоха)](* <- lang_ru;; *);
+					[Expl. (metonymy, synecdoche)](* <- lang_en;; *);;
+				<- nrel_sc_text_translation: ...
+						(*
+							-> rrel_example: 
+									[Частным случаем метонимии является синекдоха.](* <-lang_ru;; *);
+									[A special case of metonymy is synecdoche.](* <- lang_en;; *);;
+						*);;
+		*);;

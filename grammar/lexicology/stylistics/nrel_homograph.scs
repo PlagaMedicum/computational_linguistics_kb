@@ -1,0 +1,73 @@
+
+sc_node_norole_relation
+ -> nrel_homograph;;
+
+nrel_homograph
+
+ => nrel_idtf: [homograph*] (* <- lang_en;; *);
+ => nrel_idtf: [быть  омографом*] (* <- lang_ru;; *);
+ => nrel_main_idtf: [омограф*] (* <- lang_ru;; *);;
+
+
+number
+ -> 2;;
+
+parameter
+ ->arity;;
+
+arity
+ ->binary_relation;;
+
+binary_relation
+ -> nrel_homograph;;
+
+binary_relation
+ => nrel_measurement: 2;;
+
+
+nrel_homograph
+=> nrel_definitional_domain: word;
+=> nrel_first_domain:word;
+=> nrel_second_domain:word;;
+
+nrel_homograph
+ <- oriented_relation;
+ <- norole_relation;
+ <- transitive_relation;
+ <- antireflexive_relation;
+ <- symmetric_relation;;
+
+relation
+ => nrel_inclusion: binary_relation;
+ => nrel_inclusion: oriented_relation;;	
+
+binary_relation
+ => nrel_inclusion: transitive_relation;
+ => nrel_inclusion: antireflexive_relation;
+ => nrel_inclusion: symmetric_relation;;
+
+
+sc_node_norole_relation
+->nrel_different_sound(*=> nrel_main_idtf: [быть различными по звучанию*] (* <- lang_ru;; *);;*);;
+
+definition -> ...
+(* 
+      -> rrel_key_sc_element: nrel_homograph;;
+      => nrel_main_idtf: [Опр.(омограф*)] (* <- lang_ru;; *);;
+      <= nrel_sc_text_translation: ...(* ->[Омографы - слова, совпадающие по написанию, но различные по звучанию и значению] (* <- lang_ru;; *);;*);;
+      <= nrel_using_constants: ...
+			      (*
+				->nrel_different_sound;;
+				-> nrel_different_in_meaning;;
+				->nrel_match_writing;;
+				-> nrel_match_sound;;
+                                -> word;;
+			      *);;
+*);;
+
+
+
+//nrel_homograph-> rrel_example: ...(*=>nrel_main_idtf:[за́мок](*<-lang_ru;;*);;
+//=>nrel_main_idtf:[замо́к](*<-lang_ru;;*);;*);;
+
+

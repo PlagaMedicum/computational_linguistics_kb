@@ -1,0 +1,69 @@
+epistrophe
+	<- sc_node_not_relation;
+	<- stylistic_device;
+
+	=> nrel_main_idtf:
+		[эпифора](* <- lang_ru;; *);
+		[epistrophe](* <- lang_en;; *);
+
+	-> rrel_example: ...
+	(*
+		=> nrel_main_idtf:
+			[primer ru](* <- lang_ru;; *);
+			[primer eng](* <- lang_en;; *);;
+	*);
+
+	<- rrel_key_sc_element: definition_epistrophe
+	(*
+		<- definition;;
+		=> nrel_main_idtf:
+			[Опр. (эпифора)](* <- lang_ru;; *);
+			[Опр. (epistrophe)](* <- lang_en;; *);;
+		<= nrel_sc_text_translation: ...
+		(*
+			-> rrel_example:
+				"file://html/epistrophe_ru.html"(* <- lang_ru;; *);
+	"file://html/epistrophe_en.html"(* <- lang_en;; *);;	
+		*);;
+		<= nrel_using_constants: ... 
+		(*
+			-> stylistic_device;;
+			-> i ostal'noe;;
+		*);;
+	*);
+
+
+	 <- rrel_key_sc_element: ...
+    	(*
+     		<- explanation;; //утв
+     	  	<- epistrophe;; ?
+     	   	- _
+        	=> nrel_main_idtf: 
+           	 [Утв.(эпифора, _)] (* <- lang_ru;; *);
+            	[Expl.(epistrophe, _)] (* <- lang_en;; *);;
+     		<= nrel_sc_text_translation: ...
+        		(*
+           		 -> rrel_example: 
+              			  [Эпифора нередко используется в поэтической речи (очень часто — в фольклоре) в виде одинаковых или аналогичных окончаний строф.](*<- lang_ru;;*);
+                [en.](*<- lang_en;;*);;
+     			*);;
+ 	*);
+
+ 	<- rrel_key_sc_element: ...
+  	  (*
+    		<- explanation;; //утв
+  	     <- epistrophe;; ?
+       	<- anaphora;;
+      	=> nrel_main_idtf: 
+         	   [Утв.(эпифора, анафора)] (* <- lang_ru;; *);
+          		  [Expl.(epistrophe, anaphora)] (* <- lang_en;; *);;
+      	<= nrel_sc_text_translation: ...
+        (*
+            -> rrel_example: 
+                [Противоположностью эпифоры является анафора.](*<- lang_ru;;*);
+                [en.](*<- lang_en;;*);;
+        *);;
+    *);;
+
+
+		

@@ -1,0 +1,33 @@
+sc_node_not_relation
+ -> unsaid_sentence;;
+
+unsaid_sentence
+ => nrel_main_idtf: [недосказанное предложение](* <- lang_ru;; *);
+ => nrel_idtf: [множество недосказанных предложений](* <- lang_ru;; *);
+ => nrel_idtf: [unsaid sentence](* <- lang_en;; *);;
+
+
+definition -> ...   
+(*
+     	-> rrel_key_sc_element: unsaid_sentence;;
+
+	=> nrel_main_idtf: [Опр. (недосказанное предложение)](* <- lang_ru;; *);;
+     	<= nrel_using_constants: ...
+	(*
+		-> sentence;;
+		-> interrupted_statement;;
+*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Недосказанное предложение - это предложение, которое является прерванным по тем или иным причинам высказыванием.](* <- lang_ru;; *);;
+     	*);;
+
+*);;
+
+
+unsaid_sentence
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [Ты уж посодействуй там, где нужно, чтобы... - тут старик делал выразительную паузу и с ликованием в голосе, завершал: - Чтобы мир - во всем мире!](*<-lang_ru;;*);;
+*);;
+

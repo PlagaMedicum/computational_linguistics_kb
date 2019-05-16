@@ -1,0 +1,56 @@
+metaphor
+	<- sc_node_not_relation;
+	<- stylistic_device;
+
+	=> nrel_main_idtf:
+			[метафора](* <- lang_ru;; *);
+			[metaphor](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[«Облако в штанах»](* <- lang_ru;; *);
+					["A cloud in pants"](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_metaphor
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (метафора)](* <- lang_ru;; *);
+					[Опр. (metaphor)](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example:
+						[Метафора —  слово или выражение, употребляемое в переносном значении, в основе которого лежит сравнение неназванного предмета или явления с каким-либо другим на основании их общего признака.](* <- lang_ru;; *);
+						[Metaphor is a word or expression used in a figurative sense, which is based on the comparison of an unnamed object or phenomenon with any other based on their common feature.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+				<- explanation;; 
+				=> nrel_main_idtf:
+					[Утв. (метафора)](* <- lang_ru;; *);
+					[Expl. (metaphor)](* <- lang_en;; *);;
+				<- nrel_sc_text_translation: ...
+						(*
+							-> rrel_example: 
+									[Термин "метафора" принадлежит Аристотелю и связан с его пониманием искусства как подражания жизни.](* <-lang_ru;; *);
+									[The term "metaphor" belongs to Aristotle and is associated with his understanding of art as an imitation of life.](* <- lang_en;; *);;
+						*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+				<- explanation;; 
+				=> nrel_main_idtf:
+					[Утв. (метафора)](* <- lang_ru;; *);
+					[Expl. (metaphor)](* <- lang_en;; *);;
+				<- nrel_sc_text_translation: ...
+						(*
+							-> rrel_example: 
+									[Отличительной чертой метафоры является её постоянное участие в развитии языка, речи и культуры в целом.](* <-lang_ru;; *);
+									[A distinctive feature of the metaphor is its constant participation in the development of language, speech and culture in general.](* <- lang_en;; *);;
+						*);;
+		*);;

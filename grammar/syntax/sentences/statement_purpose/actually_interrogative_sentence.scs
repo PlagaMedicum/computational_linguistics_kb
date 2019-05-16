@@ -1,0 +1,46 @@
+sc_node_not_relation
+ -> actually_interrogative_sentence;;
+
+actually_interrogative_sentence
+ => nrel_main_idtf: [собственно вопросительное предложение](* <- lang_ru;; *);
+ => nrel_idtf: [множество собственно вопросительных предложений](* <- lang_ru;; *);
+ => nrel_idtf: [actually interrogative sentence](* <- lang_en;; *);;
+
+definition -> ...   
+(*
+     	-> rrel_key_sc_element: actually_interrogative_sentence;;
+
+	=> nrel_main_idtf: [Опр. (собственно вопросительное предложение)](* <- lang_ru;; *);;
+     	<= nrel_using_constants: ...
+	(*
+		-> sentence;;
+		-> quaere;;
+		-> answer;;
+		-> nrel_comprise;;
+		-> nrel_assume;;
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Собственно вопросительное предложение - предложение, заключающее в себе вопрос, предполагающий обязательный ответ.](* <- lang_ru;; *);;
+     	*);;
+
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: actually_interrogative_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(собственно вопросительное предложение, познавательная цель, иметь цель*)](*<-lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [собственно вопросительное предложение имеет познавательную цель.](* <-lang_ru;; *);;
+	*);;
+*);;
+
+
+actually_interrogative_sentence
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [Что ты теперь скажешь себе в оправдание?](*<-lang_ru;;*);;
+*);;
+

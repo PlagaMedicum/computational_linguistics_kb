@@ -1,0 +1,61 @@
+catachresis
+	<- sc_node_not_relation;
+	<- stylistic_device;
+
+	=> nrel_main_idtf:
+			[катахреза](* <- lang_ru;; *);
+			[catachresis](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Путешествовать по морю](* <- lang_ru;; *);
+					[Travel on sea](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_catachresis
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (катахреза)](* <- lang_ru;; *);
+					[Опр. (catachresis)](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example:
+						[Катахреза —  троп или стилистическая ошибка, неправильное или необычное употребление сочетаний слов с несовместимыми буквальными лексическими значениями.](* <- lang_ru;; *);
+						[Catachresis is a trope or stylistic mistake, incorrect or unusual use of combinations of words with incompatible literal lexical meanings.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+				<- explanation;; 
+				=> nrel_main_idtf:
+					[Утв. (катахреза, слово)](* <- lang_ru;; *);
+					[Expl. (catachresis, word)](* <- lang_en;; *);;
+				<- nrel_sc_text_translation: ...
+						(*
+							-> rrel_example: 
+									[В катахрезе имеет место соединение слов в переносном смысле вопреки несовместимости их буквальных значений, так что в буквальном смысле имеет место логическая несогласованность, сочетание противоречивых (логически несовместимых) понятий.](* <-lang_ru;; *);
+									[In catachresis, there is a combination of words in a figurative sense, despite the incompatibility of their literal meanings, so that in a literal sense there is a logical inconsistency, a combination of contradictory (logically incompatible) concepts.](* <- lang_en;; *);;
+						*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+				<- explanation;; 
+				=> nrel_main_idtf:
+					[Утв. (катахреза, слово)](* <- lang_ru;; *);
+					[Expl. (catachresis, word)](* <- lang_en;; *);;
+				<- nrel_sc_text_translation: ...
+						(*
+							-> rrel_example: 
+									[Катахрезы возникают в процессе семантического развития языка, его номинативных средств. Вначале они могут восприниматься как случаи неправильного словоупотребления. Впоследствии, конечно, под понятие катахрезы эти случаи можно подвести только при расширительном его толковании.](* <-lang_ru;; *);
+									[Catachresis arise in the process of semantic development of the language, its nominative means. At first, they can be perceived as cases of misuse. Subsequently, of course, under the concept of cathrese these cases can be summed up only with its broad interpretation.](* <- lang_en;; *);;
+						*);;
+		*);;
+
+
+
+
+	

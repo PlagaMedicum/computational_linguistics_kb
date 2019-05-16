@@ -1,0 +1,46 @@
+sc_node_not_relation
+ -> complete_sentence;;
+
+complete_sentence
+ => nrel_main_idtf: [полное предложение](* <- lang_ru;; *);
+ => nrel_idtf: [множество полных предложений](* <- lang_ru;; *);
+ => nrel_idtf: [complete sentence](* <- lang_en;; *);;
+
+
+definition -> ...   
+(*
+     	-> rrel_key_sc_element: complete_sentence;;
+
+	=> nrel_main_idtf: [Опр. (полное предложение)](* <- lang_ru;; *);;
+     	<= nrel_using_constants: ...
+	(*
+		-> sentence;;
+		-> rrel_member_of_sentence;;
+		-> nrel_be_necessary_to_understand;;
+		-> nrel_sense;;	
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Полное предложение - предложение, в котором имеются все члены предложения, необходимые для понимания его смысла.](* <- lang_ru;; *);;
+     	*);;
+
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: complete_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(признак полноты*, признак неполноты*, позиционная характеристика предложения, структурно-грамматический состав предложения, позиционная структура, неполное предложение)](*<-lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Признак полноты - неполноты предложения не касается его позиционной характеристики, структурно-грамматического состава. С точки зрения позиционной структуры неполных предложений нет.](* <-lang_ru;; *);;
+	*);;
+*);;
+
+
+complete_sentence
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [Мальчик всматривался в знакомые места, а ненавистная бричка бежала мимо.](*<-lang_ru;;*);;
+*);;
+

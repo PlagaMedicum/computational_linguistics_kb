@@ -1,0 +1,36 @@
+sc_node_not_relation
+ -> contextual_sentence;;
+
+contextual_sentence
+ => nrel_main_idtf: [контекстуальное предложение](* <- lang_ru;; *);
+ => nrel_idtf: [множество контекстуальных предложений](* <- lang_ru;; *);
+ => nrel_idtf: [contextual sentence](* <- lang_en;; *);;
+
+
+definition -> ...   
+(*
+     	-> rrel_key_sc_element: contextual_sentence;;
+
+	=> nrel_main_idtf: [Опр. (контекстуальное предложение)](* <- lang_ru;; *);;
+     	<= nrel_using_constants: ...
+	(*
+		-> incomplete_sentence;;
+		-> rrel_unnamed_member_of_sentence;;	
+		-> nrel_mentioned_in;;
+		-> context;;	
+		-> nrel_nearest_sentence;;	
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Контекстуальное предложение - это неполное предложение с неназванными членами, которые были упомянуты в контексте: в ближайших предложениях или в том же предложении (если оно сложное).](* <- lang_ru;; *);;
+     	*);;
+
+*);;
+
+
+contextual_sentence
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [По одну сторону прорыва, скрестив руки, в женском малиновом берете - фигурант с голубыми глазами и маленькими черными усиками над загнутыми в мефистофельскую улыбку тонкими, змеистыми губами.](*<-lang_ru;;*);;
+*);;
+

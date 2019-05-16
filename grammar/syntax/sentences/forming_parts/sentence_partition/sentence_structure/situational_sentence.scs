@@ -1,0 +1,44 @@
+sc_node_not_relation
+ -> situational_sentence;;
+
+situational_sentence
+ => nrel_main_idtf: [ситуативное предложение](* <- lang_ru;; *);
+ => nrel_idtf: [множество ситуативных предложений](* <- lang_ru;; *);
+ => nrel_idtf: [situational sentence](* <- lang_en;; *);;
+
+
+definition -> ...   
+(*
+     	-> rrel_key_sc_element: situational_sentence;;
+
+	=> nrel_main_idtf: [Опр. (ситуативное предложение)](* <- lang_ru;; *);;
+     	<= nrel_using_constants: ...
+	(*
+		-> incomplete_sentence;;
+		-> rrel_unnamed_member_of_sentence;;	
+		-> situation;;
+*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Ситуативное предложение - это неполное предложение с неназванными членами, которые ясны из ситуации, подсказаны обстановкой.](* <- lang_ru;; *);;
+     	*);;
+
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: situational_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(ситуативное предложение, общая речевая ситуация, член предложения', грамматическая связь*)](*<-lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [В ситуативных предложениях общая речевая ситуация компенсирует пропуск, а форма имеющихся членов предложения указывает на грамматическую связь с ними. ](* <-lang_ru;; *);;
+	*);;
+*);;
+
+situational_sentence
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [-Я - в лавочку... муки надо и соли.](*<-lang_ru;;*);;
+*);;
+

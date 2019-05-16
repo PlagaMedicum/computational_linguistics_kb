@@ -1,0 +1,28 @@
+sc_node_not_relation
+ -> syntactic_component;;
+
+syntactic_component
+ => nrel_main_idtf: [синтаксический компонент](* <- lang_ru;; *);
+ => nrel_idtf: [множество синтаксических компонентов](* <- lang_ru;; *);
+ => nrel_idtf: [syntactic_component](* <- lang_en;; *);;
+
+
+definition -> ...   
+(*
+  	-> rrel_key_sc_element: syntactic_component;;
+  	=> nrel_main_idtf: [Опр. (синтаксический компонент)](* <- lang_ru;; *);;
+    	<= nrel_using_constants: ...
+	(*
+		-> sentence;;
+		-> word;;
+		-> syntactic_role;;
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Синтаксический компонент - это сочетание слов или слово, образующее в предложении неразложимое синтаксическое единство и выполняющее определенную синтаксическую роль.](* <- lang_ru;; *);;
+	*);;
+*);;
+
+ 
+
+

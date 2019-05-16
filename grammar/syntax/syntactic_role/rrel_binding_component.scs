@@ -1,0 +1,29 @@
+sc_node_role_relation
+ -> rrel_binding_component;;
+
+rrel_binding_component
+
+ => nrel_idtf: [binding component'] (* <- lang_en;; *);
+ => nrel_idtf: [быть связывающим компонентом'] (* <- lang_ru;; *);
+ => nrel_dependent_idtf: [связывающий компонент'] (* <- lang_ru;; *);;
+
+definition -> ...   
+(*
+  	-> rrel_key_sc_element: rrel_binding_component;;
+  	=> nrel_dependent_idtf: [Опр. (связывающий компонент')](* <- lang_ru;; *);;
+    	<= nrel_using_constants: ...
+	(*
+		-> syntactic_component;;
+		-> role_relation;;
+		-> word;;
+		-> sentence;;
+		-> conjunction;;
+
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Связывающий компонент - это ролевое отношение, указывающее на синтаксический компонент, который связывает некоторые слова в предложении, т.е. является союзом.](* <- lang_ru;; *);;
+	*);;
+*);;
+
+

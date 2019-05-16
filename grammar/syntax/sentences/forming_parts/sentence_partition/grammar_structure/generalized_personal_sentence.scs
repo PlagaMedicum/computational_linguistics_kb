@@ -1,0 +1,72 @@
+sc_node_not_relation
+ -> generalized_personal_sentence;;
+
+generalized_personal_sentence
+ => nrel_main_idtf: [обобщенно-личное предложение](* <- lang_ru;; *);
+ => nrel_idtf: [множество обобщенно-личных предложений](* <- lang_ru;; *);
+ => nrel_idtf: [generalized-personal sentence](* <- lang_en;; *);;
+
+
+definition -> ...   
+(*
+     	-> rrel_key_sc_element: generalized_personal_sentence;;
+
+	=> nrel_main_idtf: [Опр. (обобщенно-личное предложение)](* <- lang_ru;; *);;
+     	<= nrel_using_constants: ...
+	(*
+		-> one_part_sentence;;
+		-> nrel_to_be_expressed_by;;
+		-> rrel_main_member_of_sentence;;
+		-> nrel_second_person;;
+		-> nrel_singular_number;;
+		-> nrel_present_tense;;
+		-> nrel_future_tense;;
+		-> nrel_denote;;
+		-> grammatical_person;;	
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Обобщенно-личное предложение - это односоставное предложение, главный член которого выражен глаголом в форме второго лица единственного числа настоящего и будущего времени (реже - другими личными формами), причем обозначаемое глаголом действие в таком предложении в равной мере относится к любому лицу, т.е. действующее лицо мыслится обобщенно.](* <- lang_ru;; *);;
+     	*);;
+
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: generalized_personal_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(обобщенно-личное предложение, глагольная форма, семантическая особенность*)](*<-lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Семантической особенностью глагольных форм в обобщенно-личных предложениях является обозначение вневременности.](* <-lang_ru;; *);;
+	*);;
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: generalized_personal_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(обобщенно-личное предложение, основное назначение*)](*<-lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Основное назначение обобщенно-личных предложений - образное выражение общих суждений, широких обобщений.](* <-lang_ru;; *);;
+	*);;
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: generalized_personal_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(обобщенно-личное предложение, основная стилистическая сфера употребления*, разговорная речь, язык художественной литературы)](*<-lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Основная стилистическая сфера употребления обобщенно-личных предложений - это разговорная речь и язык художественной литературы.](* <-lang_ru;; *);;
+	*);;
+*);;
+
+generalized_personal_sentence
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [Семь раз отмерь - один раз отрежь.](*<-lang_ru;;*);;
+*);;
+

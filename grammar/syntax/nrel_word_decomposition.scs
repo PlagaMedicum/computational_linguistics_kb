@@ -1,0 +1,47 @@
+sc_node_norole_relation
+ -> nrel_word_decomposition;;
+
+nrel_word_decomposition
+
+ => nrel_idtf: [word decomposition*] (* <- lang_en;; *);
+ => nrel_idtf: [быть декомпозицией на слова*] (* <- lang_ru;; *);
+ => nrel_main_idtf: [декомпозиция на слова*] (* <- lang_ru;; *);;
+
+
+nrel_word_decomposition
+ <- quasybinary_relation;
+
+=> nrel_definitional_domain: ...
+(*
+	=> nrel_combination:...
+ 	(*
+		-> ...
+		(*
+			<= nrel_set_of_subjects: word;;
+		*);;
+		-> syntactic_component;;
+	*);;
+*);
+=> nrel_first_domain: ...
+(*
+	<= nrel_set_of_subsets: word;;
+*);
+=> nrel_second_domain: syntactic_component;;
+
+definition -> ...   
+(*
+  	-> rrel_key_sc_element: nrel_word_decomposition;;
+  	=> nrel_main_idtf: [Опр. (декомпозиция на слова*)](* <- lang_ru;; *);;
+    	<= nrel_using_constants: ...
+	(*
+		-> syntactic_component;;
+		-> word;;
+
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Декомпозиция на слова - это квазибинарное отношение между синтаксическим компонентом и множеством слов, входящих в него.](* <- lang_ru;; *);;
+	*);;
+*);;
+
+  

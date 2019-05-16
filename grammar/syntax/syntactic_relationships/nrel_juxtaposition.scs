@@ -1,0 +1,89 @@
+sc_node_norole_relation
+ -> nrel_juxtaposition;;
+
+nrel_juxtaposition
+
+ => nrel_idtf: [juxtaposition*] (* <- lang_en;; *);
+ => nrel_idtf: [быть соположением*] (* <- lang_ru;; *);
+ => nrel_main_idtf: [соположение*] (* <- lang_ru;; *);;
+
+
+nrel_juxtaposition
+ <- syntactic_relationship_of_simple_sentence;
+ <- oriented_relation;
+ <- norole_relation;
+ <- antitransitive_relation;
+ <- antireflexive_relation;
+ <- antisymmetric_relation;
+
+<-binary_relation;
+=> nrel_definitional_domain: ...
+(*
+	=> nrel_combination:...
+	(*
+		-> word;;
+  		-> syntactic_component;;
+	*);;
+*);
+=> nrel_first_domain:...
+(*
+	=> nrel_combination:...
+	(*
+		-> word;;
+  		-> syntactic_component;;
+	*);;
+*);
+=> nrel_second_domain:...
+(*
+	=> nrel_combination:...
+	(*
+		-> word;;
+  		-> syntactic_component;;
+	*);;
+*);;
+
+
+definition -> ...   
+(*
+  	-> rrel_key_sc_element: nrel_juxtaposition;;
+  	=> nrel_main_idtf: [Опр. (соположение*)](* <- lang_ru;; *);;
+    	<= nrel_using_constants: ...
+	(*
+		-> syntactic_relationship;;
+		-> nrel_subordination;;
+		-> rrel_predicate;;
+		-> rrel_grammatical_subject;;
+		-> two_part_sentence;;
+
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Соположение - взаимосвязь главных членов предложения, когда грамматическое оформление сказуемого не зависит от оформления подлежащего. Однако, хоть соположение и является взаимонаправленной связью с точки зрения лингвистики, при выражении на языке sc будем считать ее однонаправленной и принимать в качестве первого домена сказуемое.](* <- lang_ru;; *);;
+	*);;
+*);;
+
+  statement -> ... 
+(*
+        -> rrel_key_sc_element: nrel_juxtaposition;;
+
+
+	=> nrel_main_idtf: [Утв.(соположение*, составное сказуемое', предложение)] (* <-lang_ru;; *);;
+
+	<= nrel_sc_text_translation: ... (* -> [Соположение реализуется в предложениях номинативно-номинативных (Наша родственница – директор магазина), номинативно-наречных (Ваш приход кстати), номинативно-инфинитивных и инфинитивно-номинативных (Достичь намеченного – наша цель и Наша цель – достичь намеченного), инфинитивно-инфинитивных (Курить – здоровью вредить), а также в предложениях с составным сказуемым с нулевой связкой (Деревья в цвету).] (* <- lang_ru;; *);; *);;
+*);;
+
+nrel_juxtaposition
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:[Рис.(соположение на языке SСg)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation: ...
+	(*
+		->"file://examples_of_scg_syntax/juxtaposition.png"
+		(*
+			=>nrel_format:format_png;;
+		*);;
+	*);;
+*);;
+
+  

@@ -1,0 +1,42 @@
+synecdoche
+	<- sc_node_not_relation;
+	<- stylistic_device;
+
+	=> nrel_main_idtf:
+			[синекдоха](* <- lang_ru;; *);
+			[synecdoche](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[«Вся школа высыпала на улицу»](* <- lang_ru;; *);
+					["The whole school poured out into the street."](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_synecdoche
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (синекдоха)](* <- lang_ru;; *);
+					[Опр. (synecdoche)](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example:
+						[Синекдоха —  троп, разновидность метонимии, стилистический приём, состоящий в том, что название общего переносится на частное.](* <- lang_ru;; *);
+						[Synecdoche is a trope, a type of metonymy, a stylistic device, consisting in that the name of the general is transferred to the particular.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+				<- explanation;; 
+				=> nrel_main_idtf:
+					[Утв. (синекдоха)](* <- lang_ru;; *);
+					[Expl. (synecdoche)](* <- lang_en;; *);;
+				<- nrel_sc_text_translation: ...
+						(*
+							-> rrel_example: 
+									[Синекдоха усиливает экспрессию речи и придает ей глубокий обобщающий смысл.](* <-lang_ru;; *);
+									[Synecdoche enhances speech expression and gives it a deep generalizing meaning.](* <- lang_en;; *);;
+						*);;
+		*);;

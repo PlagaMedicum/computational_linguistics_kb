@@ -1,0 +1,5 @@
+nrel_animated_noun
+=> nrel_main_idtf:
+	[одушевленное](* <-lang_ru;; *);
+ 	[animated](* <-lang_en;; *);
+<-sc_node_norole_relation;;

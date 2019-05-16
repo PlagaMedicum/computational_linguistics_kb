@@ -1,0 +1,59 @@
+sc_node_not_relation
+ -> verbal_sentence;;
+
+verbal_sentence
+ => nrel_main_idtf: [глагольное предложение](* <- lang_ru;; *);
+ => nrel_idtf: [множество глагольных предложений](* <- lang_ru;; *);
+ => nrel_idtf: [verbal sentence](* <- lang_en;; *);;
+
+verbal_sentence
+<= nrel_subdividing: ...
+	(*
+		-> definitely_personal_sentence;;
+		-> indefinitely_personal_sentence;;
+		-> generalized_personal_sentence;;
+		-> impersonal_sentence;;
+		-> infinitive_sentence;;
+
+	*);;
+
+definition -> ...   
+(*
+     	-> rrel_key_sc_element: verbal_sentence;;
+
+	=> nrel_main_idtf: [Опр. (глагольное предложение)](* <- lang_ru;; *);;
+     	<= nrel_using_constants: ...
+	(*
+		-> one_part_sentence;;
+		-> sentence_structure;;
+		-> rrel_member_of_sentence;;
+		-> nrel_to_be_expressed_by;;
+		-> verb_form;;	
+		-> predicative_adverb;;		
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Глагольное предложение - односоставное предложение, в котором главный член выражен различными глагольными формами или предикативными наречиями.](* <- lang_ru;; *);;
+     	*);;
+
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: verbal_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(глагольное предложение, синтаксическое значение)](*<-lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Синтаксическим значением глагольных предложений является представление об особом лице, совершающем действие, или об отсутствии такого лица.](* <-lang_ru;; *);;
+	*);;
+*);;
+
+
+
+verbal_sentence
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [Не жалею, не зову, не плачу!](*<-lang_ru;;*);;
+*);;
+

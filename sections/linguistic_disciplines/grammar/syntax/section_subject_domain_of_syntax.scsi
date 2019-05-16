@@ -1,0 +1,17 @@
+subject_domain_of_syntax
+	<- subject_domain;
+	<- not_enough_formed_structure;
+
+	=> nrel_main_idtf:
+		[Предметная область синтаксиса]
+		(* <- lang_ru;; *);
+		[Subject domain of syntax]
+		(* <- lang_en;; *);
+
+	-> rrel_maximum_studied_object_class: 
+		syntax;
+	
+	-> rrel_not_maximum_studied_object_class:
+		syntactic_unit;
+		syntactic_relationship;
+		syntactic_role;;

@@ -1,0 +1,35 @@
+sc_node_not_relation
+ -> actually_existence_sentence;;
+
+actually_existence_sentence
+ => nrel_main_idtf: [ собственно бытийное предложение](* <- lang_ru;; *);
+ => nrel_idtf: [множество собственно бытийных предложений](* <- lang_ru;; *);
+ => nrel_idtf: [actually existence sentence](* <- lang_en;; *);;
+
+
+definition -> ...   
+(*
+     	-> rrel_key_sc_element: actually_existence_sentence;;
+
+	=> nrel_main_idtf: [Опр. ( собственно бытийное предложение)](* <- lang_ru;; *);;
+     	<= nrel_using_constants: ...
+	(*
+		-> one_part_sentence;;
+		-> nominative_sentence;;
+		-> time_span;;
+		-> nrel_conceivable_in;;
+		-> nrel_express;;	
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Собственно бытийное предложение - это односоставное номинативное предложение, выражающее наличие называемого явления, мыслимого во временной протяженности.](* <- lang_ru;; *);;
+     	*);;
+
+*);;
+
+actually_existence_sentence
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [Изморось.](*<-lang_ru;;*);;
+*);;
+

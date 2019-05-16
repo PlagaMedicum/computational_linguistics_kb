@@ -1,0 +1,5 @@
+nrel_own_noun
+=> nrel_main_idtf:
+	[собственное](* <-lang_ru;; *);
+ 	[own](* <-lang_en;; *);
+<-sc_node_norole_relation;;

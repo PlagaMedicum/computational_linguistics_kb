@@ -1,0 +1,87 @@
+sc_node_role_relation
+ -> rrel_main_member_of_sentence;;
+
+rrel_main_member_of_sentence
+
+ => nrel_idtf: [main member of sentence'] (* <- lang_en;; *);
+ => nrel_idtf: [быть главным членом предложения'] (* <- lang_ru;; *);
+ => nrel_main_idtf: [главный член предложения'] (* <- lang_ru;; *);;
+
+rrel_main_member_of_sentence
+<= nrel_subdividing: ...
+	(*
+		-> rrel_grammatical_subject;;
+		-> rrel_predicate;;
+
+	*);;
+
+rrel_main_member_of_sentence
+<- role_relation;
+=> nrel_definitional_domain: ...
+(*
+	<= nrel_set_of_subsets: syntactic_component;;
+*);
+=> nrel_first_domain: ...
+(*
+	<= nrel_set_of_subsets: syntactic_component;;
+*);
+=> nrel_second_domain: syntactic_component;;
+
+definition -> ...   
+(*
+  	-> rrel_key_sc_element: rrel_main_member_of_sentence;;
+  	=> nrel_main_idtf: [Опр. (главный член предложения')](* <- lang_ru;; *);;
+    	<= nrel_using_constants: ...
+	(*
+		-> role_relation;;
+ 		-> nrel_grammatical_basis;;
+		-> rrel_member_of_sentence;;
+		-> sentence;;
+
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Главный член предложения - это ролевое отношение, указывающее на члены предложения, которые образуют в его грамматическую основу, т.е. играют наиболее важную роль в предложении.](* <- lang_ru;; *);;
+	*);;
+*);;
+
+  statement -> ... 
+(*
+        -> rrel_key_sc_element: rrel_main_member_of_sentence;;
+        -> rrel_key_sc_element: two_part_sentence;;
+
+	=> nrel_main_idtf: [Утв.(главный член предложения', предикативный минимум*, двусоставное предложение)] (* <-lang_ru;; *);;
+
+	<= nrel_sc_text_translation: ... (* -> [Главные члены предложения составляют предикативный минимум двусоставного предложения.] (* <- lang_ru;; *);; *);;
+*);;
+
+  statement -> ... 
+(*
+      -> rrel_key_sc_element: rrel_main_member_of_sentence;;
+
+      => nrel_main_idtf: [Утв.(главный член предложения', занимать главную позицию*, коммуникативная нагрузка, второстепенный член предложения', член предложения')] (* <-lang_ru;; *);;
+
+      <= nrel_sc_text_translation: ... (* -> [С точки зрения коммуникативной значимости «главные члены» могут уступать свои главные позиции. Коммуникативная нагрузка может быть привязана к любому члену предложения, в том числе второстепенному.] (* <- lang_ru;; *);; *);;
+*);;
+
+  statement -> ... 
+(*
+      -> rrel_key_sc_element: rrel_main_member_of_sentence;;
+
+      => nrel_main_idtf: [Утв.(главный член предложения', основа структуры*, предложение, предикативное ядро*)] (* <-lang_ru;; *);;
+
+      <= nrel_sc_text_translation: ... (* -> [Главные члены являются основой структуры предложения, его предикативным ядром.] (* <- lang_ru;; *);; *);;
+*);;
+
+  statement -> ... 
+(*
+        -> rrel_key_sc_element: rrel_main_member_of_sentence;;
+	-> rrel_key_sc_element: rrel_grammatical_subject;;
+	-> rrel_key_sc_element: rrel_predicate;;
+
+      => nrel_main_idtf: [Утв.(член предложения', подлежащее', сказуемое', зависеть от*)] (* <-lang_ru;; *);;
+
+      <= nrel_sc_text_translation: ... (* -> [Подлежащее и сказуемое грамматически не зависят от других членов предложения и являются взаимно связанными: подлежащее определяется через его отношение к сказуемому, сказуемое - через его отношение к подлежащему.] (* <- lang_ru;; *);; *);;
+*);;
+
+

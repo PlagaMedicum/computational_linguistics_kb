@@ -1,0 +1,27 @@
+sc_node_not_relation
+ -> complicator_of_simple_sentence;;
+
+complicator_of_simple_sentence
+ => nrel_main_idtf: [осложнитель простого предложения](* <- lang_ru;; *);
+ => nrel_idtf: [множество предложений](* <- lang_ru;; *);
+ => nrel_idtf: [complicator_of_simple_sentence](* <- lang_en;; *);;
+
+
+
+definition -> ...   
+(*
+  	-> rrel_key_sc_element: complicator_of_simple_sentence;;
+  	=> nrel_main_idtf: [Опр. (осложнитель простого предложения)](* <- lang_ru;; *);;
+    	<= nrel_using_constants: ...
+	(*
+		-> complicated_sentence;;
+		-> uncomplicated_sentence;;
+		-> syntactic_component;;
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Осложнитель простого предложения - это синтаксический компонент, присутствие которого в простом неосложненном предложении делает его простым осложненным.](* <- lang_ru;; *);;
+	*);;
+*);;
+
+ 

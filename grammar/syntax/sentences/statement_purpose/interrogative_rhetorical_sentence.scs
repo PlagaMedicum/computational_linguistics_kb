@@ -1,0 +1,58 @@
+sc_node_not_relation
+ -> interrogative_rhetorical_sentence;;
+
+interrogative_rhetorical_sentence
+ => nrel_main_idtf: [вопросительно-риторическое предложение](* <- lang_ru;; *);
+ => nrel_idtf: [множество вопросительно-риторических предложений](* <- lang_ru;; *);
+ => nrel_idtf: [interrogative-rhetorical sentence](* <- lang_en;; *);;
+
+definition -> ...   
+(*
+     	-> rrel_key_sc_element: interrogative_rhetorical_sentence;;
+
+	=> nrel_main_idtf: [Опр. (вопросительно-риторическое предложение)](* <- lang_ru;; *);;
+     	<= nrel_using_constants: ...
+	(*
+		-> sentence;;
+		-> affirmation;;
+		-> negation;;
+		-> nrel_contain;;
+		-> nrel_require_an_answer;;
+		-> nrel_comprise;;	
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Вопросительно-риторическое предложение - предложение, в котором содержится утверждение или отрицание, оно не требует ответа, так как он заключен в самом вопросе.](* <- lang_ru;; *);;
+     	*);;
+
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: interrogative_rhetorical_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(вопросительно-риторическое предложение, художественная литература, стилистическое средство, эмоционально окрашенная цель)](*<-lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Вопросительно-риторические предложения особенно распространены в художественной литературе, где являются одним из стилистических средств эмоционально окрашенной речи.](* <-lang_ru;; *);;
+	*);;
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: interrogative_rhetorical_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(вопросительно-риторическое предложение, встречный вопрос, относиться к*, ответ в форме вопроса)](*<-lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [К вопросительно-риторическим предложениям относятся встречные вопросы (ответ в форме вопроса).](* <-lang_ru;; *);;
+	*);;
+*);;
+
+
+interrogative_rhetorical_sentence
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [Что пользы напрасно и вечно желать?](*<-lang_ru;;*);;
+*);;
+

@@ -1,0 +1,46 @@
+sc_node_norole_relation
+ -> nrel_decomposition_into_syntactic_components;;
+
+nrel_decomposition_into_syntactic_components
+
+ => nrel_idtf: [decomposition into syntactic components*] (* <- lang_en;; *);
+ => nrel_idtf: [быть декомпозицией на синтаксические компоненты*] (* <- lang_ru;; *);
+ => nrel_main_idtf: [декомпозиция на синтаксические компоненты*] (* <- lang_ru;; *);;
+
+
+nrel_decomposition_into_syntactic_components
+ <- quasybinary_relation;
+=> nrel_definitional_domain: ...
+(*
+	=> nrel_combination:...
+ 	(*
+		-> ...
+		(*
+			<= nrel_set_of_subjects: syntactic_component;;
+		*);;
+		-> sentence;;
+	*);;
+*);
+=> nrel_first_domain: ...
+(*
+	<= nrel_set_of_subsets: syntactic_component;;
+*);
+=> nrel_second_domain: sentence;;
+
+definition -> ...   
+(*
+  	-> rrel_key_sc_element: nrel_decomposition_into_syntactic_components;;
+  	=> nrel_main_idtf: [Опр. (декомпозиция на синтаксические компоненты*)](* <- lang_ru;; *);;
+    	<= nrel_using_constants: ...
+	(*
+		-> syntactic_component;;
+		-> sentence;;
+
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Декомпозиция на синтаксические компоненты - это квазибинарное отношение между предложением и множеством его синтаксических компонентов.](* <- lang_ru;; *);;
+	*);;
+*);;
+
+  

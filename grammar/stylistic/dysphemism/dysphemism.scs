@@ -1,0 +1,42 @@
+dysphemism
+	<- sc_node_not_relation;
+	<- stylistic_device;
+
+	=> nrel_main_idtf:
+			[дисфемизм](* <- lang_ru;; *);
+			[dysphemism](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Сдохнуть вместо умереть](* <- lang_ru;; *);
+					[Croak instead die](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_dysphemism
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (дисфемизм)](* <- lang_ru;; *);
+					[Опр. (dysphemism)](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example:
+						[Дисфемизм — грубое или непристойное обозначение изначально нейтрального понятия с целью придания ему негативной смысловой нагрузки или просто для усиления экспрессивности речи.](* <- lang_ru;; *);
+						[Dysphemism is a crude or indecent designation of an initially neutral concept in order to give it a negative semantic load or simply to enhance the expressiveness of speech.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+				<- explanation;; 
+				=> nrel_main_idtf:
+					[Утв. (дисфемизм)](* <- lang_ru;; *);
+					[Expl. (dysphemism)](* <- lang_en;; *);;
+				<- nrel_sc_text_translation: ...
+						(*
+							-> rrel_example: 
+									[Дисфемизмы могут укореняться в языке как нейтральные названия.](* <-lang_ru;; *);
+									[Dysphemisms may take root in the language as neutral names.](* <- lang_en;; *);;
+						*);;
+		*);;

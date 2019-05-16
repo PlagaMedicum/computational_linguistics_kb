@@ -1,0 +1,72 @@
+sc_node_not_relation
+ -> indefinitely_personal_sentence;;
+
+indefinitely_personal_sentence
+ => nrel_main_idtf: [неопределенно-личное предложение](* <- lang_ru;; *);
+ => nrel_idtf: [множество неопределенно-личных предложений](* <- lang_ru;; *);
+ => nrel_idtf: [indefinitely sentence](* <- lang_en;; *);;
+
+
+definition -> ...   
+(*
+     	-> rrel_key_sc_element: indefinitely_personal_sentence;;
+
+	=> nrel_main_idtf: [Опр. (неопределенно-личное предложение)](* <- lang_ru;; *);;
+     	<= nrel_using_constants: ...
+	(*
+		-> one_part_sentence;;
+		-> rrel_main_member_of_sentence;;
+		-> nrel_to_be_expressed_by;;	
+		-> verb;;
+		-> nrel_plural_number;;
+		-> nrel_third_person;;
+		-> nrel_past_tense;;
+		-> denote;;
+
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Неопределенно-личное предложение - односотавное предложение, главный член которого выражен глаголом в форме третьего лица множественного числа или в форме прошедшего времени и обозначает действие, совершаемое неопределенными или необозначенными лицами.](* <- lang_ru;; *);;
+     	*);;
+
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: indefinitely_personal_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(неопределенно-личное предложение, действующее лицо, подлежащее')](*<-lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [В неопределенно-личных предложениях внимание сосредоточивается на факте, событии, действии. Действующее лицо остается либо необозначенным, так как указание на него, с точки зрения говорящего, несущественно, либо оно неопределенно или неизвестно, и потому указание на него невозможно. В любом случае предложение лишено грамматического подлежащего.](* <-lang_ru;; *);;
+	*);;
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: indefinitely_personal_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(неопределенно-личное предложение, действующее лицо, контекст)](*<-lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Сведения о действующем лице (или лицах) в неопределенно-личном преложении черпаются из контекста или подсказываются ситуацией.](* <-lang_ru;; *);;
+	*);;
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: indefinitely_personal_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(неопределенно-личное предложение, сфера употребления*, разговорная речь)](*<-lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Основная стилистическая сфера употребления неопределенно-личных предложений - это разговорная речь.](* <-lang_ru;; *);;
+	*);;
+*);;
+
+indefinitely_personal_sentence
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [В семье много пели, играли на рояле.](*<-lang_ru;;*);;
+*);;
+

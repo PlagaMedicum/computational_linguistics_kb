@@ -1,0 +1,59 @@
+personnification
+	<- sc_node_not_relation;
+	<- stylistic_device;
+
+	=> nrel_main_idtf:
+			[олицетворение](* <- lang_ru;; *);
+			[personnification](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Поют деревья, блещут воды.](* <- lang_ru;; *);
+					[They sing trees, shine water.](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_personnification
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (олицетворение)](* <- lang_ru;; *);
+					[Опр. (personnification)](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example:
+						[Олицетворение —  троп, приписывание свойств и признаков одушевлённых предметов неодушевлённым.](* <- lang_ru;; *);
+						[Personnification is the trope, the attribution of the properties and attributes of animate objects to the inanimate.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+				<- explanation;; 
+				=> nrel_main_idtf:
+					[Утв. (олицетворение)](* <- lang_ru;; *);
+					[Expl. (personnification)](* <- lang_en;; *);;
+				<- nrel_sc_text_translation: ...
+						(*
+							-> rrel_example: 
+									[Олицетворение было распространено в поэзии разных эпох и народов, от фольклорной лирики до стихотворных произведений поэтов-романтиков, от прециозной поэзии до творчества обэриутов.](* <-lang_ru;; *);
+									[The personification was widespread in the poetry of different epochs and peoples, from folklore lyrics to poetic works of romantic poets, from most prestigious poetry to oberiuta.](* <- lang_en;; *);;
+						*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+				<- explanation;; 
+				=> nrel_main_idtf:
+					[Утв. (олицетворение)](* <- lang_ru;; *);
+					[Expl. (personnification)](* <- lang_en;; *);;
+				<- nrel_sc_text_translation: ...
+						(*
+							-> rrel_example: 
+									[Олицетворение распространено, религии, сказках, притчах, магии и культах, художественной и другой литературе.](* <-lang_ru;; *);
+									[Personification is common, religion, fairy tales, parables, magic and cults, fiction and other literature.](* <- lang_en;; *);;
+						*);;
+		*);;
+
+
+	

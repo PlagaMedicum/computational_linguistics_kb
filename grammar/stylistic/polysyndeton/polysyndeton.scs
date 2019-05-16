@@ -1,0 +1,42 @@
+polysyndeton
+	<- sc_node_not_relation;
+	<- stylistic_device;
+
+	=> nrel_main_idtf:
+			[многосоюзие](* <- lang_ru;; *);
+			[polysyndeton](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[И волны теснятся, и мчатся назад, и снова приходят и о берег бьют…](* <- lang_ru;; *);
+					[And the waves are crowded, and rush back, and come again and hit the shore ...](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_polysyndeton
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (многосоюзие)](* <- lang_ru;; *);
+					[Опр. (polysyndeton)](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example:
+						[Многосоюзие - стилистическая фигура, состоящая в намеренном увеличении количества союзов в предложении, обычно для связи однородных членов.](* <- lang_ru;; *);
+						[Polysyndeton is a stylistic figure consisting in an intentional increase in the number of unions in a sentence, usually for the connection of homogeneous members.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+				<- explanation;; 
+				=> nrel_main_idtf:
+					[Утв. (многосоюзие)](* <- lang_ru;; *);
+					[Expl. (polysyndeton)](* <- lang_en;; *);;
+				<- nrel_sc_text_translation: ...
+						(*
+							-> rrel_example: 
+									[Замедляя речь вынужденными паузами, многосоюзие подчёркивает роль каждого из слов, создавая единство перечисления и усиливая выразительность речи.](* <-lang_ru;; *);
+									[Slowing down speech by forced pauses, the polysyndeton emphasizes the role of each of the words, creating unity of enumeration and strengthening the expressiveness of speech.](* <- lang_en;; *);;
+						*);;
+		*);;

@@ -1,0 +1,42 @@
+gradation
+	<- sc_node_not_relation;
+	<- stylistic_device;
+
+	=> nrel_main_idtf:
+			[градация](* <- lang_ru;; *);
+			[gradation](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Минуту!.. вспыхнули! пылают — легкий дым.](* <- lang_ru;; *);
+					[Minute! .. flashed! burning - light smoke.](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_gradation
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (градация)](* <- lang_ru;; *);
+					[Опр. (gradation)](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example:
+						[Градация -  фигура речи, состоящая в таком расположении частей высказывания, относящихся к одному предмету, что каждая последующая часть оказывается более насыщенной, более выразительной или впечатляющей, чем предыдущая.](* <- lang_ru;; *);
+						[Graduation is a figure of speech consisting in such an arrangement of parts of a statement related to one subject, that each subsequent part is more intense, more expressive or impressive than the previous one.](* <- lang_en;; *);;
+				*);;
+		*);	
+		
+	<- rrel_key_sc_element: ...
+		(* 
+				<- explanation;; 
+				=> nrel_main_idtf:
+					[Утв. (градация)](* <- lang_ru;; *);
+					[Expl. (gradation)](* <- lang_en;; *);;
+				<- nrel_sc_text_translation: ...
+						(*
+							-> rrel_example: 
+									[Фигура речи, противоположная градации - ретардация.](* <-lang_ru;; *);
+									[The opposite shape of speech is retardation.](* <- lang_en;; *);;
+						*);;
+		*);;

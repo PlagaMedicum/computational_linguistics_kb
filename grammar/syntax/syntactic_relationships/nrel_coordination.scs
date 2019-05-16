@@ -1,0 +1,122 @@
+sc_node_norole_relation
+ -> nrel_coordination;;
+
+nrel_coordination
+
+ => nrel_idtf: [coordination*] (* <- lang_en;; *);
+ => nrel_idtf: [быть координацией*] (* <- lang_ru;; *);
+ => nrel_main_idtf: [координация*] (* <- lang_ru;; *);;
+
+
+nrel_coordination
+ <- syntactic_relationship_of_simple_sentence;
+ <- oriented_relation;
+ <- norole_relation;
+ <- antitransitive_relation;
+ <- antireflexive_relation;
+ <- antisymmetric_relation;
+
+<-binary_relation;
+=> nrel_definitional_domain: ...
+(*
+	=> nrel_combination:...
+	(*
+		-> word;;
+  		-> syntactic_component;;
+	*);;
+*);
+=> nrel_first_domain:...
+(*
+	=> nrel_combination:...
+	(*
+		-> word;;
+  		-> syntactic_component;;
+	*);;
+*);
+=> nrel_second_domain:...
+(*
+	=> nrel_combination:...
+	(*
+		-> word;;
+  		-> syntactic_component;;
+	*);;
+*);;
+
+
+definition -> ...   
+(*
+  	-> rrel_key_sc_element: nrel_coordination;;
+  	=> nrel_main_idtf: [Опр. (координация*)](* <- lang_ru;; *);;
+    	<= nrel_using_constants: ...
+	(*
+		-> syntactic_relationship;;
+		-> nrel_subordination;;
+		-> rrel_predicate;;
+		-> rrel_grammatical_subject;;
+		-> two_part_sentence;;
+
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Координация - формально выраженная взаимонаправленная подчинительная связь подлежащего и согласованного с ним сказуемого двусоставного предложения. Однако, хоть координация и является взаимонаправленной связью с точки зрения лингвистики, при выражении на языке sc будем считать ее однонаправленной и принимать в качестве первого домена сказуемое.](* <- lang_ru;; *);;
+	*);;
+*);;
+
+  statement -> ... 
+(*
+        -> rrel_key_sc_element: nrel_coordination;;
+
+
+	=> nrel_main_idtf: [Утв.(координация*, сказуемое', подлежащее')] (* <-lang_ru;; *);;
+
+	<= nrel_sc_text_translation: ... (* -> [Взаимонаправленность координации заключается в следующем:с одной стороны, сказуемое проявляет себя как член предложения, зависимый от подлежащего, согласуясь с ним в формах числа и лица (в отдельных случаях – и в формах рода); с другой стороны, сказуемое проявляет себя как главный член, диктуя подлежащему форму Им. п.] (* <- lang_ru;; *);; *);;
+*);;
+
+  statement -> ... 
+(*
+        -> rrel_key_sc_element: nrel_coordination;;
+	-> rrel_key_sc_element: nrel_juxtaposition;;
+
+
+	=> nrel_main_idtf: [Утв.(координация*, соположение*, сказуемое', подлежащее')] (* <-lang_ru;; *);;
+
+	<= nrel_sc_text_translation: ... (* -> [Координация и соположение предполагает возможность задать вопрос в двух направлениях: от подлежащего к сказуемому и от сказуемого к подлежащему.] (* <- lang_ru;; *);; *);;
+*);;
+
+  statement -> ... 
+(*
+        -> rrel_key_sc_element: nrel_coordination;;
+
+
+	=> nrel_main_idtf: [Утв.(координация*, адъективное сказуемое', безглагольное предложение)] (* <-lang_ru;; *);;
+
+	<= nrel_sc_text_translation: ... (* -> [Связь координации проявляется и в безглагольных предложениях с адъективным сказуемым (с нулевой связкой): Ребенок здоров → Ребенок – каков? / в каком состоянии? – здоров и Здоров кто? – ребенок.] (* <- lang_ru;; *);; *);;
+*);;
+
+  statement -> ... 
+(*
+        -> rrel_key_sc_element: nrel_coordination;;
+	-> rrel_key_sc_element: nrel_matching;;
+
+
+      => nrel_main_idtf: [Утв.(координация*, согласование*)] (* <-lang_ru;; *);;
+
+      <= nrel_sc_text_translation: ... (* -> [Внешне координация напоминает согласование, но по существу она отличается от нее: 1) согласование - связь односторонняя; 2) согласование осуществляется во всей системе форм, а при координации объединяются две определенные словоформы; 3) при согласовании используются лишь формы слов; при координации - еще и порядок расположения и интонация; особенно это ярко наблюдается в предложениях типа Осень дождливая; Ночь темная; Женщина утомлена; Книги мои; 4) при согласовании возникают отношения собственно атрибутивные, при координации - предикативные.] (* <- lang_ru;; *);; *);;
+*);;
+
+nrel_coordination
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:[Рис.(координация на языке SСg)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation: ...
+	(*
+		->"file://examples_of_scg_syntax/coordination.png"
+		(*
+			=>nrel_format:format_png;;
+		*);;
+	*);;
+*);;
+
+
+  

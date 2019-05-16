@@ -1,25 +1,59 @@
+sc_node_not_relation
+ -> affirmative_sentence;;
+
 affirmative_sentence
-<-sc_node_not_relation;
-<-sentence;;
-affirmative_sentence => nrel_main_idtf:
-	[утвердительное предложение](* <-lang_ru;; *);
-    [affirmative sentence](* <-lang_en;; *);;
-affirmative_sentence <- rrel_key_sc_element: 
-		... 
-		(*
-		<- sc_definition;;
-		=> nrel_main_idtf: [Определение: утвердительное предложение] (* <- lang_ru;; *);;
-		=> nrel_main_idtf: [Definition: affirmative sentence] (* <- lang_en;; *);;
-        <- definition;;
-		<= nrel_sc_text_translation: ...
-			(*
-			-> rrel_example: 
-				[Утвердительное предложение – это предложение в котором передается наличие связи между предметами и их признаками в реальной действительности.](*<- lang_ru;;*);;
-			-> rrel_example: 
-				[The affirmative sentence is a sentence in which existence of communication between objects and their signs in reality is submitted.](*<- lang_en;;*);;
-			*);;
-            <= nrel_using_constants: ...
-            (*
-                -> sentence;;
-            *);;
-		*);;
+ => nrel_main_idtf: [утвердительное предложение](* <- lang_ru;; *);
+ => nrel_idtf: [множество утвердительных предложений](* <- lang_ru;; *);
+ => nrel_idtf: [affirmative sentence](* <- lang_en;; *);;
+
+
+definition -> ...   
+(*
+     	-> rrel_key_sc_element: affirmative_sentence;;
+
+	=> nrel_main_idtf: [Опр. (утвердительное предложение)](* <- lang_ru;; *);;
+     	<= nrel_using_constants: ...
+	(*
+		-> sentence;;
+		-> thing;;
+		-> sign_of_thing;;
+		-> reality;;
+		-> nrel_transmit;;
+		-> nrel_presence_of_communication;;
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Утвердительное предложение - предложение, в котором передается наличие связи между предметами 			и их признаками в реальной действительности.](* <- lang_ru;; *);;
+     	*);;
+
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: affirmative_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(утвердительное предложение, противопоставление*, вопросительное предложение)](* 		<- lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Утвердительное предложение не противопоставляется вопросительному предложению.](* <- 			lang_ru;; *);;
+	*);;
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: affirmative_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(принцип утвердительности, принцип отрицательности, смысловое противопоставление*, противопоставление*, принцип реальной модальности, принцип ирреальной модальности, предложение, значение объективной модальности*)](* <- lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Противопоставление по принципу утвердительности - отрицательности чисто смысловое. Оно не является отражением противопоставления по принципу реальной и ирреальной модальности, а лишь накладывается на выраженное в предложении значение объективной модальности.](* <- lang_ru;; *);;
+	*);;
+*);;
+
+
+affirmative_sentence
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [В окно смотрит темно-синее небо летней ночи.](*<-lang_ru;;*);;
+*);;
+

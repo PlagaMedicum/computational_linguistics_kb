@@ -1,0 +1,42 @@
+zeugma
+	<- sc_node_not_relation;
+	<- stylistic_device;
+
+	=> nrel_main_idtf:
+			[зевгма](* <- lang_ru;; *);
+			[zeugma](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Почтен дворянин за решеткою своей башни, купец — в своей лавке.](* <- lang_ru;; *);
+					[Honorary nobleman behind the bars of his tower, the merchant - in his shop.](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_zeugma
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (зевгма)](* <- lang_ru;; *);
+					[Опр. (zeugma)](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example:
+						[Зевгма — фигура речи, заключающаяся в том, что слово, которое в предложении образует однотипные синтаксические сочетания с другими словами, употребляется только в одном из этих сочетаний, в других же опускается.](* <- lang_ru;; *);
+						[Zeugma is a figure of speech, consisting in the fact that a word that in a sentence forms syntactic combinations of the same type with other words is used only in one of these combinations, is omitted in others.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+				<- explanation;; 
+				=> nrel_main_idtf:
+					[Утв. (зевгма)](* <- lang_ru;; *);
+					[Expl. (zeugma)](* <- lang_en;; *);;
+				<- nrel_sc_text_translation: ...
+						(*
+							-> rrel_example: 
+									[В традиционной античной риторике зевгма не была связана с представлением о нарушении логических и смысловых связей, в современной же риторике часто подразумевается, что зевгма основана на нарушении закона логического тождества, то есть выступает вариантом силлепса.](* <-lang_ru;; *);
+									[In traditional antique rhetoric, zeugma was not associated with the idea of a violation of logical and semantic connections, but in modern rhetoric it is often assumed that zeugma is based on a violation of the law of logical identity, that is, it is a variant of syleps.](* <- lang_en;; *);;
+						*);;
+		*);;

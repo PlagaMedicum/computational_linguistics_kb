@@ -1,0 +1,97 @@
+sc_node_norole_relation
+ -> nrel_applique;;
+
+nrel_applique
+
+ => nrel_idtf: [applique*] (* <- lang_en;; *);
+ => nrel_idtf: [быть аппликацией*] (* <- lang_ru;; *);
+ => nrel_main_idtf: [аппликация*] (* <- lang_ru;; *);;
+
+
+nrel_applique
+ <- syntactic_relationship_of_simple_sentence;
+ <- oriented_relation;
+ <- norole_relation;
+ <- antitransitive_relation;
+ <- antireflexive_relation;
+ <- antisymmetric_relation;
+
+<-binary_relation;
+=> nrel_definitional_domain: ...
+(*
+	=> nrel_combination:...
+	(*
+		-> word;;
+  		-> syntactic_component;;
+	*);;
+*);
+=> nrel_first_domain:...
+(*
+	=> nrel_combination:...
+	(*
+		-> word;;
+  		-> syntactic_component;;
+	*);;
+*);
+=> nrel_second_domain:...
+(*
+	=> nrel_combination:...
+	(*
+		-> word;;
+  		-> syntactic_component;;
+	*);;
+*);;
+
+
+definition -> ...   
+(*
+  	-> rrel_key_sc_element: nrel_applique;;
+  	=> nrel_main_idtf: [Опр. (аппликация*)](* <- lang_ru;; *);;
+    	<= nrel_using_constants: ...
+	(*
+		-> syntactic_relationship;;
+		-> sentence;;
+
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Аппликация - связь семантического наложения, возникающая между поясняемым и поясняющим компонентами предложения.](* <- lang_ru;; *);;
+	*);;
+*);;
+
+  statement -> ... 
+(*
+        -> rrel_key_sc_element: nrel_applique;;
+
+
+	=> nrel_main_idtf: [Утв.(аппликация*, обособленное приложение')] (* <-lang_ru;; *);;
+
+	<= nrel_sc_text_translation: ... (* -> [При аппликации второй компонент как бы накладывается на первый и благодаря этому уподобляется ему в синтаксических отношениях с другими компонентами предложения. Эта связь выражает разные названия одного и того же явления (обособление приложений).] (* <- lang_ru;; *);; *);;
+*);;
+
+statement-> ... 
+(*
+        -> rrel_key_sc_element: nrel_applique;;
+
+
+	=> nrel_main_idtf: [Разъяснение выделения связи аппликация] (* <-lang_ru;; *);;
+
+	<= nrel_sc_text_translation: ... (* -> [Предложение - Ухаживала за мной одна девушка, полька. Обособленное приложение полька уподобляется словоформе девушка, как бы накладываясь на нее.] (* <- lang_ru;; *);; *);;
+*);;
+
+ 
+nrel_applique
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:[Рис.(аппликация на языке SСg)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation: ...
+	(*
+		->"file://examples_of_scg_syntax/applique.png"
+		(*
+			=>nrel_format:format_png;;
+		*);;
+	*);;
+*);;
+
+  

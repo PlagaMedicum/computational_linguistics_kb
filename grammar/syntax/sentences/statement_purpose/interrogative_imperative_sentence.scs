@@ -1,0 +1,35 @@
+sc_node_not_relation
+ -> interrogative_imperative_sentence;;
+
+interrogative_imperative_sentence
+ => nrel_main_idtf: [вопросительно-побудительное предложение](* <- lang_ru;; *);
+ => nrel_idtf: [множество вопросительно-побудительных предложений](* <- lang_ru;; *);
+ => nrel_idtf: [interrogative-imperative sentence](* <- lang_en;; *);;
+
+definition -> ...   
+(*
+     	-> rrel_key_sc_element: interrogative_imperative_sentence;;
+
+	=> nrel_main_idtf: [Опр. (вопросительно-побудительное  предложение)](* <- lang_ru;; *);;
+     	<= nrel_using_constants: ...
+	(*
+		-> sentence;;
+		-> quaere;;
+		-> nrel_comprise;;
+		-> motivation_for_action;;	
+		-> nrel_to_be_expressed_by;;	
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Вопросительно-побудительное предложение - предложение, заключающее в себе побуждение к действию, выраженное посредством вопроса.](* <- lang_ru;; *);;
+     	*);;
+
+*);;
+
+
+interrogative_imperative_sentence
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [Не поговорить ли нам сначала о делах?](*<-lang_ru;;*);;
+*);;
+

@@ -1,0 +1,59 @@
+sc_node_not_relation
+ -> definitely_personal_sentence;;
+
+definitely_personal_sentence
+ => nrel_main_idtf: [определенно-личное предложение](* <- lang_ru;; *);
+ => nrel_idtf: [множество определенно-личных предложений](* <- lang_ru;; *);
+ => nrel_idtf: [definitely-personal sentence](* <- lang_en;; *);;
+
+
+
+definition -> ...   
+(*
+     	-> rrel_key_sc_element: definitely_personal_sentence;;
+
+	=> nrel_main_idtf: [Опр. (определенно-личное предложение)](* <- lang_ru;; *);;
+     	<= nrel_using_constants: ...
+	(*
+		-> one_part_sentence;;
+		-> nrel_to_be_expressed_by;;
+		-> rrel_main_member_of_sentence;;
+		-> personal_verb_form;;
+		-> nrel_point_at;;
+		-> grammatical_person;;	
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Определенно-личное предложение - односоставное предложение, главный член которого выражается личной формой глагола, указывающей на определенное лицо.](* <- lang_ru;; *);;
+     	*);;
+
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: definitely_personal_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(определенно-личное предложение, глагол, местоимение, грамматическое лицо, окончание)](*<-lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Глагол в определенно-личном предложении не нуждается в наличии местоимения, так как значение конкретного лица передается его личным окончанием.](* <-lang_ru;; *);;
+	*);;
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: definitely_personal_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(определенно-личное предложение, сказуемое, третье лицо)](*<-lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [В определенно-личных предложениях сказуемое не может быть в форме третьего лица. Эта форма сама по себе не указывает на конкретное действующее лицо.](* <-lang_ru;; *);;
+	*);;
+*);;
+
+definitely_personal_sentence
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [Не гляди же с тоской на дорогу, и за тройкой вослед не спеши, и тоскливую в сердце тревогу поскорей навсегда заглуши!](*<-lang_ru;;*);;
+*);;
+

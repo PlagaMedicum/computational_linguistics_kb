@@ -1,0 +1,28 @@
+sc_node_not_relation
+ -> syntactic_relationship_of_phrase;;
+
+syntactic_relationship_of_phrase
+ => nrel_main_idtf: [синтаксическая связь словосочетания](* <- lang_ru;; *);
+ => nrel_idtf: [множество синтаксических связей словосочетания](* <- lang_ru;; *);
+ => nrel_idtf: [syntactic relationship of phrase](* <- lang_en;; *);;
+
+
+definition -> ...   
+(*
+  	-> rrel_key_sc_element: syntactic_relationship_of_phrase;;
+  	=> nrel_main_idtf: [Опр. (синтаксическая связь словосочетания)](* <- lang_ru;; *);;
+    	<= nrel_using_constants: ...
+	(*
+ 		-> phrase;;
+		-> semantic_relation;;
+		-> nrel_to_be_expressed_by;;
+		-> language_tool;;
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Синтаксическая связь в словосочетании - формальное строевое отношение между компонентами словосочетания, выявляющее семантическое отношение между этими компонентами и выражаемое средствами языка.](* <- lang_ru;; *);;
+	*);;
+*);;
+
+ 
+ 

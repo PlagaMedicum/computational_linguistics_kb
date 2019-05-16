@@ -1,0 +1,22 @@
+ relative_adjective
+<- sc_node_not_relation;;
+ relative_adjective=>nrel_main_idtf:
+    [Относительное прилагательное](* <-lang_ru;; *);
+    [relative_adjective](* <-lang_en;; *);;
+
+
+ relative_adjective <- rrel_key_sc_element: 
+	... 
+        (*
+             <- sc_definition;;
+            => nrel_main_idtf: [Понятие: Относительное прилагательное] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: relative adjective] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [Относительное прилагательное - это прилагательное, которое обозначают признак, который нельзя иметь в большей или меньшей степени.](*<- lang_ru;;*);;
+                ->rrel_example;
+                [A relative adjective is an adjective that denotes a characteristic that cannot be to a greater or lesser extent.](*<- lang_en;;*);;
+            *);;
+        *);;

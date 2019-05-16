@@ -1,0 +1,42 @@
+asyndeton
+	<- sc_node_not_relation;
+	<- stylistic_device;
+
+	=> nrel_main_idtf:
+			[бессоюзие](* <- lang_ru;; *);
+			[asyndeton](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Ночь, улица, фонарь, аптека.](* <- lang_ru;; *);
+					[Night, street, lantern, pharmacy.](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_asyndeton
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (бессоюзие)](* <- lang_ru;; *);
+					[Опр. (asyndeton)](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example:
+						[Бессоюзие — стилистическая фигура: построение речи, при котором союзы, соединяющие предложение, опущены.](* <- lang_ru;; *);
+						[Asyndeton is a stylistic figure: the construction of speech, in which the unions connecting a sentence are omitted.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+				<- explanation;; 
+				=> nrel_main_idtf:
+					[Утв. (бессоюзие)](* <- lang_ru;; *);
+					[Expl. (asyndeton)](* <- lang_en;; *);;
+				<- nrel_sc_text_translation: ...
+						(*
+							-> rrel_example: 
+									[Бессоюзие придаёт высказыванию стремительность, динамичность, помогает передать быструю смену картин, впечатлений, действий.](* <-lang_ru;; *);
+									[Asyndeton gives the statement swiftness, dynamism, helps to convey a quick change of pictures, impressions, actions.](* <- lang_en;; *);;
+						*);;
+		*);;

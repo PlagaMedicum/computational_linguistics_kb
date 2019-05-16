@@ -1,0 +1,56 @@
+rhetorical_appeal
+	<- sc_node_not_relation;
+	<- stylistic_device;
+
+	=> nrel_main_idtf:
+			[риторическое обращение](* <- lang_ru;; *);
+			[rhetorical appeal](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[А вы, надменные потомки, известной подлостью прославленных отцов, пятою рабскою поправшие обломки игрою счастия обиженных родов!](* <- lang_ru;; *);
+					[And you, arrogant descendants, a well-known meanness of famous fathers, who, with their fifth slave, have recovered the wreckage of the happiness of offended clans!](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_rhetorical_appeal
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (риторическое обращение)](* <- lang_ru;; *);
+					[Опр. (rhetorical appeal)](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example:
+						[Риторическое обращение - стилистическая фигура: обращение, носящее условный характер.](* <- lang_ru;; *);
+						[Rhetorical appeal is a stylistic figure: an appeal that is conditional.](* <- lang_en;; *);;
+				*);;
+		*);	
+		
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (риторическое обращение)](* <- lang_ru;; *);
+				[Expl. (rhetorical appeal)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: 
+								[Главной задачей риторического обращения является стремление выразить отношение к тому или иному лицу либо предмету, дать ему характеристику, усилить выразительность речи.](* <-lang_ru;; *);
+								[The main task of rhetorical appeal is the desire to express the attitude to a particular person or object, to give it a characteristic, to strengthen the expressiveness of speech.](* <- lang_en;; *);;
+					*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (риторическое обращение)](* <- lang_ru;; *);
+				[Expl. (rhetorical appeal)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: 
+								[Риторическое обращение никогда не требует ответа и не несет в себе вопрос.](* <-lang_ru;; *);
+								[Rhetorical appeal never requires an answer and does not carry a question.](* <- lang_en;; *);;
+					*);;
+	*);;

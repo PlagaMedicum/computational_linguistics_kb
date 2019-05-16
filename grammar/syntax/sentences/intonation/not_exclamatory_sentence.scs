@@ -1,25 +1,33 @@
+sc_node_not_relation
+ -> not_exclamatory_sentence;;
+
 not_exclamatory_sentence
-<-sc_node_not_relation;
-<-sentence;;
-not_exclamatory_sentence => nrel_main_idtf:
-	[не восклицательное предложение](* <-lang_ru;; *);
-    [not exclamatory sentence](* <-lang_en;; *);;
-not_exclamatory_sentence <- rrel_key_sc_element: 
-		... 
-		(*
-		<- sc_definition;;
-		=> nrel_main_idtf: [Определение: не восклицательное предложение] (* <- lang_ru;; *);;
-		=> nrel_main_idtf: [Definition: not exclamatory sentence] (* <- lang_en;; *);;
-        <- definition;;
-		<= nrel_sc_text_translation: ...
-			(*
-			-> rrel_example: 
-				[Не восклицательное предложение – это предложение, эмоционально не окрашенное.](*<- lang_ru;;*);;
-			-> rrel_example: 
-				[Not exclamatory sentence is a sentence which is emotionally not painted.](*<- lang_en;;*);;
-			*);;
-            <= nrel_using_constants: ...
-            (*
-                -> sentence;;
-            *);;
-		*);;
+ => nrel_main_idtf: [невосклицательное предложение](* <- lang_ru;; *);
+ => nrel_idtf: [множество невосклицательных предложений](* <- lang_ru;; *);
+ => nrel_idtf: [not exclamatory sentence](* <- lang_en;; *);;
+
+
+definition -> ...   
+(*
+     	-> rrel_key_sc_element: not_exclamatory_sentence;;
+
+	=> nrel_main_idtf: [Опр. (невосклицательное предложение)](* <- lang_ru;; *);;
+     	<= nrel_using_constants: ...
+	(*
+		-> sentence;;
+		-> rrel_emotional_coloring;;
+		-> neutrality;;	
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Невосклицательное предложение - предложение с нейтральной эмоциональной окраской.](* <- lang_ru;; *);;
+     	*);;
+
+*);;
+
+not_exclamatory_sentence
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [У Блока было все, что создает великого поэта.](*<-lang_ru;;*);;
+*);;
+
