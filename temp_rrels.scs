@@ -1,0 +1,67 @@
+rrel_emotional_coloring	
+ <- sc_node_role_relation;
+=> nrel_main_idtf:
+    [эмоциональная окраска'](* <-lang_ru;; *);;
+
+
+rrel_unnamed_member_of_sentence	
+ <- sc_node_role_relation;
+=> nrel_main_idtf:
+    [неназванный член'](* <-lang_ru;; *);;
+
+rrel_verbal_predicate
+ <- sc_node_role_relation;
+=> nrel_main_idtf:
+    [глагольное сказуемое'](* <-lang_ru;; *);;
+
+
+rrel_substantive
+ <- sc_node_role_relation;
+=> nrel_main_idtf:
+    [субстантивный'](* <-lang_ru;; *);;
+
+
+rrel_auxiliary_component
+ <- sc_node_role_relation;
+=> nrel_main_idtf:
+    [вспомогательный компонент'](* <-lang_ru;; *);;
+
+
+rrel_infinitive	
+ <- sc_node_role_relation;
+=> nrel_main_idtf:
+    [инфинитив'](* <-lang_ru;; *);;
+
+
+rrel_verb_bundle
+ <- sc_node_role_relation;
+=> nrel_main_idtf:
+    [глагол-связка'](* <-lang_ru;; *);;
+
+
+rrel_nominative_part
+ <- sc_node_role_relation;
+=> nrel_main_idtf:
+    [именная часть'](* <-lang_ru;; *);;
+
+
+
+rrel_defined_word
+ <- sc_node_role_relation;
+=> nrel_main_idtf:
+    [определяемое слово'](* <-lang_ru;; *);;
+
+
+rrel_explanatory_component
+ <- sc_node_role_relation;
+=> nrel_main_idtf:
+    [поясняющий компонент'](* <-lang_ru;; *);;
+
+
+rrel_clarified_component
+ <- sc_node_role_relation;
+=> nrel_main_idtf:
+    [поясняемый компонент'](* <-lang_ru;; *);;
+
+
+	

@@ -56,3 +56,418 @@ number
 => nrel_main_idtf:
     [число*](* <-lang_ru;; *);
     [number*](* <-lang_en;; *);;
+
+
+nrel_means_of_thought_formation
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [средство формирования мысли*](* <-lang_ru;; *);
+    [means of thought formation*](* <-lang_en;; *);;
+
+
+
+nrel_means_of_thought_expression
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [средство выражение мысли*](* <-lang_ru;; *);
+    [means of thought expression*](* <-lang_en;; *);;
+
+	
+nrel_means_of_thought_imparting	
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [средство сообщения мысли*](* <-lang_ru;; *);;
+
+
+nrel_bear_the_meaning
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [нести значение*](* <-lang_ru;; *);;
+
+
+nrel_transmit
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [передавать*](* <-lang_ru;; *);;
+
+
+nrel_presence_of_communication
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [наличие связи*](* <-lang_ru;; *);;
+
+
+nrel_deny
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [отрицать*](* <-lang_ru;; *);;
+
+nrel_express_total_negation
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [выражать полное отрицание*](* <-lang_ru;; *);;
+
+
+nrel_place_in_front_of
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [ставить перед*](* <-lang_ru;; *);;
+
+nrel_express_affirmation
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [выражать утверждение*](* <-lang_ru;; *);;
+
+nrel_limit
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [ограничивать*](* <-lang_ru;; *);;
+
+nrel_comprise
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [заключать в себе*](* <-lang_ru;; *);;
+
+
+nrel_induce_to_expression
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [побуждать высказать*](* <-lang_ru;; *);;
+
+
+
+nrel_interest
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [интересовать*](* <-lang_ru;; *);;
+
+
+nrel_assume
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [предполагать*](* <-lang_ru;; *);;
+
+
+nrel_require_confirmation
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [требовать подтверждения*](* <-lang_ru;; *);;
+
+
+nrel_facing_to
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [быть обращенным к*](* <-lang_ru;; *);;
+
+nrel_to_be_expressed_by
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [быть выраженным посредством*](* <-lang_ru;; *);;
+
+
+nrel_contain
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [содержать в себе*](* <-lang_ru;; *);;
+
+
+nrel_require_an_answer
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [требовать ответа*](* <-lang_ru;; *);;
+
+nrel_express
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [выражать*](* <-lang_ru;; *);;
+
+nrel_represent
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [представлять*](* <-lang_ru;; *);;
+
+
+nrel_consist_of	
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [состоять из*](* <-lang_ru;; *);;
+
+
+nrel_united_by_meaning	
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [объединенные по смыслу*](* <-lang_ru;; *);;
+
+
+
+nrel_grammatically_united
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [объединенные грамматически*](* <-lang_ru;; *);;
+
+
+nrel_be_necessary_to_understand	
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [необходимый для понимания*](* <-lang_ru;; *);;
+
+nrel_sense
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [смысл*](* <-lang_ru;; *);;
+
+
+
+nrel_absent
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [отсутствовать*](* <-lang_ru;; *);;
+
+
+nrel_be_structurally_necessary_for
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [быть структурно необходимым для*](* <-lang_ru;; *);;
+
+
+nrel_have_the_ability_to_highlight
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [иметь возможность выделить*](* <-lang_ru;; *);;
+	
+
+nrel_assist
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [присутствовать*](* <-lang_ru;; *);;
+
+
+nrel_point_at
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [указывать на*](* <-lang_ru;; *);;
+
+
+nrel_independent_of
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [независящий от*](* <-lang_ru;; *);;
+
+	
+
+nrel_combine_in_yourself
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [совмещать в себе*](* <-lang_ru;; *);;
+
+
+nrel_affirm
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [утверждать*](* <-lang_ru;; *);;
+
+
+nrel_conceivable_in
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [мыслимый в*](* <-lang_ru;; *);;
+
+
+
+nrel_term
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [называть*](* <-lang_ru;; *);;
+
+
+nrel_contain_reference_to
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [содержать указание на*](* <-lang_ru;; *);;
+
+nrel_assist
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [присутствовать*](* <-lang_ru;; *);;
+
+
+nrel_assessment	
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [оценка*](* <-lang_ru;; *);;
+
+
+nrel_mentioned_in
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [упомянутый в*](* <-lang_ru;; *);;
+
+
+nrel_nearest_sentence
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [ближайшее предложение*](* <-lang_ru;; *);;
+
+nrel_prompt
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [подсказывать*](* <-lang_ru;; *);;	
+
+
+nrel_structure_specifics
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [специфика структуры*](* <-lang_ru;; *);;
+
+nrel_required_for
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [быть необходимым для*](* <-lang_ru;; *);;
+
+nrel_grammatically_significant_part
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [грамматически значимая часть*](* <-lang_ru;; *);;
+
+		
+nrel_fragmentation_on_members
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [членение предложения*](* <-lang_ru;; *);;
+
+
+nrel_thing_of_speech
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [предмет речи*](* <-lang_ru;; *);;
+
+nrel_grammatical_basis	
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [грамматическая основа*](* <-lang_ru;; *);;
+
+
+nrel_action_of_thing_of_speech
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [действие предмета речи*](* <-lang_ru;; *);;
+
+nrel_sign_of_thing_of_speech
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [признак предмета речи*](* <-lang_ru;; *);;
+
+		
+nrel_condition_of_thing_of_speech
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [состояние предмета речи*](* <-lang_ru;; *);;
+
+		
+nrel_conjugated_form_of_verb
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [спрягаемая форма глагола*](* <-lang_ru;; *);;
+
+		
+nrel_not_conjugated_form_of_verb
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [неспрягаемая форма глагола*](* <-lang_ru;; *);;
+
+			
+nrel_grammar_meaning
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [грамматическое значение*](* <-lang_ru;; *);;
+
+	
+nrel_lexical_meaning
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [лексическое значение*](* <-lang_ru;; *);;
+
+	
+nrel_grammatically_dependent_on
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [грамматически зависеть от*](* <-lang_ru;; *);;
+
+	
+nrel_explain
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [пояснять*](* <-lang_ru;; *);;
+
+
+nrel_time_bound	
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [временные рамки*](* <-lang_ru;; *);;
+
+	
+nrel_theme
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [тематика*](* <-lang_ru;; *);;	
+
+	
+nrel_spatial_bound
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [пространственные рамки*](* <-lang_ru;; *);;
+
+		
+nrel_quantitative_characteristic
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [количественная характеристика*](* <-lang_ru;; *);;
+
+
+nrel_scene_of
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [место совершения*](* <-lang_ru;; *);;
+
+
+nrel_time_characteristic
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [временная характеристика*](* <-lang_ru;; *);;
+
+	
+nrel_reason
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [причина*](* <-lang_ru;; *);;
+
+	
+nrel_goal
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [цель*](* <-lang_ru;; *);;
+
+nrel_stipulation
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [условие*](* <-lang_ru;; *);;
+
+
+nrel_separation
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [обособление*](* <-lang_ru;; *);;
+
+
+nrel_subordination
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [подчинительная связь*](* <-lang_ru;; *);;
+
+	
+nrel_composing_relationship
+ <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [сочинительная связь*](* <-lang_ru;; *);;
+
+
