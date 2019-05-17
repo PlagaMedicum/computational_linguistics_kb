@@ -1,5 +1,5 @@
 animated_noun
-<-sc_node_norole_relation;;
+<- sc_node_not_relation;;
 
 animated_noun=> nrel_main_idtf:
 	[одушевленное имя существительное](* <-lang_ru;; *);
@@ -24,3 +24,41 @@ animated_noun <- rrel_key_sc_element:
                 ->noun;;
             *);;
         *);;
+
+
+statement -> ...
+(* 
+     
+      -> rrel_key_sc_element: animated_noun;;
+      => nrel_main_idtf: [Утв.(одушевленное имя существительное, винительный падеж, множественное число, родительный падеж,множественное число)](* <- lang_ru;; *);;
+      <= nrel_sc_text_translation: ... (*
+				 	 -> [у одушевлённых существительных форма винительного падежа множественного числа совпадает с формой родительного падежа 
+                      множественного числа.](* <- lang_ru;; *);;
+					*);;
+*);;
+
+
+
+animated_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [студент](*<- lang_ru;;*);;
+    *);;
+
+animated_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [наставник](*<- lang_ru;;*);;
+    *);;
+
+animated_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [конферансье](*<- lang_ru;;*);;
+    *);;
+
+animated_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [ровесник](*<- lang_ru;;*);;
+    *);;

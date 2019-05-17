@@ -20,11 +20,36 @@ nrel_affixal_paronym <- rrel_key_sc_element:
                 ->[Affixal paronyms are paronyms that are combined by common motivation and common semantic link..](*<- lang_en;;*);;//google translate 
             *);;
         
-            /*<= nrel_using_constants: ...
+            <= nrel_using_constants: ...
             (*
-                -> word;;
-                -> sound;;
+                -> nrel_paronym;;
+                //-> sound;;
                 //-> unchangeable_word;;
             *);;
-            */
+            
         *);;
+
+
+nrel_affixal_paronym -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [абонемент - абонент](*<- lang_ru;;*);;
+    *);;
+
+nrel_affixal_paronym -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [экономический -  экономичный - экономный](*<- lang_ru;;*);;
+    *);;
+
+nrel_affixal_paronym -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [кровавый -  кровный - кровяной](*<- lang_ru;;*);;
+    *);;
+
+nrel_affixal_paronym -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [ледяной -  ледовый - льдистый](*<- lang_ru;;*);;
+    *);;

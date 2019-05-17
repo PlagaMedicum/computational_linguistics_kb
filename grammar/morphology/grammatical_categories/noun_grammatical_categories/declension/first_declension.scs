@@ -1,5 +1,5 @@
 first_declension
-<-sc_node_norole_relation;;
+<- sc_node_not_relation;;
 
 first_declension=> nrel_main_idtf:
 	[имена существительные первого склонения](* <-lang_ru;; *);
@@ -14,11 +14,9 @@ first_declension <- rrel_key_sc_element:
             <- definition;;
             <= nrel_sc_text_translation: ...
             (*
-                ->rrel_example;
-                [имена существительные первого склонения -существительные  женского рода с окончанием -а (-я) в именительном падеже единственного числа (страна, земля), а 
-				также существительные мужского рода, обозначающие людей, с теми же окончаниями (юноша, дядя).](*<- lang_ru;;*);;
-                //-> rrel_example:
-                //[inanimate nouns - nouns that are used to name inanimate objects, as well as objects flora and answer the question "what?"](*<- lang_en;;*);;
+                ->rrel_example:
+                [имена существительные первого склонения -существительные  женского рода с окончанием -а (-я) в именительном падеже единственного числа (страна, земля), 
+                а также существительные мужского рода, обозначающие людей, с теми же окончаниями (юноша, дядя).](*<- lang_ru;;*);;
             *);;
              <= nrel_using_constants: ...
             (*
@@ -31,5 +29,26 @@ first_declension <- rrel_key_sc_element:
 
             *);;
         *);;
+
+first_declension -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [страна](*<- lang_ru;;*);;
+    *);;
+
+
+first_declension -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [земля](*<- lang_ru;;*);;
+    *);;
+
+first_declension -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [армия](*<- lang_ru;;*);;
+    *);;
+
+
 
 

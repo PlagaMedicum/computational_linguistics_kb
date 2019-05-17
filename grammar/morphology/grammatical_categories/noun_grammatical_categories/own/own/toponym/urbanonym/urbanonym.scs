@@ -1,5 +1,5 @@
 urbanonym
-<-sc_node_norole_relation;;
+<-sc_node_not_relation;;
 
 urbanonym=>nrel_main_idtf:
     [урбаноним](* <-lang_ru;; *);
@@ -14,7 +14,7 @@ urbanonym <- rrel_key_sc_element:
             <- definition;;
             <= nrel_sc_text_translation: ...
             (*
-                ->rrel_example;
+                ->rrel_example:
                 [урбаноним - имя собственное любого внутригородского топографического объекта.](*<- lang_ru;;*);;
                 -> rrel_example:
                 [Urbanonym - the proper name of any intracity topographic object](*<- lang_en;;*);;

@@ -1,5 +1,5 @@
 limnonym
-<-sc_node_norole_relation;;
+<-sc_node_not_relation;;
 
 limnonym=>nrel_main_idtf:
     [лимноним](* <-lang_ru;; *);
@@ -14,7 +14,7 @@ limnonym<- rrel_key_sc_element:
             <- definition;;
             <= nrel_sc_text_translation: ...
             (*
-                ->rrel_example;
+                ->rrel_example:
                 [лимноним - собственное имя любого озера или пруда.](*<- lang_ru;;*);;
                 -> rrel_example:
                 [limnonym is a own name of any lake or pond](*<- lang_en;;*);;

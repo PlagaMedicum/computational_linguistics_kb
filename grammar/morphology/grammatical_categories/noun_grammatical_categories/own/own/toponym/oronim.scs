@@ -15,7 +15,7 @@ oronim<- rrel_key_sc_element:
             <- definition;;
             <= nrel_sc_text_translation: ...
             (*
-                ->rrel_example;
+                ->rrel_example:
                 [ороним - собственное имя любого объекта рельефа земной поверхности](*<- lang_ru;;*);;
                 -> rrel_example:
                 [oronim is the proper name of any object on the terrestrial surface.](*<- lang_en;;*);;

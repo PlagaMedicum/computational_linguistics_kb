@@ -5,7 +5,7 @@ drimonym=>nrel_main_idtf:
     [дримоним](* <-lang_ru;; *);
     [drimonym](* <-lang_en;; *);;
 
-drimonym<- rrel_key_sc_element: 
+drimonym <- rrel_key_sc_element: 
 		... 
         (*
             <- sc_definition;;
@@ -14,7 +14,7 @@ drimonym<- rrel_key_sc_element:
             <- definition;;
             <= nrel_sc_text_translation: ...
             (*
-                ->rrel_example;
+                ->rrel_example:
                 [дримоним — вид топонима, собственное имя любого лесного участка — леса, бора, рощи.](*<- lang_ru;;*);;
                 -> rrel_example:
                 [drimonym is a type of toponym, the proper name of any forest area - forest, boron, grove.](*<- lang_en;;*);;
@@ -25,3 +25,28 @@ drimonym<- rrel_key_sc_element:
                 ->own_noun;;
             *);;
         *);;
+
+drimonym -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [Шипов лес](*<- lang_ru;;*);;
+    *);;
+
+drimonym -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [Теллермановская роща](*<- lang_ru;;*);;
+    *);;
+
+drimonym -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [Красный Бор](*<- lang_ru;;*);;
+    *);;
+
+drimonym -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [Петровская роща](*<- lang_ru;;*);;
+    *);;
+

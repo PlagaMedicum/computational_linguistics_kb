@@ -1,5 +1,5 @@
 comonym
-<-sc_node_norole_relation;;
+<-sc_node_not_relation;;
 
 comonym=>nrel_main_idtf:
     [комоним](* <-lang_ru;; *);
@@ -14,7 +14,7 @@ comonym<- rrel_key_sc_element:
             <- definition;;
             <= nrel_sc_text_translation: ...
             (*
-                ->rrel_example;
+                ->rrel_example:
                 [комоним- это собственное имя любого сельского поселения.](*<- lang_ru;;*);;
                 -> rrel_example:
                 [сomonim is the proper name of any rural settlement.](*<- lang_en;;*);;

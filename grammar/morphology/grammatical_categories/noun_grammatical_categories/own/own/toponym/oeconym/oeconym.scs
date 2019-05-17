@@ -1,5 +1,5 @@
 oeconym
-<-sc_node_norole_relation;;
+<-sc_node_not_relation;;
 
 oeconym=>nrel_main_idtf:
     [ойконим](* <-lang_ru;; *);
@@ -14,7 +14,7 @@ oeconym<- rrel_key_sc_element:
             <- definition;;
             <= nrel_sc_text_translation: ...
             (*
-                ->rrel_example;
+                ->rrel_example:
                 [ойконим - собственное имя любого (начиная с отдельно стоящего дома) поселения, в том числе сельских (комонимы) и городских (астионимы) поселений.](*<- lang_ru;;*);;
                 -> rrel_example:
                 [oeconym is the proper name of any settlement (starting from a detached house), including rural (comonyms) and urban (astionim) settlements.](*<- lang_en;;*);;

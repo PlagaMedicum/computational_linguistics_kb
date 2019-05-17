@@ -20,11 +20,22 @@ nrel_root_paronym <- rrel_key_sc_element:
                 ->[Root paronyms are paronyms that have different roots whose external similarity is purely random.](*<- lang_en;;*);;//google translate 
             *);;
         
-            /*<= nrel_using_constants: ...
+            <= nrel_using_constants: ...
             (*
-                -> word;;
-                -> sound;;
-                //-> unchangeable_word;;
+                -> nrel_paronym;;
+                -> root;;
             *);;
-            */
+            
         *);;
+
+nrel_root_paronym -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [экскаватор  - эскалатор](*<- lang_ru;;*);;
+    *);;
+
+nrel_root_paronym -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [live   - leave](*<- lang_en;;*);;
+    *);;

@@ -1,5 +1,5 @@
 pelagonim
-<-sc_node_norole_relation;;
+<-sc_node_not_relation;;
 
 pelagonim=>nrel_main_idtf:
     [пелагоним](* <-lang_ru;; *);
@@ -14,7 +14,7 @@ pelagonim<- rrel_key_sc_element:
             <- definition;;
             <= nrel_sc_text_translation: ...
             (*
-                ->rrel_example;
+                ->rrel_example:
                 [пелагоним - собственное имя любого моря.](*<- lang_ru;;*);;
                 -> rrel_example:
                 [pelagonym is a own name of any sea.](*<- lang_en;;*);;

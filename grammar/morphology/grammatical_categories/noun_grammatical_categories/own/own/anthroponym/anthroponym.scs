@@ -39,13 +39,3 @@ anthroponym <= nrel_subdividing:
      
      
 };;
-
-/*anthroponym <= nrel_subdividing: ...
-(*
-    <- explanation;;
-    => nrel_main_idtf:
-    [Разбиение по типам ](*<-lang_ru;; *);;
-    -> given_name;;
-*);;
-*/
-

@@ -26,3 +26,28 @@ nrel_vector_correlate <- rrel_key_sc_element:
                 -> action;;
             *);;
         *);;
+
+
+nrel_vector_correlate -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [ войти - выйти ](*<- lang_ru;;*);;
+    *);;
+     
+nrel_vector_correlate -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [ спуститься - подняться ](*<- lang_ru;;*);;
+    *);;
+
+nrel_vector_correlate -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [ зажечь - потушить ](*<- lang_ru;;*);;
+    *);;
+
+nrel_vector_correlate -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [ революция - контрреволюция ](*<- lang_ru;;*);;
+    *);;

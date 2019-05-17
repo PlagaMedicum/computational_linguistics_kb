@@ -28,3 +28,21 @@ nrel_contradictory_correlate <- rrel_key_sc_element:
                 //-> unchangeable_word;;
             *);;*/
         *);;
+
+nrel_contradictory_correlate -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [плохой - хороший ](*<- lang_ru;;*);;
+    *);;
+
+nrel_contradictory_correlate -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [ложь - истина ](*<- lang_ru;;*);;
+    *);;
+
+nrel_contradictory_correlate -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [живой - мёртвый ](*<- lang_ru;;*);;
+    *);;

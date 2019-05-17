@@ -23,7 +23,41 @@ nrel_converse <- rrel_key_sc_element:
             <= nrel_using_constants: ...
             (*
                 -> word;;
-                //-> sound;;
-                //-> unchangeable_word;;
+
             *);;
         *);;
+
+nrel_converse -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [ купить - продать ](*<- lang_ru;;*);;
+    *);;
+
+nrel_converse -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [ муж - жена ](*<- lang_ru;;*);;
+    *);;
+
+nrel_converse -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [ преподавать - учиться ](*<- lang_ru;;*);;
+    *);;
+
+nrel_converse -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [ проиграть - выиграть,  ](*<- lang_ru;;*);;
+    *);;
+
+nrel_converse -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [ потерять - найти ](*<- lang_ru;;*);;
+    *);;
+nrel_converse -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [ молодой - старый ](*<- lang_ru;;*);;
+    *);;

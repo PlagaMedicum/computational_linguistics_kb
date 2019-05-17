@@ -1,5 +1,5 @@
 gelonim
-<-sc_node_norole_relation;;
+<-sc_node_not_relation;;
 
 gelonim=>nrel_main_idtf:
     [гелоним](* <-lang_ru;; *);
@@ -14,7 +14,7 @@ gelonim<- rrel_key_sc_element:
             <- definition;;
             <= nrel_sc_text_translation: ...
             (*
-                ->rrel_example;
+                ->rrel_example:
                 [гелоним - собственное имя любого болота, заболоченного места.](*<- lang_ru;;*);;
                 -> rrel_example:
                 [gelonim is the proper name of any swamp, wetland.](*<- lang_en;;*);;

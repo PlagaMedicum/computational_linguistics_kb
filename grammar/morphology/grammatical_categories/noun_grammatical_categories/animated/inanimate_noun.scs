@@ -1,5 +1,6 @@
 inanimate_noun
-<-sc_node_norole_relation;;
+<- sc_node_not_relation;;
+
 inanimate_noun=> nrel_main_idtf:
 	[неодушевленное имя существительное](* <-lang_ru;; *);
  	[inanimate noun](* <-lang_en;; *);;
@@ -25,3 +26,31 @@ inanimate_noun <- rrel_key_sc_element:
                 ->noun;;
             *);;
         *);;
+
+
+statement -> ...
+(* 
+     
+      -> rrel_key_sc_element: inanimate_noun;;
+      => nrel_main_idtf: [Утв.(неодушевленное имя существительное, винительный падеж, множественное число, именительный падеж,множественное число)](* <- lang_ru;; *);;
+      <= nrel_sc_text_translation: ... (*
+				 	 -> [у неодушевлённых существительных форма винительного падежа множественного числа совпадает с формой именительного падежа 
+                      множественного числа.](* <- lang_ru;; *);;
+					*);;
+*);;
+
+
+inanimate_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [президиум](*<- lang_ru;;*);;
+    *);;
+
+inanimate_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [конференция](*<- lang_ru;;*);;
+    *);;
+
+
+

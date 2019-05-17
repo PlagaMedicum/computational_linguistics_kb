@@ -1,12 +1,12 @@
 heteroclitic_noun
-<-sc_node_norole_relation;;
+<- sc_node_not_relation;;
 
 
 heteroclitic_noun=> nrel_main_idtf:
 	[разносклоняемое имя существительное](* <-lang_ru;; *);
  	[heteroclitic noun](* <-lang_en;; *);;
 
-nrel_first_declension <- rrel_key_sc_element: 
+heteroclitic_noun <- rrel_key_sc_element: 
 		... 
         (*
             <- sc_definition;;
@@ -15,7 +15,7 @@ nrel_first_declension <- rrel_key_sc_element:
             <- definition;;
             <= nrel_sc_text_translation: ...
             (*
-                ->rrel_example;
+                ->rrel_example:
                 [Разносклоняемые именя существительные - десять существительных на -мя (бремя, время, вымя, знамя, имя, пламя, племя, семя, стремя, темя);
                 существительные путь, дитя](*<- lang_ru;;*);;
                 //-> rrel_example:
@@ -26,5 +26,79 @@ nrel_first_declension <- rrel_key_sc_element:
                 ->noun;;
             *);;
         *);;
+
+heteroclitic_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [бремя](*<- lang_ru;;*);;
+    *);;
+
+heteroclitic_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [время](*<- lang_ru;;*);;
+    *);;
+
+heteroclitic_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [вымя](*<- lang_ru;;*);;
+    *);;
+
+heteroclitic_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [знамя](*<- lang_ru;;*);;
+    *);;
+
+heteroclitic_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [имя](*<- lang_ru;;*);;
+    *);;
+
+heteroclitic_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [пламя](*<- lang_ru;;*);;
+    *);;
+
+heteroclitic_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [племя](*<- lang_ru;;*);;
+    *);;
+
+heteroclitic_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [семя](*<- lang_ru;;*);;
+    *);;
+
+heteroclitic_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [стремя](*<- lang_ru;;*);;
+    *);;
+
+heteroclitic_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [темя](*<- lang_ru;;*);;
+    *);;
+
+heteroclitic_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [путь](*<- lang_ru;;*);;
+    *);;
+
+heteroclitic_noun -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [дитя](*<- lang_ru;;*);;
+    *);;
+
+
 
 
