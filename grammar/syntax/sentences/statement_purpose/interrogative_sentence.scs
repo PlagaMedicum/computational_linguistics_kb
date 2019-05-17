@@ -1,0 +1,86 @@
+sc_node_not_relation
+ -> interrogative_sentence;;
+
+interrogative_sentence
+ => nrel_main_idtf: [вопросительное предложение](* <- lang_ru;; *);
+ => nrel_idtf: [множество вопросительных предложений](* <- lang_ru;; *);
+ => nrel_idtf: [interrogative sentence](* <- lang_en;; *);;
+
+interrogative_sentence
+<= nrel_subdividing: ...
+(*
+	-> actually_interrogative_sentence;;	
+	-> interrogative_narrative_sentence;;	
+	-> interrogative_imperative_sentence;;	
+	-> interrogative_rhetorical_sentence;;	
+*);;
+
+definition -> ...   
+(*
+     	-> rrel_key_sc_element: interrogative_sentence;;
+
+	=> nrel_main_idtf: [Опр. (вопросительное предложение)](* <- lang_ru;; *);;
+     	<= nrel_using_constants: ...
+	(*
+		-> sentence;;
+		-> thought;;
+		-> nrel_induce_to_expression;;
+		-> nrel_interest;;
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Вопросительное предложение - предложение, побуждающее собеседника высказать мысль, интересующую говорящего.](* <- lang_ru;; *);;
+     	*);;
+
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: interrogative_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(вопросительное предложение, познавательная цель, иметь цель*)](*<-lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Вопросительное предложение имеет познавательную цель.](* <-lang_ru;; *);;
+	*);;
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: interrogative_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(вставная конструкция, иметь форму*, вопросительное предложение)](*<-lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Вставные конструкции могут иметь форму вопросительного предложения, т.к. они также не требуют ответа и служат лишь для привлечения внимания собеседника.](* <-lang_ru;; *);;
+	*);;
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: interrogative_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(вопросительное предложение, сопровождать*, добавочный оттенок модального характера)](*<-lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Вопрос в вопросительном предложении может сопровождаться добавочными оттенками модального характера - неуверенности, сомнения, недоверия, удивления и др.](* <-lang_ru;; *);;
+	*);;
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: interrogative_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(грамматическое средство оформления, вопросительное предложение, вопросительное слово, словорасположение, вопросительная интонация)](* <- lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Грамматическими средствами оформления вопросительных предложений являются вопросительные слова, словорасположение и вопросительная интонация.](* <- lang_ru;; *);;
+	*);;
+*);;
+
+interrogative_sentence
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [Что ты теперь скажешь себе в оправдание?](*<-lang_ru;;*);;
+*);;
+

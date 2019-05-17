@@ -1,0 +1,45 @@
+sc_node_not_relation
+ -> extended_sentence;;
+
+extended_sentence
+ => nrel_main_idtf: [распространенное предложение](* <- lang_ru;; *);
+ => nrel_idtf: [множество распространенных предложений](* <- lang_ru;; *);
+ => nrel_idtf: [extended sentence](* <- lang_en;; *);;
+
+
+definition -> ...   
+(*
+     	-> rrel_key_sc_element: extended_sentence;;
+
+	=> nrel_main_idtf: [Опр. (распространенное предложение)](* <- lang_ru;; *);;
+     	<= nrel_using_constants: ...
+	(*
+		-> sentence;;
+		-> rrel_minor_member_of_sentence;;
+		-> rrel_main_member_of_sentence;;	
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Распространенное предложение - предложение, имеющее, наряду с главными, позиции второстепенных членов.](* <- lang_ru;; *);;
+     	*);;
+
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: extended_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(предложение, распространять*, согласование*, примыкание*, управление*, словоформа, словосочетание, относиться к* )](*<-lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Предложение может быть распространено согласуемыми, управляемыми и примыкающими словоформами (по правилам присловных связей), входящими в предложение посредством словосочетаний, или словоформами, относящимися ко всему предложению фв целом.](* <-lang_ru;; *);;
+	*);;
+*);;
+
+
+extended_sentence
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [В начале августа наши перебрались из Баварии в Италию.](*<-lang_ru;;*);;
+*);;
+

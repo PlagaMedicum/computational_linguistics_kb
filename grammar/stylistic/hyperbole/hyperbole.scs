@@ -1,0 +1,42 @@
+hyperbole
+	<- sc_node_not_relation;
+	<- stylistic_device;
+
+	=> nrel_main_idtf:
+			[гипербола](* <- lang_ru;; *);
+			[hyperbole](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[«Море слёз»](* <- lang_ru;; *);
+					["Sea of tears"](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_hyperbole
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (гипербола)](* <- lang_ru;; *);
+					[Опр. (hyperbole)](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example:
+						[Гипербола —  троп явного и намеренного преувеличения, с целью усиления выразительности и подчёркивания сказанной мысли.](* <- lang_ru;; *);
+						[Hyperbole is a  trope of obvious and deliberate exaggeration, in order to enhance the expressiveness and emphasize the said thought.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+				<- explanation;; 
+				=> nrel_main_idtf:
+					[Утв. (гипербола)](* <- lang_ru;; *);
+					[Expl. (hyperbole)](* <- lang_en;; *);;
+				<- nrel_sc_text_translation: ...
+						(*
+							-> rrel_example: 
+									[Гипербола часто сочетается с другими стилистическими приёмами, придавая им соответствующую окраску.](* <-lang_ru;; *);
+									[Hyperbole is often combined with other stylistic techniques, giving them the appropriate color.](* <- lang_en;; *);;
+						*);;
+		*);;

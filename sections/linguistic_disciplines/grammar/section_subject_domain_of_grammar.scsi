@@ -13,6 +13,5 @@ subject_domain_of_grammar
 
 	-> rrel_not_maximum_studied_class:
 		morphology;
-        lexicology;
-        syntax;
-        semantics;;
+        syntax;;
+      

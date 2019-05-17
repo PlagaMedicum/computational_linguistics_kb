@@ -1,0 +1,33 @@
+sc_node_not_relation
+ -> interrogative_negative_sentence;;
+
+interrogative_negative_sentence
+ => nrel_main_idtf: [вопросительно-отрицательное предложение](* <- lang_ru;; *);
+ => nrel_idtf: [множество вопросительно-отрицательных предложений](* <- lang_ru;; *);
+ => nrel_idtf: [interrogative-negative sentence](* <- lang_en;; *);;
+
+definition -> ...   
+(*
+     	-> rrel_key_sc_element: interrogative_negative_sentence;;
+
+	=> nrel_main_idtf: [Опр. (вопросительно-отрицательное  предложение)](* <- lang_ru;; *);;
+     	<= nrel_using_constants: ...
+	(*
+		-> sentence;;
+		-> negation;;
+		-> nrel_comprise;;
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Вопросительно-отрицательное предложение -  предложение, заклющее в себе отрицание того, о чем спрашивается.](* <- lang_ru;; *);;
+     	*);;
+
+*);;
+
+
+interrogative_negative_sentence
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [то нового может он рассказать?](*<-lang_ru;;*);;
+*);;
+

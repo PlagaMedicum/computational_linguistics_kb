@@ -1,0 +1,101 @@
+sc_node_norole_relation
+ -> nrel_deterministic_relationship;;
+
+nrel_deterministic_relationship
+
+ => nrel_idtf: [deterministic relationship*] (* <- lang_en;; *);
+ => nrel_idtf: [быть детерминированной связью*] (* <- lang_ru;; *);
+ => nrel_main_idtf: [детерминированная связь*] (* <- lang_ru;; *);;
+
+
+nrel_deterministic_relationship
+ <- syntactic_relationship_of_simple_sentence;
+ <- oriented_relation;
+ <- norole_relation;
+ <- antitransitive_relation;
+ <- antireflexive_relation;
+ <- antisymmetric_relation;
+
+<-binary_relation;
+=> nrel_definitional_domain: ...
+(*
+	=> nrel_combination:...
+	(*
+		-> word;;
+  		-> syntactic_component;;
+	*);;
+*);
+=> nrel_first_domain:...
+(*
+	=> nrel_combination:...
+	(*
+		-> word;;
+  		-> syntactic_component;;
+	*);;
+*);
+=> nrel_second_domain:...
+(*
+	=> nrel_combination:...
+	(*
+		-> word;;
+  		-> syntactic_component;;
+	*);;
+*);;
+
+
+definition -> ...   
+(*
+  	-> rrel_key_sc_element: nrel_deterministic_relationship;;
+  	=> nrel_main_idtf: [Опр. (детерминированная связь*)](* <- lang_ru;; *);;
+    	<= nrel_using_constants: ...
+	(*
+		-> syntactic_relationship;;
+		-> rrel_minor_member_of_sentence;;
+		-> sentence;;
+
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Детерминированная связь - разновидность внутрипредложенческой связи, которая реализуется второстепенными членами предложения, имеющими преимущественно обстоятельственные значения и занимающими позицию в абсолютном начале предложения.](* <- lang_ru;; *);;
+	*);;
+*);;
+
+  statement -> ... 
+(*
+        -> rrel_key_sc_element: nrel_deterministic_relationship;;
+
+
+	=> nrel_main_idtf: [Утв.(детерминированная связь*, припредложенческая позиция'] (* <-lang_ru;; *);;
+
+	<= nrel_sc_text_translation: ... (* -> [Начальная позиция подчеркивает припредложенческую (а не присловную) позицию рассматриваемого компонента.] (* <- lang_ru;; *);; *);;
+*);;
+
+  
+
+  statement -> ... 
+(*
+        -> rrel_key_sc_element: nrel_deterministic_relationship;;
+
+
+	=> nrel_main_idtf: [Утв.(детерминированная связь*, предложение, предикативное ядро)] (* <-lang_ru;; *);;
+
+	<= nrel_sc_text_translation: ... (* -> [К компоненту предложения, реализующему детерминативную связь, вопрос задается не от отдельного слова, а либо от предикативного ядра предложения, либо от всего предложения в целом.] (* <- lang_ru;; *);; *);;
+*);;
+
+  
+nrel_deterministic_relationship
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:[Рис.(детерминированная связь на языке SСg)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation: ...
+	(*
+		->"file://examples_of_scg_syntax/deterministic_relationship.png"
+		(*
+			=>nrel_format:format_png;;
+		*);;
+	*);;
+*);;
+
+
+  

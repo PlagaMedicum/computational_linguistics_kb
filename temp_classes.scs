@@ -146,3 +146,403 @@ floral_world
 => nrel_main_idtf:
 	[растительный мир](* <-lang_ru;; *);
     [floral world](* <-lang_en;; *);;
+
+
+speech_unit
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[единица речи](* <-lang_ru;; *);
+    [speech unit](* <-lang_en;; *);;
+
+
+grammar_meaning	
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[грамматическое значение](* <-lang_ru;; *);
+    [grammar meaning](* <-lang_en;; *);;	
+
+
+temporal_certainty
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[временная определенность](* <-lang_ru;; *);
+    [temporal certainty](* <-lang_en;; *);;	
+
+
+
+temporal_uncertainty
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[временная неопределенность](* <-lang_ru;; *);
+    [temporal uncertainty](* <-lang_en;; *);;	
+
+thing
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[предмет](* <-lang_ru;; *);
+    [thing](* <-lang_en;; *);;	
+
+
+sign_of_thing
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[признак предмета](* <-lang_ru;; *);
+    [sign of thing](* <-lang_en;; *);;	
+
+
+reality
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[реальная действительность](* <-lang_ru;; *);
+    [reality](* <-lang_en;; *);;	
+
+
+
+private_negation
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[частное отрицание](* <-lang_ru;; *);
+    [private negation](* <-lang_en;; *);;	
+	
+
+message_about_fact
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[сообщение о факте](* <-lang_ru;; *);
+    [message about fact](* <-lang_en;; *);;	
+
+	
+message_about_phenomenon
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[сообщение о явлении](* <-lang_ru;; *);
+    [message about phenomenon](* <-lang_en;; *);;	
+
+	
+	
+message_about_event	
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[сообщение о событии](* <-lang_ru;; *);
+    [message about event](* <-lang_en;; *);;	
+
+
+thought
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[мысль](* <-lang_ru;; *);
+    [thought](* <-lang_en;; *);;	
+
+quaere
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[вопрос](* <-lang_ru;; *);
+    [quaere](* <-lang_en;; *);;
+
+
+answer
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[ответ](* <-lang_ru;; *);
+    [answer](* <-lang_en;; *);;
+ 
+
+transient_nature
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[переходный характер](* <-lang_ru;; *);
+    [transient nature](* <-lang_en;; *);;	
+
+message	
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[сообщение](* <-lang_ru;; *);
+    [message](* <-lang_en;; *);;
+
+
+interlocutor
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[собеседник](* <-lang_ru;; *);
+    [interlocutor](* <-lang_en;; *);;
+
+
+negation
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[отрицание](* <-lang_ru;; *);
+    [negation](* <-lang_en;; *);;
+
+		
+
+motivation_for_action
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[побуждение к действию	](* <-lang_ru;; *);
+    [motivation for action](* <-lang_en;; *);;
+
+	
+
+affirmation
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[утверждение](* <-lang_ru;; *);
+    [affirmation](* <-lang_en;; *);;
+
+
+will_of_speaker	
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[волеизъявление говорящего](* <-lang_ru;; *);
+    [will of speaker	](* <-lang_en;; *);;
+
+
+exclamation_intonation	
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[восклицательная интонация](* <-lang_ru;; *);
+    [exclamation intonation](* <-lang_en;; *);;
+
+
+neutrality
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[нейтральность](* <-lang_ru;; *);
+    [neutrality](* <-lang_en;; *);;
+
+		
+sentence_structure
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[структура предложения](* <-lang_ru;; *);
+    [sentence structure](* <-lang_en;; *);;
+
+
+main_member_position
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[позиция главного члена	](* <-lang_ru;; *);
+    [main member position](* <-lang_en;; *);;
+
+
+
+predictive_core	
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[предикативное ядро](* <-lang_ru;; *);
+    [predictive core](* <-lang_en;; *);;
+
+
+
+predictive_center
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[предикативный центр](* <-lang_ru;; *);
+    [predictive center](* <-lang_en;; *);;
+
+	
+
+predicative_unit
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[предикативная единица](* <-lang_ru;; *);
+    [predicative unit](* <-lang_en;; *);;
+
+
+grammatical_subject_position
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[позиция подлежащего](* <-lang_ru;; *);
+    [grammatical subject position](* <-lang_en;; *);;
+
+
+predicate_position
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[позиция сказуемого](* <-lang_ru;; *);
+    [predicate position](* <-lang_en;; *);;
+
+
+
+complicating_element
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[осложняющий элемент](* <-lang_ru;; *);
+    [complicating element](* <-lang_en;; *);; 
+
+
+additional_message
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[добавочное сообщение](* <-lang_ru;; *);
+    [additional message](* <-lang_en;; *);;
+
+
+
+verb_form
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[глагольная форма](* <-lang_ru;; *);
+    [verb form](* <-lang_en;; *);;
+	
+
+predicative_adverb
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[предикативное наречие](* <-lang_ru;; *);
+    [predicative adverb](* <-lang_en;; *);;
+
+
+
+personal_verb_form
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[личная форма глагола](* <-lang_ru;; *);
+    [personal verb form](* <-lang_en;; *);;
+
+
+
+proccess
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[процесс](* <-lang_ru;; *);
+    [proccess](* <-lang_en;; *);;
+
+
+condition
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[состояние](* <-lang_ru;; *);
+    [condition](* <-lang_en;; *);;
+
+
+idea_of_existence_of_thing
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[идея существования предмета](* <-lang_ru;; *);
+    [idea of existence of thing](* <-lang_en;; *);;
+
+
+thing_name_function
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[функция наименования предмета](* <-lang_ru;; *);
+    [thing name function](* <-lang_en;; *);;
+
+existing_phenomenon
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[имеющееся явление](* <-lang_ru;; *);
+    [existing phenomenon](* <-lang_en;; *);;
+
+
+
+time_span
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[временная протяженность](* <-lang_ru;; *);
+    [time span](* <-lang_en;; *);;
+
+
+existing_thing
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[имеющийся предмет](* <-lang_ru;; *);
+    [existing thing](* <-lang_en;; *);;
+
+meaning_of_existence	
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[значение бытия](* <-lang_ru;; *);
+    [meaning of existence](* <-lang_en;; *);;
+
+
+desirability_of_called
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[желательность называемого](* <-lang_ru;; *);
+    [desirability of called](* <-lang_en;; *);;
+
+
+context
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[контекст](* <-lang_ru;; *);
+    [context](* <-lang_en;; *);;
+
+
+
+message_transmission
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[передача сообщения](* <-lang_ru;; *);
+    [message transmission](* <-lang_en;; *);;
+
+
+interrupted_statement	
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[прерванное высказывание](* <-lang_ru;; *);
+    [interrupted statement](* <-lang_en;; *);;
+
+
+action
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[действие](* <-lang_ru;; *);
+    [action](* <-lang_en;; *);;
+
+
+sign
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[признак](* <-lang_ru;; *);
+    [sign](* <-lang_en;; *);;
+
+
+fact
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[факт](* <-lang_ru;; *);
+    [fact](* <-lang_en;; *);;
+
+
+
+syntactic_relation
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[синтаксическое отношение](* <-lang_ru;; *);
+    [syntactic relation](* <-lang_en;; *);;
+
+
+
+explanatory_intonation
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[пояснительная интонация](* <-lang_ru;; *);
+    [explanatory intonation](* <-lang_en;; *);;
+
+
+
+semantic_relation
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[семантическое отношение](* <-lang_ru;; *);
+    [semantic relation](* <-lang_en;; *);;
+
+
+language_tool
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[средство языка](* <-lang_ru;; *);
+    [language tool](* <-lang_en;; *);;
+
+
+idiom
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[фразеологизм](* <-lang_ru;; *);
+    [idiom](* <-lang_en;; *);;
+
+
+

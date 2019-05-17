@@ -1,0 +1,22 @@
+quality_adjective
+<- sc_node_not_relation;;
+quality_adjective=>nrel_main_idtf:
+    [Качественное прилагательное](* <-lang_ru;; *);
+    [quality_adjective](* <-lang_en;; *);;
+
+
+quality_adjective <- rrel_key_sc_element: 
+	... 
+        (*
+             <- sc_definition;;
+            => nrel_main_idtf: [Понятие: Качественное прилагательное] (* <- lang_ru;; *);;
+            => nrel_main_idtf: [Definition: quality adjective] (* <- lang_en;; *);;
+            <- definition;;
+            <= nrel_sc_text_translation: ...
+            (*
+                ->rrel_example;
+                [Качественное прилагательное - это прилагательное, которое обозначает признак, который можно иметь в большей или меньшей степени.](*<- lang_ru;;*);;
+                ->rrel_example;
+                [A quality adjective is an adjective that denotes a trait that can be more or less.](*<- lang_en;;*);;
+            *);;
+        *);;

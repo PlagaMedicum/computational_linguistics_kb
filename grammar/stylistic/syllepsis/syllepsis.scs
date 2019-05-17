@@ -1,0 +1,56 @@
+syllepsis
+	<- sc_node_not_relation;
+	<- stylistic_device;
+
+	=> nrel_main_idtf:
+			[силлепс](* <- lang_ru;; *);
+			[syllepsis](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[«Мы любим славу, да в бокале топить разгульные умы»](* <- lang_ru;; *);
+					["We love glory, but in a glass drown rippling minds"](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_syllepsis
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (силлепс)](* <- lang_ru;; *);
+					[Опр. (syllepsis)](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example:
+						[Силлепс - стилистическая фигура, синтаксическое оформление семантически неоднородных элементов в виде ряда однородных членов предложения.](* <- lang_ru;; *);
+						[Syllepsis is a stylistic figure, a syntactic design of semantically heterogeneous elements in the form of a series of homogeneous members of a sentence.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+				<- explanation;; 
+				=> nrel_main_idtf:
+					[Утв. (силлепс)](* <- lang_ru;; *);
+					[Expl. (syllepsis)](* <- lang_en;; *);;
+				<- nrel_sc_text_translation: ...
+						(*
+							-> rrel_example: 
+									[Силлепс в произведениях возвышенного стиля производит впечатление взволнованности, небрежности, в рамках же «низкой стилистики» эффект силлепса — комический.](* <-lang_ru;; *);
+									[Syllepsis in the works of the sublime style gives the impression of agitation, carelessness, and in the framework of the “low style” the effect of the cillaps is comic.](* <- lang_en;; *);;
+						*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+				<- explanation;; 
+				=> nrel_main_idtf:
+					[Утв. (силлепс)](* <- lang_ru;; *);
+					[Expl. (syllepsis)](* <- lang_en;; *);;
+				<- nrel_sc_text_translation: ...
+						(*
+							-> rrel_example: 
+									[Силлепс иногда считается синонимом зевгмы, в противном случае зевгмой именуют пропуск слова в ряду однотипных синтаксических сочетаний.](* <-lang_ru;; *);
+									[Syllepsis is sometimes considered to be synonymous with zeugma, otherwise zeugma is called the word skip in a series of similar syntactic combinations.](* <- lang_en;; *);;
+						*);;
+		*);;

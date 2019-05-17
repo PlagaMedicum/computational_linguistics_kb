@@ -1,0 +1,44 @@
+sc_node_role_relation
+ -> rrel_condition_adverbial_modifier;;
+
+rrel_condition_adverbial_modifier
+
+ => nrel_idtf: [condition adverbial modifier'] (* <- lang_en;; *);
+ => nrel_idtf: [быть обстоятельством условия'] (* <- lang_ru;; *);
+ => nrel_main_idtf: [обстоятельство условия'] (* <- lang_ru;; *);;
+
+rrel_condition_adverbial_modifier
+<- role_relation;
+=> nrel_definitional_domain: ...
+(*
+	<= nrel_set_of_subsets: syntactic_component;;
+*);
+=> nrel_first_domain: ...
+(*
+	<= nrel_set_of_subsets: syntactic_component;;
+*);
+=> nrel_second_domain: syntactic_component;;
+
+
+definition -> ...   
+(*
+  	-> rrel_key_sc_element: rrel_condition_adverbial_modifier;;
+  	=> nrel_main_idtf: [Опр. (обстоятельство условия')](* <- lang_ru;; *);;
+    	<= nrel_using_constants: ...
+	(*
+		-> role_relation;;
+ 		-> rrel_minor_member_of_sentence;;
+		-> nrel_stipulation;;
+		-> action;;
+		-> nrel_to_be_expressed_by;;
+		-> verb;;
+		-> predicative_unit;;
+		-> nrel_denote;;
+
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Обстоятельство условия - это ролевое отношение, указывающее на второстепенный член предложения, который обозначает условие, при котором может совершиться действие, и относится только к члену предложения, выраженным глаголом, или ко всей предикативной единице.](* <- lang_ru;; *);;
+	*);;
+*);;
+

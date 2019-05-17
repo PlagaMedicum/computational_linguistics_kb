@@ -1,0 +1,42 @@
+antithesis
+	<- sc_node_not_relation;
+	<- stylistic_device;
+
+	=> nrel_main_idtf:
+			[антитеза](* <- lang_ru;; *);
+			[antithesis](* <- lang_en;; *);
+	
+	/*-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[То академик, то герой, то мореплаватель, то плотник…](* <- lang_ru;; *);
+					[primer en](* <- lang_en;; *);;
+		*);*/
+
+	<- rrel_key_sc_element: definition_antithesis
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (антитеза)](* <- lang_ru;; *);
+					[Опр. (antithesis)](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example:
+						[Антитеза - стилистическая фигура контраста в художественной или ораторской речи, заключающаяся в резком противопоставлении понятий, положений, образов, состояний, связанных между собой общей конструкцией или внутренним смыслом.](* <- lang_ru;; *);
+						[Antithesis is a stylistic figure of contrast in artistic or oratorical speech, consisting in a sharp opposition of concepts, positions, images, and states connected by a common construction or internal meaning.](* <- lang_en;; *);;
+				*);;
+		*);	
+
+	<- rrel_key_sc_element: ...
+		(* 
+				<- explanation;; 
+				=> nrel_main_idtf:
+					[Утв. (антитеза)](* <- lang_ru;; *);
+					[Expl. (antithesis)](* <- lang_en;; *);;
+				<- nrel_sc_text_translation: ...
+						(*
+							-> rrel_example: 
+									[Фигура антитезы может служить принципом построения для целых поэтических пьес или отдельных частей художественных произведений в стихах и прозе.](* <-lang_ru;; *);
+									[The figure of the antithesis can serve as a principle of construction for whole poetic plays or separate parts of works of art in verses and prose.](* <- lang_en;; *);;
+						*);;
+		*);;

@@ -1,0 +1,67 @@
+sc_node_not_relation
+ -> not_partition_sentence;;
+
+not_partition_sentence
+ => nrel_main_idtf: [нечленимое предложение](* <- lang_ru;; *);
+ => nrel_idtf: [множество нечленимых предложений](* <- lang_ru;; *);
+ => nrel_idtf: [not partition sentence](* <- lang_en;; *);;
+
+
+definition -> ...   
+(*
+     	-> rrel_key_sc_element: not_partition_sentence;;
+
+	=> nrel_main_idtf: [Опр. (нечленимое предложение)](* <- lang_ru;; *);;
+     	<= nrel_using_constants: ...
+	(*
+		-> sentence;;
+		-> nrel_have_the_ability_to_highlight;;
+		-> rrel_member_of_sentence;;	
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Нечленимое предложение - предложение, в котором нельзя выделить никаких членов предложения.](* <- lang_ru;; *);;
+     	*);;
+
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: not_partition_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(коммуникативная значимость*, нечленимое предложение, проявляться в*, контекст предложения)](*<-lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Коммуникативная значимость нечленимых предложений проявляется в контексте.](* <-lang_ru;; *);;
+	*);;
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: not_partition_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(цель высказывания*, нечленимое предложение, повествовательное предложение, побудительное предложение, вопросительное предложение, быть соотносимым с*)](*<-lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [По цели высказывания нечленимые предложения соотносимы с повествовательными, вопросительными, побудительными предложениями.](* <-lang_ru;; *);;
+	*);;
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: not_partition_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(нечленимое предложение, употребляться в*, диалогическая речь)](*<-lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Нечленимые предложения употребляются в основном в диалогической речи.](* <-lang_ru;; *);;
+	*);;
+*);;
+
+
+not_partition_sentence
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [Неужели? Ого! Вот те раз!](*<-lang_ru;;*);;
+*);;
+

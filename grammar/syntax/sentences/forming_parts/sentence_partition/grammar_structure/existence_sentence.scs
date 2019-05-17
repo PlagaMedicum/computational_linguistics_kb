@@ -1,0 +1,40 @@
+sc_node_not_relation
+ -> existence_sentence;;
+
+existence_sentence
+ => nrel_main_idtf: [бытийное предложение](* <- lang_ru;; *);
+ => nrel_idtf: [множество бытийных предложений](* <- lang_ru;; *);
+ => nrel_idtf: [existence sentence](* <- lang_en;; *);;
+
+existence_sentence
+<= nrel_subdividing: ...
+	(*
+		-> actually_existence_sentence;;
+		-> objectively_existence_sentence;;
+	*);;
+
+definition -> ...   
+(*
+     	-> rrel_key_sc_element: existence_sentence;;
+
+	=> nrel_main_idtf: [Опр. (бытийное предложение)](* <- lang_ru;; *);;
+     	<= nrel_using_constants: ...
+	(*
+		-> one_part_sentence;;
+		-> nominative_sentence;;	
+		-> nrel_affirm;;
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Бытийное предложение — это односоставное номинативное предложение, в котором утверждается бытие, наличие какого-либо предмета, явления, состояния.](* <- lang_ru;; *);;
+     	*);;
+
+*);;
+
+
+existence_sentence
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [Полная луна.](*<-lang_ru;;*);;
+*);;
+

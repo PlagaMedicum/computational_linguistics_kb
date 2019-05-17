@@ -1,0 +1,46 @@
+sc_node_role_relation
+ -> rrel_non_conformed_grammatical_attribute;;
+
+rrel_non_conformed_grammatical_attribute
+
+ => nrel_idtf: [non conformed grammatical attribute'] (* <- lang_en;; *);
+ => nrel_idtf: [быть несогласованным определением'] (* <- lang_ru;; *);
+ => nrel_main_idtf: [несогласованное определение'] (* <- lang_ru;; *);;
+
+rrel_non_conformed_grammatical_attribute
+=> nrel_inclusion: rrel_non_conformed_supplement;;
+
+rrel_non_conformed_grammatical_attribute
+<- role_relation;
+=> nrel_definitional_domain: ...
+(*
+	<= nrel_set_of_subsets: syntactic_component;;
+*);
+=> nrel_first_domain: ...
+(*
+	<= nrel_set_of_subsets: syntactic_component;;
+*);
+=> nrel_second_domain: syntactic_component;;
+
+
+definition -> ...   
+(*
+  	-> rrel_key_sc_element: rrel_non_conformed_grammatical_attribute;;
+  	=> nrel_main_idtf: [Опр. (несогласованное определение')](* <- lang_ru;; *);;
+    	<= nrel_using_constants: ...
+	(*
+		-> role_relation;;
+ 		-> rrel_grammatical_attribute;;
+		-> nrel_control;;
+		-> nrel_junction;;
+		-> rrel_defined_word;;
+
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Несогласованное определение - это ролевое отношение, указывающее на определение, которое связывается с определяемым словом по способу управления или примыкания.](* <- lang_ru;; *);;
+	*);;
+*);;
+
+
+  

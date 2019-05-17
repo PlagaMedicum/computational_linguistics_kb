@@ -1,25 +1,86 @@
+sc_node_not_relation
+ -> negative_sentence;;
+
 negative_sentence
-<-sc_node_not_relation;
-<-sentence;;
-negative_sentence => nrel_main_idtf:
-	[отрицательное предложение](* <-lang_ru;; *);
-    [negative sentence](* <-lang_en;; *);;
-negative_sentence <- rrel_key_sc_element: 
-		... 
-		(*
-		<- sc_definition;;
-		=> nrel_main_idtf: [Определение: отрицательное предложение] (* <- lang_ru;; *);;
-		=> nrel_main_idtf: [Definition: negative sentence] (* <- lang_en;; *);;
-        <- definition;;
-		<= nrel_sc_text_translation: ...
-			(*
-			-> rrel_example: 
-				[Отрицательное предложение – это предложение, в котором связь между какими либо членами отмечается как реально не существующая.](*<- lang_ru;;*);;
-			-> rrel_example: 
-				[The negative sentence is a sentence in which communication between any members is noted as really not existing.](*<- lang_en;;*);;
-			*);;
-            <= nrel_using_constants: ...
-            (*
-                -> sentence;;
-            *);;
-		*);;
+ => nrel_main_idtf: [отрицательное предложение](* <- lang_ru;; *);
+ => nrel_idtf: [множество отрицательных предложений](* <- lang_ru;; *);
+ => nrel_idtf: [negative sentence](* <- lang_en;; *);;
+
+negative_sentence
+<= nrel_subdividing: ...
+(*
+  -> generally_negative_sentence;;
+  -> private_negative_sentence;;
+*);;
+
+definition -> ...   
+(*
+     	-> rrel_key_sc_element: negative_sentence;;
+
+	=> nrel_main_idtf: [Опр. (отрицательное предложение)](* <- lang_ru;; *);;
+     	<= nrel_using_constants: ...
+	(*
+		-> sentence;;
+		-> thing;;
+		-> sign_of_thing;;
+		-> reality;;
+		-> nrel_deny;;
+		-> nrel_presence_of_communication;;
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Отрицательное предложение - предложение, в котором отрицается наличие связи между предметами 			и их признаками в реальной действительности.](* <- lang_ru;; *);;
+     	*);;
+
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: negative_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(категория отрицания, связывать с*, структура предложения, перевод в*, 			утвердительное предложение, отрицательное предложение, структурный тип)](*<-lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Категория отрицания связана со структурой предложения: при переводе утвердительного 		предложения в отрицательное может меняться его структурный тип.](* <-lang_ru;; *);;
+	*);;
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: negative_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(категория отрицания, связывать с*, категория сказуемости)](*<-lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Категория отрицания непосредственно связана с категорией сказуемости.](* <-lang_ru;; *);;
+	*);;
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: negative_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(предложение, коммуникативная нужда, речь, быть центром*, компонент предложения, 		сказуемое-предикат', частное отрицание*, общее отрицание*)](*<-lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Когда предложение рассматривается с точки зрения коммуникативных нужд (т.е. в речи), центром его 			может стать любой компонент, а не только сказуемое-предикат. В таком случае вопрос о частном и общем 			отрицании снимается.](* <-lang_ru;; *);;
+	*);;
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: negative_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(принцип утвердительности, принцип отрицательности, смысловое противопоставление*, противопоставление*, принцип реальной модальности, принцип ирреальной модальности, предложение, значение объективной модальности*)](* <- lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Противопоставление по принципу утвердительности - отрицательности чисто смысловое. Оно не является отражением противопоставления по принципу реальной и ирреальной модальности, а лишь накладывается на выраженное в предложении значение объективной модальности.](* <- lang_ru;; *);;
+	*);;
+*);;
+
+negative_sentence
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [Внуки уже не понимают дедов, а порой и сыновья - отцов.](*<-lang_ru;;*);;
+*);;
+

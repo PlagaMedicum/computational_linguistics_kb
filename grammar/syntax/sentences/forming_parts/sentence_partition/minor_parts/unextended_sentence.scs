@@ -1,0 +1,36 @@
+sc_node_not_relation
+ -> unextended_sentence;;
+
+unextended_sentence
+ => nrel_main_idtf: [нераспространенное предложение](* <- lang_ru;; *);
+ => nrel_idtf: [множество нераспространенных предложений](* <- lang_ru;; *);
+ => nrel_idtf: [unextended sentence](* <- lang_en;; *);;
+
+
+definition -> ...   
+(*
+     	-> rrel_key_sc_element: unextended_sentence;;
+
+	=> nrel_main_idtf: [Опр. (нераспространенное предложение)](* <- lang_ru;; *);;
+     	<= nrel_using_constants: ...
+	(*
+		-> sentence;;
+		-> rrel_grammatical_subject;;
+		-> rrel_predicate;;
+		-> rrel_main_member_of_sentence;;	
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Нераспространенное предложение - предложение, имеющее только позиции главных членов - подлежащего и сказуемого.](* <- lang_ru;; *);;
+     	*);;
+
+*);;
+
+
+
+unextended_sentence
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [Был полдень.](*<-lang_ru;;*);;
+*);;
+

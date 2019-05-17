@@ -1,0 +1,42 @@
+symploce
+	<- sc_node_not_relation;
+	<- stylistic_device;
+
+	=> nrel_main_idtf:
+			[cимплока](* <- lang_ru;; *);
+			[symploce](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[«Во поле берёза стояла / Во поле кудрявая стояла».](* <- lang_ru;; *);
+					["In the field of birch stood / In the field of curly stood."](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_symploce
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (cимплока)](* <- lang_ru;; *);
+					[Опр. (symploce)](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example:
+						[Cимплока — стилистическая фигура повторения слов в смежных стихах или фразах.](* <- lang_ru;; *);
+						[Symploce is the stylistic figure of the repetition of words in adjacent verses or phrases.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+				<- explanation;; 
+				=> nrel_main_idtf:
+					[Утв. (симплока, эпифора, анафора)](* <- lang_ru;; *);
+					[Expl. (symploce, epiphora, anaphor)](* <- lang_en;; *);;
+				<- nrel_sc_text_translation: ...
+						(*
+							-> rrel_example: 
+									[Как правило, симплока определяется как сочетание эпифоры и анафоры, то есть повторение начала и конца с вариацией середины.](* <-lang_ru;; *);
+									[As a rule, symploce is defined as a combination of epiphora and anaphor, that is, a repetition of the beginning and end with a variation of the middle.](* <- lang_en;; *);;
+						*);;
+		*);;

@@ -1,0 +1,60 @@
+pun
+	<- sc_node_not_relation;
+	<- stylistic_device;
+
+	=> nrel_main_idtf:
+			[каламбур](* <- lang_ru;; *);
+			[pun](* <- lang_en;; *);
+	
+/*	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[&.](* <- lang_ru;; *);
+					[primer en](* <- lang_en;; *);;
+		*); */
+
+	<- rrel_key_sc_element: definition_pun
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (каламбур)](* <- lang_ru;; *);
+					[Опр. (pun)](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example:
+						[Каламбур —  литературный приём с использованием в одном контексте разных значений одного слова или разных слов, или словосочетаний, сходных по звучанию.](* <- lang_ru;; *);
+						[Pun is a literary device using in the same context different meanings of the same word or different words or phrases similar in sound.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+				<- explanation;; 
+				=> nrel_main_idtf:
+					[Утв. (каламбур, слово)](* <- lang_ru;; *);
+					[Expl. (pun, word)](* <- lang_en;; *);;
+				<- nrel_sc_text_translation: ...
+						(*
+							-> rrel_example: 
+									[В каламбуре либо два рядом стоящих слова при произношении дают третье, либо одно из слов имеет омоним или многозначно.](* <-lang_ru;; *);
+									[In the pun, either the two words next to each other give the third word in the pronunciation, or one of the words has a homonym or a polysemantic one.](* <- lang_en;; *);;
+						*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+				<- explanation;; 
+				=> nrel_main_idtf:
+					[Утв. (каламбур, слово, эвфемизм)](* <- lang_ru;; *);
+					[Expl. (pun, word, euphemism)](* <- lang_en;; *);;
+				<- nrel_sc_text_translation: ...
+						(*
+							-> rrel_example: 
+									[Как комический приём каламбур особенно свойственен формам гротеска и юмора, но часто встречается и в формах грубо-комического, в особенности, когда раскрываемое в каламбуре второе значение слов нарушает требования эвфемизма.](* <-lang_ru;; *);
+									[As a comic device, pun is especially characteristic of forms of grotesque and humor, but it is often found in forms of crudely comic, especially when the second meaning of words revealed in the pun violates the requirements of euphemism.](* <- lang_en;; *);;
+						*);;
+		*);;
+
+
+
+		

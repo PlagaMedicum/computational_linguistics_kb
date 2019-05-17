@@ -1,0 +1,97 @@
+sc_node_norole_relation
+ -> nrel_conjuctive;;
+
+nrel_conjuctive
+
+ => nrel_idtf: [conjuctive*] (* <- lang_en;; *);
+ => nrel_idtf: [быть присоединением*] (* <- lang_ru;; *);
+ => nrel_main_idtf: [присоединение*] (* <- lang_ru;; *);;
+
+
+nrel_conjuctive
+ <- syntactic_relationship_of_simple_sentence;
+ <- oriented_relation;
+ <- norole_relation;
+ <- antitransitive_relation;
+ <- antireflexive_relation;
+ <- antisymmetric_relation;
+
+<-binary_relation;
+=> nrel_definitional_domain: ...
+(*
+	=> nrel_combination:...
+	(*
+		-> word;;
+  		-> syntactic_component;;
+	*);;
+*);
+=> nrel_first_domain:...
+(*
+	=> nrel_combination:...
+	(*
+		-> word;;
+  		-> syntactic_component;;
+	*);;
+*);
+=> nrel_second_domain:...
+(*
+	=> nrel_combination:...
+	(*
+		-> word;;
+  		-> syntactic_component;;
+	*);;
+*);;
+
+
+definition -> ...   
+(*
+  	-> rrel_key_sc_element: nrel_conjuctive;;
+  	=> nrel_main_idtf: [Опр. (присоединение*)](* <- lang_ru;; *);;
+    	<= nrel_using_constants: ...
+	(*
+		-> syntactic_relationship;;
+		-> nrel_subordination;;
+		-> sentence;;
+
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Присоединение - тип подчинительной связи, с помощью которой в предложение включаются компоненты, возникающие в сознании говорящего после того, как мысль была уже оформлена.](* <- lang_ru;; *);;
+	*);;
+*);;
+
+  statement -> ... 
+(*
+        -> rrel_key_sc_element: nrel_conjuctive;;
+
+
+	=> nrel_main_idtf: [Утв.(присоединение*, словоформа, словосочетание)] (* <-lang_ru;; *);;
+
+	<= nrel_sc_text_translation: ... (* -> [Присоединительная связь сопутствует только словоформам, не включающимся в состав словосочетаний.] (* <- lang_ru;; *);; *);;
+*);;
+
+ statement -> ... 
+(*
+        -> rrel_key_sc_element: nrel_conjuctive;;
+
+
+	=> nrel_main_idtf: [Утв.(присоединение*, интонация, предложение)] (* <-lang_ru;; *);;
+
+	<= nrel_sc_text_translation: ... (* -> [Присоединительная связь оформляется с помощью своеобразной, «отдаляющей» интонации, создающей интонационный и синтаксический разрыв между основным составом предложения и присоединяемым компонентом.] (* <- lang_ru;; *);; *);;
+*);;
+
+nrel_conjuctive
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:[Рис.(присоединение на языке SСg)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation: ...
+	(*
+		->"file://examples_of_scg_syntax/conjuctive.png"
+		(*
+			=>nrel_format:format_png;;
+		*);;
+	*);;
+*);;
+
+  

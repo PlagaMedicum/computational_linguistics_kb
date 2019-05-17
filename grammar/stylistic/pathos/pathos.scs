@@ -1,0 +1,59 @@
+pathos
+	<- sc_node_not_relation;
+	<- stylistic_device;
+
+	=> nrel_main_idtf:
+			[пафос](* <- lang_ru;; *);
+			[pathos](* <- lang_en;; *);
+	
+	/*-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[&](* <- lang_ru;; *);
+					[primer en](* <- lang_en;; *);;
+		*);
+*/
+	<- rrel_key_sc_element: definition_pathos
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (пафос)](* <- lang_ru;; *);
+					[Опр. (pathos)](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example:
+						[Пафос — приём обращения к эмоциям аудитории, соответствует стилю, манере или способу выражения чувств, которые характеризуются эмоциональной возвышенностью, воодушевлением, драматизацией.](* <- lang_ru;; *);
+						[Pathos is a method of addressing the emotions of an audience, corresponds to the style, manner or method of expression of feelings, which are characterized by emotional elevation, inspiration, dramatization.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+				<- explanation;; 
+				=> nrel_main_idtf:
+					[Утв. (пафос, риторика)](* <- lang_ru;; *);
+					[Expl. (pathos, rhetoric)](* <- lang_en;; *);;
+				<- nrel_sc_text_translation: ...
+						(*
+							-> rrel_example: 
+									[Как категория риторики пафос впервые был полно разработан Аристотелем.](* <-lang_ru;; *);
+									[As a category of rhetoric, pathos was first fully developed by Aristotle.](* <- lang_en;; *);;
+						*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+				<- explanation;; 
+				=> nrel_main_idtf:
+					[Утв. (пафос, риторика)](* <- lang_ru;; *);
+					[Expl. (pathos, rhetorice)](* <- lang_en;; *);;
+				<- nrel_sc_text_translation: ...
+						(*
+							-> rrel_example: 
+									[ К пафосу традиционно прибегают авторы од, эпосов, трагедий.](* <-lang_ru;; *);
+									[The authors of the odes, epics, and tragedies traditionally resort to pathos.](* <- lang_en;; *);;
+						*);;
+		*);;
+
+
+

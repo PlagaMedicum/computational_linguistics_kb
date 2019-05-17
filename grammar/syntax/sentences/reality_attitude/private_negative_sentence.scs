@@ -1,0 +1,38 @@
+sc_node_not_relation
+ -> private_negative_sentence;;
+
+private_negative_sentence
+ => nrel_main_idtf: [частноотрицательное предложение](* <- lang_ru;; *);
+ => nrel_idtf: [множество частноотрицательных предложений](* <- lang_ru;; *);
+ => nrel_idtf: [private negative sentence](* <- lang_en;; *);;
+
+
+definition -> ...   
+(*
+     	-> rrel_key_sc_element: private_negative_sentence;;
+
+	=> nrel_main_idtf: [Опр. (частноотрицательное предложение)](* <- lang_ru;; *);;
+     	<= nrel_using_constants: ...
+	(*
+		-> sentence;;
+		-> rrel_predicate;;
+		-> nrel_express_affirmation;;
+		-> nrel_place_in_front_of;;
+		-> nrel_limit;;
+		-> private_negation;;
+		-> rrel_member_of_sentence;;
+		-> particle;;
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Частноотрицательное предложение - предложение, выражающее утверждение, которое ограничивается частичным отрицанием путем постановки частицы "не" перед любым членом предложения, кроме сказуемого.](* <- lang_ru;; *);;
+     	*);;
+
+*);;
+
+private_negative_sentence
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [Меж нами речь не так игриво льется.](*<-lang_ru;;*);;
+*);;
+

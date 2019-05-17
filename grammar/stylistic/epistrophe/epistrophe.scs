@@ -1,0 +1,56 @@
+epistrophe
+	<- sc_node_not_relation;
+	<- stylistic_device;
+
+	=> nrel_main_idtf:
+			[эпифора](* <- lang_ru;; *);
+			[epistrophe](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Фестончики, всё фестончики: пелеринка из фестончиков, на рукавах фестончики, эполетцы из фестончиков, внизу фестончики, везде фестончики.](* <- lang_ru;; *);
+					[Festons, all festoon: a scape of festoons, festoon on the sleeves, epaulets of festoons, below the festoons, everywhere festochiki.](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_epistrophe
+		(*
+			<-definition;;
+			=> nrel_main_idtf:
+					[Опр. (эпифора)](* <- lang_ru;; *);
+					[Опр. (epistrophe)](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example:
+						[Эпифора - стилистическая фигура, заключающаяся в повторении одних и тех же слов в конце смежных отрезков речи.](* <- lang_ru;; *);
+						[Epiphora is a stylistic figure consisting in the repetition of the same words at the end of adjacent segments of speech.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+				<- explanation;; 
+				=> nrel_main_idtf:
+					[Утв. (эпифора)](* <- lang_ru;; *);
+					[Expl. (epistrophe)](* <- lang_en;; *);;
+				<- nrel_sc_text_translation: ...
+						(*
+							-> rrel_example: 
+									[Нередко эпифора используется в поэтической речи (очень часто — в фольклоре) в виде одинаковых или аналогичных окончаний строф.](* <-lang_ru;; *);
+									[Epiphora is often used in poetic speech (very often in folklore) in the form of identical or similar stanza endings.](* <- lang_en;; *);;
+						*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+				<- explanation;; 
+				=> nrel_main_idtf:
+					[Утв. (эпифора, анафора)](* <- lang_ru;; *);
+					[Expl. (epistrophe, anaphora)](* <- lang_en;; *);;
+				<- nrel_sc_text_translation: ...
+						(*
+							-> rrel_example: 
+									[Противоположностью эпифоры является анафора.](* <-lang_ru;; *);
+									[The opposite of epifor is anaphora.](* <- lang_en;; *);;
+						*);;
+		*);;

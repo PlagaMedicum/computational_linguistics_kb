@@ -1,0 +1,87 @@
+sc_node_role_relation
+ -> rrel_adverbial_modifier;;
+
+rrel_adverbial_modifier
+
+ => nrel_idtf: [adverbial modifier'] (* <- lang_en;; *);
+ => nrel_idtf: [быть обстоятельством'] (* <- lang_ru;; *);
+ => nrel_main_idtf: [обстоятельство'] (* <- lang_ru;; *);;
+
+rrel_adverbial_modifier
+<= nrel_subdividing: ...
+	(*
+		-> rrel_mode_of_action_adverbial_modifier;;
+		-> rrel_measure_adverbial_modifier;;
+		-> rrel_local_adverbial_modifier;;
+		-> rrel_time_adverbial_modifier;;
+		-> rrel_reason_adverbial_modifier;;
+		-> rrel_goal_adverbial_modifier;;
+		-> rrel_condition_adverbial_modifier;;
+		-> rrel_acquiescence_adverbial_modifier;;
+
+		=>nrel_main_idtf:[Разбиение по значению](* <- lang_ru;; *);;
+	*);;
+
+
+rrel_adverbial_modifier
+<- role_relation;
+=> nrel_definitional_domain: ...
+(*
+	<= nrel_set_of_subsets: syntactic_component;;
+*);
+=> nrel_first_domain: ...
+(*
+	<= nrel_set_of_subsets: syntactic_component;;
+*);
+=> nrel_second_domain: syntactic_component;;
+
+
+definition -> ...   
+(*
+  	-> rrel_key_sc_element: rrel_adverbial_modifier;;
+  	=> nrel_main_idtf: [Опр. (обстоятельство')](* <- lang_ru;; *);;
+    	<= nrel_using_constants: ...
+	(*
+		-> role_relation;;
+ 		-> rrel_minor_member_of_sentence;;
+		-> sentence;;
+		-> nrel_express;;
+		-> nrel_time_bound;;
+		-> nrel_theme;;
+		-> nrel_spatial_bound;;
+
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Обстоятельство - это ролевое отношение, указывающее на второстепенный член предложения, который выражает пространственную, временную или тематическую рамку обозначаемого в предложении события, его причину, условие, цель.](* <- lang_ru;; *);;
+	*);;
+*);;
+
+  statement -> ... 
+(*
+        -> rrel_key_sc_element: rrel_adverbial_modifier;;
+
+	=> nrel_main_idtf: [Утв.(обстоятельство', быть выраженным посредством*, наречие, деепричастие, существительное, творительный падеж*, предлог, косвенный падеж, инфинитив, фразеологическое сочетание наречного типа, синтаксически неделимое словосочетание)] (* <-lang_ru;; *);;
+
+	<= nrel_sc_text_translation: ... (* -> [Обстоятельства могут быть выражены наречиями, деепричастиями, существительными в творительном падеже без предлога, существительными в косвенных падежах с предлогами, инфинитивом, фразеологическими сочетаниями наречного типа, а также словосочетаниями синтаксически неделимыми.] (* <- lang_ru;; *);; *);;
+*);;
+
+  statement -> ... 
+(*
+      -> rrel_key_sc_element: rrel_adverbial_modifier;;
+
+      => nrel_main_idtf: [Утв.(обстоятельство', второстепенный член предложения', осложнение*)] (* <-lang_ru;; *);;
+
+      <= nrel_sc_text_translation: ... (* -> [Обстоятельства, так же как и другие второстепенные члены предложения, могут функционально осложняться. Особенно часто совмещаются пространственное значение и объектное.] (* <- lang_ru;; *);; *);;
+*);;
+
+  statement -> ... 
+(*
+      -> rrel_key_sc_element: rrel_adverbial_modifier;;
+
+      => nrel_main_idtf: [Утв.(обстоятельство', член предложения', глагольное словосочетание, предикативная основа, детерминант')] (* <-lang_ru;; *);;
+
+      <= nrel_sc_text_translation: ... (* -> [Среди разных видов обстоятельств отчетливо выделяются такие, которые способны распространять лишь отдельные члены предложения, например, обстоятельства образа, степени и способа действия. Они являются распространителями в глагольных словосочетаниях. Другие обстоятельства способны, наряду с этим характеризовать всю предикативную основу предложения, т.е являются детерминантами. Таковы обстоятельства времени, места, причины, условия, уступки, меры.] (* <- lang_ru;; *);; *);;
+*);;
+
+

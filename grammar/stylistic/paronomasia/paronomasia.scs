@@ -1,0 +1,42 @@
+paronomasia
+	<- sc_node_not_relation;
+	<- stylistic_device;
+
+	=> nrel_main_idtf:
+			[парономазия](* <- lang_ru;; *);
+			[paronomasia](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[«Нечего их ни жалеть, ни жаловать!»](* <- lang_ru;; *);
+					["There is nothing to regret or complain about!"](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_paronomasia
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (парономазия)](* <- lang_ru;; *);
+					[Опр. (paronomasia)](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example:
+						[Парономазия — образное сближение схожих по звучанию слов при частичном совпадении морфемного состава.](* <- lang_ru;; *);
+						[Paronomasia is a figurative rapprochement of words similar in sound with partial coincidence of the morphemic composition.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+				<- explanation;; 
+				=> nrel_main_idtf:
+					[Утв. (парономазия, стилистика, пароним*)](* <- lang_ru;; *);
+					[Expl. (paronomasia, stylistic, paronym)](* <- lang_en;; *);;
+				<- nrel_sc_text_translation: ...
+						(*
+							-> rrel_example: 
+									[Парономазия — бинарная фигура стилистики, поскольку в ней принимают участие оба паронима.](* <-lang_ru;; *);
+									[Paronomasia is a binary figure of stylistics, since both paronyms take part in it.](* <- lang_en;; *);;
+						*);;
+		*);;

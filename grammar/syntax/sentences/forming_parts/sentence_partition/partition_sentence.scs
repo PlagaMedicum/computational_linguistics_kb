@@ -1,0 +1,63 @@
+sc_node_not_relation
+ -> partition_sentence;;
+
+partition_sentence
+ => nrel_main_idtf: [членимое предложение](* <- lang_ru;; *);
+ => nrel_idtf: [множество членимых предложений](* <- lang_ru;; *);
+ => nrel_idtf: [partition sentence](* <- lang_en;; *);;
+
+partition_sentence
+<= nrel_subdividing: ...
+	(*
+		-> complicated_sentence;;
+		-> uncomplicated_sentence;;
+=>nrel_main_idtf:[Разбиение в зависимости от наличия осложнения](* <- lang_ru;; *);;
+	*);
+<= nrel_subdividing: ...
+	(*
+		-> complete_sentence;;
+		-> incomplete_sentence;;
+		-> unsaid_sentence;;
+		-> elliptic_sentence;;
+
+  		=>nrel_main_idtf:[Разбиение с точки зрения полноты структуры](* <- lang_ru;; *);;
+	*);
+<= nrel_subdividing: ...
+	(*
+		-> one_part_sentence;;
+		-> two_part_sentence;;
+
+  		=>nrel_main_idtf:[Разбиение в зависимости от структуры грамматической основы](* <- lang_ru;; *);;
+	*);
+<= nrel_subdividing: ...
+	(*
+		-> extended_sentence;;
+		-> unextended_sentence;;
+
+  		=>nrel_main_idtf:[Разбиение в зависимости от наличия второстепенных членов](* <- lang_ru;; *);;
+	*);;
+
+definition -> ...   
+(*
+     	-> rrel_key_sc_element: partition_sentence;;
+
+	=> nrel_main_idtf: [Опр. (членимое предложение)](* <- lang_ru;; *);;
+     	<= nrel_using_constants: ...
+	(*
+		-> sentence;;
+		-> nrel_have_the_ability_to_highlight;;
+		-> rrel_member_of_sentence;;	
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Членимое предложение - предложение, в котором можно выделить один, два и более членов предложения.](* <- lang_ru;; *);;
+     	*);;
+
+*);;
+
+partition_sentence
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [Здесь не слышно шума и грохота.](*<-lang_ru;;*);;
+*);;
+

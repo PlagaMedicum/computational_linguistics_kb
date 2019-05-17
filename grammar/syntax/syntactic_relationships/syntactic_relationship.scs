@@ -1,0 +1,61 @@
+sc_node_not_relation
+ -> syntactic_relationship;;
+
+syntactic_relationship
+ => nrel_main_idtf: [синтаксическая связь](* <- lang_ru;; *);
+ => nrel_idtf: [множество синтаксических связей](* <- lang_ru;; *);
+ => nrel_idtf: [syntactic relationship](* <- lang_en;; *);;
+
+
+syntactic_relationship
+<= nrel_subdividing: ...
+	(*
+		-> syntactic_relationship_of_simple_sentence;;
+		-> syntactic_relationship_of_phrase;;
+
+  		=>nrel_main_idtf:[Разбиение в зависимости от рассматриваемой синтаксической единицы](* <- lang_ru;; *);;
+	*);;
+
+
+definition -> ...   
+(*
+  	-> rrel_key_sc_element: syntactic_relationship;;
+  	=> nrel_main_idtf: [Опр. (синтаксическая связь)](* <- lang_ru;; *);;
+    	<= nrel_using_constants: ...
+	(*
+ 		-> syntactic_unit;;
+		-> semantic_relation;;
+		-> nrel_to_be_expressed_by;;
+		-> language_tool;;
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Синтаксическая связь - формальное строевое отношение между компонентами синтаксических единиц, выявляющее семантическое отношение между этими компонентами и выражаемое средствами языка.](* <- lang_ru;; *);;
+	*);;
+*);;
+
+ 
+   statement -> ...
+(*
+      	-> rrel_key_sc_element: syntactic_relationship;;
+
+      	=> nrel_main_idtf: [Утв.(синтаксическая связь, союз, словосочетание, падеж, предложно-падежное сочетание)](* <- lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Синтаксические связи обнаруживаются посредством союзов, словосочетаний, реляционных показателей слов (падежей, предложно-падежных сочетаний).](* <- lang_ru;; *);;
+	*);;
+*);;
+   
+
+   statement -> ...
+(*
+      	-> rrel_key_sc_element: syntactic_relationship;;
+	-> rrel_key_sc_element: syntactic_relation;;
+
+      	=> nrel_main_idtf: [Утв.(синтаксическая связь, синтаксическое отношение)](* <- lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Между синтаксическими связями и отношениями нет однозначных соответствий, то есть одни и те же отношения выражаются несколькими видами связей и наоборот.](* <- lang_ru;; *);;
+	*);;
+*);;
+

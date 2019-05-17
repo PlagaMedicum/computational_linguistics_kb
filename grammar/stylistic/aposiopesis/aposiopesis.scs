@@ -1,0 +1,70 @@
+aposiopesis
+	<- sc_node_not_relation;
+	<- stylistic_device;
+
+	=> nrel_main_idtf:
+			[апосиопеза](* <- lang_ru;; *);
+			[aposiopesis](* <- lang_en;; *);
+	
+	/* -> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[.](* <- lang_ru;; *);
+					[primer en](* <- lang_en;; *);;
+		*); */
+
+	<- rrel_key_sc_element: definition_aposiopesis
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (апосиопеза)](* <- lang_ru;; *);
+					[Опр. (aposiopesis)](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example:
+						[Апосиопеза - намеренный обрыв высказывания, передающий взволнованность речи и предполагающий, что читатель догадается о невысказанном.](* <- lang_ru;; *);
+						[Aposiopesia is an intentional clipping of a statement, conveying the emotion of speech and suggesting that the reader will guess the unspoken.](* <- lang_en;; *);;
+				*);;
+		*);
+	
+	<- rrel_key_sc_element: ...
+		(* 
+				<- explanation;; 
+				=> nrel_main_idtf:
+					[Утв. (апосиопеза)](* <- lang_ru;; *);
+					[Expl. (aposiopesis)](* <- lang_en;; *);;
+				<- nrel_sc_text_translation: ...
+						(*
+							-> rrel_example: 
+									[Апосиопеза используется как в ораторском искусстве, так и в частных и деловых беседах, в том числе и официального характера.](* <-lang_ru;; *);
+									[Aposiopesia is used both in oratory, and in private and business conversations, including official ones.](* <- lang_en;; *);;
+						*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+	(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (апосиопеза, просиопеза)](* <- lang_ru;; *);
+				[Expl. (aposiopesis, prosiopesis)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: 
+								[Приём, противоположный апосиопезе, называется просиопезой.](* <-lang_ru;; *);
+								[Reception, the opposite of aposiopesis, called prosiopes.](* <- lang_en;; *);;
+					*);;
+	*);
+
+	<- rrel_key_sc_element: ...
+	(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (апосиопеза)](* <- lang_ru;; *);
+				[Expl. (aposiopesis)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: 
+								[Апосиопеза создаёт напряжённость, в литературе эта напряжённость может разрешаться как в драматическом, так и в комическом плане.](* <-lang_ru;; *);
+								[Aposiopesia creates tension, in literature this tension can be resolved in both dramatic and comic terms.](* <- lang_en;; *);;
+					*);;
+	*);;

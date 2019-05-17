@@ -1,0 +1,56 @@
+rhetorical_question
+	<- sc_node_not_relation;
+	<- stylistic_device;
+
+	=> nrel_main_idtf:
+			[риторический вопрос](* <- lang_ru;; *);
+			[rhetorical question](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[«А судьи кто?»](* <- lang_ru;; *);
+					[“Who are the judges?”](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_rhetorical_question
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (риторический вопрос)](* <- lang_ru;; *);
+					[Опр. (rhetorical question)](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example:
+						[Риторический вопрос - фигура речи, представляющая собой вопрос-утверждение, который не требует ответа.](* <- lang_ru;; *);
+						[Rhetorical question is a figure of speech, which is a question-statement that does not require an answer.](* <- lang_en;; *);;
+				*);;
+		*);	
+		
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (риторический вопрос, утверждение)](* <- lang_ru;; *);
+				[Expl. (rhetorical question, explanation)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: 
+								[Риторический вопрос, фактически, представляет собой утверждение, высказанное в вопросительной форме.](* <-lang_ru;; *);
+								[The rhetorical question, in fact, is a statement made in an interrogative form.](* <- lang_en;; *);;
+					*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (риторический вопрос)](* <- lang_ru;; *);
+				[Expl. (rhetorical question)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: 
+								[Риторический вопрос применяется для усиления выразительности (выделения, подчёркивания) той или иной фразы. Характерной чертой этих оборотов является условность, то есть употребление грамматической формы и интонации вопроса в случаях, которые, по существу, её не требуют.](* <-lang_ru;; *);
+								[The rhetorical question is used to enhance the expressiveness (highlighting, underlining) of a phrase. A characteristic feature of these turns is conventionality, that is, the use of grammatical form and intonation of the question in cases that, in essence, do not require it.](* <- lang_en;; *);;
+					*);;
+	*);;

@@ -1,0 +1,35 @@
+sc_node_not_relation
+ -> generally_negative_sentence;;
+
+generally_negative_sentence
+ => nrel_main_idtf: [общеотрицательное предложение](* <- lang_ru;; *);
+ => nrel_idtf: [множество общеотрицательных предложений](* <- lang_ru;; *);
+ => nrel_idtf: [generally negative sentence](* <- lang_en;; *);;
+
+
+definition -> ...   
+(*
+     	-> rrel_key_sc_element: generally_negative_sentence;;
+
+	=> nrel_main_idtf: [Опр. (общеотрицательное предложение)](* <- lang_ru;; *);;
+     	<= nrel_using_constants: ...
+	(*
+		-> sentence;;
+		-> rrel_predicate;;
+		-> nrel_express_total_negation;;
+		-> nrel_place_in_front_of;;
+		-> particle;;
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Общеотрицательное предложение - предложение, в котором выражается полное отрицание путем постановки частицы "не" перед сказуемым.](* <- lang_ru;; *);;
+     	*);;
+
+*);;
+
+generally_negative_sentence
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [Внуки уже не понимают дедов, а порой и сыновья - отцов.](*<-lang_ru;;*);;
+*);;
+

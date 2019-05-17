@@ -1,0 +1,89 @@
+sc_node_not_relation
+ -> nominative_sentence;;
+
+nominative_sentence
+ => nrel_main_idtf: [номинативное предложение](* <- lang_ru;; *);
+ => nrel_idtf: [множество номинативных предложений](* <- lang_ru;; *);
+ => nrel_idtf: [nominative sentence](* <- lang_en;; *);;
+
+nominative_sentence
+<= nrel_subdividing: ...
+	(*
+		-> existence_sentence;;
+		-> pointing_sentence;;
+		-> evaluatively_existence_sentence;;
+		-> desirable_existence_sentence;;
+	*);;
+
+definition -> ...   
+(*
+     	-> rrel_key_sc_element: nominative_sentence;;
+
+	=> nrel_main_idtf: [Опр. (номинативное предложение)](* <- lang_ru;; *);;
+     	<= nrel_using_constants: ...
+	(*
+		-> one_part_sentence;;
+		-> rrel_substantive;;
+		-> rrel_main_member_of_sentence;;	
+		-> nrel_nominative_case;;
+		-> nrel_combine_in_yourself;;	
+		-> idea_of_existence_of_thing;;	
+		-> thing_name_function;;
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Номинативное предложение - это односоставное предложение субстантивного типа, главный член которого имеет форму именительного падежа и совмещает в себе функцию наименования предмета и идею его существования, бытия.](* <- lang_ru;; *);;
+     	*);;
+
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: nominative_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(номинативное предложение, играть основную роль в формировании*, семантическая природа имени, слово)](*<-lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [В формировании номинативных предложений основную роль играет семантическая природа имени. Это должны быть слова, называющие явления и предметы, поддающиеся наглядно-чувственному восприятию.](* <-lang_ru;; *);;
+	*);;
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: nominative_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(номинативное предложение, утвердительное предложение, отрицание, сущность*)](*<-lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Номинативные предложения бывают только утвердительными (отрицание противоречит самой сущности номинативного предложения - значению бытийности).](* <-lang_ru;; *);;
+	*);;
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: nominative_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(номинативное предложение, модальная модификация, будущее время*, прошедшее время*, двусоставное предложение)](*<-lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Номинативные предложения не обладают модальными модификациями (например, значение будущего и прошедшего времени переводит их в разряд двусоставных.](* <-lang_ru;; *);;
+	*);;
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: nominative_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(номинативное предложение, значение предикативности, констатирующая интонация, быть выраженным посредством*)](*<-lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Значение предикативности номинативных предложений выражается констатирующей интонацией.](* <-lang_ru;; *);;
+	*);;
+*);;
+
+nominative_sentence
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [На улице дождь.](*<-lang_ru;;*);;
+*);;
+

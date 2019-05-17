@@ -1,0 +1,46 @@
+sc_node_not_relation
+ -> evaluatively_existence_sentence;;
+
+evaluatively_existence_sentence
+ => nrel_main_idtf: [оценочно-бытийное предложение](* <- lang_ru;; *);
+ => nrel_idtf: [множество оценочно-бытийных предложений](* <- lang_ru;; *);
+ => nrel_idtf: [evaluatively-existence sentence](* <- lang_en;; *);;
+
+
+definition -> ...   
+(*
+     	-> rrel_key_sc_element: evaluatively_existence_sentence;;
+
+	=> nrel_main_idtf: [Опр. (оценочно-бытийное предложение)](* <- lang_ru;; *);;
+     	<= nrel_using_constants: ...
+	(*
+		-> one_part_sentence;;
+		-> nominative_sentence;;
+		-> meaning_of_existence;;
+		-> nrel_assessment;;
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Оценочно-бытийное предложение - это односоставное номинативное предложение, в котором значение бытийности сопровождается оценкой. ](* <- lang_ru;; *);;
+     	*);;
+
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: evaluatively_existence_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(оценочно-бытийное предложение, структурная особенность*, эмоционально-экспрессивная частица)](*<-lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Структурной особенностью оценочно-бытийных предложений являются эмоционально-экспрессивные частицы.](* <-lang_ru;; *);;
+	*);;
+*);;
+
+
+evaluatively_existence_sentence
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [Ну уж ночка!](*<-lang_ru;;*);;
+*);;
+

@@ -1,0 +1,35 @@
+sc_node_not_relation
+ -> interrogative_affirmative_sentence;;
+
+interrogative_affirmative_sentence
+ => nrel_main_idtf: [вопросительно-утвердительное предложение](* <- lang_ru;; *);
+ => nrel_idtf: [множество вопросительно-утвердительных предложений](* <- lang_ru;; *);
+ => nrel_idtf: [interrogative-affirmative sentence](* <- lang_en;; *);;
+
+definition -> ...   
+(*
+     	-> rrel_key_sc_element: interrogative_affirmative_sentence;;
+
+	=> nrel_main_idtf: [Опр. (вопросительно-утвердительное предложение)](* <- lang_ru;; *);;
+     	<= nrel_using_constants: ...
+	(*
+		-> sentence;;
+		-> answer;;
+		-> nrel_require_confirmation;;
+		-> nrel_facing_to;;
+		-> interlocutor;;
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Вопросительно-утвердительное предложение - предложение, которое, будучи обращенным к собеседнику, требует лишь подтверждения того, что высказано в самом вопросе.](* <- lang_ru;; *);;
+     	*);;
+
+*);;
+
+
+interrogative_affirmative_sentence
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [Так это решено, Герман?](*<-lang_ru;;*);;
+*);;
+

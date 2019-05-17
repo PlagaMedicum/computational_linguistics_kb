@@ -1,0 +1,56 @@
+sc_node_not_relation
+ -> syntactic_role;;
+
+syntactic_role
+ => nrel_main_idtf: [синтаксическая роль](* <- lang_ru;; *);
+ => nrel_idtf: [множество синтаксических ролей](* <- lang_ru;; *);
+ => nrel_idtf: [syntactic role](* <- lang_en;; *);;
+
+
+syntactic_role
+=> nrel_inclusion: complicator_of_simple_sentence;
+
+-> rrel_member_of_sentence;		
+-> rrel_main_member_of_sentence;		
+-> rrel_minor_member_of_sentence;		
+-> rrel_grammatical_subject;		
+-> rrel_predicate;		
+-> rrel_simple_verbal_predicate;		
+-> rrel_compound_verbal_predicate;		
+-> rrel_compound_noun_predicate;		
+-> rrel_grammatical_object;		
+-> rrel_indirect_grammatical_object;		
+-> rrel_direct_grammatical_object;		
+-> rrel_grammatical_attribute;		
+-> rrel_conformed_grammatical_attribute;		
+-> rrel_non_conformed_grammatical_attribute;		
+-> rrel_supplement;		
+-> rrel_conformed_supplement;		
+-> rrel_non_conformed_supplement;		
+-> rrel_adverbial_modifier;		
+-> rrel_local_adverbial_modifier;		
+-> rrel_time_adverbial_modifier;		
+-> rrel_mode_of_action_adverbial_modifier;		
+-> rrel_measure_adverbial_modifier;		
+-> rrel_reason_adverbial_modifier;		
+-> rrel_goal_adverbial_modifier;		
+-> rrel_condition_adverbial_modifier;		
+-> rrel_acquiescence_adverbial_modifier;;		
+
+
+definition -> ...   
+(*
+  	-> rrel_key_sc_element: syntactic_role;;
+  	=> nrel_main_idtf: [Опр. (синтаксическая роль)](* <- lang_ru;; *);;
+    	<= nrel_using_constants: ...
+	(*
+	-> sentence;;
+	-> syntactic_component;;
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Cинтаксическая роль - это роль синтаксического компонента в предложении.](* <- lang_ru;; *);;
+	*);;
+*);;
+
+

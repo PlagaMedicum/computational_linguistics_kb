@@ -1,0 +1,56 @@
+allegory
+	<- sc_node_not_relation;
+	<- stylistic_device;
+
+	=> nrel_main_idtf:
+			[аллегория](* <- lang_ru;; *);
+			[allegory](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Правосудие — Фемида](* <- lang_ru;; *);
+					[The justice is Themis](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_allegory
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (аллегория)](* <- lang_ru;; *);
+					[Опр. (allegory)](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example:
+						[Аллегория — художественное представление идей (понятий) посредством конкретного художественного образа или диалога.](* <- lang_ru;; *);
+						[Allegory is an artistic representation of ideas (concepts) through a specific artistic image or dialogue.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+				<- explanation;; 
+				=> nrel_main_idtf:
+					[Утв. (аллегория, троп)](* <- lang_ru;; *);
+					[Expl. (allegory, trope)](* <- lang_en;; *);;
+				<- nrel_sc_text_translation: ...
+						(*
+							-> rrel_example: 
+									[Как троп аллегория используется в стихах, притчах, моралите.](* <-lang_ru;; *);
+									[As a trope, allegory is used in verses, parables, morality.](* <- lang_en;; *);;
+						*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+				<- explanation;; 
+				=> nrel_main_idtf:
+					[Утв. (аллегория)](* <- lang_ru;; *);
+					[Expl. (allegory)](* <- lang_en;; *);;
+				<- nrel_sc_text_translation: ...
+						(*
+							-> rrel_example: 
+									[Основным способом изображения аллегории выступает обобщение человеческих понятий; представления раскрываются в образах и поведении животных, растений, мифологических и сказочных персонажей, в неживых предметах, которые получают переносное значение.](* <-lang_ru;; *);
+									[The main way of depicting allegory is the generalization of human concepts; representations are revealed in the images and behavior of animals, plants, mythological and fairy-tale characters, in non-living objects that receive a figurative meaning.](* <- lang_en;; *);;
+						*);;
+		*);;

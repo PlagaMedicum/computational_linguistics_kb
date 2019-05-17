@@ -1,0 +1,58 @@
+sc_node_not_relation
+ -> pointing_sentence;;
+
+pointing_sentence
+ => nrel_main_idtf: [указательное предложение](* <- lang_ru;; *);
+ => nrel_idtf: [множество указательных предложений](* <- lang_ru;; *);
+ => nrel_idtf: [pointing sentence](* <- lang_en;; *);;
+
+definition -> ...   
+(*
+     	-> rrel_key_sc_element: pointing_sentence;;
+
+	=> nrel_main_idtf: [Опр. (указательное предложение)](* <- lang_ru;; *);;
+     	<= nrel_using_constants: ...
+	(*
+		-> one_part_sentence;;
+		-> nominative_sentence;;
+		-> existing_thing;;
+		-> existing_phenomenon;;	
+		-> nrel_contain_reference_to;;	
+		-> meaning_of_existence	;;
+	*);;
+     	<= nrel_sc_text_translation: ... 
+	(* 
+		-> [Указательное предложение - это односоставное номинативное предложение, которое кроме значения бытия, существования, содержит указание на имеющиеся предметы и явления.](* <- lang_ru;; *);;
+     	*);;
+
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: pointing_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(указательное предложение, структурный признак*, указательная частица)](*<-lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Структурным признаком указательных предложений являются указательные частицы вот (вот и), вон, а вот.](* <-lang_ru;; *);;
+	*);;
+*);;
+
+statement -> ...
+(*
+	-> rrel_key_sc_element: pointing_sentence;;
+
+      	=> nrel_main_idtf: [Утв.(указательное предложение, семантическая специфика*)](*<-lang_ru;; *);;
+      	<= nrel_sc_text_translation: ... 
+	(*
+		-> [Семантическая специфика указательных предложений заключается в указании на появление, обнаружение предмета.](* <-lang_ru;; *);;
+	*);;
+*);;
+
+
+pointing_sentence
+ -> rrel_example:...
+(*
+=>nrel_main_idtf: [Вон солнце, голубое небо...](*<-lang_ru;;*);;
+*);;
+
