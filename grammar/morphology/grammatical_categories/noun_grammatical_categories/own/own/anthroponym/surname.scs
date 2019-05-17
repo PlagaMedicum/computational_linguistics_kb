@@ -14,14 +14,12 @@ surname <- rrel_key_sc_element:
             <- definition;;
             <= nrel_sc_text_translation: ...
             (*
-                ->rrel_example;
+                ->rrel_example:
                 [Фамилия - наследственное родовое имя,указывающее на принадлежность человека к одному роду, ведущему начало от общего предка, или в более узком понимании — 
                 к одной семье.](*<- lang_ru;;*);;
                 -> rrel_example:
                 [A surname is a hereditary generic name indicating that a person belongs to the same genus, leading from a common ancestor, or, in 
                 a narrower sense, to one family.](*<- lang_en;;*);;
-                //-> rrel_example:
-               // [a surname- is the portion of a personal name that indicates a person's family (or tribe or community, depending on the culture).](*<- lang_en;;*);;
             *);;
             // <= nrel_using_constants: ...
             //(*

@@ -1,5 +1,5 @@
 insulonim
-<-sc_node_norole_relation;;
+<-sc_node_not_relation;;
 
 insulonim=>nrel_main_idtf:
     [инсулоним](* <-lang_ru;; *);
@@ -14,7 +14,7 @@ insulonim<- rrel_key_sc_element:
             <- definition;;
             <= nrel_sc_text_translation: ...
             (*
-                ->rrel_example;
+                ->rrel_example:
                 [инсулоним - собственное имя любого острова.](*<- lang_ru;;*);;
                 -> rrel_example:
                 [insulonim is the proper name of any island.](*<- lang_en;;*);;

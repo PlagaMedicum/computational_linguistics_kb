@@ -20,11 +20,22 @@ nrel_etymological_paronym <- rrel_key_sc_element:
                 ->[Etymological paronyms are the same word, borrowed by the language in different ways several times and in different meanings.](*<- lang_en;;*);;//google translate 
             *);;
         
-            /*<= nrel_using_constants: ...///из близкородственных языков//из языков-предков
+            <= nrel_using_constants: ...///из близкородственных языков//из языков-предков
             (*
                 -> word;;
-                -> sound;;
-                //-> unchangeable_word;;
+                -> language;;
             *);;
-            */
+            
         *);;
+
+nrel_etymological_paronym -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [порох - прах](*<- lang_ru;;*);;
+    *);;
+
+nrel_etymological_paronym -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [проект - прожект](*<- lang_ru;;*);;
+    *);;

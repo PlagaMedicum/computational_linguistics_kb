@@ -25,7 +25,18 @@ nrel_contralateral_correlate <- rrel_key_sc_element:
             <= nrel_using_constants: ...
             (*
                 -> nrel_antonym;;
-                //-> sound;;
-                //-> unchangeable_word;;
+
             *);;
         *);;
+
+nrel_contralateral_correlate -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [ чёрный (-серый-) белый ](*<- lang_ru;;*);;
+    *);;
+
+nrel_contralateral_correlate -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [ большой (-средний-) маленький ](*<- lang_ru;;*);;
+    *);;

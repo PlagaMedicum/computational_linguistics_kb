@@ -29,3 +29,14 @@ nrel_disproportionate_antonyms <- rrel_key_sc_element:
             *);;
         *);;
 
+nrel_disproportionate_antonyms -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [зажечь - погасить ](*<- lang_ru;;*);;
+    *);;
+
+nrel_disproportionate_antonyms -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [надумать -  раздумать ](*<- lang_ru;;*);;
+    *);;

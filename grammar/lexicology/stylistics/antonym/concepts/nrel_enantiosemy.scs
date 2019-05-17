@@ -19,10 +19,24 @@ nrel_enantiosemy <- rrel_key_sc_element:
                 ->[Enantiosemy - the presence in the structure of a word of opposite meanings..](*<- lang_en;;*);;//google translate 
             *);;
         
-            /*<= nrel_using_constants: ...
+            <= nrel_using_constants: ...
             (*
-                -> part_of_speech;;
+                ->word;;
+                ->opposite_meaning;;
+                //-> part_of_speech;;
                 //-> sound;;
                 //-> unchangeable_word;;
-            *);;*/
+            *);;
         *);;
+
+nrel_enantiosemy -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [ одолжить кому-то денег - одолжить у кого-то денег ](*<- lang_ru;;*);;
+    *);;
+
+nrel_enantiosemy -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [ обнести чаем — угостить и не угостить ](*<- lang_ru;;*);;
+    *);;

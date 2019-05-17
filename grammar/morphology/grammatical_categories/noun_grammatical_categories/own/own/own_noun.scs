@@ -1,10 +1,12 @@
 own_noun
-<-sc_node_norole_relation;;
+<-sc_node_not_relation;;
 
 own_noun=>nrel_main_idtf:
     [имя собственное](* <-lang_ru;; *);
     [own](* <-lang_en;; *);;
 
+own_noun=>nrel_idtf:
+[proper name](* <-lang_en;; *);;
 
 own_noun <- rrel_key_sc_element: 
 		... 

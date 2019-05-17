@@ -31,3 +31,10 @@ patronym  -> rrel_example: ...
         => nrel_main_idtf: 
             [Иванович](*<- lang_ru;;*);;
     *);;
+
+patronym  -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [Александрович](*<- lang_ru;;*);;
+    *);;
+

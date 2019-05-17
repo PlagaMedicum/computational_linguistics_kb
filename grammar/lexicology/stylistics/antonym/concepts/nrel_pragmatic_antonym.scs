@@ -26,3 +26,21 @@ nrel_pragmatic_antonym <- rrel_key_sc_element:
                 //-> unchangeable_word;;
             *);;
         *);;
+
+nrel_pragmatic_antonym -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [душа — тело](*<- lang_ru;;*);;
+    *);;
+
+nrel_pragmatic_antonym -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [ум — сердце](*<- lang_ru;;*);;
+    *);;
+
+nrel_pragmatic_antonym -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [земля — небо](*<- lang_ru;;*);;
+    *);;

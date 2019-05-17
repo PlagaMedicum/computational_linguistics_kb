@@ -7,6 +7,17 @@ nrel_paronym=>nrel_main_idtf:
   [ пароним* ](* <-lang_ru;; *);
   [ paronym* ](* <-lang_en;; *);;
 
+
+nrel_paronym <- symmetric_relation;;
+nrel_paronym <- transitive_relation;;///////
+nrel_paronym <- non_oriented_relation;;
+nrel_paronym <- binary_relation;;
+
+nrel_paronym => nrel_definitional_domain: word;;
+nrel_paronym => nrel_first_domain: word;;
+nrel_paronym => nrel_second_domain: word;;
+
+
 nrel_paronym <= nrel_subdividing: ...
 (*
     <- explanation;;
@@ -40,3 +51,10 @@ nrel_paronym <- rrel_key_sc_element:
                 -> sound;;
             *);;
         *);;
+
+nrel_paronym -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [адресат - адресант](*<- lang_ru;;*);;
+    *);;
+

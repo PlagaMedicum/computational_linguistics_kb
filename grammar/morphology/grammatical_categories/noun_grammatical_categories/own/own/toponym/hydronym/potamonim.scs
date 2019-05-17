@@ -1,5 +1,5 @@
 potamonim
-<-sc_node_norole_relation;;
+<-sc_node_not_relation;;
 
 potamonim=>nrel_main_idtf:
     [потамоним](* <-lang_ru;; *);
@@ -14,7 +14,7 @@ potamonim<- rrel_key_sc_element:
             <- definition;;
             <= nrel_sc_text_translation: ...
             (*
-                ->rrel_example;
+                ->rrel_example:
                 [потамоним - собственное имя любой реки.](*<- lang_ru;;*);;
                 -> rrel_example:
                 [potamonim is the proper name of any river.](*<- lang_en;;*);;

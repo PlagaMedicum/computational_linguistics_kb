@@ -1,5 +1,5 @@
 astionim
-<-sc_node_norole_relation;;
+<-sc_node_not_relation;;
 
 astionim=>nrel_main_idtf:
     [астионим](* <-lang_ru;; *);
@@ -14,7 +14,7 @@ astionim<- rrel_key_sc_element:
             <- definition;;
             <= nrel_sc_text_translation: ...
             (*
-                ->rrel_example;
+                ->rrel_example:
                 [астионим- это собственное имя любого города.](*<- lang_ru;;*);;
                 -> rrel_example:
                 [astionim is the proper name of any city](*<- lang_en;;*);;
@@ -29,4 +29,10 @@ astionim -> rrel_example: ...
     (*
         => nrel_main_idtf: 
             [Минск](*<- lang_ru;;*);;
+    *);;
+
+astionim -> rrel_example: ...
+    (*
+        => nrel_main_idtf: 
+            [Москва](*<- lang_ru;;*);;
     *);;
