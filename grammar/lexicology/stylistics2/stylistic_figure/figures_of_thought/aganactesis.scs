@@ -1,0 +1,27 @@
+rrel_aganactesis
+	<- sc_node_role_relation;
+
+	=> nrel_main_idtf:
+			[аганактезис'](* <- lang_ru;; *);
+			[aganactesis'](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[О времена, о нравы!](* <- lang_ru;; *);
+					[Oh times, oh morals!](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_rrel_aganactesis
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (аганактезис')](* <- lang_ru;; *);
+					[Опр. (aganactesis')](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example:
+						[Аганактезис — риторическое восклицание, выражающее возмущение.](* <- lang_ru;; *);
+						[Aganactesis is a rhetorical exclamation expressing indignation.](* <- lang_en;; *);;
+				*);;
+		*);;

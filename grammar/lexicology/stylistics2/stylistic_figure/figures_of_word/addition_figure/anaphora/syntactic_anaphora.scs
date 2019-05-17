@@ -1,0 +1,55 @@
+rrel_syntactic_anaphora
+	<- sc_node_role_relation;
+
+	=> nrel_main_idtf:
+			[синтаксическая анафора'](* <- lang_ru;; *);
+			[syntactic anaphora'](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Брожу ли я вдоль улиц шумных,вхожу ль во многолюдный храм, сижу ль меж юношей безумных, я предаюсь моим мечтам. ](* <- lang_ru;; *);
+					[Do I wander along the noisy streets, enter into a crowded temple, sit between insane young men, I surrender to my dreams.](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_rrel_syntactic_anaphora
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (синтаксическая анафора')](* <- lang_ru;; *);
+					[Опр. (syntactic anaphora')](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Синтаксическая анафора - повторение одних и тех же синтаксических конструкций.](* <-lang_ru;; *);
+						[Syntactic anaphora is the repetition of the same syntactic constructions.](* <- lang_en;; *);;
+				*);;
+		*);;
+/*
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (субстантивный эллипсис)](* <- lang_ru;; *);
+				[Expl. (substantive ellipsis)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Эллипсис используется и как риторическая фигура разговорного стиля.](* <-lang_ru;; *);
+						[Ellipsis used as a rhetorical figure of conversational style.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (субстантивный эллипсис)](* <- lang_ru;; *);
+				[Expl. (substantive ellipsis)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Синтаксическая роль может и прирасти к слову, — в исходном частеречном статусе слово перестаёт употребляться.](* <-lang_ru;; *);
+						[The syntactic role can be added to the word - the word is no longer used in the original partial context.](* <- lang_en;; *);;
+				*);;
+		*);;*/

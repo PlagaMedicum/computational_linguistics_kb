@@ -1,0 +1,44 @@
+rrel_addition_figure
+	<- sc_node_role_relation;
+
+	=> nrel_main_idtf:
+			[фигура прибавления'](* <- lang_ru;; *);
+			[addition figure'](* <- lang_en;; *);
+	
+	/*-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Ночь, улица, фонарь, аптека.](* <- lang_ru;; *);
+					[Night, street, lantern, pharmacy.](* <- lang_en;; *);;
+		*);*/
+
+	<- rrel_key_sc_element: definition_rrel_addition_figure
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (фигура прибавления')](* <- lang_ru;; *);
+					[Опр. (addition figure')](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Фигура прибавления - это стилистическая фигура, образованная путём прибавления некоторого высказывания.](* <-lang_ru;; *);
+						[Addition figure is a stylistic figure, formed by adding some expression.](* <- lang_en;; *);;
+				*);;
+		*);
+
+    <= nrel_subdividing: ...
+    (*
+        <- explanation;;
+       /* => nrel_main_idtf:
+            [Разбиение на виды](*<-lang_ru;; *);
+            [Subdividing based on types](*<-lang_en;; *);;*/
+        -> rrel_anadiplosis;
+					 rrel_anaphora;
+					 rrel_gradation;
+					 rrel_mesarchy;
+					 rrel_polysyndeton;
+					 rrel_pleonasm;
+					 rrel_polyptoton;
+					 rrel_symploce;
+					 rrel_epistrophe;;
+    *);;

@@ -1,0 +1,44 @@
+rrel_permutation_figure
+	<- sc_node_role_relation;
+
+	=> nrel_main_idtf:
+			[фигура перестановки'](* <- lang_ru;; *);
+			[permutation figure'](* <- lang_en;; *);
+	
+	/*-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Ночь, улица, фонарь, аптека.](* <- lang_ru;; *);
+					[Night, street, lantern, pharmacy.](* <- lang_en;; *);;
+		*);*/
+
+	<- rrel_key_sc_element: definition_rrel_permutation_figure
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (фигура перестановки')](* <- lang_ru;; *);
+					[Опр. (permutation figure')](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Фигура перестановки - это стилистическая фигура, образованная путём перестановки частей некоторого высказывания.](* <-lang_ru;; *);
+						[Permutation figure is a stylistic figure formed by rearranging parts of a certain utterance.](* <- lang_en;; *);;
+				*);;
+		*);
+
+    <= nrel_subdividing: ...
+    (*
+        <- explanation;;
+      /*  => nrel_main_idtf:
+            [Разбиение на виды](*<-lang_ru;; *);
+            [Subdividing based on types](*<-lang_en;; *);;*/
+        -> rrel_inversion;
+		   rrel_hyperbaton;
+		   rrel_parentesis;
+		   rrel_parallelism;
+		   rrel_chiasm;;
+    *);;
+
+
+
+ 

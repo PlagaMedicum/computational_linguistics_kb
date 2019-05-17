@@ -1,0 +1,41 @@
+rrel_polyptoton
+	<- sc_node_role_relation;
+
+	=> nrel_main_idtf:
+			[полиптотон'](* <- lang_ru;; *);
+			[polyptoton'](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Но человека человек послал к анчару властным взглядом…](* <- lang_ru;; *);
+					[But a man was sent by man to the anchar by an imperious gaze ...](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_rrel_polyptoton
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (полиптотон')](* <- lang_ru;; *);
+					[Опр. (polyptoton')](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example:
+						[Полиптотон - это стилистическая фигура, обозначающая повтор одного слова в разных грамматических и падежных формах при сохранении его значения.](* <- lang_ru;; *);
+						[Polyptoton is a stylistic figure denoting the repetition of one word in different grammatical and case forms while preserving its meaning.](* <- lang_en;; *);;
+				*);;
+		*);
+	
+	<- rrel_key_sc_element: ...
+		(* 
+				<- explanation;; 
+				=> nrel_main_idtf:
+					[Утв. (полиптотон')](* <- lang_ru;; *);
+					[Expl. (polyptoton')](* <- lang_en;; *);;
+				<- nrel_sc_text_translation: ...
+						(*
+							-> rrel_example: 
+									[Полиптотон используется в публицистическом и художественном стилях как одно из средств выразительности.](* <-lang_ru;; *);
+									[Polyptoton is used in journalistic and artistic styles as one of the means of expression.](* <- lang_en;; *);;
+						*);;
+		*);;

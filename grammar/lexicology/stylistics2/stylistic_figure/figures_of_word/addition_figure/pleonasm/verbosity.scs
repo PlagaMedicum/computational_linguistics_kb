@@ -1,0 +1,55 @@
+rrel_verbosity
+	<- sc_node_role_relation;
+
+	=> nrel_main_idtf:
+			[многословие'](* <- lang_ru;; *);
+			[verbosity'](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Он шёл по направлению к дому.](* <- lang_ru;; *);
+					[He told me that he was accepted for another job.](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_rrel_verbosity
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (многословие')](* <- lang_ru;; *);
+					[Опр. (verbosity')](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Многословие - это вид синтаксического плеоназма, в котором в состав предложений или фраз включаются слова, не увеличивающие общую смысловую нагрузку.](* <-lang_ru;; *);
+						[Verbosity is a kind of syntactic pleonasm in which words that do not increase the total semantic meaning are included in sentences or phrases.](* <- lang_en;; *);;
+				*);;
+		*);;
+/*
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (синтаксический плеоназм )](* <- lang_ru;; *);
+				[Expl. (syntactic pleonasm)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Ситуативный эллипсис .](* <-lang_ru;; *);
+						[ situational Ellipsis.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (ситуативный эллипсис)](* <- lang_ru;; *);
+				[Expl. (situational ellipsis)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[.](* <-lang_ru;; *);
+						[.](* <- lang_en;; *);;
+				*);;
+		*);;*/

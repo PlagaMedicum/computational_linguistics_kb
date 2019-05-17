@@ -1,0 +1,41 @@
+rrel_syntactic_chiasm
+	<- sc_node_role_relation;
+
+	=> nrel_main_idtf:
+			[синтаксический хиазм'](* <- lang_ru;; *);
+			[syntactic chiasm'](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Делить веселье — все готовы: никто не хочет грусть делить.](* <- lang_ru;; *);
+					[Sharing fun - everyone is ready: no one wants to share sadness.](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_rrel_syntactic_chiasm
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (синтаксический хиазм')](* <- lang_ru;; *);
+					[Опр. (syntactic chiasm')](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Синтаксический хиазм - хиазм, в котором правая часть по своей структуре симметрична левой, повторяя входящие в левую члены предложения в обратном порядке.](* <-lang_ru;; *);
+						[A syntactic chiasm is a chiasm in which the right-hand side is symmetrically in its structure to the left, repeating the sentences in the left-hand sentence in the reverse order.](* <- lang_en;; *);;
+				*);;
+		*);;
+/*
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (хиазм')](* <- lang_ru;; *);
+				[Expl. (syntactic chiasm')](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Одно из первых кратких описаний хиазма встречается в анонимной «Риторике к Гереннию» (I век до н. э.), сам термин «хиазм» появляется позже.](* <-lang_ru;; *);
+						[One of the first short descriptions of chiasma is found in the anonymous “Rhetoric to Gerennia” (I century BC), the term “chiasm” itself appears later.](* <- lang_en;; *);;
+				*);;
+		*);;*/

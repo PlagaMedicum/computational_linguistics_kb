@@ -1,0 +1,55 @@
+officialese_style
+	<- sc_node_not_relation;
+
+	=> nrel_main_idtf:
+			[официально-деловой стиль](* <- lang_ru;; *);
+			[officialese style](* <- lang_en;; *);
+
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Статья 3. Депутатом Верховного Совета СССР может быть избран каждый гражданин СССР, достигший 23 лет, независимо от расовой и национальной принадлежности, пола, вероисповедания, образовательного ценза, оседлости, социального происхождения, имущественного положения и прошлой деятельности.](* <- lang_ru;; *);
+					[Article 3. Every citizen of the USSR who has reached 23 years of age may be elected deputy of the Supreme Soviet of the USSR, regardless of race, nationality, gender, religion, educational qualifications, residency, social origin, property status, and past activity.](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_officialese_style
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (официально-деловой стиль)](* <- lang_ru;; *);
+					[Опр. (officialese style)](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Официально-деловой стиль — функциональный стиль речи, средство письменного общения в сфере деловых отношений: в сфере правовых отношений и управления. Эта сфера охватывает международные отношения, юриспруденцию, экономику, военную отрасль, сферу рекламы, общение в официальных учреждениях, правительственную деятельность.](* <-lang_ru;; *);
+						[The officialese style is a functional style of speech, a means of written communication in the sphere of business relations: in the sphere of legal relations and management. This area covers international relations, law, economics, military, advertising, communication in official institutions, government activities.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;;
+			=> nrel_main_idtf:
+				[Утв. (официально-деловой стиль)](* <- lang_ru;; *);
+				[Expl. (officialese style)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Среди книжных стилей русского языка официально-деловой стиль выделяется своей относительной устойчивостью и замкнутостью. С течением времени он, естественно, подвергается некоторым изменениям, вызванным характером самого содержания, но многие его черты, исторически сложившиеся жанры, специфическая лексика, фразеология, синтаксические обороты придают ему в целом консервативный характер. ](* <-lang_ru;; *);
+						[Among the book styles of the Russian language, the officialese style stands out for its relative stability and isolation. Over time, he naturally undergoes some changes caused by the nature of the content itself, but many of its features, historically established genres, specific vocabulary, phraseology, and syntactic traits give it a generally conservative character.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;;
+			=> nrel_main_idtf:
+				[Утв. (официально-деловой стиль)](* <- lang_ru;; *);
+				[Expl. (officialese style)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Официально-деловой стиль — это стиль документов: международных договоров, государственных актов, юридических законов, постановлений, уставов, инструкций, служебной переписки, деловых бумаг и т.д.](* <-lang_ru;; *);
+						[The officialese style is the style of documents: international treaties, state acts, legal laws, decrees, charters, instructions, official correspondence, business papers, etc.](* <- lang_en;; *);;
+				*);;
+		*);;

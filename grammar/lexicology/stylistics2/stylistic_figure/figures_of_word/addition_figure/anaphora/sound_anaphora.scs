@@ -1,0 +1,55 @@
+rrel_sound_anaphora
+	<- sc_node_role_relation;
+
+	=> nrel_main_idtf:
+			[звуковая анафора'](* <- lang_ru;; *);
+			[sound anaphora'](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Грозой снесённые мосты, гроба с размытого кладбища ](* <- lang_ru;; *);
+					[Demolished bridges like a storm, coffins from a blurred cemetery](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_rrel_sound_anaphora
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (звуковая анафора')](* <- lang_ru;; *);
+					[Опр. (sound anaphora')](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Звуковая анафора - повторение одних и тех же сочетаний звуков.](* <-lang_ru;; *);
+						[Sound anaphora is a repetition of the same combinations of sounds.](* <- lang_en;; *);;
+				*);;
+		*);;
+
+/*	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (адъективный эллипсис)](* <- lang_ru;; *);
+				[Expl. (adjectival ellipsis)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Эллипсис используется и как риторическая фигура разговорного стиля.](* <-lang_ru;; *);
+						[Ellipsis used as a rhetorical figure of conversational style.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (адъективный эллипсис)](* <- lang_ru;; *);
+				[Expl. (adjectival ellipsis)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Синтаксическая роль может и прирасти к слову, — в исходном частеречном статусе слово перестаёт употребляться.](* <-lang_ru;; *);
+						[The syntactic role can be added to the word - the word is no longer used in the original partial context.](* <- lang_en;; *);;
+				*);;
+		*);;*/

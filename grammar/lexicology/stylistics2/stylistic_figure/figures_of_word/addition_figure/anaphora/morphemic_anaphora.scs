@@ -1,0 +1,55 @@
+rrel_morphemic_anaphora
+	<- sc_node_role_relation;
+
+	=> nrel_main_idtf:
+			[морфемная анафора'](* <- lang_ru;; *);
+			[morphemic anaphora'](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Черноглазую девицу,черногривого коня.](* <- lang_ru;; *);
+					[Black-eyed maiden, black-maned horse.](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_rrel_morphemic_anaphora
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (морфемная анафора')](* <- lang_ru;; *);
+					[Опр. (morphemic anaphora')](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Морфемная анафора — это повторение одних и тех же морфем или частей слов.](* <-lang_ru;; *);
+						[Morphemic anaphora is a repetition of the same morphemes or parts of words.](* <- lang_en;; *);;
+				*);;
+		*);;
+/*
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (субстантивный эллипсис)](* <- lang_ru;; *);
+				[Expl. (situational ellipsis)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Ситуативный эллипсис .](* <-lang_ru;; *);
+						[ situational Ellipsis.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (ситуативный эллипсис)](* <- lang_ru;; *);
+				[Expl. (situational ellipsis)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[.](* <-lang_ru;; *);
+						[.](* <- lang_en;; *);;
+				*);;
+		*);;*/

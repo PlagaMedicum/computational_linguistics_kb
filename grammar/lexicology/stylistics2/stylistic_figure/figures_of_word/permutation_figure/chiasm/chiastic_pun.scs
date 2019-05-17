@@ -1,0 +1,52 @@
+rrel_chiastic_pun
+	<- sc_node_role_relation;
+
+	=> nrel_main_idtf:
+			[хиастический каламбур'](* <- lang_ru;; *);
+			[chiastic pun'](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[В России две напасти: Внизу — власть тьмы, / А наверху — тьма власти.](* <- lang_ru;; *);
+					[In Russia, two misfortunes: Below - the power of darkness, / And above - a lot of power](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_rrel_chiastic_pun
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (хиастический каламбур')](* <- lang_ru;; *);
+					[Опр. (chiastic pun')](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Хиастический каламбур - хиазм, в котором, кроме этого, можно проследить изменения значения входящих в него слов.](* <-lang_ru;; *);
+						[A chiasmatic pun is a chiasm, in which, besides this, it is possible to trace changes in the meaning of its words.](* <- lang_en;; *);;
+				*);;
+		*);;
+/*
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (хиазм')](* <- lang_ru;; *);
+				[Expl. (chiasm')](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Одно из первых кратких описаний хиазма встречается в анонимной «Риторике к Гереннию» (I век до н. э.), сам термин «хиазм» появляется позже.](* <-lang_ru;; *);
+						[One of the first short descriptions of chiasma is found in the anonymous “Rhetoric to Gerennia” (I century BC), the term “chiasm” itself appears later.](* <- lang_en;; *);;
+				*);;
+		*);
+
+    <= nrel_subdividing: ...
+    (*
+        <- explanation;;
+       /* => nrel_main_idtf:
+            [Разбиение](*<-lang_ru;; *);
+            [Subdividing](*<-lang_en;; *);;
+        -> syntactic_chiasm;
+				   semantically_complicated_chiasm;
+					 chiastic_pun;;
+    *);;*/

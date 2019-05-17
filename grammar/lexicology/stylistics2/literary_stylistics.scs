@@ -1,0 +1,36 @@
+literary_stylistics
+	<- sc_node_not_relation;
+
+	=> nrel_main_idtf:
+			[литературоведческая стилистика](* <- lang_ru;; *);
+			[literary stylistics](* <- lang_en;; *);
+
+	<- rrel_key_sc_element: definition_literary_stylistics
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (литературоведческая стилистика)](* <- lang_ru;; *);
+					[Опр. (literary stylistics)](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Литературоведческая стилистика - филологическая дисциплина, раздел языкознания, изучающая средства выразительности речи.](* <-lang_ru;; *);
+						[Literary stylistics is a philological discipline, a section of linguistics, which studies the means of expressiveness of speech.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (литературоведческая стилистика)](* <- lang_ru;; *);
+				[Expl. (literary stylistics)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Литературоведы исследовали такие проблемы поэтического языка, как отношение писателей к родному языку, сближение поэтической речи с живой народной речью, эстетические взгляды писателей, традиция и новаторство в языке писателей, проблема образности, языковой образ автора-повествователя, способы передачи речи персонажей и т.д.](* <-lang_ru;; *);
+						[Literary scholars studied such poetic language problems as the writers 'attitude to their native language, the convergence of poetic speech with live folk speech, the aesthetic views of writers, tradition and innovation in the language of writers, the problem of imagery, the language image of the author-narrator, ways of transmitting characters' speech, etc.](* <- lang_en;; *);;
+				*);;
+		*);
+
+  => nrel_inclusion: stylistic_figure;;

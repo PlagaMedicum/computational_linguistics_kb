@@ -5,3 +5,10 @@ section_subject_domain_of_morphology
 	=> nrel_main_idtf:
 		[Раздел. Предметная область морфологии]
 		(* <- lang_ru;; *);;
+
+
+	-> rrel_not_maximum_studied_object_class:
+	
+		syntactic_unit;
+		syntactic_relationship;
+		syntactic_role;;

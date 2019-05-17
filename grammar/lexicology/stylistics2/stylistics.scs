@@ -1,0 +1,75 @@
+stylistics
+	<- sc_node_not_relation;
+
+	=> nrel_main_idtf:
+			[стилистика](* <- lang_ru;; *);
+			[stylistics](* <- lang_en;; *);
+
+	<- rrel_key_sc_element: definition_stylistics
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (стилистика)](* <- lang_ru;; *);
+					[Опр. (stylistics)](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Стилистика - филологическая дисциплина, раздел языкознания, изучающая неодинаковые для разных условий языкового общения принципы выбора и способы организации языковых единиц в единое смысловое и композиционное целое (текст), а также определяемые различиями в этих принципах и способах разновидности употребления языка (стили) и их систему.](* <-lang_ru;; *);
+						[Stylistics is a philological discipline, a section of linguistics that studies the selection principles and methods for organizing language units into a single semantic and compositional whole (text) that are different for different conditions of language communication, as well as the type of language used (styles) and their system determined by differences in these principles and methods.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (стилистика)](* <- lang_ru;; *);
+				[Expl. (stylistics)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[До сих пор предмет и задачи стилистики остаются спорным вопросом.](* <-lang_ru;; *);
+						[Until now, the subject and tasks of stylistics remain a controversial issue.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (стилистика)](* <- lang_ru;; *);
+				[Expl. (stylistics)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[До сих пор предмет и задачи стилистики остаются спорным вопросом.](* <-lang_ru;; *);
+						[Until now, the subject and tasks of stylistics remain a controversial issue.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (стилистика)](* <- lang_ru;; *);
+				[Expl. (stylistics)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Стилистика является связующей дисциплиной между языкознанием и литературоведением.](* <-lang_ru;; *);
+						[Stylistics is a connecting discipline between linguistics and literary criticism.](* <- lang_en;; *);;
+				*);;
+		*);
+		
+    <= nrel_subdividing: ...
+    (*
+        <- explanation;;
+      /*  => nrel_main_idtf:
+            [Разбиение на виды](*<-lang_ru;; *);
+            [Subdividing based on types](*<-lang_en;; *);;*/
+        -> linguistic_stylistics;
+           literary_stylistics;;
+    *);;
+
+
+

@@ -1,0 +1,41 @@
+rrel_psychological_ellipsis
+	<- sc_node_role_relation;
+
+	=> nrel_main_idtf:
+			[психологический эллипсис'](* <- lang_ru;; *);
+			[psychological ellipsis'](* <- lang_en;; *);
+	
+	/*-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Штрафной удар > штрафной](* <- lang_ru;; *);
+					[Penalty kick > penalty](* <- lang_en;; *);;
+		*);
+*/
+	<- rrel_key_sc_element: definition_rrel_psychological_ellipsis
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (психологический эллипсис')](* <- lang_ru;; *);
+					[Опр. (psychological ellipsis')](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Психологический эллипсис - эллипсис, в котором молчание может быть расценено как намек или недомолвка, секрет.](* <-lang_ru;; *);
+						[Psychological ellipsis is an ellipse in which silence can be regarded as a hint or omission, a secret.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (психологический эллипсис')](* <- lang_ru;; *);
+				[Expl. (psychological ellipsis')](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[В том случае, когда собеседников не двое, а несколько, то некоторые из них могут предположить, что от них желают что­-то преднамеренно скрыть и это может привести к нежелательным результатам.](* <-lang_ru;; *);
+						[In the case when the interlocutors are not two, but several, some of them may assume that they are willing to conceal something from them and this can lead to undesirable results.](* <- lang_en;; *);;
+				*);;
+		*);;

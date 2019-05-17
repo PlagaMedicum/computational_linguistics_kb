@@ -1,0 +1,41 @@
+rrel_adjectival_ellipsis
+	<- sc_node_role_relation;
+
+	=> nrel_main_idtf:
+			[адъективный эллипсис'](* <- lang_ru;; *);
+			[adjectival ellipsis'](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Огородное пугало > пугало](* <- lang_ru;; *);
+					[Garden scarecrow > scarecrow](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_rrel_adjectival_ellipsis
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (адъективный эллипсис')](* <- lang_ru;; *);
+					[Опр. (adjectival ellipsis')](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Адъективный эллипсис - относящийся к имени прилагательному, также имеющий признаки прилагательного.](* <-lang_ru;; *);
+						[Adjectival ellipsis is ellipsis that is referring to an adjective, also having signs of an adjective.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (адъективный эллипсис')](* <- lang_ru;; *);
+				[Expl. (adjectival ellipsis')](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Адъективный эллипсис также называется деадъективизирующим.](* <-lang_ru;; *);
+						[An adjectival ellipsis is also called dejectivating.](* <- lang_en;; *);;
+				*);;
+		*);;

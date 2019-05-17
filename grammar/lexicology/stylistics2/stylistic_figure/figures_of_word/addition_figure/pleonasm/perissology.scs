@@ -1,0 +1,55 @@
+rrel_perissology
+	<- sc_node_role_relation;
+
+	=> nrel_main_idtf:
+			[периссология'](* <- lang_ru;; *);
+			[perissology'](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Другой альтернативы нет.](* <- lang_ru;; *);
+					[There is no other alternative.](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_rrel_pleonasm
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (периссология')](* <- lang_ru;; *);
+					[Опр. (perissology')](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Периссология - оборот речи, при котором семантическое значение одного слова включается в состав другого.](* <-lang_ru;; *);
+						[Perissology is the turn of speech in which the semantic meaning of one word is included in another.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (периссология')](* <- lang_ru;; *);
+				[Expl. (perissology')](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Периссология неявно встречается в выражениях, содержащих аббревиатуры.](* <-lang_ru;; *);
+						[Perissology is implicit in expressions containing abbreviations.](* <- lang_en;; *);;
+				*);;
+		*);;
+/*
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (плеоназм')](* <- lang_ru;; *);
+				[Expl. (perissology')](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Близкими к плеоназму стилистическими фигурами являются тавтология и, отчасти, перифраз.](* <-lang_ru;; *);
+						[Stylistic figures close to pleonasm are tautology and, in part, paraphrase.](* <- lang_en;; *);;
+				*);;
+		*);;*/

@@ -1,0 +1,76 @@
+rrel_ellipsis
+	<- sc_node_role_relation;	
+
+	=> nrel_main_idtf:
+			[эллипсис'](* <- lang_ru;; *);
+			[ellipsis'](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[«Как на вкус было новое блюдо?» — «Ничего».](* <- lang_ru;; *);
+					[“How was the taste of the new dish?” - “Nothing”.](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_rrel_ellipsis
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (эллипсис')](* <- lang_ru;; *);
+					[Опр. (ellipsis')](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Эллипсис - намеренный пропуск слов, не существенных для смысла выражения.](* <-lang_ru;; *);
+						[Ellipsis is intentional omission of words that are not meaningful expressions.[].](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (эллипсис')](* <- lang_ru;; *);
+				[Expl. (ellipsis')](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Эллипсис используется и как риторическая фигура разговорного стиля.](* <-lang_ru;; *);
+						[Ellipsis used as a rhetorical figure of conversational style.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (эллипсис')](* <- lang_ru;; *);
+				[Expl. (ellipsis')](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Синтаксическая роль может и прирасти к слову, — в исходном частеречном статусе слово перестаёт употребляться.](* <-lang_ru;; *);
+						[The syntactic role can be added to the word - the word is no longer used in the original partial context.](* <- lang_en;; *);;
+				*);;
+		*);
+
+    <= nrel_subdividing: ...
+    (*
+        <- explanation;;
+        => nrel_main_idtf:
+            [Разбиение, основанное на части речи](*<-lang_ru;; *);
+            [Subdividing on parts of speech](*<-lang_en;; *);;
+        ->  rrel_substantive_ellipsis;
+            rrel_adjectival_ellipsis;;
+    *);
+
+    <= nrel_subdividing: ...
+    (*
+        <- explanation;;
+        => nrel_main_idtf:
+            [Разбиение по видам](*<-lang_ru;; *);
+            [Subdividing on kinds](*<-lang_en;; *);;
+        ->  rrel_indirect_ellipsis;
+            rrel_psychological_ellipsis;
+			rrel_situational_ellipsis;;
+    *);;

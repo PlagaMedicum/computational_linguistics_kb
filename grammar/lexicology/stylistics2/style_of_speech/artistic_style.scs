@@ -1,0 +1,48 @@
+artistic_style
+	<- sc_node_not_relation;
+
+	=> nrel_main_idtf:
+			[художественный стиль](* <- lang_ru;; *);
+			[artistic style](* <- lang_en;; *);
+
+	<- rrel_key_sc_element: definition_artistic_style
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (художественный стиль)](* <- lang_ru;; *);
+					[Опр. (artistic style)](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Художественный стиль — функциональный стиль речи, который применяется в художественной литературе.](* <-lang_ru;; *);
+						[Artistic style - a functional style of speech, which is used in fiction.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;;
+			=> nrel_main_idtf:
+				[Утв. (художественный стиль)](* <- lang_ru;; *);
+				[Expl. (artistic style)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Этот стиль воздействует на воображение, психику и чувства читателя, передаёт мысли и чувства автора, использует всё богатство лексики, возможности разных стилей, характеризуется образностью, эмоциональностью речи. ](* <-lang_ru;; *);
+						[This style affects the imagination, psyche and feelings of the reader, conveys the thoughts and feelings of the author, uses all the wealth of vocabulary, the possibilities of different styles, is characterized by figurativeness, emotional speech.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;;
+			=> nrel_main_idtf:
+				[Утв. (художественный стиль)](* <- lang_ru;; *);
+				[Expl. (artistic style)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[В художественном произведении слово не только несёт определённую информацию, но и служит для эстетического воздействия на читателя при помощи художественных образов.](* <-lang_ru;; *);
+						[In a work of art, the word not only carries certain information, but also serves to aesthetically influence the reader with the help of artistic images.](* <- lang_en;; *);;
+				*);;
+		*);;

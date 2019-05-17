@@ -1,0 +1,39 @@
+linguistic_stylistics
+	<- sc_node_not_relation;
+
+	=> nrel_main_idtf:
+			[языковедческая стилистика](* <- lang_ru;; *);
+			[linguistic stylistics](* <- lang_en;; *);
+
+	<- rrel_key_sc_element: definition_linguistic_stylistics
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (языковедческая стилистика)](* <- lang_ru;; *);
+					[Опр. (linguistic stylistics)](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Языковедческая стилистика — наука о стилях речи, изучающая различные выразительные возможности языка — экспрессивные, оценочные, функциональные (коммуникативные, познавательные, эмоциональные, исторические).](* <-lang_ru;; *);
+						[Linguistic stylistics - the science of speech styles, which studies various expressive possibilities of a language - expressive, evaluative, functional (communicative, cognitive, emotional, historical).](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (языковедческая стилистика)](* <- lang_ru;; *);
+				[Expl. (linguistic stylistics)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Языковедческая стилистика рассматривает функциональные стили речи,](* <-lang_ru;; *);
+						[Языковедческая рассматривает функциональные стили речи,](* <- lang_en;; *);;
+				*);;
+		*);
+
+
+    => nrel_inclusion: style_of_speech;;
+
+

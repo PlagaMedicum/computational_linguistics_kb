@@ -1,0 +1,51 @@
+rrel_semantic_pleonasm
+	<- sc_node_role_relation;
+
+	=> nrel_main_idtf:
+			[семантический плеоназм'](* <- lang_ru;; *);
+			[semantic pleonasm'](* <- lang_en;; *);
+	
+	/*-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Не напрасно дули ветры, не напрасно шла гроза.](* <- lang_ru;; *);
+					[It was not in vain that the winds blew, it wos not in vain was the storm.](* <- lang_en;; *);;
+		*);*/
+
+	<- rrel_key_sc_element: definition_rrel_semantic_pleonasm
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (семантический плеоназм')](* <- lang_ru;; *);
+					[Опр. (semantic pleonasm')](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Семантический плеоназм - это речевая избыточность в предложении или тексте.](* <-lang_ru;; *);
+						[Semantic pleonasm is speech redundancy in a sentence or text..](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (семантический плеоназм')](* <- lang_ru;; *);
+				[Expl. (semantic pleonasm')](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Во многих случаях семантического плеоназма статус слова как плеонастического зависит от контекста. В противоположность семантическому плеоназму, оксюморон образуется соединением двух противоположных по смыслу слов.](* <-lang_ru;; *);
+						[In many cases of semantic pleonasm, the status of the word as pleonastic depends on the context. In contrast to semantic pleonasm, an oxymoron is formed by combining two opposing words.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<= nrel_subdividing: ...
+    (*
+        <- explanation;;
+      /*  => nrel_main_idtf:
+            [Разбиение](*<-lang_ru;; *);
+            [Subdividing](*<-lang_en;; *);;*/
+        ->  rrel_perissology;
+			rrel_verbosity;;
+    *);;

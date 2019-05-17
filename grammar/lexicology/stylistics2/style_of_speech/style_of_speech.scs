@@ -1,0 +1,62 @@
+style_of_speech
+	<- sc_node_not_relation;
+
+	=> nrel_main_idtf:
+			[стиль речи](* <- lang_ru;; *);
+			[style of speech](* <- lang_en;; *);
+
+	<- rrel_key_sc_element: definition_style_of_speech
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (стиль речи)](* <- lang_ru;; *);
+					[Опр. (style of speech)](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Функциональный стиль речи — исторически сложившаяся система речевых средств, используемых в той или иной сфере человеческого общения; разновидность литературного языка, выполняющая определенную функцию в общении.](* <-lang_ru;; *);
+						[The functional style of speech is a historically established system of speech means used in a particular area of human communication; a kind of literary language that performs a specific function in communication.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;;
+			=> nrel_main_idtf:
+				[Утв. (стиль речи)](* <- lang_ru;; *);
+				[Expl. (style of speech)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Стили речи, во избежание путаницы с другими значениями слова «стиль», иногда называют языковыми жанрами, функциональными разновидностями языка.](* <-lang_ru;; *);
+						[Styles of speech, in order to avoid confusion with other meanings of the word "style", are sometimes called language genres, functional language variations.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;;
+			=> nrel_main_idtf:
+				[Утв. (стиль речи)](* <- lang_ru;; *);
+				[Expl. (style of speech)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Каждый функциональный стиль обладает своими особенностями использования общелитературной нормы, он может существовать как в письменной, так и в устной форме.](* <-lang_ru;; *);
+						[Each functional style has its own peculiarities of using the literary literary norm, it can exist both in written and in oral form.](* <- lang_en;; *);;
+				*);;
+		*);
+
+    <= nrel_subdividing: ...
+    (*
+        <- explanation;;
+     /*   => nrel_main_idtf:
+            [Разбиение на виды](*<-lang_ru;; *);
+            [Subdividing based on types](*<-lang_en;; *);;*/
+
+        -> scientific_style;
+           officialese_style;
+		  		 news_style;
+		  		 artistic_style;
+		  		 colloquial_style;;
+    *);;

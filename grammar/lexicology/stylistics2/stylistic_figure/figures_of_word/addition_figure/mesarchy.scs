@@ -1,0 +1,41 @@
+rrel_mesarchy
+	<- sc_node_role_relation;
+
+	=> nrel_main_idtf:
+			[мезархия'](* <- lang_ru;; *);
+			[mesarchy'](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[В одном чёрном-пречёрном лесу стоит чёрный-пречёрный дом, в этом чёрном-пречёрном доме стоит чёрный-пречёрный стол… ](* <- lang_ru;; *);
+					[In one black-fine forest there is a black-perfect house, in this black-perfect house there is a black-fine table ...](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_rrel_mesarchy
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (мезархия')](* <- lang_ru;; *);
+					[Опр. (mesarchy')](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example:
+						[Мезархия — повторение одного и того же слова или слов в начале и в середине следующих друг за другом предложений.](* <- lang_ru;; *);
+						[Mesarchy is the repetition of the same word or words at the beginning and in the middle of successive sentences.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+				<- explanation;; 
+				=> nrel_main_idtf:
+					[Утв. (мезархия')](* <- lang_ru;; *);
+					[Expl. (mesarchy')](* <- lang_en;; *);;
+				<- nrel_sc_text_translation: ...
+						(*
+							-> rrel_example: 
+									[Мезархия как правило, употребляется для создания ощущения монотонности текста и одновременно усиливает гипнотический эффект. Мезархия как правило, употребляется для создания ощущения монотонности текста и одновременно усиливает гипнотический эффект.](* <-lang_ru;; *);
+									[Mesarchy is usually used to create a feeling of monotony of the text and at the same time enhances the hypnotic effect.](* <- lang_en;; *);;
+						*);;
+		*);;

@@ -1,0 +1,55 @@
+rrel_strophic_anaphora
+	<- sc_node_role_relation;
+
+	=> nrel_main_idtf:
+			[строфическая анафора'](* <- lang_ru;; *);
+			[strophic anaphora'](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[З е м л я!.. От влаги снеговой она ещё свежа. З е м л я!.. Она бежит, бежит над нею жаворонок дрожит. З е м л я!.. Всё краше и видней](* <- lang_ru;; *);
+					[Earth! .. From the moisture of the snow, it is still fresh. Earth! .. She runs, runs over her lark trembles. Earth! .. Everything is more beautiful and visible](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_rrel_strophic_anaphora
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (строфическая анафора')](* <- lang_ru;; *);
+					[Опр. (strophic anaphora')](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Строфическая анафора - повторение одних и тех же морфем.](* <-lang_ru;; *);
+						[Strophic anaphora is a repetition of the same morphemes.](* <- lang_en;; *);;
+				*);;
+		*);;
+/*
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (субстантивный эллипсис)](* <- lang_ru;; *);
+				[Expl. (substantive ellipsis)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Эллипсис используется и как риторическая фигура разговорного стиля.](* <-lang_ru;; *);
+						[Ellipsis used as a rhetorical figure of conversational style.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (субстантивный эллипсис)](* <- lang_ru;; *);
+				[Expl. (substantive ellipsis)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Синтаксическая роль может и прирасти к слову, — в исходном частеречном статусе слово перестаёт употребляться.](* <-lang_ru;; *);
+						[The syntactic role can be added to the word - the word is no longer used in the original partial context.](* <- lang_en;; *);;
+				*);;
+		*);;*/

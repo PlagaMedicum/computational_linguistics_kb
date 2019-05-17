@@ -1,0 +1,55 @@
+rrel_syntactic_pleonasm
+	<- sc_node_role_relation;
+
+	=> nrel_main_idtf:
+			[синтаксический плеоназм'](* <- lang_ru;; *);
+			[syntactic_pleonasm'](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Он сказал мне о том, что его приняли на другую работу.](* <- lang_ru;; *);
+					[He told me that he was accepted for another job.](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_rrel_syntactic_pleonasm
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (синтаксический плеоназм')](* <- lang_ru;; *);
+					[Опр. (syntactiс pleonasm')](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Синтаксический плеоназм - это результат избыточного употребления служебных частей речи.](* <-lang_ru;; *);
+						[Syntactic pleonasm is the result of excessive use of the service parts of speech.](* <- lang_en;; *);;
+				*);;
+		*);;
+/*
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (синтаксический плеоназм )](* <- lang_ru;; *);
+				[Expl. (syntactic pleonasm)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Ситуативный эллипсис .](* <-lang_ru;; *);
+						[ situational Ellipsis.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (ситуативный эллипсис)](* <- lang_ru;; *);
+				[Expl. (situational ellipsis)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[.](* <-lang_ru;; *);
+						[.](* <- lang_en;; *);;
+				*);;
+		*);;*/

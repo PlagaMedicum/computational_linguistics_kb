@@ -34,7 +34,7 @@ steady_expression <= nrel_subdividing: ...
 (*
 	<- explanation;;
 	=> nrel_main_idtf:
-		[Разбиение по признаку социального употребления](*<-lang_ru;; *);
-		[Subdividing based on social using](*<-lang_en;; *);;
+		[Разбиение по признаку социального употребления:](*<-lang_ru;; *);
+		[Subdividing based on social using:](*<-lang_en;; *);;
 	-> idiom; proverb; saying; collocation;;
 *);;

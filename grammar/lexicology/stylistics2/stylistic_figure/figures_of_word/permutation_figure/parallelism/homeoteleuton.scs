@@ -1,0 +1,55 @@
+rrel_homeoteleuton
+	<- sc_node_role_relation;
+
+	=> nrel_main_idtf:
+			[гомеотелевтон'](* <- lang_ru;; *);
+			[homeoteleuton'](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Иисусе пресильный, прародителей избавление. Иисусе пресладкий, патриархов величание; Иисусе преславный, верных укрепление. Иисусе прелюбимый, пророков исполнение.](* <- lang_ru;; *);
+					[Jesus is presidential, the first parents are deliveration. Jesus presladky, patriarchs magnification; Jesus is a most glorious, faithful fortification. Jesus is dear to be loved, prophets execution.](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_rrel_homeoteleuton
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (гомеотелевтон')](* <- lang_ru;; *);
+					[Опр. (homeoteleuton')](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example:
+						[Гомеотелевтон — вид морфемного повтора, при котором на относительно небольшом отрезке текста встречается значительное количество слов с одинаковой финальной частью.](* <- lang_ru;; *);
+						[Homeoteleuton is a kind of morphemic replay, in which a relatively small segment of the text contains a significant number of words with the same final part.](* <- lang_en;; *);;
+				*);;
+		*);	
+
+	<- rrel_key_sc_element: ...
+		(* 
+				<- explanation;; 
+				=> nrel_main_idtf:
+					[Утв. (гомеотелевтон')](* <- lang_ru;; *);
+					[Expl. (homeoteleuton')](* <- lang_en;; *);;
+				<- nrel_sc_text_translation: ...
+						(*
+							-> rrel_example: 
+									[Гомеотелевтон не обязательно сопровождается близким фонетическим созвучием; кроме того, обязательным условием реализации этой фигуры является полная морфологическая и синтаксическая однородность его структурных элементов.](* <-lang_ru;; *);
+									[Homeoteleuton is not necessarily accompanied by close phonetic consonance; In addition, the essential condition for the implementation of this figure is the complete morphological and syntactic homogeneity of its structural elements.](* <- lang_en;; *);;
+						*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+				<- explanation;; 
+				=> nrel_main_idtf:
+					[Утв. (гомеотелевтон')](* <- lang_ru;; *);
+					[Expl. (homeoteleuton')](* <- lang_en;; *);;
+				<- nrel_sc_text_translation: ...
+						(*
+							-> rrel_example: 
+									[Гомеотелевты появляются в античной прозе как риторический приём, призванный возвысить речь, сделать её торжественной и значимой, усилить её способность воздействовать на слушателя.](* <-lang_ru;; *);
+									[Homeotetelists appear in ancient prose as a rhetorical device designed to elevate speech, make it solemn and significant, and enhance its ability to influence the listener.](* <- lang_en;; *);;
+						*);;
+		*);;

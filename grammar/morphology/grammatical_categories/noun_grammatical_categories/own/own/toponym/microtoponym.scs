@@ -14,7 +14,7 @@ microtoponym<- rrel_key_sc_element:
             <- definition;;
             <= nrel_sc_text_translation: ...
             (*
-                ->rrel_example;
+                ->rrel_example:
                 [микротопоним — один из видов топонимов, название небольшого местного объекта, как правило, физико-географического или находящегося 
                 внутри поселения.](*<- lang_ru;;*);;
                 -> rrel_example:

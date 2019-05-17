@@ -1,0 +1,41 @@
+rrel_cataplock
+	<- sc_node_role_relation;
+
+	=> nrel_main_idtf:
+			[катаплока'](* <- lang_ru;; *);
+			[cataplock'](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Другой к стеночке пошёл искать прибыли. (И гордец же был – сокол!). Разом выбили.](* <- lang_ru;; *);
+					[Another went to the wall to look for profit. (And the proud was a falcon!). Immediately knocked out.](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_rrel_cataplock
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (катаплока')](* <- lang_ru;; *);
+					[Опр. (cataplock')](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example:
+						[Катаплока — риторическое восклицание в виде грамматически не связанной с контекстом вставки.](* <- lang_ru;; *);
+						[Cataplock is a rhetorical exclamation in the form of a grammatically unrelated to the context of the insert.](* <- lang_en;; *);;
+				*);;
+		*);	
+		
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (катаплока')](* <- lang_ru;; *);
+				[Expl. (cataplock')](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: 
+								[Катаплока является конвергенцией парентезы и риторического восклицания.](* <-lang_ru;; *);
+								[A cataplock is the convergence of parentesis and rhetorical exclamation.](* <- lang_en;; *);;
+					*);;
+		*);;
