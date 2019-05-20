@@ -1,0 +1,70 @@
+rrel_anaphora
+	<- sc_node_role_relation;
+
+	=> nrel_main_idtf:
+			[анафора'](* <- lang_ru;; *);
+			[anaphora'](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Почтеннейшим, достоуважаемым, высокоучёным и благомудрым господам бургомистрам и ратманам и почтеннейшим, именитым и предусмотрительным господам эльтерманам и старикам вместе со всем бюргерством всех трёх гильдий королевского города Ревеля, моим повелителям и всемилостивейшим государям и добрым друзьям.](* <- lang_ru;; *);
+					[Most honorable, respectable, highly learned and wise gentlemen burgomasters and ratmans and most respectable, eminent and prudent gentlemen eltermans and old people along with all the burghers of all three guilds of the royal city of Revel, my rulers and all gracious sovereigns and good friends.](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_rrel_anaphora
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (анафора')](* <- lang_ru;; *);
+					[Опр. (anaphora')](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Анафора — стилистическая фигура, состоящая в повторении языковых элементов: звуков, сло́ва или группы слов в начале каждого параллельного ряда, то есть в повторении начальных частей двух и более относительно самостоятельных отрезков речи (полустиший, стихов, строф, словосочетаний или предложений).](* <-lang_ru;; *);
+						[Anaphora is a stylistic figure consisting in the repetition of similar sounds, a word or a group of words at the beginning of each parallel series, that is, in the repetition of the initial parts of two or more relatively independent segments of speech (hemisphere, verses, stanzas or prose passages).](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (анафора')](* <- lang_ru;; *);
+				[Expl. (anaphora')](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Анафору можно рассматривать как один из видов слитного предложения.](* <-lang_ru;; *);
+						[Anaphora can be considered as one of the types of consistent proposals.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (анафора')](* <- lang_ru;; *);
+				[Expl. (anaphora')](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Часто анафора соединяется с другой риторической фигурой — градацией, то есть с постепенным повышением эмоционального характера слов в речи, например, в Эдде: «Умирает скот, умирает друг, умирает и сам человек».](* <-lang_ru;; *);
+						[Often anaphora connects with another rhetorical figure - gradation, that is, with a gradual increase in the emotional nature of words in speech, for example, in the Edda: “Livestock dies, a friend dies, and the person dies.](* <- lang_en;; *);;
+				*);;
+		*);
+
+    <= nrel_subdividing: ...
+    (*
+        <- explanation;;
+        => nrel_main_idtf:
+            [Разбиение](*<-lang_ru;; *);
+            [Subdividing](*<-lang_en;; *);;
+        ->  rrel_lexical_anaphora;
+			rrel_morphemic_anaphora;
+			rrel_rhythmic_anaphora;
+			rrel_syntactic_anaphora;
+			rrel_strophic_anaphora;
+			rrel_strophic_syntactic_anaphora;
+			rrel_sound_anaphora;;
+    *);;

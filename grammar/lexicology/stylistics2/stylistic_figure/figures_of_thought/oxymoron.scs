@@ -1,0 +1,59 @@
+rrel_oxymoron
+	<- sc_node_role_relation;
+
+	=> nrel_main_idtf:
+			[оксюморон'](* <- lang_ru;; *);
+			[oxymoron'](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Мертвые души](* <- lang_ru;; *);
+					[Dead Souls](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_rrel_oxymoron
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (оксюморон')](* <- lang_ru;; *);
+					[Опр. (oxymoron')](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example:
+						[Оксюморон - стилистическая фигура или стилистическая ошибка — сочетание слов с противоположным значением (то есть сочетание несочетаемого).](* <- lang_ru;; *);
+						[Oxymoron is a stylistic figure or a stylistic mistake - a combination of words with an opposite meaning (that is, a combination of the incompatible).](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+				<- explanation;; 
+				=> nrel_main_idtf:
+					[Утв. (оксюморон')](* <- lang_ru;; *);
+					[Expl. (oxymoron')](* <- lang_en;; *);;
+				<- nrel_sc_text_translation: ...
+						(*
+							-> rrel_example: 
+									[Для оксюморона характерно намеренное использование противоречия для создания стилистического эффекта.](* <-lang_ru;; *);
+									[Oxymoron is characterized by deliberately using controversy to create a stylistic effect.](* <- lang_en;; *);;
+						*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+				<- explanation;; 
+				=> nrel_main_idtf:
+					[Утв. (оксюморон')](* <- lang_ru;; *);
+					[Expl. (oxymoron')](* <- lang_en;; *);;
+				<- nrel_sc_text_translation: ...
+						(*
+							-> rrel_example: 
+									[С психологической точки зрения оксюморон представляет собой способ разрешения необъяснимой ситуации.](* <-lang_ru;; *);
+									[From a psychological point of view, an oxymoron is a way to resolve an unexplainable situation.](* <- lang_en;; *);;
+						*);;
+		*);;
+
+
+
+		

@@ -1,0 +1,55 @@
+rrel_allotrilogy
+	<- sc_node_role_relation;
+
+	=> nrel_main_idtf:
+			[аллотрилогия'](* <- lang_ru;; *);
+			[allotrilogy'](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Всходили и гасли звёзды (откуда такая нежность?), всходили и гасли очи у самых моих очей.](* <- lang_ru;; *);
+					[Ascended and extinguished the stars (whence such tenderness?), ascended and extinguished the eyes at my very eyes..](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_rrel_allotrilogy
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (аллотрилогия')](* <- lang_ru;; *);
+					[Опр. (allotrilogy')](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Аллотриология — вид парентезы, при котором тематическая связь между вставной и основной фразами опосредованная или её не наблюдается вообще.](* <-lang_ru;; *);
+						[Allotriology is a type of parentesis in which the thematic connection between inserted and main phrases is mediated or not observed at all.](* <- lang_en;; *);;
+				*);;
+		*);;
+/*
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (аллотрилогия')](* <- lang_ru;; *);
+				[Expl. (allotrilogy')](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Ситуативный эллипсис .](* <-lang_ru;; *);
+						[ situational Ellipsis.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (аллотрилогия')](* <- lang_ru;; *);
+				[Expl. (allotrilogy')](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[.](* <-lang_ru;; *);
+						[.](* <- lang_en;; *);;
+				*);;
+		*);;*/

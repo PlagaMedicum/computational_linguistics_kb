@@ -1,0 +1,55 @@
+rrel_situational_ellipsis
+	<- sc_node_role_relation;
+
+	=> nrel_main_idtf:
+			[ситуативный эллипсис'](* <- lang_ru;; *);
+			[situational ellipsis'](* <- lang_en;; *);
+	
+	/*-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Штрафной удар > штрафной](* <- lang_ru;; *);
+					[Penalty kick > penalty](* <- lang_en;; *);;
+		*);*/
+
+	<- rrel_key_sc_element: definition_rrel_situational_ellipsis
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (субстантивный эллипсис')](* <- lang_ru;; *);
+					[Опр. (situational ellipsis')](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Ситуативный эллипсис - эллипсис, который, выпадая из речи, компенсирует это слово или фразу невербальным.](* <-lang_ru;; *);
+						[Situational ellipsis is ellipse, which, falling out of speech, compensates for this word or phrase non-verbal.](* <- lang_en;; *);;
+				*);;
+		*);;
+/*
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (субстантивный эллипсис)](* <- lang_ru;; *);
+				[Expl. (situational ellipsis)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Ситуативный эллипсис .](* <-lang_ru;; *);
+						[ situational Ellipsis.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (ситуативный эллипсис)](* <- lang_ru;; *);
+				[Expl. (situational ellipsis)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[.](* <-lang_ru;; *);
+						[.](* <- lang_en;; *);;
+				*);;
+		*);;*/

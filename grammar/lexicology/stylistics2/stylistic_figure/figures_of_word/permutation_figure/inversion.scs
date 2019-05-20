@@ -1,0 +1,55 @@
+rrel_inversion
+	<- sc_node_role_relation;
+
+	=> nrel_main_idtf:
+			[инверсия'](* <- lang_ru;; *);
+			[inversion'](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Минутных жизни впечатлений не сохранит душа моя…](* <- lang_ru;; *);
+					[Minute life impressions will not save my soul…](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_rrel_inversion
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (инверсия')](* <- lang_ru;; *);
+					[Опр. (inversion')](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example:
+						[Инверсия - стилистический приём, заключающийся в изменении прямого порядка слов или словосочетаний.](* <- lang_ru;; *);
+						[Inversion is a stylistic device consisting in changing the direct order of words or phrases.](* <- lang_en;; *);;
+				*);;
+		*);
+	
+	<- rrel_key_sc_element: ...
+		(* 
+				<- explanation;; 
+				=> nrel_main_idtf:
+					[Утв. (инверсия')](* <- lang_ru;; *);
+					[Expl. (inversion')](* <- lang_en;; *);;
+				<- nrel_sc_text_translation: ...
+						(*
+							-> rrel_example: 
+									[Инверсия нередко рассматривается как разновидность трансформации.](* <-lang_ru;; *);
+									[Inversion is often seen as a kind of transformation.](* <- lang_en;; *);;
+						*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+				<- explanation;; 
+				=> nrel_main_idtf:
+					[Утв. (инверсия')](* <- lang_ru;; *);
+					[Expl. (inversion')](* <- lang_en;; *);;
+				<- nrel_sc_text_translation: ...
+						(*
+							-> rrel_example: 
+									[Зачастую формы инверсии, не принятые в обычной речи, используются в поэзии.](* <-lang_ru;; *);
+									[Often forms of inversion that are not accepted in ordinary speech are used in poetry.](* <- lang_en;; *);;
+						*);;
+		*);;

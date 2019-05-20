@@ -1,0 +1,55 @@
+rrel_epepegis
+	<- sc_node_role_relation;
+
+	=> nrel_main_idtf:
+			[эпексегезис'](* <- lang_ru;; *);
+			[epepegis'](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Нету тайны у занавеса – от зала (pала – жизнь, занавес – я).](* <- lang_ru;; *);
+					[There is no secret at the curtain - from the hall (sala - life, curtain - me).](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_rrel_epepegis
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (эпексегезис')](* <- lang_ru;; *);
+					[Опр. (epepegis')](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Эпексегезис — парентеза, выполняющая функцию пояснения смысла основной фразы.](* <-lang_ru;; *);
+						[Epecegesis is parentesis which is performing the function of explaining the meaning of the main phrase.](* <- lang_en;; *);;
+				*);;
+		*);;
+/*
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (эпексегезис')](* <- lang_ru;; *);
+				[Expl. (substantive ellipsis)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Эллипсис используется и как риторическая фигура разговорного стиля.](* <-lang_ru;; *);
+						[Ellipsis used as a rhetorical figure of conversational style.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (эпексегезис')](* <- lang_ru;; *);
+				[Expl. (substantive ellipsis)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Синтаксическая роль может и прирасти к слову, — в исходном частеречном статусе слово перестаёт употребляться.](* <-lang_ru;; *);
+						[The syntactic role can be added to the word - the word is no longer used in the original partial context.](* <- lang_en;; *);;
+				*);;
+		*);;*/

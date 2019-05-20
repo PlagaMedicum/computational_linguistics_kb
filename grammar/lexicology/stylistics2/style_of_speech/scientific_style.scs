@@ -1,0 +1,62 @@
+scientific_style
+	<- sc_node_not_relation;
+
+	=> nrel_main_idtf:
+			[научный стиль](* <- lang_ru;; *);
+			[scientific style](* <- lang_en;; *);
+
+	<- rrel_key_sc_element: definition_scientific_style
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (научный стиль)](* <- lang_ru;; *);
+					[Опр. (scientific style)](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Научный стиль — функциональный стиль речи литературного языка, которому присущ ряд особенностей: предварительное обдумывание высказывания, монологический характер, строгий отбор языковых средств, тяготение к нормированной речи.](* <-lang_ru;; *);
+						[Scientific style is a functional language of the literary language, which is characterized by a number of features: preliminary reflection on the utterance, monologue character, strict selection of linguistic means, to normalized speech.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;;
+			=> nrel_main_idtf:
+				[Утв. (научный стиль)](* <- lang_ru;; *);
+				[Expl. (scientific style)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Стиль научных работ определяется их содержанием и целями научного сообщения: по возможности точно и полно объяснить факты, показать причинно-следственные связи между явлениями, выявить закономерности исторического развития и так далее.](* <-lang_ru;; *);
+						[The style of scientific works is determined by their content and objectives of the scientific message: to explain the facts as accurately and fully as possible, to show the causal relationships between phenomena, to identify patterns of historical development, and so on.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;;
+			=> nrel_main_idtf:
+				[Утв. (научный стиль)](* <- lang_ru;; *);
+				[Expl. (scientific style)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Научный стиль имеет ряд общих черт, проявляющихся независимо от характера определённых наук (естественных, точных, гуманитарных) и различий между жанрами высказывания (монография, статья, доклад, учебник, курсовая работа и т. д.), что даёт возможность говорить о специфике стиля в целом.](* <-lang_ru;; *);
+						[The scientific style has a number of common features that manifest themselves regardless of the nature of certain sciences (natural, exact, humanitarian) and the differences between the genres of utterances (monograph, article, report, textbook, course work, etc.), which makes it possible to talk about the specifics of style generally.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;;
+			=> nrel_main_idtf:
+				[Утв. (научный стиль)](* <- lang_ru;; *);
+				[Expl. (scientific style)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Научный стиль характеризуется логической последовательностью изложения, упорядоченной системой связи между частями высказывания, стремлением авторов к точности, сжатости, однозначности при сохранении насыщенности содержания.](* <-lang_ru;; *);
+						[The scientific style is characterized by a logical sequence of presentation, an ordered system of communication between the parts of the utterance, the authors' striving for accuracy, conciseness, uniqueness while maintaining the saturation of the content.](* <- lang_en;; *);;
+				*);;
+		*);;

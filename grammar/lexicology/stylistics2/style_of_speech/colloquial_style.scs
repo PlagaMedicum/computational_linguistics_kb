@@ -1,0 +1,83 @@
+colloquial_style
+	<- sc_node_not_relation;
+
+	=> nrel_main_idtf:
+			[разговорный стиль](* <- lang_ru;; *);
+			[colloquial style](* <- lang_en;; *);
+
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[— Отворите же, черт возьми! Долго ли ещё мне придётся коченеть на этом сквозном ветру? Если б вы знали, что в вашем коридоре двадцать градусов мороза, вы не заставили бы меня ждать так долго! Или, быть может, у вас нет сердца?](* <- lang_ru;; *);
+					[- Open the door, damn it! How long will I have to stiffen in this wind through? If you knew that there are twenty degrees of frost in your corridor, you would not keep me waiting for so long! Or maybe you have no heart?](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_colloquial_style
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (разговорный стиль)](* <- lang_ru;; *);
+					[Опр. (colloquial style)](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Разговорный стиль — функциональный стиль речи, который служит для неформального общения, когда автор делится с окружающими своей информацией по бытовым вопросам в неофициальной обстановке.](* <-lang_ru;; *);
+						[Colloquialistic style is a functional style of speech, which is used for informal communication when the author shares with others his information on everyday issues in an informal setting.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;;
+			=> nrel_main_idtf:
+				[Утв. (разговорный стиль)](* <- lang_ru;; *);
+				[Expl. (colloquial style)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[В разговорном стиле часто используется разговорная и просторечная лексика.](* <-lang_ru;; *);
+						[Conversational and colloquial vocabulary is often used in colloquial style.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;;
+			=> nrel_main_idtf:
+				[Утв. (разговорный стиль)](* <- lang_ru;; *);
+				[Expl. (colloquial style)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Для разговорного стиля характерны эмоциональность, образность, конкретность, простота речи.](* <-lang_ru;; *);
+						[For the colloquial style is characterized by emotion, imagery, concreteness, simplicity of speech.](* <- lang_en;; *);;
+				*);;
+		*);
+
+		<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;;
+			=> nrel_main_idtf:
+				[Утв. (разговорный стиль)](* <- lang_ru;; *);
+				[Expl. (colloquial style)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[В разговорном стиле речи, особенно при быстром её темпе, возможна большая редукция гласных, вплоть до полного их выпадения и упрощения групп согласных. Словообразовательные особенности: широко употребляются суффиксы субъективной оценки. Для усиления экспрессивности употребляется удвоение слов. ](* <-lang_ru;; *);
+						[In the colloquial style of speech, especially at its fast pace, a large reduction of vowels is possible, up to their complete loss and simplification of groups of consonants. Word-building features: widely used suffixes of subjective assessment. To enhance the expressiveness used duplication of words.](* <- lang_en;; *);;
+				*);;
+		*);
+	
+		<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;;
+			=> nrel_main_idtf:
+				[Утв. (разговорный стиль)](* <- lang_ru;; *);
+				[Expl. (colloquial style)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Форма реализации разговорного стиля — диалог, этот стиль чаще используется в устной речи. В нём отсутствует предварительный отбор языкового материала. В этом стиле речи большую роль играют внеязыковые факторы: мимика, жесты, окружающая обстановка.](* <-lang_ru;; *);
+						[The form of the implementation of the colloquial style - dialogue, this style is more often used in oral speech. It lacks a preliminary selection of language material. In this style of speech, extra-linguistic factors play an important role: facial expressions, gestures, and surroundings.](* <- lang_en;; *);;
+				*);;
+		*);;

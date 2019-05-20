@@ -1,0 +1,52 @@
+rrel_chiasm
+	<- sc_node_role_relation;
+
+	=> nrel_main_idtf:
+			[хиазм'](* <- lang_ru;; *);
+			[chiasm'](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Есть, чтобы жить, а не жить, чтобы есть.](* <- lang_ru;; *);
+					[There is to live, not live to eat.](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_rrel_chiasm
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (хиазм')](* <- lang_ru;; *);
+					[Опр. (chiasm')](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Хиазм - стилистическая фигура, заключающаяся в крестообразном изменении последовательности элементов в двух параллельных рядах слов.](* <-lang_ru;; *);
+						[Chiasm is a stylistic figure, consisting in a cruciform change in the sequence of elements in two parallel rows of words.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (хиазм')](* <- lang_ru;; *);
+				[Expl. (chiasm')](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Одно из первых кратких описаний хиазма встречается в анонимной «Риторике к Гереннию» (I век до н. э.), сам термин «хиазм» появляется позже.](* <-lang_ru;; *);
+						[One of the first short descriptions of chiasma is found in the anonymous “Rhetoric to Gerennia” (I century BC), the term “chiasm” itself appears later.](* <- lang_en;; *);;
+				*);;
+		*);
+
+    <= nrel_subdividing: ...
+    (*
+        <- explanation;;
+       /* => nrel_main_idtf:
+            [Разбиение](*<-lang_ru;; *);
+            [Subdividing](*<-lang_en;; *);;*/
+        -> rrel_syntactic_chiasm;
+				   rrel_semantically_complicated_chiasm;
+					 rrel_chiastic_pun;;
+    *);;

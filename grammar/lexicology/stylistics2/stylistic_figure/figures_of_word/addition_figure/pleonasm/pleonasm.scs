@@ -1,0 +1,65 @@
+rrel_pleonasm
+	<- sc_node_role_relation;
+
+	=> nrel_main_idtf:
+			[плеоназм'](* <- lang_ru;; *);
+			[pleonasm'](* <- lang_en;; *);
+	
+/*	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Почтеннейшим, достоуважаемым, высокоучёным и благомудрым господам бургомистрам и ратманам и почтеннейшим, именитым и предусмотрительным господам эльтерманам и старикам вместе со всем бюргерством всех трёх гильдий королевского города Ревеля, моим повелителям и всемилостивейшим государям и добрым друзьям.](* <- lang_ru;; *);
+					[Most honorable, respectable, highly learned and wise gentlemen burgomasters and ratmans and most respectable, eminent and prudent gentlemen eltermans and old people along with all the burghers of all three guilds of the royal city of Revel, my rulers and all gracious sovereigns and good friends.](* <- lang_en;; *);;
+		*);*/
+
+	<- rrel_key_sc_element: definition_rrel_pleonasm
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (плеоназм')](* <- lang_ru;; *);
+					[Опр. (pleonasm')](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Плеоназм - оборот речи, в котором происходит дублирование некоторого элемента смысла; наличие нескольких языковых форм, выражающих одно и то же значение, в пределах законченного отрезка речи или текста; а также языковое выражение, в котором имеется подобное дублирование.](* <-lang_ru;; *);
+						[Pleonasm is the circulation of speech, in which duplication of some element of meaning occurs; the presence of several linguistic forms expressing the same meaning, within a complete segment of speech or text; as well as a language expression in which there is a similar duplication.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (плеоназм')](* <- lang_ru;; *);
+				[Expl. (pleonasm')](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[В ряде случаев плеоназм сознательно используется для эмоционального усиления эффекта высказывания или для создания комического эффекта (как в письменной, так и в устной речи). В фольклоре и поэзии плеоназм способствует напевности речи, её эмоциональной окраске и для создания образности («путь-дороженька», «полюшко-поле»). Однако чаще он является дефектом и используется неосознанно.](* <-lang_ru;; *);
+						[In some cases, pleonasm is deliberately used to emotionally enhance the effect of the utterance or to create a comic effect (both in written and in oral speech). In folklore and poetry, pleonasm contributes to the melodiousness of speech, its emotional coloring and to create figurativeness (“path-road”, “pole-field”). However, more often it is a defect and is used unconsciously.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (плеоназм')](* <- lang_ru;; *);
+				[Expl. (pleonasm')](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Близкими к плеоназму стилистическими фигурами являются тавтология и, отчасти, перифраз.](* <-lang_ru;; *);
+						[Stylistic figures close to pleonasm are tautology and, in part, paraphrase.](* <- lang_en;; *);;
+				*);;
+		*);
+
+    <= nrel_subdividing: ...
+    (*
+        <- explanation;;
+      /*  => nrel_main_idtf:
+            [Разбиение](*<-lang_ru;; *);
+            [Subdividing](*<-lang_en;; *);;*/
+        ->  rrel_semantic_pleonasm;
+						rrel_syntactic_pleonasm;;
+    *);;

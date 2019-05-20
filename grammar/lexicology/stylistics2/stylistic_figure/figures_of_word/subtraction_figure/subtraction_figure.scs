@@ -1,0 +1,39 @@
+rrel_subtraction_figure
+	<- sc_node_role_relation;
+
+	=> nrel_main_idtf:
+			[фигура убавления'](* <- lang_ru;; *);
+			[subtraction figure'](* <- lang_en;; *);
+	
+	/*-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Ночь, улица, фонарь, аптека.](* <- lang_ru;; *);
+					[Night, street, lantern, pharmacy.](* <- lang_en;; *);;
+		*);*/
+
+	<- rrel_key_sc_element: definition_rrel_subtraction_figure
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (фигура убавления')](* <- lang_ru;; *);
+					[Опр. (subtraction figure')](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Фигура убавления - это стилистическая фигура, образованная путём убавления некоторой части речи.](* <-lang_ru;; *);
+						[Figure of subtraction is a stylistic figure, formed by subtracting some part of speech..](* <- lang_en;; *);;
+				*);;
+		*);
+
+    <= nrel_subdividing: ...
+    (*
+        <- explanation;;
+        => nrel_main_idtf:
+            [Разбиение на виды](*<-lang_ru;; *);
+            [Subdividing based on types](*<-lang_en;; *);;
+        -> rrel_asyndeton;
+		   rrel_ellipsis;
+		   rrel_retardation;
+           rrel_zeugma;;
+    *);;

@@ -1,0 +1,55 @@
+rrel_figure_of_thought
+	<- sc_node_role_relation;
+
+	=> nrel_main_idtf:
+			[фигура мысли'](* <- lang_ru;; *);
+			[figure of thought'](* <- lang_en;; *);
+	
+	/*-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Ночь, улица, фонарь, аптека.](* <- lang_ru;; *);
+					[Night, street, lantern, pharmacy.](* <- lang_en;; *);;
+		*);*/
+
+	<- rrel_key_sc_element: definition_rrel_figure_of_thought
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (фигура мысли')](* <- lang_ru;; *);
+					[Опр. (figure of thought')](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Фигура мысли - стилистическая фигура цель которой заключается в выделении мысли данной речи.](* <-lang_ru;; *);
+						[Figure of thought is a stylistic figure whose purpose is to isolate the thought of a given speech.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;;
+			=> nrel_main_idtf:
+				[Утв. (фигура мысли')](* <- lang_ru;; *);
+				[Expl. (figure of thought')](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Фигуры мысли не зависят от выбора слов, они отражают особую манеру оратора мыслить и чувствовать и потому остаются в силе даже в том случае, если заменить высказывающие их слова.](* <-lang_ru;; *);
+						[Thought figures do not depend on the choice of words, they reflect the particular manner of the speaker to think and feel, and therefore remain valid even if you replace the words that express them.](* <- lang_en;; *);;
+				*);;
+		*);
+
+    <= nrel_subdividing: ...
+    (*
+        <- explanation;;
+     /*   => nrel_main_idtf:
+            [Разбиение на виды](*<-lang_ru;; *);
+            [Subdividing based on types](*<-lang_en;; *);;*/
+
+        -> rrel_oxymoron;
+           rrel_rhetorical_question;
+		  		 rrel_rhetorical_exclamation;
+		  		 rrel_rhetorical_appeal;
+		  		 rrel_aposiopesis;;
+    *);;

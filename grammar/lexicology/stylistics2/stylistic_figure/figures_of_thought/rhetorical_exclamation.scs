@@ -1,0 +1,65 @@
+rrel_rhetorical_exclamation
+	<- sc_node_role_relation;
+
+	=> nrel_main_idtf:
+			[риторическое восклицание'](* <- lang_ru;; *);
+			[rhetorical exclamation'](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Да это просто колдовство!](* <- lang_ru;; *);
+					[It's just witchcraft!](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_rrel_rhetorical_exclamation
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (риторическое восклицание')](* <- lang_ru;; *);
+					[Опр. (rhetorical exclamation')](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example:
+						[Риторическое восклицание — приём передачи кульминации чувств, передающее различные эмоции автора: удивление, восторг, огорчение, радость, злость и т.п.](* <- lang_ru;; *);
+						[Rhetorical exclamation is a reception of the culmination of feelings that conveys the author’s various emotions: surprise, delight, grief, joy, anger, etc.](* <- lang_en;; *);;
+				*);;
+		*);	
+		
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (риторическое восклицание')](* <- lang_ru;; *);
+				[Expl. (rhetorical exclamation')](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: 
+								[На письме риторическое восклицание обычно представляет собой предложение, оканчивающееся восклицательным знаком.](* <-lang_ru;; *);
+								[In writing, a rhetorical exclamation is usually a sentence ending in an exclamation mark.](* <- lang_en;; *);;
+					*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (риторическое восклицание')](* <- lang_ru;; *);
+				[Expl. (rhetorical exclamation')](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: 
+								[При чтении риторические восклицания выделяются интонационно.](* <-lang_ru;; *);
+								[When reading, rhetorical exclamations are allocated intonation.](* <- lang_en;; *);;
+					*);;
+	*);
+
+    <= nrel_subdividing: ...
+    (*
+        <- explanation;;
+     /*   => nrel_main_idtf:
+            [Разбиение на виды](*<-lang_ru;; *);
+            [Subdividing based on types](*<-lang_en;; *);;*/
+        -> rrel_aganactesis;
+           rrel_cataplock;;
+    *);;

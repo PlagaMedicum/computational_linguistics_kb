@@ -1,0 +1,41 @@
+rrel_semantically_complicated_chiasm
+	<- sc_node_role_relation;
+
+	=> nrel_main_idtf:
+			[семантически осложнённый хиазм'](* <- lang_ru;; *);
+			[semantically complicated chiasm'](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Самый лучший человек тот, кто живёт преимущественно своими мыслями и чужими чувствами, самый худший сорт человека — который живёт чужими мыслями и своими чувствами.](* <- lang_ru;; *);
+					[The best person is the one who lives mostly with his thoughts and other people's feelings, the worst kind of person - who lives with other people's thoughts and his feelings.](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_rrel_semantically_complicated_chiasm
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (семантически осложнённый хиазм')](* <- lang_ru;; *);
+					[Опр. (semantically complicated chiasm')](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Семантически осложнённый хиазм - хиазм, в котором добавляется двойной лексический повтор в инвертируемых элементах и обмен синтаксическими функциями у этих элементов.](* <-lang_ru;; *);
+						[Semantically complicated chiasm is a chiasm in which double lexical repetition is added in inverted elements and the exchange of syntactic functions of these elements.](* <- lang_en;; *);;
+				*);;
+		*);;
+
+	/*<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (хиазм')](* <- lang_ru;; *);
+				[Expl. (semantically complicated chiasm')](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Одно из первых кратких описаний хиазма встречается в анонимной «Риторике к Гереннию» (I век до н. э.), сам термин «хиазм» появляется позже.](* <-lang_ru;; *);
+						[One of the first short descriptions of chiasma is found in the anonymous “Rhetoric to Gerennia” (I century BC), the term “chiasm” itself appears later.](* <- lang_en;; *);;
+				*);;
+		*);;*/

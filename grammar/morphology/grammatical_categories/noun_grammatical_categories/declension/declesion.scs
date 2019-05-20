@@ -16,7 +16,7 @@ declension <- rrel_key_sc_element:
             <- definition;;
             <= nrel_sc_text_translation: ...
             (*
-                ->rrel_example;
+                ->rrel_example:
                 [Склонение — это изменение существительных по падежам.](*<- lang_ru;;*);;
                 -> rrel_example:
                 [Declination is the change of nouns by case.](*<- lang_en;;*);;

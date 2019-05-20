@@ -1,0 +1,55 @@
+rrel_strophic_syntactic_anaphora
+	<- sc_node_role_relation;
+
+	=> nrel_main_idtf:
+			[Строфико-синтаксическая анафора'](* <- lang_ru;; *);
+			[strophic-syntactic anaphora'](* <- lang_en;; *);
+	
+	/*-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Штрафной удар > штрафной](* <- lang_ru;; *);
+					[Penalty kick > penalty](* <- lang_en;; *);;
+		*);
+*/
+	<- rrel_key_sc_element: definition_rrel_strophic_syntactic_anaphora
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (Строфико-синтаксическая анафора')](* <- lang_ru;; *);
+					[Опр. (strophic-syntactic anaphora')](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Строфико-синтаксическая анафора - объединение строфической и синтаксической анафоры.](* <-lang_ru;; *);
+						[Strophic-syntactic anaphora is the union of strophic and syntactic anaphora.](* <- lang_en;; *);;
+				*);;
+		*);;
+/*
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (психологический эллипсис)](* <- lang_ru;; *);
+				[Expl. (psychological ellipsis)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[В том случае, когда собеседников не двое, а несколько, то некоторые из них могут предположить, что от них желают что­-то преднамеренно скрыть и это может привести к нежелательным результатам.](* <-lang_ru;; *);
+						[In the case when the interlocutors are not two, but several, some of them may assume that they are willing to conceal something from them and this can lead to undesirable results.](* <- lang_en;; *);;
+				*);;
+		*);;*/
+
+	/*<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (психологический эллипсис)](* <- lang_ru;; *);
+				[Expl. (psychological ellipsis)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[.](* <-lang_ru;; *);
+						[.](* <- lang_en;; *);;
+				*);;
+		*);;*/

@@ -1,0 +1,53 @@
+rrel_parentesis
+	<- sc_node_role_relation;
+
+	=> nrel_main_idtf:
+			[парентеза'](* <- lang_ru;; *);
+			[parentesis'](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Для того я (в проявленном - сила) все родное на суд отдаю.](* <- lang_ru;; *);
+					[For this, I (in the manifestation of - power) give everything my own to the court.](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_rrel_parentesis
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (парентеза')](* <- lang_ru;; *);
+					[Опр. (parentesis')](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Парентеза - фигура порядка слов, вставка одной фразы внутрь другой без грамматической связи.](* <-lang_ru;; *);
+						[Parentesis is a figure of word order, inserting one phrase inside another without a grammatical connection.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (парентеза')](* <- lang_ru;; *);
+				[Expl. (parentesis')](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Парентезы выделяются с двух сторон скобками или тире.](* <-lang_ru;; *);
+						[Parentesis are distinguished from two sides by brackets or dashes.](* <- lang_en;; *);;
+				*);;
+		*);
+
+    <= nrel_subdividing: ...
+    (*
+        <- explanation;;
+       /* => nrel_main_idtf:
+            [Разбиение](*<-lang_ru;; *);
+            [Subdividing](*<-lang_en;; *);;*/
+        ->  rrel_allotrilogy;
+					  rrel_anapodaton;
+						rrel_parambola;
+						rrel_epepegis;;
+    *);;

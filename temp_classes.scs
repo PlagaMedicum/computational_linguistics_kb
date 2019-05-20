@@ -536,13 +536,3 @@ language_tool
 => nrel_main_idtf:
 	[средство языка](* <-lang_ru;; *);
     [language tool](* <-lang_en;; *);;
-
-
-idiom
-<-sc_node_not_relation;
-=> nrel_main_idtf:
-	[фразеологизм](* <-lang_ru;; *);
-    [idiom](* <-lang_en;; *);;
-
-
-

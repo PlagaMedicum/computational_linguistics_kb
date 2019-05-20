@@ -1,0 +1,55 @@
+rrel_parambola
+	<- sc_node_role_relation;
+
+	=> nrel_main_idtf:
+			[парамбола'](* <- lang_ru;; *);
+			[parambola'](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Не стало бы ни тяжелой работы (трех часов в день было б вполне достаточно, согласно нашим вычислениям, и эти три часа обязательной работы налагались бы государством на каждого взрослого гражданина, а больше никому бы не позволяли работать - и мне бы тоже), ни бедняков, внушающих жалость, ни богачей, внушающих зависть, - никто не будет на нас смотреть сверху вниз, как и нам не на кого будет глядеть снизу вверх (последнее не так уж приятно) - вся наша жизнь будет без нашего участия устроена и упорядочена, и нам ни о чем другом не останется думать, как только о славном призвании (каково бы оно ни было) человечества!](* <- lang_ru;; *);
+					[It would not have been hard work (three hours a day would be quite enough, according to our calculations, and these three hours of compulsory work would be imposed by the state on every adult citizen, and no one else would be allowed to work - and I would, too) nor the poor. who inspire pity or rich people who inspire envy - no one will look at us from top to bottom, just like we will have no one to look from bottom to top (the latter is not so pleasant) - our whole life will be arranged and streamlined without our participation, and we won't have anything else to think about nly the glorious vocation (whatever it was) of mankind!](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_rrel_parambola
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (парамбола')](* <- lang_ru;; *);
+					[Опр. (parambola')](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Парамбола — вид парентезы, при котором наблюдается очень тесная тематическая связь между главной и вставной фразами.](* <-lang_ru;; *);
+						[Parambola is a type of parentesis, in which there is a very close thematic connection between the main and inserted phrases.](* <- lang_en;; *);;
+				*);;
+		*);;
+
+/*	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (парамбола')](* <- lang_ru;; *);
+				[Expl. (parambola')](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Эллипсис используется и как риторическая фигура разговорного стиля.](* <-lang_ru;; *);
+						[Ellipsis used as a rhetorical figure of conversational style.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (парамбола')](* <- lang_ru;; *);
+				[Expl. (parambola')](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Синтаксическая роль может и прирасти к слову, — в исходном частеречном статусе слово перестаёт употребляться.](* <-lang_ru;; *);
+						[The syntactic role can be added to the word - the word is no longer used in the original partial context.](* <- lang_en;; *);;
+				*);;
+		*);;*/

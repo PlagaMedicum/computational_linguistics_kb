@@ -1,0 +1,55 @@
+rrel_hyperbaton
+	<- sc_node_role_relation;
+
+	=> nrel_main_idtf:
+			[гипербатон'](* <- lang_ru;; *);
+			[hyperbaton'](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Твердо сердце бедных пусть слезы презирает.](* <- lang_ru;; *);
+					[Firmly the heart of the poor let tears despise.](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_rrel_hyperbaton
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (гипербатон')](* <- lang_ru;; *);
+					[Опр. (hyperbaton')](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example:
+						[Гипербатон — фигура речи, при которой тема высказывания выделяется путём постановки в начало или конец фразы; при этом также может разрываться синтаксическая связь. Иными словами, гипербатон — разъединение смежных слов.](* <- lang_ru;; *);
+						[Hyperbaton is a figure of speech in which the theme of a statement is highlighted by putting it at the beginning or end of a phrase; it may also break the syntactic connection. In other words, hyperbaton is the separation of adjacent words.](* <- lang_en;; *);;
+				*);;
+		*);
+	
+	<- rrel_key_sc_element: ...
+		(* 
+				<- explanation;; 
+				=> nrel_main_idtf:
+					[Утв. (гипербатон')](* <- lang_ru;; *);
+					[Expl. (hyperbaton')](* <- lang_en;; *);;
+				<- nrel_sc_text_translation: ...
+						(*
+							-> rrel_example: 
+									[Гипербатон используется в основном для усиления выразительности речи.](* <-lang_ru;; *);
+									[Hyperbaton is used mainly to enhance the expressiveness of speech.](* <- lang_en;; *);;
+						*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+				<- explanation;; 
+				=> nrel_main_idtf:
+					[Утв. (гипербатон')](* <- lang_ru;; *);
+					[Expl. (hyperbaton')](* <- lang_en;; *);;
+				<- nrel_sc_text_translation: ...
+						(*
+							-> rrel_example: 
+									[Гипербатон — фигура достаточно изощрённая, оставляющая впечатление вычурности, а поэтому он редко используется в разговорной речи. Однако эта фигура нередко применяется в поэзии, либо аналитических и иных научных документах для выделения смысла.](* <-lang_ru;; *);
+									[Hyperbaton is a rather sophisticated figure leaving an impression of pretentiousness, and therefore it is rarely used in colloquial speech. However, this figure is often used in poetry, or analytical and other scientific documents to highlight the meaning.](* <- lang_en;; *);;
+						*);;
+		*);;

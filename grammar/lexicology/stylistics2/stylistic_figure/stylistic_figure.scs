@@ -1,0 +1,53 @@
+stylistic_figure
+	<- sc_node_role_relation;
+
+	=> nrel_main_idtf:
+			[стилистическая фигура'](* <- lang_ru;; *);
+			[stylistic figure'](* <- lang_en;; *);
+	
+	/*-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Ночь, улица, фонарь, аптека.](* <- lang_ru;; *);
+					[Night, street, lantern, pharmacy.](* <- lang_en;; *);;
+		*);*/
+
+	<- rrel_key_sc_element: definition_stylistic_figure
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (стилистическая фигура')](* <- lang_ru;; *);
+					[Опр. (stylistic figure')](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Стилистическая фигура - это фигура речи, представляющая собой особые синтаксические построения, служащие для усиления образно-выразительной функции речи.](* <-lang_ru;; *);
+						[The stylistic figure is a figure of speech, which is a special syntactic structure that serves to enhance the figurative and expressive function of speech.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;;
+			=> nrel_main_idtf:
+				[Утв. (стилистическая фигура')](* <- lang_ru;; *);
+				[Expl. (stylistic figure')](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Стилистические фигуры служат для передачи настроения или усиления эффекта от фразы, что повсеместно используется в художественных целях как в поэзии, так и в прозе.](* <-lang_ru;; *);
+						[The stylistic figures serve to convey the mood or enhance the effect of the phrase, which is commonly used for artistic purposes both in poetry and prose.](* <- lang_en;; *);;
+				*);;
+		*);
+
+    <= nrel_subdividing: ...
+    (*
+        <- explanation;;
+        => nrel_main_idtf:
+            [Разбиение на виды](*<-lang_ru;; *);
+            [Subdividing based on types](*<-lang_en;; *);;
+        -> rrel_figure_of_word;
+           rrel_figure_of_thought;;
+    *);;
+
+

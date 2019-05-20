@@ -1,0 +1,29 @@
+rrel_lexical_anaphora
+	<- sc_node_role_relation;
+
+	=> nrel_main_idtf:
+			[лексическая анафора'](* <- lang_ru;; *);
+			[lexical anaphora'](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Не напрасно дули ветры, не напрасно шла гроза.](* <- lang_ru;; *);
+					[It was not in vain that the winds blew, it wos not in vain was the storm.](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_rrel_lexical_anaphora
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (лексическая анафора')](* <- lang_ru;; *);
+					[Опр. (lexical anaphora')](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Лексическая анафора - повторение одних и тех же слов.](* <-lang_ru;; *);
+						[The lexical anaphora is the repetition of the same words.](* <- lang_en;; *);;
+				*);;
+		*);;
+
+	

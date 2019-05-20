@@ -71,7 +71,7 @@ suffix <= nrel_subdividing: ...
 		[Subdividing based on morphological purpose:](*<-lang_en;; *);;
 	-> word_formation_suffix;;
     ->forming_suffix;;
-    ->zero_suffix;;
+    //->zero_suffix;;
 *);;
 
 

@@ -1,0 +1,41 @@
+rrel_isokolon
+	<- sc_node_role_relation;
+
+	=> nrel_main_idtf:
+			[изоколон'](* <- lang_ru;; *);
+			[isokolon'](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Внимает он привычным ухом свист. Марает он единым духом лист.](* <- lang_ru;; *);
+					[He listens with his usual ear whistling. He dirts single leaf spirit.](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_rrel_isokolon
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (изоколон')](* <- lang_ru;; *);
+					[Опр. (isokolon')](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example:
+						[Изоколон - стилистическая фигура, при которой в сопоставляемых отрезках речи члены предложений расположены в одинаковом порядке.](* <- lang_ru;; *);
+						[Izokolon is a stylistic figure in which members of sentences are arranged in the same order in the compared segments of speech.](* <- lang_en;; *);;
+				*);;
+		*);	
+
+	<- rrel_key_sc_element: ...
+		(* 
+				<- explanation;; 
+				=> nrel_main_idtf:
+					[Утв. (изоколон')](* <- lang_ru;; *);
+					[Expl. (isokolon')](* <- lang_en;; *);;
+				<- nrel_sc_text_translation: ...
+						(*
+							-> rrel_example: 
+									[Изоколон является полным параллелизмом.](* <-lang_ru;; *);
+									[Isokolon is a complete parallelism.](* <- lang_en;; *);;
+						*);;
+		*);;

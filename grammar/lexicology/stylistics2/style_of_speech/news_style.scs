@@ -1,0 +1,76 @@
+news_style
+	<- sc_node_not_relation;
+
+	=> nrel_main_idtf:
+			[публицистический стиль](* <- lang_ru;; *);
+			[news style](* <- lang_en;; *);
+
+	<- rrel_key_sc_element: definition_news_style
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (публицистический стиль)](* <- lang_ru;; *);
+					[Опр. (news style)](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Публицистический стиль речи — стиль, служащий для воздействия на людей через средства массовой информации.](* <-lang_ru;; *);
+						[News style of speech is a style that serves to influence people through the media.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;;
+			=> nrel_main_idtf:
+				[Утв. (публицистический стиль)](* <- lang_ru;; *);
+				[Expl. (news style)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Для публицистического стиля характерно использование оценочной лексики, обладающей сильной эмоциональной окраской (энергичный старт, твёрдая позиция, тяжелейший кризис). ](* <-lang_ru;; *);
+						[For the news style is characterized by the use of evaluative vocabulary, which has a strong emotional coloring (vigorous start, firm position, the hardest crisis).](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;;
+			=> nrel_main_idtf:
+				[Утв. (публицистический стиль)](* <- lang_ru;; *);
+				[Expl. (news style)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Задачами стиля являются воздействие на массовое сознание и призыв к действию](* <-lang_ru;; *);
+						[The tasks of the style are to influence the mass consciousness and call for action.](* <- lang_en;; *);;
+				*);;
+		*);
+
+		<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;;
+			=> nrel_main_idtf:
+				[Утв. (публицистический стиль)](* <- lang_ru;; *);
+				[Expl. (news style)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Публицистический стиль используется в жанрах: статья, очерк, репортаж, фельетон, интервью, памфлет.](* <-lang_ru;; *);
+						[The news style is used in genres: article, essay, reportage, feuilleton, interview, pamphlet.](* <- lang_en;; *);;
+				*);;
+		*);
+
+			<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;;
+			=> nrel_main_idtf:
+				[Утв. (публицистический стиль)](* <- lang_ru;; *);
+				[Expl. (news style)](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Стиль характеризуется наличием общественно-политической лексики, логичностью, эмоциональностью, оценочностью, призывностью. В нём широко используется, помимо нейтральной, высокая, торжественная лексика и фразеология, эмоционально окрашенные слова, употребление коротких предложений, рубленая проза, безглагольные фразы, риторические вопросы, восклицания, повторы и др. На языковых особенностях данного стиля сказывается широта тематики: возникает необходимость включения специальной лексики, требующей пояснений.](* <-lang_ru;; *);
+						[The style is characterized by the presence of socio-political vocabulary, consistency, emotionality, appraisal, vocation. It is widely used, in addition to neutral, high, solemn vocabulary and phraseology, emotionally colored words, the use of short sentences, chopped prose, verbal phrases, rhetorical questions, exclamations, repetitions, etc. special vocabulary requiring explanation.](* <- lang_en;; *);;
+				*);;
+		*);;

@@ -1,0 +1,53 @@
+rrel_figure_of_word
+	<- sc_node_role_relation;
+
+	=> nrel_main_idtf:
+			[фигура слова'](* <- lang_ru;; *);
+			[figure of word'](* <- lang_en;; *);
+	
+	/*-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Ночь, улица, фонарь, аптека.](* <- lang_ru;; *);
+					[Night, street, lantern, pharmacy.](* <- lang_en;; *);;
+		*);*/
+
+	<- rrel_key_sc_element: definition_figure_of_word
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (фигура слова')](* <- lang_ru;; *);
+					[Опр. (figure of word')](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Фигура слова - стилистическая фигура, цель которой заключается в привлечении внимания слушателя к данному месту в ораторской речи.](* <-lang_ru;; *);
+						[The figure of the word is a stylistic figure, the purpose of which is to attract the attention of the listener to this place in the oratorical speech.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (фигура слова')](* <- lang_ru;; *);
+				[Expl. (figure of word')](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Фигуры слова зависят от выбора слов, если заменить высказывающие их слова, то фигуры слова при такой замене исчезают.](* <-lang_ru;; *);
+						[The word patterns depend on the choice of words, if you replace the words that express them, the word figures disappear with such a replacement.](* <- lang_en;; *);;
+				*);;
+		*);
+
+    <= nrel_subdividing: ...
+    (*
+        <- explanation;;
+     /*   => nrel_main_idtf:
+            [Разбиение на виды](*<-lang_ru;; *);
+            [Subdividing based on types](*<-lang_en;; *);;*/
+
+        -> rrel_subtraction_figure;
+           rrel_addition_figure;
+					 rrel_permutation_figure;;
+    *);;

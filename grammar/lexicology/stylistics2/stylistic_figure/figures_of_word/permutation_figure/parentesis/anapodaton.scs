@@ -1,0 +1,41 @@
+rrel_anapodaton
+	<- sc_node_role_relation;
+
+	=> nrel_main_idtf:
+			[анаподатон'](* <- lang_ru;; *);
+			[anapodaton'](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[И не оттого, что эти строки, писанные с грустью, будешь разбирать – смеясь, (писанные мной одною – одному тебе! – впервые! – расколдуешь – не один).](* <- lang_ru;; *);
+					[And not because these lines, written with sadness, will be taken apart - laughing, (written by me alone - to you alone! - for the first time! - you break up - not one).](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_rrel_anapodaton
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (анаподатон')](* <- lang_ru;; *);
+					[Опр. (anapodaton')](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Анаподатон - вид парентезы, стилистическая фигура, основанная на расчленении структуры предложения вставной конструкцией большой протяженности.](* <-lang_ru;; *);
+						[Anapodaton is a type of parentesis, a stylistic figure, based on the dismemberment of the structure of the sentence with a long-section plug-in construction.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (анаподатон')](* <- lang_ru;; *);
+				[Expl. (anapodaton')](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Отличительной особенностью анаподатона является повторение после вставки конечного слова или нескольких слов той части предложения, которая расположена перед вставкой.](* <-lang_ru;; *);
+						[A distinctive feature of anapodaton is the repetition after insertion of the final word or several words of that part of the sentence that is located before the insertion.](* <- lang_en;; *);;
+				*);;
+		*);;

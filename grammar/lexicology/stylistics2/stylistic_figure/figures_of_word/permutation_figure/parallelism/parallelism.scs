@@ -1,0 +1,80 @@
+rrel_parallelism
+	<- sc_node_role_relation;
+
+	=> nrel_main_idtf:
+			[параллелизм'](* <- lang_ru;; *);
+			[parallelism'](* <- lang_en;; *);
+	
+	-> rrel_example: ...
+		(*
+			=> nrel_main_idtf:
+					[Шесть он зёрнышек находит. Семь семян он поднимает.](* <- lang_ru;; *);
+					[Six he finds seeds. He raises seven seeds.](* <- lang_en;; *);;
+		*);
+
+	<- rrel_key_sc_element: definition_rrel_parallelism
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+					[Опр. (параллелизм')](* <- lang_ru;; *);
+					[Опр. (parallelism')](* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Параллелизм — стилистическая фигура, представляющая собой расположение тождественных или сходных по грамматической и семантической структуре элементов речи в смежных частях текста, создающих единый поэтический образ.](* <-lang_ru;; *);
+						[Parallelism is a stylistic figure representing the arrangement of identical or similar in grammatical and semantic structure elements of speech in adjacent parts of the text, creating a single poetic image.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (параллелизм')](* <- lang_ru;; *);
+				[Expl. (parallelism')](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Параллельными элементами могут быть предложения, их части, словосочетания, слова.](* <-lang_ru;; *);
+						[Parallel elements can be sentences, their parts, phrases, words.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (параллелизм')](* <- lang_ru;; *);
+				[Expl. (parallelism')](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Параллелизм широко распространён в фольклоре и древнеписьменных литератуpax. Во многих древнейших системах стихосложения он выступал как принцип построения строфы. В древнегерманском стихе средневековья параллелизм имеет большое значение и соединяется с аллитерацией, а также с рифмой.](* <-lang_ru;; *);
+						[Parallelism is widespread in folklore and ancient literature literature. In many ancient systems of versification, he acted as the principle of constructing a stanza. In ancient Germanic verse of the Middle Ages, parallelism is of great importance and is connected with alliteration, as well as rhyme.](* <- lang_en;; *);;
+				*);;
+		*);
+
+	<- rrel_key_sc_element: ...
+		(* 
+			<- explanation;; 
+			=> nrel_main_idtf:
+				[Утв. (параллелизм')](* <- lang_ru;; *);
+				[Expl. (parallelism')](* <- lang_en;; *);;
+			<- nrel_sc_text_translation: ...
+				(*
+					-> rrel_example: 
+						[Параллелизм связан со структурой хорового действа — амебейной композицией.](* <-lang_ru;; *);
+						[Parallelism is associated with the structure of the choral action - amoebae composition.](* <- lang_en;; *);;
+				*);;
+		*);
+
+    <= nrel_subdividing: ...
+    (*
+        <- explanation;;
+        /*=> nrel_main_idtf:
+            [Разбиение](*<-lang_ru;; *);
+            [Subdividing](*<-lang_en;; *);;*/
+        ->  rrel_antithesis;
+			rrel_homeoteleuton;
+			rrel_isokolon;;
+    *);;

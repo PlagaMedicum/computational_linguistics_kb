@@ -5,7 +5,7 @@ rrel_binding_component
 
  => nrel_idtf: [binding component'] (* <- lang_en;; *);
  => nrel_idtf: [быть связывающим компонентом'] (* <- lang_ru;; *);
- => nrel_dependent_idtf: [связывающий компонент'] (* <- lang_ru;; *);;
+ => nrel_main_idtf: [связывающий компонент'] (* <- lang_ru;; *);;
 
 definition -> ...   
 (*
